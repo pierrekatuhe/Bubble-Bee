@@ -1,0 +1,700 @@
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.FormGantiPassword.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.FormRoulette.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.FormUser.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.FormGantiPassword.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.FormRoulette.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.FormUser.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Bubble Bee_rusak\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee_rusak\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee_rusak\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee_rusak\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.FormGantiPassword.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.FormRoulette.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.FormUser.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee_rusak\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.FormGantiPassword.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.FormRoulette.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.FormUser.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Bubble Bee_tes\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee_tes\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee_tes\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee_tes\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee_tes\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Bubble Bee_tes\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.FormGantiPassword.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.FormRoulette.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.FormUser.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Downloads\Compressed\Bubble Bee_tes_bunifu-20181031T025833Z-001\Bubble Bee_tes_bunifu\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Downloads\Compressed\Bubble Bee_V1.0-20181031T081820Z-001\Bubble Bee_V1.0\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Bubble Bee_V1.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee_V1.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee_V1.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee_V1.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee_V1.1\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee_V1.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee_V1.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.pdb
+F:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+F:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.exe
+F:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.pdb
+F:\Bubble Bee_V1.1_\Bubble Bee\bin\Debug\Bubble Bee.xml
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.exe
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.xml
+F:\Bubble Bee_V1.1_\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V1.1.4\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\My Documents\Visual Studio 2017\Projects\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+G:\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+G:\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+G:\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+G:\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+G:\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+G:\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\bubble bee\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\bubble bee\Bubble Bee_V2.1 - Copy\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\bubble bee\backup\Bubble Bee_V2.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\bubble bee\backup\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\bubble bee\Bubble Bee_V2.2\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.pdb
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.exe
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.pdb
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.xml
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bunifu_UI_v1.5.3.dll
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.exe
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.xml
+H:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.4\Bubble Bee\obj\Debug\Bubble Bee.pdb
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.exe
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.pdb
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\bin\Debug\Bubble Bee.xml
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.exe
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.xml
+E:\Setup\Bubble Bee_V2.2.3\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Visual Studio 2017\Projects\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.pdb
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.exe
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.pdb
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.xml
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.exe
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.xml
+E:\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\bubble bee\Setup\Bubble Bee_V2.2.5\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.9\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.10\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.11\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.pdb
+F:\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+F:\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.exe
+F:\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.pdb
+F:\Bubble Bee_V2.2.12\Bubble Bee\bin\Debug\Bubble Bee.xml
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.exe
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.xml
+F:\Bubble Bee_V2.2.12\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.12 - Copy\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\Bubble Bee_V2.2.13\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\bubble bee\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.pdb
+E:\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+E:\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.exe
+E:\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.pdb
+E:\Bubble Bee_V2.2.14\Bubble Bee\bin\Debug\Bubble Bee.xml
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.exe
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.xml
+E:\Bubble Bee_V2.2.14\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbprojAssemblyReference.cache
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\project\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee_V2.2.15\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\QRCoder.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\System.Drawing.Common.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.PrintQR.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Form1.resources
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.presentation.dll
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.presentation.pdb
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.presentation.xml
+C:\Users\GIGABYTE\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Form2.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.DirectShow.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\QRCoder.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\System.Drawing.Common.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.presentation.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\AForge.Video.DirectShow.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.presentation.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\bin\Debug\zxing.presentation.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Form1.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Form2.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble_Bee.PrintQR.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.1\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\AForge.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\AForge.Video.DirectShow.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\AForge.Video.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\QRCoder.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\System.Drawing.Common.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\zxing.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\zxing.presentation.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\AForge.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\AForge.Video.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\AForge.Video.DirectShow.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\zxing.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\zxing.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\zxing.presentation.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\bin\Debug\zxing.presentation.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.ScanQR.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.Form1.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.Form2.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble_Bee.PrintQR.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.pdb

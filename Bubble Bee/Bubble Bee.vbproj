@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92658D6A-2C5A-468D-B7AF-9B629244CAFC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Bubble_Bee.My.MyApplication</StartupObject>
+    <RootNamespace>Bubble_Bee</RootNamespace>
+    <AssemblyName>Bubble Bee</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Bubble Bee.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Bubble Bee.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\User-PC\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.3.6\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.5.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Customer\MenuCustomer.Designer.vb">
+      <DependentUpon>MenuCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\MenuCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\ScanQR.Designer.vb">
+      <DependentUpon>ScanQR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\ScanQR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\CRUD.vb" />
+    <Compile Include="Modules\Resizer.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Staff\MenuStaff.Designer.vb">
+      <DependentUpon>MenuStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\MenuStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\PrintQR.Designer.vb">
+      <DependentUpon>PrintQR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\PrintQR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Customer\MenuCustomer.resx">
+      <DependentUpon>MenuCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\ScanQR.resx">
+      <DependentUpon>ScanQR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\MenuStaff.resx">
+      <DependentUpon>MenuStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\PrintQR.resx">
+      <DependentUpon>PrintQR.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Ayam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anjing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ayam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Babi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harimau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kambing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kelinci.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kuda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monyet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Naga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tikus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMinimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\merah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bola1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bola2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bola3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolahitam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolamerah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulat_bet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicsArt_11-08-01.20.56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kotak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulat_hijau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulat_hijau2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulat_hitam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulat_merah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kotak_merah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kotak_hitam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anjing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ayam1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monyet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kambing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Naga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kelinci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harimau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tikus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kecil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Besar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Genap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganjil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGOUT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\History_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab1-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab13-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab25-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_bet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angka_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_angka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_shio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_gold.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_gold_1_.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
