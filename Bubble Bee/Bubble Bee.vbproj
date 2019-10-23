@@ -593,5 +593,8 @@
   <ItemGroup>
     <None Include="Resources\koin_gold_1_.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_5000.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
