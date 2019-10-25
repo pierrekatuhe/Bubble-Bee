@@ -5233,9 +5233,9 @@ Public Class MenuCustomer
         ElseIf e.KeyCode = 20 Then
             btn_25.PerformClick()
         ElseIf e.KeyCode = 100 Then
-            btn_grup_3.PerformClick()
+            'btn_grup_3.PerformClick()
         ElseIf e.KeyCode = 104 Then
-            btn_grup_2.PerformClick()
+            'btn_grup_2.PerformClick()
         ElseIf e.KeyCode = 83 Then
             btn_27.PerformClick()
         ElseIf e.KeyCode = 69 Then
@@ -5255,7 +5255,7 @@ Public Class MenuCustomer
         ElseIf e.KeyCode = 75 Then
             btn_33.PerformClick()
         ElseIf e.KeyCode = 101 Then
-            btn_grup_4.PerformClick()
+            'btn_grup_4.PerformClick()
         ElseIf e.KeyCode = 79 Then
             btn_21.PerformClick()
         ElseIf e.KeyCode = 80 Then
@@ -5273,7 +5273,7 @@ Public Class MenuCustomer
         ElseIf e.KeyCode = 87 Then
             btn_14.PerformClick()
         ElseIf e.KeyCode = 103 Then
-            btn_grup_1.PerformClick()
+            'btn_grup_1.PerformClick()
         ElseIf e.KeyCode = 89 Then
             btn_18.PerformClick()
         ElseIf e.KeyCode = 222 Then
@@ -5304,6 +5304,8 @@ Public Class MenuCustomer
             btn_bet_100.PerformClick()
         ElseIf e.KeyCode = 34 Then
             btn_bet_500.PerformClick()
+        ElseIf e.KeyCode = 38 Then
+            btn_bet_5000.PerformClick()
         ElseIf e.KeyCode = 96 Then
             If history.Visible = False Then
                 btn_history.PerformClick()
@@ -5312,42 +5314,44 @@ Public Class MenuCustomer
             End If
         ElseIf e.KeyCode = 106 Then
             btn_logout.PerformClick()
-        ElseIf e.keyCode = 49 Then
+        ElseIf e.KeyCode = 49 Then
             btn_1.PerformClick()
-        ElseIf e.keyCode = 50 Then
+        ElseIf e.KeyCode = 50 Then
             btn_2.PerformClick()
-        ElseIf e.keyCode = 51 Then
+        ElseIf e.KeyCode = 51 Then
             btn_3.PerformClick()
-        ElseIf e.keyCode = 52 Then
+        ElseIf e.KeyCode = 52 Then
             btn_4.PerformClick()
-        ElseIf e.keyCode = 53 Then
+        ElseIf e.KeyCode = 53 Then
             btn_5.PerformClick()
-        ElseIf e.keyCode = 54 Then
+        ElseIf e.KeyCode = 54 Then
             btn_6.PerformClick()
-        ElseIf e.keyCode = 55 Then
+        ElseIf e.KeyCode = 55 Then
             btn_7.PerformClick()
-        ElseIf e.keyCode = 56 Then
+        ElseIf e.KeyCode = 56 Then
             btn_8.PerformClick()
-        ElseIf e.keyCode = 57 Then
+        ElseIf e.KeyCode = 57 Then
             btn_9.PerformClick()
-        ElseIf e.keyCode = 48 Then
+        ElseIf e.KeyCode = 48 Then
             btn_10.PerformClick()
-        ElseIf e.keyCode = 189 Then
+        ElseIf e.KeyCode = 189 Then
             btn_11.PerformClick()
-        ElseIf e.keyCode = 187 Then
+        ElseIf e.KeyCode = 187 Then
             btn_12.PerformClick()
-        ElseIf e.keyCode = 219 Then
+        ElseIf e.KeyCode = 219 Then
             btn_23.PerformClick()
-        ElseIf e.keyCode = 221 Then
+        ElseIf e.KeyCode = 221 Then
             btn_24.PerformClick()
-        ElseIf e.keyCode = 76 Then
+        ElseIf e.KeyCode = 76 Then
             btn_34.PerformClick()
-        ElseIf e.keyCode = 186 Then
+        ElseIf e.KeyCode = 186 Then
             btn_35.PerformClick()
-        ElseIf e.keyCode = 78 Then
+        ElseIf e.KeyCode = 78 Then
             btn_red.PerformClick()
         ElseIf e.KeyCode = 27 Then
             btn_bonus.PerformClick()
+        ElseIf e.KeyCode = 192 Then
+            Label6_Click(Nothing, Nothing)
         End If
     End Sub
 
@@ -5355,6 +5359,10 @@ Public Class MenuCustomer
         history.Visible = False
         Panel2.Visible = True
         My.Computer.Audio.Play("C:\Users\Public\Music\Sound Effects\button.wav")
+    End Sub
+
+    Private Sub testClick()
+        Label6_Click(Nothing, Nothing)
     End Sub
 
     Private Sub Timer7_Tick(sender As Object, e As EventArgs) Handles Timer7.Tick
@@ -5446,12 +5454,14 @@ Public Class MenuCustomer
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
         Panel65.Visible = True
+        Panel68.Visible = False
         txt_username.Text = ""
         txt_password.Text = ""
     End Sub
 
     Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
         Panel65.Visible = True
+        Panel68.Visible = False
         txt_username.Text = ""
         txt_password.Text = ""
     End Sub
@@ -5641,6 +5651,4 @@ Public Class MenuCustomer
         End Try
         conn.Close()
     End Sub
-
-
 End Class

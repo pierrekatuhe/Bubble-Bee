@@ -397,6 +397,11 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.koin_5000">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.koin_bet">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -463,6 +468,11 @@ Bubble Bee
 </summary>
 </member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Naga">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.pilih_coin">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

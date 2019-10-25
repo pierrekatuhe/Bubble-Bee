@@ -37,14 +37,26 @@ Partial Class MenuCustomer
         Me.Timer10 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel65 = New System.Windows.Forms.Panel()
         Me.pnl_atas = New System.Windows.Forms.Panel()
+        Me.btn_close = New System.Windows.Forms.Button()
         Me.txt_password = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.txt_username = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Panel68 = New System.Windows.Forms.Panel()
+        Me.btn_qr = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.btn_login = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Panel69 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Panel66 = New System.Windows.Forms.Panel()
+        Me.BunifuThinButton26 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.Panel67 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.txt_isi_koin = New Bunifu.Framework.UI.BunifuMetroTextbox()
+        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.username_kasir = New System.Windows.Forms.Label()
         Me.username_player = New System.Windows.Forms.Label()
         Me.koin = New System.Windows.Forms.Label()
@@ -82,14 +94,6 @@ Partial Class MenuCustomer
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Panel57 = New System.Windows.Forms.Panel()
         Me.Label66 = New System.Windows.Forms.Label()
-        Me.Panel56 = New System.Windows.Forms.Panel()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Panel55 = New System.Windows.Forms.Panel()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.Panel54 = New System.Windows.Forms.Panel()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.Panel53 = New System.Windows.Forms.Panel()
-        Me.Label62 = New System.Windows.Forms.Label()
         Me.Panel52 = New System.Windows.Forms.Panel()
         Me.Label61 = New System.Windows.Forms.Label()
         Me.Panel51 = New System.Windows.Forms.Panel()
@@ -205,14 +209,10 @@ Partial Class MenuCustomer
         Me.btn_logout = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btn_red = New System.Windows.Forms.Button()
-        Me.btn_grup_4 = New System.Windows.Forms.Button()
         Me.btn_black = New System.Windows.Forms.Button()
-        Me.btn_grup_3 = New System.Windows.Forms.Button()
         Me.btn_bet_500 = New System.Windows.Forms.Button()
-        Me.btn_grup_2 = New System.Windows.Forms.Button()
         Me.btn_bet_100 = New System.Windows.Forms.Button()
         Me.btn_bet_5000 = New System.Windows.Forms.Button()
-        Me.btn_grup_1 = New System.Windows.Forms.Button()
         Me.btn_bet_10 = New System.Windows.Forms.Button()
         Me.btn_25_36 = New System.Windows.Forms.Button()
         Me.btn_13_24 = New System.Windows.Forms.Button()
@@ -265,18 +265,18 @@ Partial Class MenuCustomer
         Me.btn_24 = New System.Windows.Forms.Button()
         Me.btn_30 = New System.Windows.Forms.Button()
         Me.btn_36 = New System.Windows.Forms.Button()
-        Me.BunifuThinButton26 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.btn_close = New System.Windows.Forms.Button()
-        Me.Panel68 = New System.Windows.Forms.Panel()
-        Me.btn_qr = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.btn_login = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Panel69 = New System.Windows.Forms.Panel()
+        Me.Panel56 = New System.Windows.Forms.Panel()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.Panel55 = New System.Windows.Forms.Panel()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Panel54 = New System.Windows.Forms.Panel()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Panel53 = New System.Windows.Forms.Panel()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.btn_grup_4 = New System.Windows.Forms.Button()
+        Me.btn_grup_3 = New System.Windows.Forms.Button()
+        Me.btn_grup_2 = New System.Windows.Forms.Button()
+        Me.btn_grup_1 = New System.Windows.Forms.Button()
         Me.shio = New System.Windows.Forms.Panel()
         Me.angka = New System.Windows.Forms.Panel()
         Me.history = New System.Windows.Forms.Panel()
@@ -304,10 +304,6 @@ Partial Class MenuCustomer
         Me.Panel59.SuspendLayout()
         Me.Panel58.SuspendLayout()
         Me.Panel57.SuspendLayout()
-        Me.Panel56.SuspendLayout()
-        Me.Panel55.SuspendLayout()
-        Me.Panel54.SuspendLayout()
-        Me.Panel53.SuspendLayout()
         Me.Panel52.SuspendLayout()
         Me.Panel51.SuspendLayout()
         Me.Panel50.SuspendLayout()
@@ -358,6 +354,10 @@ Partial Class MenuCustomer
         Me.Panel4.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.Panel56.SuspendLayout()
+        Me.Panel55.SuspendLayout()
+        Me.Panel54.SuspendLayout()
+        Me.Panel53.SuspendLayout()
         Me.history.SuspendLayout()
         Me.hidden.SuspendLayout()
         Me.SuspendLayout()
@@ -485,6 +485,19 @@ Partial Class MenuCustomer
         Me.pnl_atas.Size = New System.Drawing.Size(312, 29)
         Me.pnl_atas.TabIndex = 17
         '
+        'btn_close
+        '
+        Me.btn_close.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
+        Me.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_close.FlatAppearance.BorderSize = 0
+        Me.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_close.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btn_close.Location = New System.Drawing.Point(283, 2)
+        Me.btn_close.Name = "btn_close"
+        Me.btn_close.Size = New System.Drawing.Size(27, 23)
+        Me.btn_close.TabIndex = 5
+        Me.btn_close.UseVisualStyleBackColor = True
+        '
         'txt_password
         '
         Me.txt_password.BorderColorFocused = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
@@ -525,6 +538,75 @@ Partial Class MenuCustomer
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(200, 100)
         Me.FlowLayoutPanel1.TabIndex = 15
+        '
+        'Panel68
+        '
+        Me.Panel68.BackgroundImage = CType(resources.GetObject("Panel68.BackgroundImage"), System.Drawing.Image)
+        Me.Panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel68.Location = New System.Drawing.Point(32, 152)
+        Me.Panel68.Name = "Panel68"
+        Me.Panel68.Size = New System.Drawing.Size(248, 45)
+        Me.Panel68.TabIndex = 14
+        Me.Panel68.Visible = False
+        '
+        'btn_qr
+        '
+        Me.btn_qr.ActiveBorderThickness = 1
+        Me.btn_qr.ActiveCornerRadius = 20
+        Me.btn_qr.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_qr.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_qr.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_qr.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_qr.BackgroundImage = CType(resources.GetObject("btn_qr.BackgroundImage"), System.Drawing.Image)
+        Me.btn_qr.ButtonText = "QR Login"
+        Me.btn_qr.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_qr.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_qr.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btn_qr.IdleBorderThickness = 1
+        Me.btn_qr.IdleCornerRadius = 20
+        Me.btn_qr.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_qr.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_qr.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_qr.Location = New System.Drawing.Point(164, 334)
+        Me.btn_qr.Margin = New System.Windows.Forms.Padding(5)
+        Me.btn_qr.Name = "btn_qr"
+        Me.btn_qr.Size = New System.Drawing.Size(117, 46)
+        Me.btn_qr.TabIndex = 3
+        Me.btn_qr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btn_login
+        '
+        Me.btn_login.ActiveBorderThickness = 1
+        Me.btn_login.ActiveCornerRadius = 20
+        Me.btn_login.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_login.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_login.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_login.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_login.BackgroundImage = CType(resources.GetObject("btn_login.BackgroundImage"), System.Drawing.Image)
+        Me.btn_login.ButtonText = "Login"
+        Me.btn_login.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_login.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_login.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btn_login.IdleBorderThickness = 1
+        Me.btn_login.IdleCornerRadius = 20
+        Me.btn_login.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_login.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_login.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_login.Location = New System.Drawing.Point(32, 334)
+        Me.btn_login.Margin = New System.Windows.Forms.Padding(5)
+        Me.btn_login.Name = "btn_login"
+        Me.btn_login.Size = New System.Drawing.Size(117, 46)
+        Me.btn_login.TabIndex = 2
+        Me.btn_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel69
+        '
+        Me.Panel69.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.logo3
+        Me.Panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel69.Location = New System.Drawing.Point(46, 24)
+        Me.Panel69.Name = "Panel69"
+        Me.Panel69.Size = New System.Drawing.Size(216, 141)
+        Me.Panel69.TabIndex = 11
         '
         'Label2
         '
@@ -567,6 +649,106 @@ Partial Class MenuCustomer
         Me.Panel66.Size = New System.Drawing.Size(312, 284)
         Me.Panel66.TabIndex = 59
         '
+        'BunifuThinButton26
+        '
+        Me.BunifuThinButton26.ActiveBorderThickness = 1
+        Me.BunifuThinButton26.ActiveCornerRadius = 20
+        Me.BunifuThinButton26.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton26.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton26.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton26.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton26.BackgroundImage = CType(resources.GetObject("BunifuThinButton26.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton26.ButtonText = "10000"
+        Me.BunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton26.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton26.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton26.IdleBorderThickness = 1
+        Me.BunifuThinButton26.IdleCornerRadius = 20
+        Me.BunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton26.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton26.Location = New System.Drawing.Point(228, 162)
+        Me.BunifuThinButton26.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton26.Name = "BunifuThinButton26"
+        Me.BunifuThinButton26.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton26.TabIndex = 19
+        Me.BunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton25
+        '
+        Me.BunifuThinButton25.ActiveBorderThickness = 1
+        Me.BunifuThinButton25.ActiveCornerRadius = 20
+        Me.BunifuThinButton25.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton25.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton25.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton25.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton25.BackgroundImage = CType(resources.GetObject("BunifuThinButton25.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton25.ButtonText = "1000"
+        Me.BunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton25.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton25.IdleBorderThickness = 1
+        Me.BunifuThinButton25.IdleCornerRadius = 20
+        Me.BunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton25.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton25.Location = New System.Drawing.Point(163, 162)
+        Me.BunifuThinButton25.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton25.Name = "BunifuThinButton25"
+        Me.BunifuThinButton25.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton25.TabIndex = 19
+        Me.BunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton24
+        '
+        Me.BunifuThinButton24.ActiveBorderThickness = 1
+        Me.BunifuThinButton24.ActiveCornerRadius = 20
+        Me.BunifuThinButton24.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton24.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton24.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton24.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton24.BackgroundImage = CType(resources.GetObject("BunifuThinButton24.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton24.ButtonText = "500"
+        Me.BunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton24.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton24.IdleBorderThickness = 1
+        Me.BunifuThinButton24.IdleCornerRadius = 20
+        Me.BunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton24.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton24.Location = New System.Drawing.Point(89, 162)
+        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton24.Name = "BunifuThinButton24"
+        Me.BunifuThinButton24.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton24.TabIndex = 19
+        Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton23
+        '
+        Me.BunifuThinButton23.ActiveBorderThickness = 1
+        Me.BunifuThinButton23.ActiveCornerRadius = 20
+        Me.BunifuThinButton23.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton23.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton23.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton23.BackgroundImage = CType(resources.GetObject("BunifuThinButton23.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton23.ButtonText = "100"
+        Me.BunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton23.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton23.IdleBorderThickness = 1
+        Me.BunifuThinButton23.IdleCornerRadius = 20
+        Me.BunifuThinButton23.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton23.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton23.Location = New System.Drawing.Point(20, 162)
+        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton23.Name = "BunifuThinButton23"
+        Me.BunifuThinButton23.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton23.TabIndex = 19
+        Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Panel67
         '
         Me.Panel67.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
@@ -576,6 +758,19 @@ Partial Class MenuCustomer
         Me.Panel67.Name = "Panel67"
         Me.Panel67.Size = New System.Drawing.Size(312, 29)
         Me.Panel67.TabIndex = 18
+        '
+        'Button2
+        '
+        Me.Button2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Button2.Location = New System.Drawing.Point(283, 2)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(27, 23)
+        Me.Button2.TabIndex = 5
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'txt_isi_koin
         '
@@ -594,6 +789,56 @@ Partial Class MenuCustomer
         Me.txt_isi_koin.TabIndex = 0
         Me.txt_isi_koin.Text = "0"
         Me.txt_isi_koin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'BunifuThinButton21
+        '
+        Me.BunifuThinButton21.ActiveBorderThickness = 1
+        Me.BunifuThinButton21.ActiveCornerRadius = 20
+        Me.BunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton21.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton21.ButtonText = "OUT"
+        Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton21.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton21.IdleBorderThickness = 1
+        Me.BunifuThinButton21.IdleCornerRadius = 20
+        Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton21.Location = New System.Drawing.Point(165, 211)
+        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton21.Name = "BunifuThinButton21"
+        Me.BunifuThinButton21.Size = New System.Drawing.Size(117, 46)
+        Me.BunifuThinButton21.TabIndex = 3
+        Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton22
+        '
+        Me.BunifuThinButton22.ActiveBorderThickness = 1
+        Me.BunifuThinButton22.ActiveCornerRadius = 20
+        Me.BunifuThinButton22.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton22.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton22.BackgroundImage = CType(resources.GetObject("BunifuThinButton22.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton22.ButtonText = "IN"
+        Me.BunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton22.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton22.IdleBorderThickness = 1
+        Me.BunifuThinButton22.IdleCornerRadius = 20
+        Me.BunifuThinButton22.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton22.Location = New System.Drawing.Point(33, 211)
+        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton22.Name = "BunifuThinButton22"
+        Me.BunifuThinButton22.Size = New System.Drawing.Size(117, 46)
+        Me.BunifuThinButton22.TabIndex = 2
+        Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'username_kasir
         '
@@ -1137,94 +1382,6 @@ Partial Class MenuCustomer
         Me.Label66.Text = "0"
         Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.Label66.Visible = False
-        '
-        'Panel56
-        '
-        Me.Panel56.BackgroundImage = CType(resources.GetObject("Panel56.BackgroundImage"), System.Drawing.Image)
-        Me.Panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel56.Controls.Add(Me.Label65)
-        Me.Panel56.Location = New System.Drawing.Point(79, 48)
-        Me.Panel56.Name = "Panel56"
-        Me.Panel56.Size = New System.Drawing.Size(49, 49)
-        Me.Panel56.TabIndex = 51
-        '
-        'Label65
-        '
-        Me.Label65.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.ForeColor = System.Drawing.Color.Black
-        Me.Label65.Location = New System.Drawing.Point(3, 16)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(42, 18)
-        Me.Label65.TabIndex = 25
-        Me.Label65.Text = "0"
-        Me.Label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label65.Visible = False
-        '
-        'Panel55
-        '
-        Me.Panel55.BackgroundImage = CType(resources.GetObject("Panel55.BackgroundImage"), System.Drawing.Image)
-        Me.Panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel55.Controls.Add(Me.Label64)
-        Me.Panel55.Location = New System.Drawing.Point(0, 48)
-        Me.Panel55.Name = "Panel55"
-        Me.Panel55.Size = New System.Drawing.Size(49, 49)
-        Me.Panel55.TabIndex = 50
-        '
-        'Label64
-        '
-        Me.Label64.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.ForeColor = System.Drawing.Color.Black
-        Me.Label64.Location = New System.Drawing.Point(3, 16)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(42, 18)
-        Me.Label64.TabIndex = 25
-        Me.Label64.Text = "0"
-        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label64.Visible = False
-        '
-        'Panel54
-        '
-        Me.Panel54.BackgroundImage = CType(resources.GetObject("Panel54.BackgroundImage"), System.Drawing.Image)
-        Me.Panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel54.Controls.Add(Me.Label63)
-        Me.Panel54.Location = New System.Drawing.Point(79, 0)
-        Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(49, 49)
-        Me.Panel54.TabIndex = 50
-        '
-        'Label63
-        '
-        Me.Label63.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.ForeColor = System.Drawing.Color.Black
-        Me.Label63.Location = New System.Drawing.Point(3, 16)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(42, 18)
-        Me.Label63.TabIndex = 25
-        Me.Label63.Text = "0"
-        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label63.Visible = False
-        '
-        'Panel53
-        '
-        Me.Panel53.BackgroundImage = CType(resources.GetObject("Panel53.BackgroundImage"), System.Drawing.Image)
-        Me.Panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel53.Controls.Add(Me.Label62)
-        Me.Panel53.Location = New System.Drawing.Point(0, 0)
-        Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(49, 49)
-        Me.Panel53.TabIndex = 50
-        '
-        'Label62
-        '
-        Me.Label62.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.ForeColor = System.Drawing.Color.Black
-        Me.Label62.Location = New System.Drawing.Point(3, 16)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(42, 18)
-        Me.Label62.TabIndex = 25
-        Me.Label62.Text = "0"
-        Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label62.Visible = False
         '
         'Panel52
         '
@@ -2520,20 +2677,6 @@ Partial Class MenuCustomer
         Me.btn_red.TabIndex = 22
         Me.btn_red.UseVisualStyleBackColor = False
         '
-        'btn_grup_4
-        '
-        Me.btn_grup_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab4
-        Me.btn_grup_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_grup_4.FlatAppearance.BorderSize = 0
-        Me.btn_grup_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_grup_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
-        Me.btn_grup_4.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_4.Location = New System.Drawing.Point(69, 55)
-        Me.btn_grup_4.Name = "btn_grup_4"
-        Me.btn_grup_4.Size = New System.Drawing.Size(67, 33)
-        Me.btn_grup_4.TabIndex = 0
-        Me.btn_grup_4.UseVisualStyleBackColor = True
-        '
         'btn_black
         '
         Me.btn_black.BackColor = System.Drawing.Color.Transparent
@@ -2549,20 +2692,6 @@ Partial Class MenuCustomer
         Me.btn_black.TabIndex = 22
         Me.btn_black.UseVisualStyleBackColor = False
         '
-        'btn_grup_3
-        '
-        Me.btn_grup_3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab3
-        Me.btn_grup_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_grup_3.FlatAppearance.BorderSize = 0
-        Me.btn_grup_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_grup_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
-        Me.btn_grup_3.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_3.Location = New System.Drawing.Point(0, 55)
-        Me.btn_grup_3.Name = "btn_grup_3"
-        Me.btn_grup_3.Size = New System.Drawing.Size(63, 33)
-        Me.btn_grup_3.TabIndex = 0
-        Me.btn_grup_3.UseVisualStyleBackColor = True
-        '
         'btn_bet_500
         '
         Me.btn_bet_500.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_500
@@ -2575,20 +2704,6 @@ Partial Class MenuCustomer
         Me.btn_bet_500.Size = New System.Drawing.Size(52, 52)
         Me.btn_bet_500.TabIndex = 22
         Me.btn_bet_500.UseVisualStyleBackColor = True
-        '
-        'btn_grup_2
-        '
-        Me.btn_grup_2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab2
-        Me.btn_grup_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_grup_2.FlatAppearance.BorderSize = 0
-        Me.btn_grup_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_grup_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
-        Me.btn_grup_2.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_2.Location = New System.Drawing.Point(71, 0)
-        Me.btn_grup_2.Name = "btn_grup_2"
-        Me.btn_grup_2.Size = New System.Drawing.Size(65, 33)
-        Me.btn_grup_2.TabIndex = 0
-        Me.btn_grup_2.UseVisualStyleBackColor = True
         '
         'btn_bet_100
         '
@@ -2615,20 +2730,6 @@ Partial Class MenuCustomer
         Me.btn_bet_5000.Size = New System.Drawing.Size(52, 52)
         Me.btn_bet_5000.TabIndex = 22
         Me.btn_bet_5000.UseVisualStyleBackColor = False
-        '
-        'btn_grup_1
-        '
-        Me.btn_grup_1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab1
-        Me.btn_grup_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_grup_1.FlatAppearance.BorderSize = 0
-        Me.btn_grup_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_grup_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
-        Me.btn_grup_1.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_1.Location = New System.Drawing.Point(0, 0)
-        Me.btn_grup_1.Name = "btn_grup_1"
-        Me.btn_grup_1.Size = New System.Drawing.Size(65, 33)
-        Me.btn_grup_1.TabIndex = 0
-        Me.btn_grup_1.UseVisualStyleBackColor = True
         '
         'btn_bet_10
         '
@@ -3391,250 +3492,149 @@ Partial Class MenuCustomer
         Me.btn_36.Text = "36"
         Me.btn_36.UseVisualStyleBackColor = True
         '
-        'BunifuThinButton26
+        'Panel56
         '
-        Me.BunifuThinButton26.ActiveBorderThickness = 1
-        Me.BunifuThinButton26.ActiveCornerRadius = 20
-        Me.BunifuThinButton26.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton26.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton26.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton26.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton26.BackgroundImage = CType(resources.GetObject("BunifuThinButton26.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton26.ButtonText = "10000"
-        Me.BunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton26.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton26.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton26.IdleBorderThickness = 1
-        Me.BunifuThinButton26.IdleCornerRadius = 20
-        Me.BunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton26.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton26.Location = New System.Drawing.Point(228, 162)
-        Me.BunifuThinButton26.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton26.Name = "BunifuThinButton26"
-        Me.BunifuThinButton26.Size = New System.Drawing.Size(60, 32)
-        Me.BunifuThinButton26.TabIndex = 19
-        Me.BunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Panel56.BackgroundImage = CType(resources.GetObject("Panel56.BackgroundImage"), System.Drawing.Image)
+        Me.Panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel56.Controls.Add(Me.Label65)
+        Me.Panel56.Location = New System.Drawing.Point(79, 48)
+        Me.Panel56.Name = "Panel56"
+        Me.Panel56.Size = New System.Drawing.Size(49, 49)
+        Me.Panel56.TabIndex = 51
         '
-        'BunifuThinButton25
+        'Label65
         '
-        Me.BunifuThinButton25.ActiveBorderThickness = 1
-        Me.BunifuThinButton25.ActiveCornerRadius = 20
-        Me.BunifuThinButton25.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton25.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton25.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton25.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton25.BackgroundImage = CType(resources.GetObject("BunifuThinButton25.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton25.ButtonText = "1000"
-        Me.BunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton25.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton25.IdleBorderThickness = 1
-        Me.BunifuThinButton25.IdleCornerRadius = 20
-        Me.BunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton25.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton25.Location = New System.Drawing.Point(163, 162)
-        Me.BunifuThinButton25.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton25.Name = "BunifuThinButton25"
-        Me.BunifuThinButton25.Size = New System.Drawing.Size(60, 32)
-        Me.BunifuThinButton25.TabIndex = 19
-        Me.BunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label65.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.ForeColor = System.Drawing.Color.Black
+        Me.Label65.Location = New System.Drawing.Point(3, 16)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(42, 18)
+        Me.Label65.TabIndex = 25
+        Me.Label65.Text = "0"
+        Me.Label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label65.Visible = False
         '
-        'BunifuThinButton24
+        'Panel55
         '
-        Me.BunifuThinButton24.ActiveBorderThickness = 1
-        Me.BunifuThinButton24.ActiveCornerRadius = 20
-        Me.BunifuThinButton24.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton24.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton24.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton24.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton24.BackgroundImage = CType(resources.GetObject("BunifuThinButton24.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton24.ButtonText = "500"
-        Me.BunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton24.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton24.IdleBorderThickness = 1
-        Me.BunifuThinButton24.IdleCornerRadius = 20
-        Me.BunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton24.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton24.Location = New System.Drawing.Point(89, 162)
-        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton24.Name = "BunifuThinButton24"
-        Me.BunifuThinButton24.Size = New System.Drawing.Size(60, 32)
-        Me.BunifuThinButton24.TabIndex = 19
-        Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Panel55.BackgroundImage = CType(resources.GetObject("Panel55.BackgroundImage"), System.Drawing.Image)
+        Me.Panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel55.Controls.Add(Me.Label64)
+        Me.Panel55.Location = New System.Drawing.Point(0, 48)
+        Me.Panel55.Name = "Panel55"
+        Me.Panel55.Size = New System.Drawing.Size(49, 49)
+        Me.Panel55.TabIndex = 50
         '
-        'BunifuThinButton23
+        'Label64
         '
-        Me.BunifuThinButton23.ActiveBorderThickness = 1
-        Me.BunifuThinButton23.ActiveCornerRadius = 20
-        Me.BunifuThinButton23.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton23.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton23.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton23.BackgroundImage = CType(resources.GetObject("BunifuThinButton23.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton23.ButtonText = "100"
-        Me.BunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton23.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton23.IdleBorderThickness = 1
-        Me.BunifuThinButton23.IdleCornerRadius = 20
-        Me.BunifuThinButton23.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton23.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton23.Location = New System.Drawing.Point(20, 162)
-        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton23.Name = "BunifuThinButton23"
-        Me.BunifuThinButton23.Size = New System.Drawing.Size(60, 32)
-        Me.BunifuThinButton23.TabIndex = 19
-        Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label64.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.ForeColor = System.Drawing.Color.Black
+        Me.Label64.Location = New System.Drawing.Point(3, 16)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(42, 18)
+        Me.Label64.TabIndex = 25
+        Me.Label64.Text = "0"
+        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label64.Visible = False
         '
-        'Button2
+        'Panel54
         '
-        Me.Button2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Button2.Location = New System.Drawing.Point(283, 2)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(27, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Panel54.BackgroundImage = CType(resources.GetObject("Panel54.BackgroundImage"), System.Drawing.Image)
+        Me.Panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel54.Controls.Add(Me.Label63)
+        Me.Panel54.Location = New System.Drawing.Point(79, 0)
+        Me.Panel54.Name = "Panel54"
+        Me.Panel54.Size = New System.Drawing.Size(49, 49)
+        Me.Panel54.TabIndex = 50
         '
-        'BunifuThinButton21
+        'Label63
         '
-        Me.BunifuThinButton21.ActiveBorderThickness = 1
-        Me.BunifuThinButton21.ActiveCornerRadius = 20
-        Me.BunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton21.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton21.ButtonText = "OUT"
-        Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton21.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.IdleBorderThickness = 1
-        Me.BunifuThinButton21.IdleCornerRadius = 20
-        Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton21.Location = New System.Drawing.Point(165, 211)
-        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton21.Name = "BunifuThinButton21"
-        Me.BunifuThinButton21.Size = New System.Drawing.Size(117, 46)
-        Me.BunifuThinButton21.TabIndex = 3
-        Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label63.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.ForeColor = System.Drawing.Color.Black
+        Me.Label63.Location = New System.Drawing.Point(3, 16)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(42, 18)
+        Me.Label63.TabIndex = 25
+        Me.Label63.Text = "0"
+        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label63.Visible = False
         '
-        'BunifuThinButton22
+        'Panel53
         '
-        Me.BunifuThinButton22.ActiveBorderThickness = 1
-        Me.BunifuThinButton22.ActiveCornerRadius = 20
-        Me.BunifuThinButton22.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton22.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton22.BackgroundImage = CType(resources.GetObject("BunifuThinButton22.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton22.ButtonText = "IN"
-        Me.BunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton22.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton22.IdleBorderThickness = 1
-        Me.BunifuThinButton22.IdleCornerRadius = 20
-        Me.BunifuThinButton22.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton22.Location = New System.Drawing.Point(33, 211)
-        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton22.Name = "BunifuThinButton22"
-        Me.BunifuThinButton22.Size = New System.Drawing.Size(117, 46)
-        Me.BunifuThinButton22.TabIndex = 2
-        Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Panel53.BackgroundImage = CType(resources.GetObject("Panel53.BackgroundImage"), System.Drawing.Image)
+        Me.Panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel53.Controls.Add(Me.Label62)
+        Me.Panel53.Location = New System.Drawing.Point(0, 0)
+        Me.Panel53.Name = "Panel53"
+        Me.Panel53.Size = New System.Drawing.Size(49, 49)
+        Me.Panel53.TabIndex = 50
         '
-        'btn_close
+        'Label62
         '
-        Me.btn_close.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
-        Me.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_close.FlatAppearance.BorderSize = 0
-        Me.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_close.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btn_close.Location = New System.Drawing.Point(283, 2)
-        Me.btn_close.Name = "btn_close"
-        Me.btn_close.Size = New System.Drawing.Size(27, 23)
-        Me.btn_close.TabIndex = 5
-        Me.btn_close.UseVisualStyleBackColor = True
+        Me.Label62.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.ForeColor = System.Drawing.Color.Black
+        Me.Label62.Location = New System.Drawing.Point(3, 16)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(42, 18)
+        Me.Label62.TabIndex = 25
+        Me.Label62.Text = "0"
+        Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label62.Visible = False
         '
-        'Panel68
+        'btn_grup_4
         '
-        Me.Panel68.BackgroundImage = CType(resources.GetObject("Panel68.BackgroundImage"), System.Drawing.Image)
-        Me.Panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel68.Location = New System.Drawing.Point(32, 152)
-        Me.Panel68.Name = "Panel68"
-        Me.Panel68.Size = New System.Drawing.Size(248, 45)
-        Me.Panel68.TabIndex = 14
-        Me.Panel68.Visible = False
+        Me.btn_grup_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab4
+        Me.btn_grup_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_grup_4.FlatAppearance.BorderSize = 0
+        Me.btn_grup_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_grup_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
+        Me.btn_grup_4.ForeColor = System.Drawing.Color.White
+        Me.btn_grup_4.Location = New System.Drawing.Point(69, 55)
+        Me.btn_grup_4.Name = "btn_grup_4"
+        Me.btn_grup_4.Size = New System.Drawing.Size(67, 33)
+        Me.btn_grup_4.TabIndex = 0
+        Me.btn_grup_4.UseVisualStyleBackColor = True
         '
-        'btn_qr
+        'btn_grup_3
         '
-        Me.btn_qr.ActiveBorderThickness = 1
-        Me.btn_qr.ActiveCornerRadius = 20
-        Me.btn_qr.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_qr.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_qr.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_qr.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_qr.BackgroundImage = CType(resources.GetObject("btn_qr.BackgroundImage"), System.Drawing.Image)
-        Me.btn_qr.ButtonText = "QR Login"
-        Me.btn_qr.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_qr.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_qr.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btn_qr.IdleBorderThickness = 1
-        Me.btn_qr.IdleCornerRadius = 20
-        Me.btn_qr.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_qr.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_qr.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_qr.Location = New System.Drawing.Point(164, 334)
-        Me.btn_qr.Margin = New System.Windows.Forms.Padding(5)
-        Me.btn_qr.Name = "btn_qr"
-        Me.btn_qr.Size = New System.Drawing.Size(117, 46)
-        Me.btn_qr.TabIndex = 3
-        Me.btn_qr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btn_grup_3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab3
+        Me.btn_grup_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_grup_3.FlatAppearance.BorderSize = 0
+        Me.btn_grup_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_grup_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
+        Me.btn_grup_3.ForeColor = System.Drawing.Color.White
+        Me.btn_grup_3.Location = New System.Drawing.Point(0, 55)
+        Me.btn_grup_3.Name = "btn_grup_3"
+        Me.btn_grup_3.Size = New System.Drawing.Size(63, 33)
+        Me.btn_grup_3.TabIndex = 0
+        Me.btn_grup_3.UseVisualStyleBackColor = True
         '
-        'btn_login
+        'btn_grup_2
         '
-        Me.btn_login.ActiveBorderThickness = 1
-        Me.btn_login.ActiveCornerRadius = 20
-        Me.btn_login.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_login.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_login.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_login.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_login.BackgroundImage = CType(resources.GetObject("btn_login.BackgroundImage"), System.Drawing.Image)
-        Me.btn_login.ButtonText = "Login"
-        Me.btn_login.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_login.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_login.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btn_login.IdleBorderThickness = 1
-        Me.btn_login.IdleCornerRadius = 20
-        Me.btn_login.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_login.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_login.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_login.Location = New System.Drawing.Point(32, 334)
-        Me.btn_login.Margin = New System.Windows.Forms.Padding(5)
-        Me.btn_login.Name = "btn_login"
-        Me.btn_login.Size = New System.Drawing.Size(117, 46)
-        Me.btn_login.TabIndex = 2
-        Me.btn_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btn_grup_2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab2
+        Me.btn_grup_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_grup_2.FlatAppearance.BorderSize = 0
+        Me.btn_grup_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_grup_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
+        Me.btn_grup_2.ForeColor = System.Drawing.Color.White
+        Me.btn_grup_2.Location = New System.Drawing.Point(71, 0)
+        Me.btn_grup_2.Name = "btn_grup_2"
+        Me.btn_grup_2.Size = New System.Drawing.Size(65, 33)
+        Me.btn_grup_2.TabIndex = 0
+        Me.btn_grup_2.UseVisualStyleBackColor = True
         '
-        'Panel69
+        'btn_grup_1
         '
-        Me.Panel69.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.logo3
-        Me.Panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel69.Location = New System.Drawing.Point(46, 24)
-        Me.Panel69.Name = "Panel69"
-        Me.Panel69.Size = New System.Drawing.Size(216, 141)
-        Me.Panel69.TabIndex = 11
+        Me.btn_grup_1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.tab1
+        Me.btn_grup_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_grup_1.FlatAppearance.BorderSize = 0
+        Me.btn_grup_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_grup_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
+        Me.btn_grup_1.ForeColor = System.Drawing.Color.White
+        Me.btn_grup_1.Location = New System.Drawing.Point(0, 0)
+        Me.btn_grup_1.Name = "btn_grup_1"
+        Me.btn_grup_1.Size = New System.Drawing.Size(65, 33)
+        Me.btn_grup_1.TabIndex = 0
+        Me.btn_grup_1.UseVisualStyleBackColor = True
         '
         'shio
         '
@@ -3923,10 +3923,6 @@ Partial Class MenuCustomer
         Me.Panel59.ResumeLayout(False)
         Me.Panel58.ResumeLayout(False)
         Me.Panel57.ResumeLayout(False)
-        Me.Panel56.ResumeLayout(False)
-        Me.Panel55.ResumeLayout(False)
-        Me.Panel54.ResumeLayout(False)
-        Me.Panel53.ResumeLayout(False)
         Me.Panel52.ResumeLayout(False)
         Me.Panel51.ResumeLayout(False)
         Me.Panel50.ResumeLayout(False)
@@ -3977,6 +3973,10 @@ Partial Class MenuCustomer
         Me.Panel4.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
+        Me.Panel56.ResumeLayout(False)
+        Me.Panel55.ResumeLayout(False)
+        Me.Panel54.ResumeLayout(False)
+        Me.Panel53.ResumeLayout(False)
         Me.history.ResumeLayout(False)
         Me.history.PerformLayout()
         Me.hidden.ResumeLayout(False)

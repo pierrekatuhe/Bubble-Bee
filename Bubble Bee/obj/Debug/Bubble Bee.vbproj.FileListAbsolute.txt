@@ -698,3 +698,35 @@ D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\o
 D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.exe
 D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.xml
 D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.2\Bubble Bee\obj\Debug\Bubble Bee.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\Bubble Bee.exe.config
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\Bubble Bee.exe
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\Bubble Bee.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\Bubble Bee.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\AForge.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\AForge.Video.DirectShow.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\AForge.Video.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\QRCoder.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\System.Drawing.Common.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\zxing.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\zxing.presentation.dll
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\AForge.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\AForge.Video.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\AForge.Video.DirectShow.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\zxing.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\zxing.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\zxing.presentation.pdb
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\bin\Debug\zxing.presentation.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuCustomer.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.ScanQR.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.Form1.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.Form2.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.Login.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.Resources.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.MenuStaff.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble_Bee.PrintQR.resources
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.GenerateResource.cache
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CoreCompileInputs.cache
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble Bee.vbproj.CopyComplete
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble Bee.exe
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble Bee.xml
+D:\Documents\Project\Bubble Bee\Bubble Bee Update 3\Bubble Bee_V3.3\Bubble Bee\obj\Debug\Bubble Bee.pdb
