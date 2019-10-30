@@ -437,6 +437,10 @@ Public Class MenuStaff
         conn.Close()
     End Sub
 
+    Private Sub BunifuThinButton215_Click(sender As Object, e As EventArgs) Handles BunifuThinButton215.Click
+        ReloadKoin()
+    End Sub
+
     Private Sub txt_searchKoin_KeyUp(sender As Object, e As EventArgs) Handles txt_searchKoin.KeyUp
         Try
             If txt_akses.Text = "Kasir" Then
