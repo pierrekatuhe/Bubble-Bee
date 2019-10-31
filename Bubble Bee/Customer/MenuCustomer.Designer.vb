@@ -62,17 +62,17 @@ Partial Class MenuCustomer
         Me.koin = New System.Windows.Forms.Label()
         Me.Timer11 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel70 = New System.Windows.Forms.Panel()
-        Me.Bonus10 = New System.Windows.Forms.Panel()
-        Me.Bonus9 = New System.Windows.Forms.Panel()
-        Me.Bonus8 = New System.Windows.Forms.Panel()
-        Me.Bonus7 = New System.Windows.Forms.Panel()
-        Me.Bonus6 = New System.Windows.Forms.Panel()
-        Me.Bonus5 = New System.Windows.Forms.Panel()
-        Me.Bonus4 = New System.Windows.Forms.Panel()
-        Me.Bonus3 = New System.Windows.Forms.Panel()
-        Me.Bonus2 = New System.Windows.Forms.Panel()
         Me.Bonus1 = New System.Windows.Forms.Panel()
+        Me.Bonus2 = New System.Windows.Forms.Panel()
+        Me.Bonus3 = New System.Windows.Forms.Panel()
+        Me.Bonus4 = New System.Windows.Forms.Panel()
+        Me.Bonus5 = New System.Windows.Forms.Panel()
+        Me.Bonus6 = New System.Windows.Forms.Panel()
+        Me.Bonus7 = New System.Windows.Forms.Panel()
+        Me.Bonus8 = New System.Windows.Forms.Panel()
+        Me.Bonus9 = New System.Windows.Forms.Panel()
+        Me.Bonus10 = New System.Windows.Forms.Panel()
+        Me.Panel70 = New System.Windows.Forms.Panel()
         Me.Panel64 = New System.Windows.Forms.Panel()
         Me.btn_history = New System.Windows.Forms.Button()
         Me.txt_credit = New System.Windows.Forms.TextBox()
@@ -1028,95 +1028,15 @@ Partial Class MenuCustomer
         Me.Panel2.Size = New System.Drawing.Size(883, 496)
         Me.Panel2.TabIndex = 36
         '
-        'Panel70
+        'Bonus1
         '
-        Me.Panel70.BackColor = System.Drawing.Color.Transparent
-        Me.Panel70.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.pilih_coin
-        Me.Panel70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel70.Location = New System.Drawing.Point(619, 306)
-        Me.Panel70.Name = "Panel70"
-        Me.Panel70.Size = New System.Drawing.Size(166, 35)
-        Me.Panel70.TabIndex = 66
-        '
-        'Bonus10
-        '
-        Me.Bonus10.BackColor = System.Drawing.Color.White
-        Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus10.Location = New System.Drawing.Point(670, 200)
-        Me.Bonus10.Name = "Bonus10"
-        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus10.TabIndex = 61
-        '
-        'Bonus9
-        '
-        Me.Bonus9.BackColor = System.Drawing.Color.White
-        Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus9.Location = New System.Drawing.Point(530, 200)
-        Me.Bonus9.Name = "Bonus9"
-        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus9.TabIndex = 64
-        '
-        'Bonus8
-        '
-        Me.Bonus8.BackColor = System.Drawing.Color.White
-        Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus8.Location = New System.Drawing.Point(390, 200)
-        Me.Bonus8.Name = "Bonus8"
-        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus8.TabIndex = 63
-        '
-        'Bonus7
-        '
-        Me.Bonus7.BackColor = System.Drawing.Color.White
-        Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus7.Location = New System.Drawing.Point(250, 200)
-        Me.Bonus7.Name = "Bonus7"
-        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus7.TabIndex = 62
-        '
-        'Bonus6
-        '
-        Me.Bonus6.BackColor = System.Drawing.Color.White
-        Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus6.Location = New System.Drawing.Point(110, 200)
-        Me.Bonus6.Name = "Bonus6"
-        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus6.TabIndex = 65
-        '
-        'Bonus5
-        '
-        Me.Bonus5.BackColor = System.Drawing.Color.White
-        Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus5.Location = New System.Drawing.Point(670, 69)
-        Me.Bonus5.Name = "Bonus5"
-        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus5.TabIndex = 60
-        '
-        'Bonus4
-        '
-        Me.Bonus4.BackColor = System.Drawing.Color.White
-        Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus4.Location = New System.Drawing.Point(530, 69)
-        Me.Bonus4.Name = "Bonus4"
-        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus4.TabIndex = 59
-        '
-        'Bonus3
-        '
-        Me.Bonus3.BackColor = System.Drawing.Color.White
-        Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus3.Location = New System.Drawing.Point(390, 69)
-        Me.Bonus3.Name = "Bonus3"
-        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus3.TabIndex = 59
+        Me.Bonus1.BackColor = System.Drawing.Color.White
+        Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus1.Location = New System.Drawing.Point(110, 69)
+        Me.Bonus1.Name = "Bonus1"
+        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus1.TabIndex = 58
         '
         'Bonus2
         '
@@ -1128,15 +1048,95 @@ Partial Class MenuCustomer
         Me.Bonus2.Size = New System.Drawing.Size(100, 100)
         Me.Bonus2.TabIndex = 59
         '
-        'Bonus1
+        'Bonus3
         '
-        Me.Bonus1.BackColor = System.Drawing.Color.White
-        Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus1.Location = New System.Drawing.Point(110, 69)
-        Me.Bonus1.Name = "Bonus1"
-        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus1.TabIndex = 58
+        Me.Bonus3.BackColor = System.Drawing.Color.White
+        Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus3.Location = New System.Drawing.Point(390, 69)
+        Me.Bonus3.Name = "Bonus3"
+        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus3.TabIndex = 59
+        '
+        'Bonus4
+        '
+        Me.Bonus4.BackColor = System.Drawing.Color.White
+        Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus4.Location = New System.Drawing.Point(530, 69)
+        Me.Bonus4.Name = "Bonus4"
+        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus4.TabIndex = 59
+        '
+        'Bonus5
+        '
+        Me.Bonus5.BackColor = System.Drawing.Color.White
+        Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus5.Location = New System.Drawing.Point(670, 69)
+        Me.Bonus5.Name = "Bonus5"
+        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus5.TabIndex = 60
+        '
+        'Bonus6
+        '
+        Me.Bonus6.BackColor = System.Drawing.Color.White
+        Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus6.Location = New System.Drawing.Point(110, 200)
+        Me.Bonus6.Name = "Bonus6"
+        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus6.TabIndex = 65
+        '
+        'Bonus7
+        '
+        Me.Bonus7.BackColor = System.Drawing.Color.White
+        Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus7.Location = New System.Drawing.Point(250, 200)
+        Me.Bonus7.Name = "Bonus7"
+        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus7.TabIndex = 62
+        '
+        'Bonus8
+        '
+        Me.Bonus8.BackColor = System.Drawing.Color.White
+        Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus8.Location = New System.Drawing.Point(390, 200)
+        Me.Bonus8.Name = "Bonus8"
+        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus8.TabIndex = 63
+        '
+        'Bonus9
+        '
+        Me.Bonus9.BackColor = System.Drawing.Color.White
+        Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus9.Location = New System.Drawing.Point(530, 200)
+        Me.Bonus9.Name = "Bonus9"
+        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus9.TabIndex = 64
+        '
+        'Bonus10
+        '
+        Me.Bonus10.BackColor = System.Drawing.Color.White
+        Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus10.Location = New System.Drawing.Point(670, 200)
+        Me.Bonus10.Name = "Bonus10"
+        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus10.TabIndex = 61
+        '
+        'Panel70
+        '
+        Me.Panel70.BackColor = System.Drawing.Color.Transparent
+        Me.Panel70.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.pilih_coin
+        Me.Panel70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel70.Location = New System.Drawing.Point(619, 306)
+        Me.Panel70.Name = "Panel70"
+        Me.Panel70.Size = New System.Drawing.Size(166, 35)
+        Me.Panel70.TabIndex = 66
         '
         'Panel64
         '
@@ -1220,7 +1220,7 @@ Partial Class MenuCustomer
         '
         'Label25
         '
-        Me.Label25.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.Black
         Me.Label25.Location = New System.Drawing.Point(1, 16)
         Me.Label25.Name = "Label25"
@@ -1241,7 +1241,7 @@ Partial Class MenuCustomer
         '
         'Label69
         '
-        Me.Label69.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label69.ForeColor = System.Drawing.Color.Black
         Me.Label69.Location = New System.Drawing.Point(1, 16)
         Me.Label69.Name = "Label69"
@@ -1263,7 +1263,7 @@ Partial Class MenuCustomer
         '
         'Label68
         '
-        Me.Label68.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label68.ForeColor = System.Drawing.Color.Black
         Me.Label68.Location = New System.Drawing.Point(1, 16)
         Me.Label68.Name = "Label68"
@@ -1285,7 +1285,7 @@ Partial Class MenuCustomer
         '
         'Label57
         '
-        Me.Label57.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label57.ForeColor = System.Drawing.Color.Black
         Me.Label57.Location = New System.Drawing.Point(1, 16)
         Me.Label57.Name = "Label57"
@@ -1307,7 +1307,7 @@ Partial Class MenuCustomer
         '
         'Label56
         '
-        Me.Label56.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label56.ForeColor = System.Drawing.Color.Black
         Me.Label56.Location = New System.Drawing.Point(1, 16)
         Me.Label56.Name = "Label56"
@@ -1329,7 +1329,7 @@ Partial Class MenuCustomer
         '
         'Label58
         '
-        Me.Label58.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label58.ForeColor = System.Drawing.Color.Black
         Me.Label58.Location = New System.Drawing.Point(1, 16)
         Me.Label58.Name = "Label58"
@@ -1351,7 +1351,7 @@ Partial Class MenuCustomer
         '
         'Label67
         '
-        Me.Label67.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label67.ForeColor = System.Drawing.Color.Black
         Me.Label67.Location = New System.Drawing.Point(1, 16)
         Me.Label67.Name = "Label67"
@@ -1373,7 +1373,7 @@ Partial Class MenuCustomer
         '
         'Label66
         '
-        Me.Label66.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label66.ForeColor = System.Drawing.Color.Black
         Me.Label66.Location = New System.Drawing.Point(1, 16)
         Me.Label66.Name = "Label66"
@@ -1395,7 +1395,7 @@ Partial Class MenuCustomer
         '
         'Label61
         '
-        Me.Label61.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label61.ForeColor = System.Drawing.Color.Black
         Me.Label61.Location = New System.Drawing.Point(1, 16)
         Me.Label61.Name = "Label61"
@@ -1417,7 +1417,7 @@ Partial Class MenuCustomer
         '
         'Label60
         '
-        Me.Label60.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label60.ForeColor = System.Drawing.Color.Black
         Me.Label60.Location = New System.Drawing.Point(1, 16)
         Me.Label60.Name = "Label60"
@@ -1439,7 +1439,7 @@ Partial Class MenuCustomer
         '
         'Label59
         '
-        Me.Label59.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label59.ForeColor = System.Drawing.Color.Black
         Me.Label59.Location = New System.Drawing.Point(1, 16)
         Me.Label59.Name = "Label59"
@@ -1461,7 +1461,7 @@ Partial Class MenuCustomer
         '
         'Label50
         '
-        Me.Label50.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.ForeColor = System.Drawing.Color.Black
         Me.Label50.Location = New System.Drawing.Point(1, 16)
         Me.Label50.Name = "Label50"
@@ -1483,7 +1483,7 @@ Partial Class MenuCustomer
         '
         'Label51
         '
-        Me.Label51.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.ForeColor = System.Drawing.Color.Black
         Me.Label51.Location = New System.Drawing.Point(1, 16)
         Me.Label51.Name = "Label51"
@@ -1505,7 +1505,7 @@ Partial Class MenuCustomer
         '
         'Label55
         '
-        Me.Label55.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label55.ForeColor = System.Drawing.Color.Black
         Me.Label55.Location = New System.Drawing.Point(1, 16)
         Me.Label55.Name = "Label55"
@@ -1527,7 +1527,7 @@ Partial Class MenuCustomer
         '
         'Label52
         '
-        Me.Label52.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label52.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.ForeColor = System.Drawing.Color.Black
         Me.Label52.Location = New System.Drawing.Point(1, 16)
         Me.Label52.Name = "Label52"
@@ -1549,7 +1549,7 @@ Partial Class MenuCustomer
         '
         'Label53
         '
-        Me.Label53.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.Black
         Me.Label53.Location = New System.Drawing.Point(1, 16)
         Me.Label53.Name = "Label53"
@@ -1571,7 +1571,7 @@ Partial Class MenuCustomer
         '
         'Label49
         '
-        Me.Label49.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.ForeColor = System.Drawing.Color.Black
         Me.Label49.Location = New System.Drawing.Point(1, 16)
         Me.Label49.Name = "Label49"
@@ -1593,7 +1593,7 @@ Partial Class MenuCustomer
         '
         'Label54
         '
-        Me.Label54.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.ForeColor = System.Drawing.Color.Black
         Me.Label54.Location = New System.Drawing.Point(1, 16)
         Me.Label54.Name = "Label54"
@@ -1615,7 +1615,7 @@ Partial Class MenuCustomer
         '
         'Label46
         '
-        Me.Label46.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.Black
         Me.Label46.Location = New System.Drawing.Point(1, 16)
         Me.Label46.Name = "Label46"
@@ -1637,7 +1637,7 @@ Partial Class MenuCustomer
         '
         'Label44
         '
-        Me.Label44.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.ForeColor = System.Drawing.Color.Black
         Me.Label44.Location = New System.Drawing.Point(1, 16)
         Me.Label44.Name = "Label44"
@@ -1659,7 +1659,7 @@ Partial Class MenuCustomer
         '
         'Label47
         '
-        Me.Label47.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.Black
         Me.Label47.Location = New System.Drawing.Point(1, 16)
         Me.Label47.Name = "Label47"
@@ -1681,7 +1681,7 @@ Partial Class MenuCustomer
         '
         'Label45
         '
-        Me.Label45.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.Black
         Me.Label45.Location = New System.Drawing.Point(1, 16)
         Me.Label45.Name = "Label45"
@@ -1703,7 +1703,7 @@ Partial Class MenuCustomer
         '
         'Label48
         '
-        Me.Label48.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.Black
         Me.Label48.Location = New System.Drawing.Point(1, 16)
         Me.Label48.Name = "Label48"
@@ -1725,7 +1725,7 @@ Partial Class MenuCustomer
         '
         'Label38
         '
-        Me.Label38.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.Black
         Me.Label38.Location = New System.Drawing.Point(1, 16)
         Me.Label38.Name = "Label38"
@@ -1747,7 +1747,7 @@ Partial Class MenuCustomer
         '
         'Label39
         '
-        Me.Label39.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.Black
         Me.Label39.Location = New System.Drawing.Point(1, 16)
         Me.Label39.Name = "Label39"
@@ -1769,7 +1769,7 @@ Partial Class MenuCustomer
         '
         'Label36
         '
-        Me.Label36.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.Black
         Me.Label36.Location = New System.Drawing.Point(1, 16)
         Me.Label36.Name = "Label36"
@@ -1791,7 +1791,7 @@ Partial Class MenuCustomer
         '
         'Label35
         '
-        Me.Label35.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Black
         Me.Label35.Location = New System.Drawing.Point(1, 16)
         Me.Label35.Name = "Label35"
@@ -1813,7 +1813,7 @@ Partial Class MenuCustomer
         '
         'Label34
         '
-        Me.Label34.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.Black
         Me.Label34.Location = New System.Drawing.Point(1, 16)
         Me.Label34.Name = "Label34"
@@ -1835,7 +1835,7 @@ Partial Class MenuCustomer
         '
         'Label37
         '
-        Me.Label37.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.Black
         Me.Label37.Location = New System.Drawing.Point(1, 16)
         Me.Label37.Name = "Label37"
@@ -1857,7 +1857,7 @@ Partial Class MenuCustomer
         '
         'Label33
         '
-        Me.Label33.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Black
         Me.Label33.Location = New System.Drawing.Point(1, 16)
         Me.Label33.Name = "Label33"
@@ -1879,7 +1879,7 @@ Partial Class MenuCustomer
         '
         'Label43
         '
-        Me.Label43.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.ForeColor = System.Drawing.Color.Black
         Me.Label43.Location = New System.Drawing.Point(1, 16)
         Me.Label43.Name = "Label43"
@@ -1901,7 +1901,7 @@ Partial Class MenuCustomer
         '
         'Label40
         '
-        Me.Label40.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.Black
         Me.Label40.Location = New System.Drawing.Point(1, 16)
         Me.Label40.Name = "Label40"
@@ -1923,7 +1923,7 @@ Partial Class MenuCustomer
         '
         'Label41
         '
-        Me.Label41.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.Black
         Me.Label41.Location = New System.Drawing.Point(1, 16)
         Me.Label41.Name = "Label41"
@@ -1945,7 +1945,7 @@ Partial Class MenuCustomer
         '
         'Label42
         '
-        Me.Label42.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.Black
         Me.Label42.Location = New System.Drawing.Point(1, 16)
         Me.Label42.Name = "Label42"
@@ -1967,7 +1967,7 @@ Partial Class MenuCustomer
         '
         'Label32
         '
-        Me.Label32.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.Black
         Me.Label32.Location = New System.Drawing.Point(1, 16)
         Me.Label32.Name = "Label32"
@@ -1989,7 +1989,7 @@ Partial Class MenuCustomer
         '
         'Label26
         '
-        Me.Label26.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.Black
         Me.Label26.Location = New System.Drawing.Point(1, 16)
         Me.Label26.Name = "Label26"
@@ -2011,7 +2011,7 @@ Partial Class MenuCustomer
         '
         'Label27
         '
-        Me.Label27.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.Black
         Me.Label27.Location = New System.Drawing.Point(1, 16)
         Me.Label27.Name = "Label27"
@@ -2033,7 +2033,7 @@ Partial Class MenuCustomer
         '
         'Label31
         '
-        Me.Label31.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.Black
         Me.Label31.Location = New System.Drawing.Point(1, 16)
         Me.Label31.Name = "Label31"
@@ -2055,7 +2055,7 @@ Partial Class MenuCustomer
         '
         'Label28
         '
-        Me.Label28.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.Black
         Me.Label28.Location = New System.Drawing.Point(1, 16)
         Me.Label28.Name = "Label28"
@@ -2077,7 +2077,7 @@ Partial Class MenuCustomer
         '
         'Label29
         '
-        Me.Label29.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.Black
         Me.Label29.Location = New System.Drawing.Point(1, 16)
         Me.Label29.Name = "Label29"
@@ -2099,7 +2099,7 @@ Partial Class MenuCustomer
         '
         'Label30
         '
-        Me.Label30.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.Color.Black
         Me.Label30.Location = New System.Drawing.Point(1, 16)
         Me.Label30.Name = "Label30"
@@ -2121,7 +2121,7 @@ Partial Class MenuCustomer
         '
         'Label21
         '
-        Me.Label21.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Black
         Me.Label21.Location = New System.Drawing.Point(1, 16)
         Me.Label21.Name = "Label21"
@@ -2143,7 +2143,7 @@ Partial Class MenuCustomer
         '
         'Label22
         '
-        Me.Label22.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.Black
         Me.Label22.Location = New System.Drawing.Point(1, 16)
         Me.Label22.Name = "Label22"
@@ -2165,7 +2165,7 @@ Partial Class MenuCustomer
         '
         'Label23
         '
-        Me.Label23.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.Black
         Me.Label23.Location = New System.Drawing.Point(1, 16)
         Me.Label23.Name = "Label23"
@@ -2187,7 +2187,7 @@ Partial Class MenuCustomer
         '
         'Label20
         '
-        Me.Label20.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
         Me.Label20.Location = New System.Drawing.Point(1, 16)
         Me.Label20.Name = "Label20"
@@ -2209,7 +2209,7 @@ Partial Class MenuCustomer
         '
         'Label24
         '
-        Me.Label24.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Black
         Me.Label24.Location = New System.Drawing.Point(1, 16)
         Me.Label24.Name = "Label24"
@@ -2231,7 +2231,7 @@ Partial Class MenuCustomer
         '
         'Label15
         '
-        Me.Label15.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
         Me.Label15.Location = New System.Drawing.Point(1, 16)
         Me.Label15.Name = "Label15"
@@ -2253,7 +2253,7 @@ Partial Class MenuCustomer
         '
         'Label12
         '
-        Me.Label12.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
         Me.Label12.Location = New System.Drawing.Point(1, 16)
         Me.Label12.Name = "Label12"
@@ -2275,7 +2275,7 @@ Partial Class MenuCustomer
         '
         'Label17
         '
-        Me.Label17.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Black
         Me.Label17.Location = New System.Drawing.Point(1, 16)
         Me.Label17.Name = "Label17"
@@ -2297,7 +2297,7 @@ Partial Class MenuCustomer
         '
         'Label8
         '
-        Me.Label8.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(1, 16)
         Me.Label8.Name = "Label8"
@@ -2319,7 +2319,7 @@ Partial Class MenuCustomer
         '
         'Label9
         '
-        Me.Label9.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
         Me.Label9.Location = New System.Drawing.Point(1, 16)
         Me.Label9.Name = "Label9"
@@ -2341,7 +2341,7 @@ Partial Class MenuCustomer
         '
         'Label13
         '
-        Me.Label13.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
         Me.Label13.Location = New System.Drawing.Point(1, 16)
         Me.Label13.Name = "Label13"
@@ -2363,7 +2363,7 @@ Partial Class MenuCustomer
         '
         'Label14
         '
-        Me.Label14.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
         Me.Label14.Location = New System.Drawing.Point(1, 16)
         Me.Label14.Name = "Label14"
@@ -2385,7 +2385,7 @@ Partial Class MenuCustomer
         '
         'Label11
         '
-        Me.Label11.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
         Me.Label11.Location = New System.Drawing.Point(1, 16)
         Me.Label11.Name = "Label11"
@@ -2407,7 +2407,7 @@ Partial Class MenuCustomer
         '
         'Label19
         '
-        Me.Label19.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Black
         Me.Label19.Location = New System.Drawing.Point(1, 16)
         Me.Label19.Name = "Label19"
@@ -2429,7 +2429,7 @@ Partial Class MenuCustomer
         '
         'Label16
         '
-        Me.Label16.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
         Me.Label16.Location = New System.Drawing.Point(1, 16)
         Me.Label16.Name = "Label16"
@@ -2451,7 +2451,7 @@ Partial Class MenuCustomer
         '
         'Label10
         '
-        Me.Label10.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
         Me.Label10.Location = New System.Drawing.Point(1, 16)
         Me.Label10.Name = "Label10"
@@ -2473,7 +2473,7 @@ Partial Class MenuCustomer
         '
         'Label18
         '
-        Me.Label18.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Black
         Me.Label18.Location = New System.Drawing.Point(1, 16)
         Me.Label18.Name = "Label18"
