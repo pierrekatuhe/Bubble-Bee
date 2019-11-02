@@ -470,9 +470,10 @@ Partial Class MenuCustomer
         Me.Panel65.Controls.Add(Me.Panel69)
         Me.Panel65.Controls.Add(Me.Label2)
         Me.Panel65.Controls.Add(Me.Label70)
-        Me.Panel65.Location = New System.Drawing.Point(285, 53)
+        Me.Panel65.Location = New System.Drawing.Point(380, 65)
+        Me.Panel65.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel65.Name = "Panel65"
-        Me.Panel65.Size = New System.Drawing.Size(312, 391)
+        Me.Panel65.Size = New System.Drawing.Size(416, 481)
         Me.Panel65.TabIndex = 58
         '
         'pnl_atas
@@ -481,8 +482,9 @@ Partial Class MenuCustomer
         Me.pnl_atas.Controls.Add(Me.btn_close)
         Me.pnl_atas.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnl_atas.Location = New System.Drawing.Point(0, 0)
+        Me.pnl_atas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pnl_atas.Name = "pnl_atas"
-        Me.pnl_atas.Size = New System.Drawing.Size(312, 29)
+        Me.pnl_atas.Size = New System.Drawing.Size(416, 36)
         Me.pnl_atas.TabIndex = 17
         '
         'btn_close
@@ -492,9 +494,10 @@ Partial Class MenuCustomer
         Me.btn_close.FlatAppearance.BorderSize = 0
         Me.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_close.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btn_close.Location = New System.Drawing.Point(283, 2)
+        Me.btn_close.Location = New System.Drawing.Point(377, 2)
+        Me.btn_close.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_close.Name = "btn_close"
-        Me.btn_close.Size = New System.Drawing.Size(27, 23)
+        Me.btn_close.Size = New System.Drawing.Size(36, 28)
         Me.btn_close.TabIndex = 5
         Me.btn_close.UseVisualStyleBackColor = True
         '
@@ -508,10 +511,10 @@ Partial Class MenuCustomer
         Me.txt_password.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.txt_password.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txt_password.isPassword = True
-        Me.txt_password.Location = New System.Drawing.Point(32, 292)
-        Me.txt_password.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_password.Location = New System.Drawing.Point(43, 359)
+        Me.txt_password.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_password.Name = "txt_password"
-        Me.txt_password.Size = New System.Drawing.Size(248, 34)
+        Me.txt_password.Size = New System.Drawing.Size(331, 42)
         Me.txt_password.TabIndex = 1
         Me.txt_password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -525,27 +528,29 @@ Partial Class MenuCustomer
         Me.txt_username.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.txt_username.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txt_username.isPassword = False
-        Me.txt_username.Location = New System.Drawing.Point(32, 230)
-        Me.txt_username.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_username.Location = New System.Drawing.Point(43, 283)
+        Me.txt_username.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_username.Name = "txt_username"
-        Me.txt_username.Size = New System.Drawing.Size(248, 34)
+        Me.txt_username.Size = New System.Drawing.Size(331, 42)
         Me.txt_username.TabIndex = 0
         Me.txt_username.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'FlowLayoutPanel1
         '
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(280, 103)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(373, 127)
+        Me.FlowLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(200, 100)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(267, 123)
         Me.FlowLayoutPanel1.TabIndex = 15
         '
         'Panel68
         '
         Me.Panel68.BackgroundImage = CType(resources.GetObject("Panel68.BackgroundImage"), System.Drawing.Image)
         Me.Panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel68.Location = New System.Drawing.Point(32, 152)
+        Me.Panel68.Location = New System.Drawing.Point(43, 187)
+        Me.Panel68.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel68.Name = "Panel68"
-        Me.Panel68.Size = New System.Drawing.Size(248, 45)
+        Me.Panel68.Size = New System.Drawing.Size(331, 55)
         Me.Panel68.TabIndex = 14
         Me.Panel68.Visible = False
         '
@@ -567,10 +572,10 @@ Partial Class MenuCustomer
         Me.btn_qr.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btn_qr.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.btn_qr.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_qr.Location = New System.Drawing.Point(164, 334)
-        Me.btn_qr.Margin = New System.Windows.Forms.Padding(5)
+        Me.btn_qr.Location = New System.Drawing.Point(219, 411)
+        Me.btn_qr.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.btn_qr.Name = "btn_qr"
-        Me.btn_qr.Size = New System.Drawing.Size(117, 46)
+        Me.btn_qr.Size = New System.Drawing.Size(156, 57)
         Me.btn_qr.TabIndex = 3
         Me.btn_qr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -592,10 +597,10 @@ Partial Class MenuCustomer
         Me.btn_login.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btn_login.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.btn_login.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_login.Location = New System.Drawing.Point(32, 334)
-        Me.btn_login.Margin = New System.Windows.Forms.Padding(5)
+        Me.btn_login.Location = New System.Drawing.Point(43, 411)
+        Me.btn_login.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.btn_login.Name = "btn_login"
-        Me.btn_login.Size = New System.Drawing.Size(117, 46)
+        Me.btn_login.Size = New System.Drawing.Size(156, 57)
         Me.btn_login.TabIndex = 2
         Me.btn_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -603,9 +608,10 @@ Partial Class MenuCustomer
         '
         Me.Panel69.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.logo3
         Me.Panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel69.Location = New System.Drawing.Point(46, 24)
+        Me.Panel69.Location = New System.Drawing.Point(61, 30)
+        Me.Panel69.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel69.Name = "Panel69"
-        Me.Panel69.Size = New System.Drawing.Size(216, 141)
+        Me.Panel69.Size = New System.Drawing.Size(288, 174)
         Me.Panel69.TabIndex = 11
         '
         'Label2
@@ -613,9 +619,10 @@ Partial Class MenuCustomer
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(29, 209)
+        Me.Label2.Location = New System.Drawing.Point(39, 257)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 17)
+        Me.Label2.Size = New System.Drawing.Size(93, 21)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Username"
         '
@@ -624,9 +631,10 @@ Partial Class MenuCustomer
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label70.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Label70.Location = New System.Drawing.Point(29, 270)
+        Me.Label70.Location = New System.Drawing.Point(39, 332)
+        Me.Label70.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(69, 17)
+        Me.Label70.Size = New System.Drawing.Size(88, 21)
         Me.Label70.TabIndex = 2
         Me.Label70.Text = "Password"
         '
@@ -644,9 +652,10 @@ Partial Class MenuCustomer
         Me.Panel66.Controls.Add(Me.username_kasir)
         Me.Panel66.Controls.Add(Me.username_player)
         Me.Panel66.Controls.Add(Me.koin)
-        Me.Panel66.Location = New System.Drawing.Point(285, 122)
+        Me.Panel66.Location = New System.Drawing.Point(380, 150)
+        Me.Panel66.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel66.Name = "Panel66"
-        Me.Panel66.Size = New System.Drawing.Size(312, 284)
+        Me.Panel66.Size = New System.Drawing.Size(416, 350)
         Me.Panel66.TabIndex = 59
         '
         'BunifuThinButton26
@@ -667,10 +676,10 @@ Partial Class MenuCustomer
         Me.BunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuThinButton26.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.BunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton26.Location = New System.Drawing.Point(228, 162)
-        Me.BunifuThinButton26.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton26.Location = New System.Drawing.Point(304, 199)
+        Me.BunifuThinButton26.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.BunifuThinButton26.Name = "BunifuThinButton26"
-        Me.BunifuThinButton26.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton26.Size = New System.Drawing.Size(80, 39)
         Me.BunifuThinButton26.TabIndex = 19
         Me.BunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -692,10 +701,10 @@ Partial Class MenuCustomer
         Me.BunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuThinButton25.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.BunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton25.Location = New System.Drawing.Point(163, 162)
-        Me.BunifuThinButton25.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton25.Location = New System.Drawing.Point(217, 199)
+        Me.BunifuThinButton25.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.BunifuThinButton25.Name = "BunifuThinButton25"
-        Me.BunifuThinButton25.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton25.Size = New System.Drawing.Size(80, 39)
         Me.BunifuThinButton25.TabIndex = 19
         Me.BunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -717,10 +726,10 @@ Partial Class MenuCustomer
         Me.BunifuThinButton24.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuThinButton24.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.BunifuThinButton24.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton24.Location = New System.Drawing.Point(89, 162)
-        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton24.Location = New System.Drawing.Point(119, 199)
+        Me.BunifuThinButton24.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.BunifuThinButton24.Name = "BunifuThinButton24"
-        Me.BunifuThinButton24.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton24.Size = New System.Drawing.Size(80, 39)
         Me.BunifuThinButton24.TabIndex = 19
         Me.BunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -742,10 +751,10 @@ Partial Class MenuCustomer
         Me.BunifuThinButton23.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.BunifuThinButton23.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton23.Location = New System.Drawing.Point(20, 162)
-        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton23.Location = New System.Drawing.Point(27, 199)
+        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.BunifuThinButton23.Name = "BunifuThinButton23"
-        Me.BunifuThinButton23.Size = New System.Drawing.Size(60, 32)
+        Me.BunifuThinButton23.Size = New System.Drawing.Size(80, 39)
         Me.BunifuThinButton23.TabIndex = 19
         Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -755,8 +764,9 @@ Partial Class MenuCustomer
         Me.Panel67.Controls.Add(Me.Button2)
         Me.Panel67.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel67.Location = New System.Drawing.Point(0, 0)
+        Me.Panel67.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel67.Name = "Panel67"
-        Me.Panel67.Size = New System.Drawing.Size(312, 29)
+        Me.Panel67.Size = New System.Drawing.Size(416, 36)
         Me.Panel67.TabIndex = 18
         '
         'Button2
@@ -766,9 +776,10 @@ Partial Class MenuCustomer
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Button2.Location = New System.Drawing.Point(283, 2)
+        Me.Button2.Location = New System.Drawing.Point(377, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(27, 23)
+        Me.Button2.Size = New System.Drawing.Size(36, 28)
         Me.Button2.TabIndex = 5
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -782,10 +793,10 @@ Partial Class MenuCustomer
         Me.txt_isi_koin.Font = New System.Drawing.Font("Century Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_isi_koin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txt_isi_koin.isPassword = False
-        Me.txt_isi_koin.Location = New System.Drawing.Point(33, 107)
-        Me.txt_isi_koin.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_isi_koin.Location = New System.Drawing.Point(44, 132)
+        Me.txt_isi_koin.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_isi_koin.Name = "txt_isi_koin"
-        Me.txt_isi_koin.Size = New System.Drawing.Size(248, 46)
+        Me.txt_isi_koin.Size = New System.Drawing.Size(331, 57)
         Me.txt_isi_koin.TabIndex = 0
         Me.txt_isi_koin.Text = "0"
         Me.txt_isi_koin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -808,10 +819,10 @@ Partial Class MenuCustomer
         Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton21.Location = New System.Drawing.Point(165, 211)
-        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton21.Location = New System.Drawing.Point(220, 260)
+        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.BunifuThinButton21.Name = "BunifuThinButton21"
-        Me.BunifuThinButton21.Size = New System.Drawing.Size(117, 46)
+        Me.BunifuThinButton21.Size = New System.Drawing.Size(156, 57)
         Me.BunifuThinButton21.TabIndex = 3
         Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -833,10 +844,10 @@ Partial Class MenuCustomer
         Me.BunifuThinButton22.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
         Me.BunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton22.Location = New System.Drawing.Point(33, 211)
-        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton22.Location = New System.Drawing.Point(44, 260)
+        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.BunifuThinButton22.Name = "BunifuThinButton22"
-        Me.BunifuThinButton22.Size = New System.Drawing.Size(117, 46)
+        Me.BunifuThinButton22.Size = New System.Drawing.Size(156, 57)
         Me.BunifuThinButton22.TabIndex = 2
         Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -844,27 +855,30 @@ Partial Class MenuCustomer
         '
         Me.username_kasir.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.username_kasir.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.username_kasir.Location = New System.Drawing.Point(199, 39)
+        Me.username_kasir.Location = New System.Drawing.Point(265, 48)
+        Me.username_kasir.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.username_kasir.Name = "username_kasir"
-        Me.username_kasir.Size = New System.Drawing.Size(86, 29)
+        Me.username_kasir.Size = New System.Drawing.Size(115, 36)
         Me.username_kasir.TabIndex = 1
         '
         'username_player
         '
         Me.username_player.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.username_player.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.username_player.Location = New System.Drawing.Point(30, 36)
+        Me.username_player.Location = New System.Drawing.Point(40, 44)
+        Me.username_player.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.username_player.Name = "username_player"
-        Me.username_player.Size = New System.Drawing.Size(98, 44)
+        Me.username_player.Size = New System.Drawing.Size(131, 54)
         Me.username_player.TabIndex = 14
         '
         'koin
         '
         Me.koin.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.koin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.koin.Location = New System.Drawing.Point(199, 72)
+        Me.koin.Location = New System.Drawing.Point(265, 89)
+        Me.koin.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.koin.Name = "koin"
-        Me.koin.Size = New System.Drawing.Size(80, 30)
+        Me.koin.Size = New System.Drawing.Size(107, 37)
         Me.koin.TabIndex = 2
         '
         'Timer11
@@ -1024,8 +1038,9 @@ Partial Class MenuCustomer
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(883, 496)
+        Me.Panel2.Size = New System.Drawing.Size(1177, 610)
         Me.Panel2.TabIndex = 36
         '
         'Bonus1
@@ -1033,9 +1048,10 @@ Partial Class MenuCustomer
         Me.Bonus1.BackColor = System.Drawing.Color.White
         Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus1.Location = New System.Drawing.Point(110, 69)
+        Me.Bonus1.Location = New System.Drawing.Point(147, 85)
+        Me.Bonus1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus1.Name = "Bonus1"
-        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus1.Size = New System.Drawing.Size(133, 123)
         Me.Bonus1.TabIndex = 58
         '
         'Bonus2
@@ -1043,9 +1059,10 @@ Partial Class MenuCustomer
         Me.Bonus2.BackColor = System.Drawing.Color.White
         Me.Bonus2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus2.Location = New System.Drawing.Point(250, 69)
+        Me.Bonus2.Location = New System.Drawing.Point(333, 85)
+        Me.Bonus2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus2.Name = "Bonus2"
-        Me.Bonus2.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus2.Size = New System.Drawing.Size(133, 123)
         Me.Bonus2.TabIndex = 59
         '
         'Bonus3
@@ -1053,9 +1070,10 @@ Partial Class MenuCustomer
         Me.Bonus3.BackColor = System.Drawing.Color.White
         Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus3.Location = New System.Drawing.Point(390, 69)
+        Me.Bonus3.Location = New System.Drawing.Point(520, 85)
+        Me.Bonus3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus3.Name = "Bonus3"
-        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus3.Size = New System.Drawing.Size(133, 123)
         Me.Bonus3.TabIndex = 59
         '
         'Bonus4
@@ -1063,9 +1081,10 @@ Partial Class MenuCustomer
         Me.Bonus4.BackColor = System.Drawing.Color.White
         Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus4.Location = New System.Drawing.Point(530, 69)
+        Me.Bonus4.Location = New System.Drawing.Point(707, 85)
+        Me.Bonus4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus4.Name = "Bonus4"
-        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus4.Size = New System.Drawing.Size(133, 123)
         Me.Bonus4.TabIndex = 59
         '
         'Bonus5
@@ -1073,9 +1092,10 @@ Partial Class MenuCustomer
         Me.Bonus5.BackColor = System.Drawing.Color.White
         Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus5.Location = New System.Drawing.Point(670, 69)
+        Me.Bonus5.Location = New System.Drawing.Point(893, 85)
+        Me.Bonus5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus5.Name = "Bonus5"
-        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus5.Size = New System.Drawing.Size(133, 123)
         Me.Bonus5.TabIndex = 60
         '
         'Bonus6
@@ -1083,9 +1103,10 @@ Partial Class MenuCustomer
         Me.Bonus6.BackColor = System.Drawing.Color.White
         Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus6.Location = New System.Drawing.Point(110, 200)
+        Me.Bonus6.Location = New System.Drawing.Point(147, 246)
+        Me.Bonus6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus6.Name = "Bonus6"
-        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus6.Size = New System.Drawing.Size(133, 123)
         Me.Bonus6.TabIndex = 65
         '
         'Bonus7
@@ -1093,9 +1114,10 @@ Partial Class MenuCustomer
         Me.Bonus7.BackColor = System.Drawing.Color.White
         Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus7.Location = New System.Drawing.Point(250, 200)
+        Me.Bonus7.Location = New System.Drawing.Point(333, 246)
+        Me.Bonus7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus7.Name = "Bonus7"
-        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus7.Size = New System.Drawing.Size(133, 123)
         Me.Bonus7.TabIndex = 62
         '
         'Bonus8
@@ -1103,9 +1125,10 @@ Partial Class MenuCustomer
         Me.Bonus8.BackColor = System.Drawing.Color.White
         Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus8.Location = New System.Drawing.Point(390, 200)
+        Me.Bonus8.Location = New System.Drawing.Point(520, 246)
+        Me.Bonus8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus8.Name = "Bonus8"
-        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus8.Size = New System.Drawing.Size(133, 123)
         Me.Bonus8.TabIndex = 63
         '
         'Bonus9
@@ -1113,9 +1136,10 @@ Partial Class MenuCustomer
         Me.Bonus9.BackColor = System.Drawing.Color.White
         Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus9.Location = New System.Drawing.Point(530, 200)
+        Me.Bonus9.Location = New System.Drawing.Point(707, 246)
+        Me.Bonus9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus9.Name = "Bonus9"
-        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus9.Size = New System.Drawing.Size(133, 123)
         Me.Bonus9.TabIndex = 64
         '
         'Bonus10
@@ -1123,9 +1147,10 @@ Partial Class MenuCustomer
         Me.Bonus10.BackColor = System.Drawing.Color.White
         Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus10.Location = New System.Drawing.Point(670, 200)
+        Me.Bonus10.Location = New System.Drawing.Point(893, 246)
+        Me.Bonus10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bonus10.Name = "Bonus10"
-        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus10.Size = New System.Drawing.Size(133, 123)
         Me.Bonus10.TabIndex = 61
         '
         'Panel70
@@ -1133,18 +1158,20 @@ Partial Class MenuCustomer
         Me.Panel70.BackColor = System.Drawing.Color.Transparent
         Me.Panel70.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.pilih_coin
         Me.Panel70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel70.Location = New System.Drawing.Point(619, 306)
+        Me.Panel70.Location = New System.Drawing.Point(825, 377)
+        Me.Panel70.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel70.Name = "Panel70"
-        Me.Panel70.Size = New System.Drawing.Size(166, 35)
+        Me.Panel70.Size = New System.Drawing.Size(221, 43)
         Me.Panel70.TabIndex = 66
         '
         'Panel64
         '
         Me.Panel64.BackgroundImage = CType(resources.GetObject("Panel64.BackgroundImage"), System.Drawing.Image)
         Me.Panel64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel64.Location = New System.Drawing.Point(355, 255)
+        Me.Panel64.Location = New System.Drawing.Point(473, 314)
+        Me.Panel64.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel64.Name = "Panel64"
-        Me.Panel64.Size = New System.Drawing.Size(177, 29)
+        Me.Panel64.Size = New System.Drawing.Size(236, 36)
         Me.Panel64.TabIndex = 57
         Me.Panel64.Visible = False
         '
@@ -1157,9 +1184,10 @@ Partial Class MenuCustomer
         Me.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_history.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_history.ForeColor = System.Drawing.Color.White
-        Me.btn_history.Location = New System.Drawing.Point(65, 467)
+        Me.btn_history.Location = New System.Drawing.Point(87, 575)
+        Me.btn_history.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_history.Name = "btn_history"
-        Me.btn_history.Size = New System.Drawing.Size(84, 27)
+        Me.btn_history.Size = New System.Drawing.Size(112, 33)
         Me.btn_history.TabIndex = 56
         Me.btn_history.UseVisualStyleBackColor = False
         '
@@ -1170,10 +1198,11 @@ Partial Class MenuCustomer
         Me.txt_credit.Enabled = False
         Me.txt_credit.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_credit.ForeColor = System.Drawing.Color.White
-        Me.txt_credit.Location = New System.Drawing.Point(159, 337)
+        Me.txt_credit.Location = New System.Drawing.Point(212, 415)
+        Me.txt_credit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txt_credit.Name = "txt_credit"
         Me.txt_credit.ReadOnly = True
-        Me.txt_credit.Size = New System.Drawing.Size(110, 24)
+        Me.txt_credit.Size = New System.Drawing.Size(147, 30)
         Me.txt_credit.TabIndex = 21
         Me.txt_credit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -1184,10 +1213,11 @@ Partial Class MenuCustomer
         Me.txt_win.Enabled = False
         Me.txt_win.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_win.ForeColor = System.Drawing.Color.White
-        Me.txt_win.Location = New System.Drawing.Point(159, 363)
+        Me.txt_win.Location = New System.Drawing.Point(212, 447)
+        Me.txt_win.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txt_win.Name = "txt_win"
         Me.txt_win.ReadOnly = True
-        Me.txt_win.Size = New System.Drawing.Size(110, 24)
+        Me.txt_win.Size = New System.Drawing.Size(147, 30)
         Me.txt_win.TabIndex = 21
         Me.txt_win.Text = "0"
         Me.txt_win.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1199,10 +1229,11 @@ Partial Class MenuCustomer
         Me.txt_bet.Enabled = False
         Me.txt_bet.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_bet.ForeColor = System.Drawing.Color.White
-        Me.txt_bet.Location = New System.Drawing.Point(159, 389)
+        Me.txt_bet.Location = New System.Drawing.Point(212, 479)
+        Me.txt_bet.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txt_bet.Name = "txt_bet"
         Me.txt_bet.ReadOnly = True
-        Me.txt_bet.Size = New System.Drawing.Size(110, 24)
+        Me.txt_bet.Size = New System.Drawing.Size(147, 30)
         Me.txt_bet.TabIndex = 21
         Me.txt_bet.Text = "0"
         Me.txt_bet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1213,18 +1244,20 @@ Partial Class MenuCustomer
         Me.Panel14.BackgroundImage = CType(resources.GetObject("Panel14.BackgroundImage"), System.Drawing.Image)
         Me.Panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel14.Controls.Add(Me.Label25)
-        Me.Panel14.Location = New System.Drawing.Point(69, 64)
+        Me.Panel14.Location = New System.Drawing.Point(92, 79)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(49, 49)
+        Me.Panel14.Size = New System.Drawing.Size(65, 60)
         Me.Panel14.TabIndex = 33
         '
         'Label25
         '
         Me.Label25.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.Black
-        Me.Label25.Location = New System.Drawing.Point(1, 16)
+        Me.Label25.Location = New System.Drawing.Point(1, 20)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(49, 18)
+        Me.Label25.Size = New System.Drawing.Size(65, 22)
         Me.Label25.TabIndex = 25
         Me.Label25.Text = "0"
         Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1234,18 +1267,20 @@ Partial Class MenuCustomer
         Me.Panel63.BackgroundImage = CType(resources.GetObject("Panel63.BackgroundImage"), System.Drawing.Image)
         Me.Panel63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel63.Controls.Add(Me.Label69)
-        Me.Panel63.Location = New System.Drawing.Point(107, 418)
+        Me.Panel63.Location = New System.Drawing.Point(143, 514)
+        Me.Panel63.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel63.Name = "Panel63"
-        Me.Panel63.Size = New System.Drawing.Size(49, 49)
+        Me.Panel63.Size = New System.Drawing.Size(65, 60)
         Me.Panel63.TabIndex = 52
         '
         'Label69
         '
         Me.Label69.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label69.ForeColor = System.Drawing.Color.Black
-        Me.Label69.Location = New System.Drawing.Point(1, 16)
+        Me.Label69.Location = New System.Drawing.Point(1, 20)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(49, 18)
+        Me.Label69.Size = New System.Drawing.Size(65, 22)
         Me.Label69.TabIndex = 25
         Me.Label69.Text = "0"
         Me.Label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1256,18 +1291,20 @@ Partial Class MenuCustomer
         Me.Panel62.BackgroundImage = CType(resources.GetObject("Panel62.BackgroundImage"), System.Drawing.Image)
         Me.Panel62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel62.Controls.Add(Me.Label68)
-        Me.Panel62.Location = New System.Drawing.Point(231, 418)
+        Me.Panel62.Location = New System.Drawing.Point(308, 514)
+        Me.Panel62.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel62.Name = "Panel62"
-        Me.Panel62.Size = New System.Drawing.Size(49, 49)
+        Me.Panel62.Size = New System.Drawing.Size(65, 60)
         Me.Panel62.TabIndex = 52
         '
         'Label68
         '
         Me.Label68.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label68.ForeColor = System.Drawing.Color.Black
-        Me.Label68.Location = New System.Drawing.Point(1, 16)
+        Me.Label68.Location = New System.Drawing.Point(1, 20)
+        Me.Label68.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(49, 18)
+        Me.Label68.Size = New System.Drawing.Size(65, 22)
         Me.Label68.TabIndex = 25
         Me.Label68.Text = "0"
         Me.Label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1278,18 +1315,20 @@ Partial Class MenuCustomer
         Me.Panel61.BackgroundImage = CType(resources.GetObject("Panel61.BackgroundImage"), System.Drawing.Image)
         Me.Panel61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel61.Controls.Add(Me.Label57)
-        Me.Panel61.Location = New System.Drawing.Point(355, 418)
+        Me.Panel61.Location = New System.Drawing.Point(473, 514)
+        Me.Panel61.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel61.Name = "Panel61"
-        Me.Panel61.Size = New System.Drawing.Size(49, 49)
+        Me.Panel61.Size = New System.Drawing.Size(65, 60)
         Me.Panel61.TabIndex = 52
         '
         'Label57
         '
         Me.Label57.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label57.ForeColor = System.Drawing.Color.Black
-        Me.Label57.Location = New System.Drawing.Point(1, 16)
+        Me.Label57.Location = New System.Drawing.Point(1, 20)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(49, 18)
+        Me.Label57.Size = New System.Drawing.Size(65, 22)
         Me.Label57.TabIndex = 25
         Me.Label57.Text = "0"
         Me.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1300,18 +1339,20 @@ Partial Class MenuCustomer
         Me.Panel60.BackgroundImage = CType(resources.GetObject("Panel60.BackgroundImage"), System.Drawing.Image)
         Me.Panel60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel60.Controls.Add(Me.Label56)
-        Me.Panel60.Location = New System.Drawing.Point(416, 350)
+        Me.Panel60.Location = New System.Drawing.Point(555, 431)
+        Me.Panel60.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel60.Name = "Panel60"
-        Me.Panel60.Size = New System.Drawing.Size(49, 49)
+        Me.Panel60.Size = New System.Drawing.Size(65, 60)
         Me.Panel60.TabIndex = 52
         '
         'Label56
         '
         Me.Label56.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label56.ForeColor = System.Drawing.Color.Black
-        Me.Label56.Location = New System.Drawing.Point(1, 16)
+        Me.Label56.Location = New System.Drawing.Point(1, 20)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(49, 18)
+        Me.Label56.Size = New System.Drawing.Size(65, 22)
         Me.Label56.TabIndex = 25
         Me.Label56.Text = "0"
         Me.Label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1322,18 +1363,20 @@ Partial Class MenuCustomer
         Me.Panel59.BackgroundImage = CType(resources.GetObject("Panel59.BackgroundImage"), System.Drawing.Image)
         Me.Panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel59.Controls.Add(Me.Label58)
-        Me.Panel59.Location = New System.Drawing.Point(479, 418)
+        Me.Panel59.Location = New System.Drawing.Point(639, 514)
+        Me.Panel59.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel59.Name = "Panel59"
-        Me.Panel59.Size = New System.Drawing.Size(49, 49)
+        Me.Panel59.Size = New System.Drawing.Size(65, 60)
         Me.Panel59.TabIndex = 52
         '
         'Label58
         '
         Me.Label58.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label58.ForeColor = System.Drawing.Color.Black
-        Me.Label58.Location = New System.Drawing.Point(1, 16)
+        Me.Label58.Location = New System.Drawing.Point(1, 20)
+        Me.Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(49, 18)
+        Me.Label58.Size = New System.Drawing.Size(65, 22)
         Me.Label58.TabIndex = 25
         Me.Label58.Text = "0"
         Me.Label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1344,18 +1387,20 @@ Partial Class MenuCustomer
         Me.Panel58.BackgroundImage = CType(resources.GetObject("Panel58.BackgroundImage"), System.Drawing.Image)
         Me.Panel58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel58.Controls.Add(Me.Label67)
-        Me.Panel58.Location = New System.Drawing.Point(725, 418)
+        Me.Panel58.Location = New System.Drawing.Point(967, 514)
+        Me.Panel58.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel58.Name = "Panel58"
-        Me.Panel58.Size = New System.Drawing.Size(49, 49)
+        Me.Panel58.Size = New System.Drawing.Size(65, 60)
         Me.Panel58.TabIndex = 52
         '
         'Label67
         '
         Me.Label67.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label67.ForeColor = System.Drawing.Color.Black
-        Me.Label67.Location = New System.Drawing.Point(1, 16)
+        Me.Label67.Location = New System.Drawing.Point(1, 20)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(49, 18)
+        Me.Label67.Size = New System.Drawing.Size(65, 22)
         Me.Label67.TabIndex = 25
         Me.Label67.Text = "0"
         Me.Label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1366,18 +1411,20 @@ Partial Class MenuCustomer
         Me.Panel57.BackgroundImage = CType(resources.GetObject("Panel57.BackgroundImage"), System.Drawing.Image)
         Me.Panel57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel57.Controls.Add(Me.Label66)
-        Me.Panel57.Location = New System.Drawing.Point(606, 418)
+        Me.Panel57.Location = New System.Drawing.Point(808, 514)
+        Me.Panel57.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel57.Name = "Panel57"
-        Me.Panel57.Size = New System.Drawing.Size(49, 49)
+        Me.Panel57.Size = New System.Drawing.Size(65, 60)
         Me.Panel57.TabIndex = 51
         '
         'Label66
         '
         Me.Label66.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label66.ForeColor = System.Drawing.Color.Black
-        Me.Label66.Location = New System.Drawing.Point(1, 16)
+        Me.Label66.Location = New System.Drawing.Point(1, 20)
+        Me.Label66.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(49, 18)
+        Me.Label66.Size = New System.Drawing.Size(65, 22)
         Me.Label66.TabIndex = 25
         Me.Label66.Text = "0"
         Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1388,18 +1435,20 @@ Partial Class MenuCustomer
         Me.Panel52.BackgroundImage = CType(resources.GetObject("Panel52.BackgroundImage"), System.Drawing.Image)
         Me.Panel52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel52.Controls.Add(Me.Label61)
-        Me.Panel52.Location = New System.Drawing.Point(660, 4)
+        Me.Panel52.Location = New System.Drawing.Point(880, 5)
+        Me.Panel52.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel52.Name = "Panel52"
-        Me.Panel52.Size = New System.Drawing.Size(49, 49)
+        Me.Panel52.Size = New System.Drawing.Size(65, 60)
         Me.Panel52.TabIndex = 50
         '
         'Label61
         '
         Me.Label61.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label61.ForeColor = System.Drawing.Color.Black
-        Me.Label61.Location = New System.Drawing.Point(1, 16)
+        Me.Label61.Location = New System.Drawing.Point(1, 20)
+        Me.Label61.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(49, 18)
+        Me.Label61.Size = New System.Drawing.Size(65, 22)
         Me.Label61.TabIndex = 25
         Me.Label61.Text = "0"
         Me.Label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1410,18 +1459,20 @@ Partial Class MenuCustomer
         Me.Panel51.BackgroundImage = CType(resources.GetObject("Panel51.BackgroundImage"), System.Drawing.Image)
         Me.Panel51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel51.Controls.Add(Me.Label60)
-        Me.Panel51.Location = New System.Drawing.Point(451, 4)
+        Me.Panel51.Location = New System.Drawing.Point(601, 5)
+        Me.Panel51.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel51.Name = "Panel51"
-        Me.Panel51.Size = New System.Drawing.Size(49, 49)
+        Me.Panel51.Size = New System.Drawing.Size(65, 60)
         Me.Panel51.TabIndex = 50
         '
         'Label60
         '
         Me.Label60.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label60.ForeColor = System.Drawing.Color.Black
-        Me.Label60.Location = New System.Drawing.Point(1, 16)
+        Me.Label60.Location = New System.Drawing.Point(1, 20)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(49, 18)
+        Me.Label60.Size = New System.Drawing.Size(65, 22)
         Me.Label60.TabIndex = 25
         Me.Label60.Text = "0"
         Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1432,18 +1483,20 @@ Partial Class MenuCustomer
         Me.Panel50.BackgroundImage = CType(resources.GetObject("Panel50.BackgroundImage"), System.Drawing.Image)
         Me.Panel50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel50.Controls.Add(Me.Label59)
-        Me.Panel50.Location = New System.Drawing.Point(252, 7)
+        Me.Panel50.Location = New System.Drawing.Point(336, 9)
+        Me.Panel50.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel50.Name = "Panel50"
-        Me.Panel50.Size = New System.Drawing.Size(49, 49)
+        Me.Panel50.Size = New System.Drawing.Size(65, 60)
         Me.Panel50.TabIndex = 49
         '
         'Label59
         '
         Me.Label59.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label59.ForeColor = System.Drawing.Color.Black
-        Me.Label59.Location = New System.Drawing.Point(1, 16)
+        Me.Label59.Location = New System.Drawing.Point(1, 20)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(49, 18)
+        Me.Label59.Size = New System.Drawing.Size(65, 22)
         Me.Label59.TabIndex = 25
         Me.Label59.Text = "0"
         Me.Label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1454,18 +1507,20 @@ Partial Class MenuCustomer
         Me.Panel46.BackgroundImage = CType(resources.GetObject("Panel46.BackgroundImage"), System.Drawing.Image)
         Me.Panel46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel46.Controls.Add(Me.Label50)
-        Me.Panel46.Location = New System.Drawing.Point(766, 192)
+        Me.Panel46.Location = New System.Drawing.Point(1021, 236)
+        Me.Panel46.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel46.Name = "Panel46"
-        Me.Panel46.Size = New System.Drawing.Size(49, 49)
+        Me.Panel46.Size = New System.Drawing.Size(65, 60)
         Me.Panel46.TabIndex = 46
         '
         'Label50
         '
         Me.Label50.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.ForeColor = System.Drawing.Color.Black
-        Me.Label50.Location = New System.Drawing.Point(1, 16)
+        Me.Label50.Location = New System.Drawing.Point(1, 20)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(49, 18)
+        Me.Label50.Size = New System.Drawing.Size(65, 22)
         Me.Label50.TabIndex = 25
         Me.Label50.Text = "0"
         Me.Label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1476,18 +1531,20 @@ Partial Class MenuCustomer
         Me.Panel47.BackgroundImage = CType(resources.GetObject("Panel47.BackgroundImage"), System.Drawing.Image)
         Me.Panel47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel47.Controls.Add(Me.Label51)
-        Me.Panel47.Location = New System.Drawing.Point(704, 192)
+        Me.Panel47.Location = New System.Drawing.Point(939, 236)
+        Me.Panel47.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel47.Name = "Panel47"
-        Me.Panel47.Size = New System.Drawing.Size(49, 49)
+        Me.Panel47.Size = New System.Drawing.Size(65, 60)
         Me.Panel47.TabIndex = 47
         '
         'Label51
         '
         Me.Label51.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.ForeColor = System.Drawing.Color.Black
-        Me.Label51.Location = New System.Drawing.Point(1, 16)
+        Me.Label51.Location = New System.Drawing.Point(1, 20)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(49, 18)
+        Me.Label51.Size = New System.Drawing.Size(65, 22)
         Me.Label51.TabIndex = 25
         Me.Label51.Text = "0"
         Me.Label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1498,18 +1555,20 @@ Partial Class MenuCustomer
         Me.Panel48.BackgroundImage = CType(resources.GetObject("Panel48.BackgroundImage"), System.Drawing.Image)
         Me.Panel48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel48.Controls.Add(Me.Label55)
-        Me.Panel48.Location = New System.Drawing.Point(642, 192)
+        Me.Panel48.Location = New System.Drawing.Point(856, 236)
+        Me.Panel48.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel48.Name = "Panel48"
-        Me.Panel48.Size = New System.Drawing.Size(49, 49)
+        Me.Panel48.Size = New System.Drawing.Size(65, 60)
         Me.Panel48.TabIndex = 48
         '
         'Label55
         '
         Me.Label55.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label55.ForeColor = System.Drawing.Color.Black
-        Me.Label55.Location = New System.Drawing.Point(1, 16)
+        Me.Label55.Location = New System.Drawing.Point(1, 20)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(49, 18)
+        Me.Label55.Size = New System.Drawing.Size(65, 22)
         Me.Label55.TabIndex = 25
         Me.Label55.Text = "0"
         Me.Label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1520,18 +1579,20 @@ Partial Class MenuCustomer
         Me.Panel49.BackgroundImage = CType(resources.GetObject("Panel49.BackgroundImage"), System.Drawing.Image)
         Me.Panel49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel49.Controls.Add(Me.Label52)
-        Me.Panel49.Location = New System.Drawing.Point(575, 192)
+        Me.Panel49.Location = New System.Drawing.Point(767, 236)
+        Me.Panel49.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel49.Name = "Panel49"
-        Me.Panel49.Size = New System.Drawing.Size(49, 49)
+        Me.Panel49.Size = New System.Drawing.Size(65, 60)
         Me.Panel49.TabIndex = 45
         '
         'Label52
         '
         Me.Label52.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.ForeColor = System.Drawing.Color.Black
-        Me.Label52.Location = New System.Drawing.Point(1, 16)
+        Me.Label52.Location = New System.Drawing.Point(1, 20)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(49, 18)
+        Me.Label52.Size = New System.Drawing.Size(65, 22)
         Me.Label52.TabIndex = 25
         Me.Label52.Text = "0"
         Me.Label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1542,18 +1603,20 @@ Partial Class MenuCustomer
         Me.Panel42.BackgroundImage = CType(resources.GetObject("Panel42.BackgroundImage"), System.Drawing.Image)
         Me.Panel42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel42.Controls.Add(Me.Label53)
-        Me.Panel42.Location = New System.Drawing.Point(513, 192)
+        Me.Panel42.Location = New System.Drawing.Point(684, 236)
+        Me.Panel42.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel42.Name = "Panel42"
-        Me.Panel42.Size = New System.Drawing.Size(49, 49)
+        Me.Panel42.Size = New System.Drawing.Size(65, 60)
         Me.Panel42.TabIndex = 42
         '
         'Label53
         '
         Me.Label53.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.Black
-        Me.Label53.Location = New System.Drawing.Point(1, 16)
+        Me.Label53.Location = New System.Drawing.Point(1, 20)
+        Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(49, 18)
+        Me.Label53.Size = New System.Drawing.Size(65, 22)
         Me.Label53.TabIndex = 25
         Me.Label53.Text = "0"
         Me.Label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1564,18 +1627,20 @@ Partial Class MenuCustomer
         Me.Panel41.BackgroundImage = CType(resources.GetObject("Panel41.BackgroundImage"), System.Drawing.Image)
         Me.Panel41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel41.Controls.Add(Me.Label49)
-        Me.Panel41.Location = New System.Drawing.Point(260, 192)
+        Me.Panel41.Location = New System.Drawing.Point(347, 236)
+        Me.Panel41.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel41.Name = "Panel41"
-        Me.Panel41.Size = New System.Drawing.Size(49, 49)
+        Me.Panel41.Size = New System.Drawing.Size(65, 60)
         Me.Panel41.TabIndex = 40
         '
         'Label49
         '
         Me.Label49.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.ForeColor = System.Drawing.Color.Black
-        Me.Label49.Location = New System.Drawing.Point(1, 16)
+        Me.Label49.Location = New System.Drawing.Point(1, 20)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(49, 18)
+        Me.Label49.Size = New System.Drawing.Size(65, 22)
         Me.Label49.TabIndex = 25
         Me.Label49.Text = "0"
         Me.Label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1586,18 +1651,20 @@ Partial Class MenuCustomer
         Me.Panel43.BackgroundImage = CType(resources.GetObject("Panel43.BackgroundImage"), System.Drawing.Image)
         Me.Panel43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel43.Controls.Add(Me.Label54)
-        Me.Panel43.Location = New System.Drawing.Point(451, 192)
+        Me.Panel43.Location = New System.Drawing.Point(601, 236)
+        Me.Panel43.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel43.Name = "Panel43"
-        Me.Panel43.Size = New System.Drawing.Size(49, 49)
+        Me.Panel43.Size = New System.Drawing.Size(65, 60)
         Me.Panel43.TabIndex = 43
         '
         'Label54
         '
         Me.Label54.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.ForeColor = System.Drawing.Color.Black
-        Me.Label54.Location = New System.Drawing.Point(1, 16)
+        Me.Label54.Location = New System.Drawing.Point(1, 20)
+        Me.Label54.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(49, 18)
+        Me.Label54.Size = New System.Drawing.Size(65, 22)
         Me.Label54.TabIndex = 25
         Me.Label54.Text = "0"
         Me.Label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1608,18 +1675,20 @@ Partial Class MenuCustomer
         Me.Panel40.BackgroundImage = CType(resources.GetObject("Panel40.BackgroundImage"), System.Drawing.Image)
         Me.Panel40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel40.Controls.Add(Me.Label46)
-        Me.Panel40.Location = New System.Drawing.Point(193, 192)
+        Me.Panel40.Location = New System.Drawing.Point(257, 236)
+        Me.Panel40.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel40.Name = "Panel40"
-        Me.Panel40.Size = New System.Drawing.Size(49, 49)
+        Me.Panel40.Size = New System.Drawing.Size(65, 60)
         Me.Panel40.TabIndex = 40
         '
         'Label46
         '
         Me.Label46.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.Black
-        Me.Label46.Location = New System.Drawing.Point(1, 16)
+        Me.Label46.Location = New System.Drawing.Point(1, 20)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(49, 18)
+        Me.Label46.Size = New System.Drawing.Size(65, 22)
         Me.Label46.TabIndex = 25
         Me.Label46.Text = "0"
         Me.Label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1630,18 +1699,20 @@ Partial Class MenuCustomer
         Me.Panel44.BackgroundImage = CType(resources.GetObject("Panel44.BackgroundImage"), System.Drawing.Image)
         Me.Panel44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel44.Controls.Add(Me.Label44)
-        Me.Panel44.Location = New System.Drawing.Point(384, 192)
+        Me.Panel44.Location = New System.Drawing.Point(512, 236)
+        Me.Panel44.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel44.Name = "Panel44"
-        Me.Panel44.Size = New System.Drawing.Size(49, 49)
+        Me.Panel44.Size = New System.Drawing.Size(65, 60)
         Me.Panel44.TabIndex = 44
         '
         'Label44
         '
         Me.Label44.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.ForeColor = System.Drawing.Color.Black
-        Me.Label44.Location = New System.Drawing.Point(1, 16)
+        Me.Label44.Location = New System.Drawing.Point(1, 20)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(49, 18)
+        Me.Label44.Size = New System.Drawing.Size(65, 22)
         Me.Label44.TabIndex = 25
         Me.Label44.Text = "0"
         Me.Label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1652,18 +1723,20 @@ Partial Class MenuCustomer
         Me.Panel39.BackgroundImage = CType(resources.GetObject("Panel39.BackgroundImage"), System.Drawing.Image)
         Me.Panel39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel39.Controls.Add(Me.Label47)
-        Me.Panel39.Location = New System.Drawing.Point(131, 192)
+        Me.Panel39.Location = New System.Drawing.Point(175, 236)
+        Me.Panel39.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel39.Name = "Panel39"
-        Me.Panel39.Size = New System.Drawing.Size(49, 49)
+        Me.Panel39.Size = New System.Drawing.Size(65, 60)
         Me.Panel39.TabIndex = 40
         '
         'Label47
         '
         Me.Label47.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.Black
-        Me.Label47.Location = New System.Drawing.Point(1, 16)
+        Me.Label47.Location = New System.Drawing.Point(1, 20)
+        Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(49, 18)
+        Me.Label47.Size = New System.Drawing.Size(65, 22)
         Me.Label47.TabIndex = 25
         Me.Label47.Text = "0"
         Me.Label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1674,18 +1747,20 @@ Partial Class MenuCustomer
         Me.Panel45.BackgroundImage = CType(resources.GetObject("Panel45.BackgroundImage"), System.Drawing.Image)
         Me.Panel45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel45.Controls.Add(Me.Label45)
-        Me.Panel45.Location = New System.Drawing.Point(322, 192)
+        Me.Panel45.Location = New System.Drawing.Point(429, 236)
+        Me.Panel45.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel45.Name = "Panel45"
-        Me.Panel45.Size = New System.Drawing.Size(49, 49)
+        Me.Panel45.Size = New System.Drawing.Size(65, 60)
         Me.Panel45.TabIndex = 41
         '
         'Label45
         '
         Me.Label45.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.Black
-        Me.Label45.Location = New System.Drawing.Point(1, 16)
+        Me.Label45.Location = New System.Drawing.Point(1, 20)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(49, 18)
+        Me.Label45.Size = New System.Drawing.Size(65, 22)
         Me.Label45.TabIndex = 25
         Me.Label45.Text = "0"
         Me.Label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1696,18 +1771,20 @@ Partial Class MenuCustomer
         Me.Panel38.BackgroundImage = CType(resources.GetObject("Panel38.BackgroundImage"), System.Drawing.Image)
         Me.Panel38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel38.Controls.Add(Me.Label48)
-        Me.Panel38.Location = New System.Drawing.Point(69, 192)
+        Me.Panel38.Location = New System.Drawing.Point(92, 236)
+        Me.Panel38.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel38.Name = "Panel38"
-        Me.Panel38.Size = New System.Drawing.Size(49, 49)
+        Me.Panel38.Size = New System.Drawing.Size(65, 60)
         Me.Panel38.TabIndex = 39
         '
         'Label48
         '
         Me.Label48.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.Black
-        Me.Label48.Location = New System.Drawing.Point(1, 16)
+        Me.Label48.Location = New System.Drawing.Point(1, 20)
+        Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(49, 18)
+        Me.Label48.Size = New System.Drawing.Size(65, 22)
         Me.Label48.TabIndex = 25
         Me.Label48.Text = "0"
         Me.Label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1718,18 +1795,20 @@ Partial Class MenuCustomer
         Me.Panel37.BackgroundImage = CType(resources.GetObject("Panel37.BackgroundImage"), System.Drawing.Image)
         Me.Panel37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel37.Controls.Add(Me.Label38)
-        Me.Panel37.Location = New System.Drawing.Point(766, 128)
+        Me.Panel37.Location = New System.Drawing.Point(1021, 158)
+        Me.Panel37.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel37.Name = "Panel37"
-        Me.Panel37.Size = New System.Drawing.Size(49, 49)
+        Me.Panel37.Size = New System.Drawing.Size(65, 60)
         Me.Panel37.TabIndex = 38
         '
         'Label38
         '
         Me.Label38.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.Black
-        Me.Label38.Location = New System.Drawing.Point(1, 16)
+        Me.Label38.Location = New System.Drawing.Point(1, 20)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(49, 18)
+        Me.Label38.Size = New System.Drawing.Size(65, 22)
         Me.Label38.TabIndex = 25
         Me.Label38.Text = "0"
         Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1740,18 +1819,20 @@ Partial Class MenuCustomer
         Me.Panel36.BackgroundImage = CType(resources.GetObject("Panel36.BackgroundImage"), System.Drawing.Image)
         Me.Panel36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel36.Controls.Add(Me.Label39)
-        Me.Panel36.Location = New System.Drawing.Point(704, 128)
+        Me.Panel36.Location = New System.Drawing.Point(939, 158)
+        Me.Panel36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel36.Name = "Panel36"
-        Me.Panel36.Size = New System.Drawing.Size(49, 49)
+        Me.Panel36.Size = New System.Drawing.Size(65, 60)
         Me.Panel36.TabIndex = 38
         '
         'Label39
         '
         Me.Label39.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.Black
-        Me.Label39.Location = New System.Drawing.Point(1, 16)
+        Me.Label39.Location = New System.Drawing.Point(1, 20)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(49, 18)
+        Me.Label39.Size = New System.Drawing.Size(65, 22)
         Me.Label39.TabIndex = 25
         Me.Label39.Text = "0"
         Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1762,18 +1843,20 @@ Partial Class MenuCustomer
         Me.Panel35.BackgroundImage = CType(resources.GetObject("Panel35.BackgroundImage"), System.Drawing.Image)
         Me.Panel35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel35.Controls.Add(Me.Label36)
-        Me.Panel35.Location = New System.Drawing.Point(69, 128)
+        Me.Panel35.Location = New System.Drawing.Point(92, 158)
+        Me.Panel35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel35.Name = "Panel35"
-        Me.Panel35.Size = New System.Drawing.Size(49, 49)
+        Me.Panel35.Size = New System.Drawing.Size(65, 60)
         Me.Panel35.TabIndex = 38
         '
         'Label36
         '
         Me.Label36.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.Black
-        Me.Label36.Location = New System.Drawing.Point(1, 16)
+        Me.Label36.Location = New System.Drawing.Point(1, 20)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(49, 18)
+        Me.Label36.Size = New System.Drawing.Size(65, 22)
         Me.Label36.TabIndex = 25
         Me.Label36.Text = "0"
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1784,18 +1867,20 @@ Partial Class MenuCustomer
         Me.Panel34.BackgroundImage = CType(resources.GetObject("Panel34.BackgroundImage"), System.Drawing.Image)
         Me.Panel34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel34.Controls.Add(Me.Label35)
-        Me.Panel34.Location = New System.Drawing.Point(131, 128)
+        Me.Panel34.Location = New System.Drawing.Point(175, 158)
+        Me.Panel34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel34.Name = "Panel34"
-        Me.Panel34.Size = New System.Drawing.Size(49, 49)
+        Me.Panel34.Size = New System.Drawing.Size(65, 60)
         Me.Panel34.TabIndex = 38
         '
         'Label35
         '
         Me.Label35.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Black
-        Me.Label35.Location = New System.Drawing.Point(1, 16)
+        Me.Label35.Location = New System.Drawing.Point(1, 20)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(49, 18)
+        Me.Label35.Size = New System.Drawing.Size(65, 22)
         Me.Label35.TabIndex = 25
         Me.Label35.Text = "0"
         Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1806,18 +1891,20 @@ Partial Class MenuCustomer
         Me.Panel33.BackgroundImage = CType(resources.GetObject("Panel33.BackgroundImage"), System.Drawing.Image)
         Me.Panel33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel33.Controls.Add(Me.Label34)
-        Me.Panel33.Location = New System.Drawing.Point(193, 128)
+        Me.Panel33.Location = New System.Drawing.Point(257, 158)
+        Me.Panel33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel33.Name = "Panel33"
-        Me.Panel33.Size = New System.Drawing.Size(49, 49)
+        Me.Panel33.Size = New System.Drawing.Size(65, 60)
         Me.Panel33.TabIndex = 38
         '
         'Label34
         '
         Me.Label34.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.Black
-        Me.Label34.Location = New System.Drawing.Point(1, 16)
+        Me.Label34.Location = New System.Drawing.Point(1, 20)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(49, 18)
+        Me.Label34.Size = New System.Drawing.Size(65, 22)
         Me.Label34.TabIndex = 25
         Me.Label34.Text = "0"
         Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1828,18 +1915,20 @@ Partial Class MenuCustomer
         Me.Panel32.BackgroundImage = CType(resources.GetObject("Panel32.BackgroundImage"), System.Drawing.Image)
         Me.Panel32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel32.Controls.Add(Me.Label37)
-        Me.Panel32.Location = New System.Drawing.Point(260, 128)
+        Me.Panel32.Location = New System.Drawing.Point(347, 158)
+        Me.Panel32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel32.Name = "Panel32"
-        Me.Panel32.Size = New System.Drawing.Size(49, 49)
+        Me.Panel32.Size = New System.Drawing.Size(65, 60)
         Me.Panel32.TabIndex = 38
         '
         'Label37
         '
         Me.Label37.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.Black
-        Me.Label37.Location = New System.Drawing.Point(1, 16)
+        Me.Label37.Location = New System.Drawing.Point(1, 20)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(49, 18)
+        Me.Label37.Size = New System.Drawing.Size(65, 22)
         Me.Label37.TabIndex = 25
         Me.Label37.Text = "0"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1850,18 +1939,20 @@ Partial Class MenuCustomer
         Me.Panel31.BackgroundImage = CType(resources.GetObject("Panel31.BackgroundImage"), System.Drawing.Image)
         Me.Panel31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel31.Controls.Add(Me.Label33)
-        Me.Panel31.Location = New System.Drawing.Point(322, 128)
+        Me.Panel31.Location = New System.Drawing.Point(429, 158)
+        Me.Panel31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel31.Name = "Panel31"
-        Me.Panel31.Size = New System.Drawing.Size(49, 49)
+        Me.Panel31.Size = New System.Drawing.Size(65, 60)
         Me.Panel31.TabIndex = 38
         '
         'Label33
         '
         Me.Label33.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Black
-        Me.Label33.Location = New System.Drawing.Point(1, 16)
+        Me.Label33.Location = New System.Drawing.Point(1, 20)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(49, 18)
+        Me.Label33.Size = New System.Drawing.Size(65, 22)
         Me.Label33.TabIndex = 25
         Me.Label33.Text = "0"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1872,18 +1963,20 @@ Partial Class MenuCustomer
         Me.Panel30.BackgroundImage = CType(resources.GetObject("Panel30.BackgroundImage"), System.Drawing.Image)
         Me.Panel30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel30.Controls.Add(Me.Label43)
-        Me.Panel30.Location = New System.Drawing.Point(642, 128)
+        Me.Panel30.Location = New System.Drawing.Point(856, 158)
+        Me.Panel30.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(49, 49)
+        Me.Panel30.Size = New System.Drawing.Size(65, 60)
         Me.Panel30.TabIndex = 37
         '
         'Label43
         '
         Me.Label43.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.ForeColor = System.Drawing.Color.Black
-        Me.Label43.Location = New System.Drawing.Point(1, 16)
+        Me.Label43.Location = New System.Drawing.Point(1, 20)
+        Me.Label43.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(49, 18)
+        Me.Label43.Size = New System.Drawing.Size(65, 22)
         Me.Label43.TabIndex = 25
         Me.Label43.Text = "0"
         Me.Label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1894,18 +1987,20 @@ Partial Class MenuCustomer
         Me.Panel29.BackgroundImage = CType(resources.GetObject("Panel29.BackgroundImage"), System.Drawing.Image)
         Me.Panel29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel29.Controls.Add(Me.Label40)
-        Me.Panel29.Location = New System.Drawing.Point(575, 128)
+        Me.Panel29.Location = New System.Drawing.Point(767, 158)
+        Me.Panel29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(49, 49)
+        Me.Panel29.Size = New System.Drawing.Size(65, 60)
         Me.Panel29.TabIndex = 37
         '
         'Label40
         '
         Me.Label40.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.Black
-        Me.Label40.Location = New System.Drawing.Point(1, 16)
+        Me.Label40.Location = New System.Drawing.Point(1, 20)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(49, 18)
+        Me.Label40.Size = New System.Drawing.Size(65, 22)
         Me.Label40.TabIndex = 25
         Me.Label40.Text = "0"
         Me.Label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1916,18 +2011,20 @@ Partial Class MenuCustomer
         Me.Panel28.BackgroundImage = CType(resources.GetObject("Panel28.BackgroundImage"), System.Drawing.Image)
         Me.Panel28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel28.Controls.Add(Me.Label41)
-        Me.Panel28.Location = New System.Drawing.Point(513, 128)
+        Me.Panel28.Location = New System.Drawing.Point(684, 158)
+        Me.Panel28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(49, 49)
+        Me.Panel28.Size = New System.Drawing.Size(65, 60)
         Me.Panel28.TabIndex = 37
         '
         'Label41
         '
         Me.Label41.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.Black
-        Me.Label41.Location = New System.Drawing.Point(1, 16)
+        Me.Label41.Location = New System.Drawing.Point(1, 20)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(49, 18)
+        Me.Label41.Size = New System.Drawing.Size(65, 22)
         Me.Label41.TabIndex = 25
         Me.Label41.Text = "0"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1938,18 +2035,20 @@ Partial Class MenuCustomer
         Me.Panel27.BackgroundImage = CType(resources.GetObject("Panel27.BackgroundImage"), System.Drawing.Image)
         Me.Panel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel27.Controls.Add(Me.Label42)
-        Me.Panel27.Location = New System.Drawing.Point(451, 128)
+        Me.Panel27.Location = New System.Drawing.Point(601, 158)
+        Me.Panel27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(49, 49)
+        Me.Panel27.Size = New System.Drawing.Size(65, 60)
         Me.Panel27.TabIndex = 37
         '
         'Label42
         '
         Me.Label42.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(1, 16)
+        Me.Label42.Location = New System.Drawing.Point(1, 20)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(49, 18)
+        Me.Label42.Size = New System.Drawing.Size(65, 22)
         Me.Label42.TabIndex = 25
         Me.Label42.Text = "0"
         Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1960,18 +2059,20 @@ Partial Class MenuCustomer
         Me.Panel26.BackgroundImage = CType(resources.GetObject("Panel26.BackgroundImage"), System.Drawing.Image)
         Me.Panel26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel26.Controls.Add(Me.Label32)
-        Me.Panel26.Location = New System.Drawing.Point(384, 128)
+        Me.Panel26.Location = New System.Drawing.Point(512, 158)
+        Me.Panel26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel26.Name = "Panel26"
-        Me.Panel26.Size = New System.Drawing.Size(49, 49)
+        Me.Panel26.Size = New System.Drawing.Size(65, 60)
         Me.Panel26.TabIndex = 37
         '
         'Label32
         '
         Me.Label32.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.Black
-        Me.Label32.Location = New System.Drawing.Point(1, 16)
+        Me.Label32.Location = New System.Drawing.Point(1, 20)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(49, 18)
+        Me.Label32.Size = New System.Drawing.Size(65, 22)
         Me.Label32.TabIndex = 25
         Me.Label32.Text = "0"
         Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1982,18 +2083,20 @@ Partial Class MenuCustomer
         Me.Panel25.BackgroundImage = CType(resources.GetObject("Panel25.BackgroundImage"), System.Drawing.Image)
         Me.Panel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel25.Controls.Add(Me.Label26)
-        Me.Panel25.Location = New System.Drawing.Point(766, 64)
+        Me.Panel25.Location = New System.Drawing.Point(1021, 79)
+        Me.Panel25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel25.Name = "Panel25"
-        Me.Panel25.Size = New System.Drawing.Size(49, 49)
+        Me.Panel25.Size = New System.Drawing.Size(65, 60)
         Me.Panel25.TabIndex = 36
         '
         'Label26
         '
         Me.Label26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.Black
-        Me.Label26.Location = New System.Drawing.Point(1, 16)
+        Me.Label26.Location = New System.Drawing.Point(1, 20)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(49, 18)
+        Me.Label26.Size = New System.Drawing.Size(65, 22)
         Me.Label26.TabIndex = 25
         Me.Label26.Text = "0"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2004,18 +2107,20 @@ Partial Class MenuCustomer
         Me.Panel24.BackgroundImage = CType(resources.GetObject("Panel24.BackgroundImage"), System.Drawing.Image)
         Me.Panel24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel24.Controls.Add(Me.Label27)
-        Me.Panel24.Location = New System.Drawing.Point(704, 64)
+        Me.Panel24.Location = New System.Drawing.Point(939, 79)
+        Me.Panel24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(49, 49)
+        Me.Panel24.Size = New System.Drawing.Size(65, 60)
         Me.Panel24.TabIndex = 35
         '
         'Label27
         '
         Me.Label27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.Black
-        Me.Label27.Location = New System.Drawing.Point(1, 16)
+        Me.Label27.Location = New System.Drawing.Point(1, 20)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(49, 18)
+        Me.Label27.Size = New System.Drawing.Size(65, 22)
         Me.Label27.TabIndex = 25
         Me.Label27.Text = "0"
         Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2026,18 +2131,20 @@ Partial Class MenuCustomer
         Me.Panel23.BackgroundImage = CType(resources.GetObject("Panel23.BackgroundImage"), System.Drawing.Image)
         Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel23.Controls.Add(Me.Label31)
-        Me.Panel23.Location = New System.Drawing.Point(642, 64)
+        Me.Panel23.Location = New System.Drawing.Point(856, 79)
+        Me.Panel23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(49, 49)
+        Me.Panel23.Size = New System.Drawing.Size(65, 60)
         Me.Panel23.TabIndex = 35
         '
         'Label31
         '
         Me.Label31.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.Black
-        Me.Label31.Location = New System.Drawing.Point(1, 16)
+        Me.Label31.Location = New System.Drawing.Point(1, 20)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(49, 18)
+        Me.Label31.Size = New System.Drawing.Size(65, 22)
         Me.Label31.TabIndex = 25
         Me.Label31.Text = "0"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2048,18 +2155,20 @@ Partial Class MenuCustomer
         Me.Panel22.BackgroundImage = CType(resources.GetObject("Panel22.BackgroundImage"), System.Drawing.Image)
         Me.Panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel22.Controls.Add(Me.Label28)
-        Me.Panel22.Location = New System.Drawing.Point(575, 64)
+        Me.Panel22.Location = New System.Drawing.Point(767, 79)
+        Me.Panel22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(49, 49)
+        Me.Panel22.Size = New System.Drawing.Size(65, 60)
         Me.Panel22.TabIndex = 35
         '
         'Label28
         '
         Me.Label28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.Black
-        Me.Label28.Location = New System.Drawing.Point(1, 16)
+        Me.Label28.Location = New System.Drawing.Point(1, 20)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(49, 18)
+        Me.Label28.Size = New System.Drawing.Size(65, 22)
         Me.Label28.TabIndex = 25
         Me.Label28.Text = "0"
         Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2070,18 +2179,20 @@ Partial Class MenuCustomer
         Me.Panel21.BackgroundImage = CType(resources.GetObject("Panel21.BackgroundImage"), System.Drawing.Image)
         Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel21.Controls.Add(Me.Label29)
-        Me.Panel21.Location = New System.Drawing.Point(513, 64)
+        Me.Panel21.Location = New System.Drawing.Point(684, 79)
+        Me.Panel21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(49, 49)
+        Me.Panel21.Size = New System.Drawing.Size(65, 60)
         Me.Panel21.TabIndex = 35
         '
         'Label29
         '
         Me.Label29.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.Black
-        Me.Label29.Location = New System.Drawing.Point(1, 16)
+        Me.Label29.Location = New System.Drawing.Point(1, 20)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(49, 18)
+        Me.Label29.Size = New System.Drawing.Size(65, 22)
         Me.Label29.TabIndex = 25
         Me.Label29.Text = "0"
         Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2092,18 +2203,20 @@ Partial Class MenuCustomer
         Me.Panel20.BackgroundImage = CType(resources.GetObject("Panel20.BackgroundImage"), System.Drawing.Image)
         Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel20.Controls.Add(Me.Label30)
-        Me.Panel20.Location = New System.Drawing.Point(451, 64)
+        Me.Panel20.Location = New System.Drawing.Point(601, 79)
+        Me.Panel20.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(49, 49)
+        Me.Panel20.Size = New System.Drawing.Size(65, 60)
         Me.Panel20.TabIndex = 35
         '
         'Label30
         '
         Me.Label30.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.Color.Black
-        Me.Label30.Location = New System.Drawing.Point(1, 16)
+        Me.Label30.Location = New System.Drawing.Point(1, 20)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(49, 18)
+        Me.Label30.Size = New System.Drawing.Size(65, 22)
         Me.Label30.TabIndex = 25
         Me.Label30.Text = "0"
         Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2114,18 +2227,20 @@ Partial Class MenuCustomer
         Me.Panel19.BackgroundImage = CType(resources.GetObject("Panel19.BackgroundImage"), System.Drawing.Image)
         Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel19.Controls.Add(Me.Label21)
-        Me.Panel19.Location = New System.Drawing.Point(322, 64)
+        Me.Panel19.Location = New System.Drawing.Point(429, 79)
+        Me.Panel19.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(49, 49)
+        Me.Panel19.Size = New System.Drawing.Size(65, 60)
         Me.Panel19.TabIndex = 35
         '
         'Label21
         '
         Me.Label21.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Black
-        Me.Label21.Location = New System.Drawing.Point(1, 16)
+        Me.Label21.Location = New System.Drawing.Point(1, 20)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(49, 18)
+        Me.Label21.Size = New System.Drawing.Size(65, 22)
         Me.Label21.TabIndex = 25
         Me.Label21.Text = "0"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2136,18 +2251,20 @@ Partial Class MenuCustomer
         Me.Panel18.BackgroundImage = CType(resources.GetObject("Panel18.BackgroundImage"), System.Drawing.Image)
         Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel18.Controls.Add(Me.Label22)
-        Me.Panel18.Location = New System.Drawing.Point(260, 64)
+        Me.Panel18.Location = New System.Drawing.Point(347, 79)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(49, 49)
+        Me.Panel18.Size = New System.Drawing.Size(65, 60)
         Me.Panel18.TabIndex = 35
         '
         'Label22
         '
         Me.Label22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(1, 16)
+        Me.Label22.Location = New System.Drawing.Point(1, 20)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(49, 18)
+        Me.Label22.Size = New System.Drawing.Size(65, 22)
         Me.Label22.TabIndex = 25
         Me.Label22.Text = "0"
         Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2158,18 +2275,20 @@ Partial Class MenuCustomer
         Me.Panel17.BackgroundImage = CType(resources.GetObject("Panel17.BackgroundImage"), System.Drawing.Image)
         Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel17.Controls.Add(Me.Label23)
-        Me.Panel17.Location = New System.Drawing.Point(193, 64)
+        Me.Panel17.Location = New System.Drawing.Point(257, 79)
+        Me.Panel17.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(49, 49)
+        Me.Panel17.Size = New System.Drawing.Size(65, 60)
         Me.Panel17.TabIndex = 35
         '
         'Label23
         '
         Me.Label23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.Black
-        Me.Label23.Location = New System.Drawing.Point(1, 16)
+        Me.Label23.Location = New System.Drawing.Point(1, 20)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(49, 18)
+        Me.Label23.Size = New System.Drawing.Size(65, 22)
         Me.Label23.TabIndex = 25
         Me.Label23.Text = "0"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2180,18 +2299,20 @@ Partial Class MenuCustomer
         Me.Panel16.BackgroundImage = CType(resources.GetObject("Panel16.BackgroundImage"), System.Drawing.Image)
         Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel16.Controls.Add(Me.Label20)
-        Me.Panel16.Location = New System.Drawing.Point(384, 64)
+        Me.Panel16.Location = New System.Drawing.Point(512, 79)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(49, 49)
+        Me.Panel16.Size = New System.Drawing.Size(65, 60)
         Me.Panel16.TabIndex = 34
         '
         'Label20
         '
         Me.Label20.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(1, 16)
+        Me.Label20.Location = New System.Drawing.Point(1, 20)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(49, 18)
+        Me.Label20.Size = New System.Drawing.Size(65, 22)
         Me.Label20.TabIndex = 25
         Me.Label20.Text = "0"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2202,18 +2323,20 @@ Partial Class MenuCustomer
         Me.Panel15.BackgroundImage = CType(resources.GetObject("Panel15.BackgroundImage"), System.Drawing.Image)
         Me.Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel15.Controls.Add(Me.Label24)
-        Me.Panel15.Location = New System.Drawing.Point(131, 64)
+        Me.Panel15.Location = New System.Drawing.Point(175, 79)
+        Me.Panel15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(49, 49)
+        Me.Panel15.Size = New System.Drawing.Size(65, 60)
         Me.Panel15.TabIndex = 34
         '
         'Label24
         '
         Me.Label24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(1, 16)
+        Me.Label24.Location = New System.Drawing.Point(1, 20)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(49, 18)
+        Me.Label24.Size = New System.Drawing.Size(65, 22)
         Me.Label24.TabIndex = 25
         Me.Label24.Text = "0"
         Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2224,18 +2347,20 @@ Partial Class MenuCustomer
         Me.Panel13.BackgroundImage = CType(resources.GetObject("Panel13.BackgroundImage"), System.Drawing.Image)
         Me.Panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel13.Controls.Add(Me.Label15)
-        Me.Panel13.Location = New System.Drawing.Point(73, 276)
+        Me.Panel13.Location = New System.Drawing.Point(97, 340)
+        Me.Panel13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(49, 49)
+        Me.Panel13.Size = New System.Drawing.Size(65, 60)
         Me.Panel13.TabIndex = 32
         '
         'Label15
         '
         Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(1, 16)
+        Me.Label15.Location = New System.Drawing.Point(1, 20)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(49, 18)
+        Me.Label15.Size = New System.Drawing.Size(65, 22)
         Me.Label15.TabIndex = 25
         Me.Label15.Text = "0"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2246,18 +2371,20 @@ Partial Class MenuCustomer
         Me.Panel12.BackgroundImage = CType(resources.GetObject("Panel12.BackgroundImage"), System.Drawing.Image)
         Me.Panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel12.Controls.Add(Me.Label12)
-        Me.Panel12.Location = New System.Drawing.Point(764, 276)
+        Me.Panel12.Location = New System.Drawing.Point(1019, 340)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(49, 49)
+        Me.Panel12.Size = New System.Drawing.Size(65, 60)
         Me.Panel12.TabIndex = 32
         '
         'Label12
         '
         Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(1, 16)
+        Me.Label12.Location = New System.Drawing.Point(1, 20)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(49, 18)
+        Me.Label12.Size = New System.Drawing.Size(65, 22)
         Me.Label12.TabIndex = 25
         Me.Label12.Text = "0"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2268,18 +2395,20 @@ Partial Class MenuCustomer
         Me.Panel11.BackgroundImage = CType(resources.GetObject("Panel11.BackgroundImage"), System.Drawing.Image)
         Me.Panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel11.Controls.Add(Me.Label17)
-        Me.Panel11.Location = New System.Drawing.Point(638, 276)
+        Me.Panel11.Location = New System.Drawing.Point(851, 340)
+        Me.Panel11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(49, 49)
+        Me.Panel11.Size = New System.Drawing.Size(65, 60)
         Me.Panel11.TabIndex = 32
         '
         'Label17
         '
         Me.Label17.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Black
-        Me.Label17.Location = New System.Drawing.Point(1, 16)
+        Me.Label17.Location = New System.Drawing.Point(1, 20)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(49, 18)
+        Me.Label17.Size = New System.Drawing.Size(65, 22)
         Me.Label17.TabIndex = 25
         Me.Label17.Text = "0"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2290,18 +2419,20 @@ Partial Class MenuCustomer
         Me.Panel10.BackgroundImage = CType(resources.GetObject("Panel10.BackgroundImage"), System.Drawing.Image)
         Me.Panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel10.Controls.Add(Me.Label8)
-        Me.Panel10.Location = New System.Drawing.Point(576, 276)
+        Me.Panel10.Location = New System.Drawing.Point(768, 340)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(49, 49)
+        Me.Panel10.Size = New System.Drawing.Size(65, 60)
         Me.Panel10.TabIndex = 31
         '
         'Label8
         '
         Me.Label8.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(1, 16)
+        Me.Label8.Location = New System.Drawing.Point(1, 20)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(49, 18)
+        Me.Label8.Size = New System.Drawing.Size(65, 22)
         Me.Label8.TabIndex = 25
         Me.Label8.Text = "0"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2312,18 +2443,20 @@ Partial Class MenuCustomer
         Me.Panel9.BackgroundImage = CType(resources.GetObject("Panel9.BackgroundImage"), System.Drawing.Image)
         Me.Panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel9.Controls.Add(Me.Label9)
-        Me.Panel9.Location = New System.Drawing.Point(701, 276)
+        Me.Panel9.Location = New System.Drawing.Point(935, 340)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(49, 49)
+        Me.Panel9.Size = New System.Drawing.Size(65, 60)
         Me.Panel9.TabIndex = 31
         '
         'Label9
         '
         Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(1, 16)
+        Me.Label9.Location = New System.Drawing.Point(1, 20)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(49, 18)
+        Me.Label9.Size = New System.Drawing.Size(65, 22)
         Me.Label9.TabIndex = 25
         Me.Label9.Text = "0"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2334,18 +2467,20 @@ Partial Class MenuCustomer
         Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
         Me.Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel8.Controls.Add(Me.Label13)
-        Me.Panel8.Location = New System.Drawing.Point(262, 276)
+        Me.Panel8.Location = New System.Drawing.Point(349, 340)
+        Me.Panel8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(49, 49)
+        Me.Panel8.Size = New System.Drawing.Size(65, 60)
         Me.Panel8.TabIndex = 30
         '
         'Label13
         '
         Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(1, 16)
+        Me.Label13.Location = New System.Drawing.Point(1, 20)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(49, 18)
+        Me.Label13.Size = New System.Drawing.Size(65, 22)
         Me.Label13.TabIndex = 25
         Me.Label13.Text = "0"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2356,18 +2491,20 @@ Partial Class MenuCustomer
         Me.Panel7.BackgroundImage = CType(resources.GetObject("Panel7.BackgroundImage"), System.Drawing.Image)
         Me.Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel7.Controls.Add(Me.Label14)
-        Me.Panel7.Location = New System.Drawing.Point(450, 276)
+        Me.Panel7.Location = New System.Drawing.Point(600, 340)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(49, 49)
+        Me.Panel7.Size = New System.Drawing.Size(65, 60)
         Me.Panel7.TabIndex = 30
         '
         'Label14
         '
         Me.Label14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(1, 16)
+        Me.Label14.Location = New System.Drawing.Point(1, 20)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(49, 18)
+        Me.Label14.Size = New System.Drawing.Size(65, 22)
         Me.Label14.TabIndex = 25
         Me.Label14.Text = "0"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2378,18 +2515,20 @@ Partial Class MenuCustomer
         Me.Panel6.BackgroundImage = CType(resources.GetObject("Panel6.BackgroundImage"), System.Drawing.Image)
         Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel6.Controls.Add(Me.Label11)
-        Me.Panel6.Location = New System.Drawing.Point(513, 276)
+        Me.Panel6.Location = New System.Drawing.Point(684, 340)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(49, 49)
+        Me.Panel6.Size = New System.Drawing.Size(65, 60)
         Me.Panel6.TabIndex = 30
         '
         'Label11
         '
         Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(1, 16)
+        Me.Label11.Location = New System.Drawing.Point(1, 20)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(49, 18)
+        Me.Label11.Size = New System.Drawing.Size(65, 22)
         Me.Label11.TabIndex = 25
         Me.Label11.Text = "0"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2400,18 +2539,20 @@ Partial Class MenuCustomer
         Me.Panel5.BackgroundImage = CType(resources.GetObject("Panel5.BackgroundImage"), System.Drawing.Image)
         Me.Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel5.Controls.Add(Me.Label19)
-        Me.Panel5.Location = New System.Drawing.Point(387, 276)
+        Me.Panel5.Location = New System.Drawing.Point(516, 340)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(49, 49)
+        Me.Panel5.Size = New System.Drawing.Size(65, 60)
         Me.Panel5.TabIndex = 30
         '
         'Label19
         '
         Me.Label19.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(1, 16)
+        Me.Label19.Location = New System.Drawing.Point(1, 20)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(49, 18)
+        Me.Label19.Size = New System.Drawing.Size(65, 22)
         Me.Label19.TabIndex = 25
         Me.Label19.Text = "0"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2422,18 +2563,20 @@ Partial Class MenuCustomer
         Me.Panel4.BackgroundImage = CType(resources.GetObject("Panel4.BackgroundImage"), System.Drawing.Image)
         Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel4.Controls.Add(Me.Label16)
-        Me.Panel4.Location = New System.Drawing.Point(325, 276)
+        Me.Panel4.Location = New System.Drawing.Point(433, 340)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(49, 49)
+        Me.Panel4.Size = New System.Drawing.Size(65, 60)
         Me.Panel4.TabIndex = 29
         '
         'Label16
         '
         Me.Label16.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
-        Me.Label16.Location = New System.Drawing.Point(1, 16)
+        Me.Label16.Location = New System.Drawing.Point(1, 20)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(49, 18)
+        Me.Label16.Size = New System.Drawing.Size(65, 22)
         Me.Label16.TabIndex = 25
         Me.Label16.Text = "0"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2444,18 +2587,20 @@ Partial Class MenuCustomer
         Me.Panel3.BackgroundImage = CType(resources.GetObject("Panel3.BackgroundImage"), System.Drawing.Image)
         Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel3.Controls.Add(Me.Label10)
-        Me.Panel3.Location = New System.Drawing.Point(199, 276)
+        Me.Panel3.Location = New System.Drawing.Point(265, 340)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(49, 49)
+        Me.Panel3.Size = New System.Drawing.Size(65, 60)
         Me.Panel3.TabIndex = 28
         '
         'Label10
         '
         Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(1, 16)
+        Me.Label10.Location = New System.Drawing.Point(1, 20)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(49, 18)
+        Me.Label10.Size = New System.Drawing.Size(65, 22)
         Me.Label10.TabIndex = 25
         Me.Label10.Text = "0"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2466,18 +2611,20 @@ Partial Class MenuCustomer
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel1.Controls.Add(Me.Label18)
-        Me.Panel1.Location = New System.Drawing.Point(136, 276)
+        Me.Panel1.Location = New System.Drawing.Point(181, 340)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(49, 49)
+        Me.Panel1.Size = New System.Drawing.Size(65, 60)
         Me.Panel1.TabIndex = 27
         '
         'Label18
         '
         Me.Label18.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Black
-        Me.Label18.Location = New System.Drawing.Point(1, 16)
+        Me.Label18.Location = New System.Drawing.Point(1, 20)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(49, 18)
+        Me.Label18.Size = New System.Drawing.Size(65, 22)
         Me.Label18.TabIndex = 25
         Me.Label18.Text = "0"
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2490,9 +2637,10 @@ Partial Class MenuCustomer
         Me.btn_kecil.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_kecil.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_kecil.ForeColor = System.Drawing.Color.White
-        Me.btn_kecil.Location = New System.Drawing.Point(71, 419)
+        Me.btn_kecil.Location = New System.Drawing.Point(95, 516)
+        Me.btn_kecil.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_kecil.Name = "btn_kecil"
-        Me.btn_kecil.Size = New System.Drawing.Size(118, 47)
+        Me.btn_kecil.Size = New System.Drawing.Size(157, 58)
         Me.btn_kecil.TabIndex = 0
         Me.btn_kecil.UseVisualStyleBackColor = True
         '
@@ -2505,9 +2653,10 @@ Partial Class MenuCustomer
         Me.btn_bonus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_bonus.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_bonus.ForeColor = System.Drawing.Color.White
-        Me.btn_bonus.Location = New System.Drawing.Point(403, 337)
+        Me.btn_bonus.Location = New System.Drawing.Point(537, 415)
+        Me.btn_bonus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_bonus.Name = "btn_bonus"
-        Me.btn_bonus.Size = New System.Drawing.Size(77, 77)
+        Me.btn_bonus.Size = New System.Drawing.Size(103, 95)
         Me.btn_bonus.TabIndex = 22
         Me.btn_bonus.UseVisualStyleBackColor = False
         '
@@ -2519,9 +2668,10 @@ Partial Class MenuCustomer
         Me.btn_besar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_besar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_besar.ForeColor = System.Drawing.Color.White
-        Me.btn_besar.Location = New System.Drawing.Point(196, 419)
+        Me.btn_besar.Location = New System.Drawing.Point(261, 516)
+        Me.btn_besar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_besar.Name = "btn_besar"
-        Me.btn_besar.Size = New System.Drawing.Size(118, 47)
+        Me.btn_besar.Size = New System.Drawing.Size(157, 58)
         Me.btn_besar.TabIndex = 0
         Me.btn_besar.UseVisualStyleBackColor = True
         '
@@ -2530,17 +2680,19 @@ Partial Class MenuCustomer
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Orbitron", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(72, 339)
+        Me.Label4.Location = New System.Drawing.Point(96, 417)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 21)
+        Me.Label4.Size = New System.Drawing.Size(116, 26)
         Me.Label4.TabIndex = 20
         Me.Label4.Text = "Balance"
         '
         'txt_user
         '
-        Me.txt_user.Location = New System.Drawing.Point(3, 3)
+        Me.txt_user.Location = New System.Drawing.Point(4, 4)
+        Me.txt_user.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txt_user.Name = "txt_user"
-        Me.txt_user.Size = New System.Drawing.Size(20, 20)
+        Me.txt_user.Size = New System.Drawing.Size(25, 23)
         Me.txt_user.TabIndex = 26
         Me.txt_user.Visible = False
         '
@@ -2553,9 +2705,10 @@ Partial Class MenuCustomer
         Me.btn_repeat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_repeat.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_repeat.ForeColor = System.Drawing.Color.White
-        Me.btn_repeat.Location = New System.Drawing.Point(309, 334)
+        Me.btn_repeat.Location = New System.Drawing.Point(412, 411)
+        Me.btn_repeat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_repeat.Name = "btn_repeat"
-        Me.btn_repeat.Size = New System.Drawing.Size(77, 77)
+        Me.btn_repeat.Size = New System.Drawing.Size(103, 95)
         Me.btn_repeat.TabIndex = 22
         Me.btn_repeat.UseVisualStyleBackColor = False
         '
@@ -2567,9 +2720,10 @@ Partial Class MenuCustomer
         Me.btn_ganjil.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_ganjil.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_ganjil.ForeColor = System.Drawing.Color.White
-        Me.btn_ganjil.Location = New System.Drawing.Point(695, 422)
+        Me.btn_ganjil.Location = New System.Drawing.Point(927, 519)
+        Me.btn_ganjil.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_ganjil.Name = "btn_ganjil"
-        Me.btn_ganjil.Size = New System.Drawing.Size(118, 42)
+        Me.btn_ganjil.Size = New System.Drawing.Size(157, 52)
         Me.btn_ganjil.TabIndex = 0
         Me.btn_ganjil.UseVisualStyleBackColor = True
         '
@@ -2578,9 +2732,10 @@ Partial Class MenuCustomer
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Orbitron", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(72, 365)
+        Me.Label5.Location = New System.Drawing.Point(96, 449)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(44, 20)
+        Me.Label5.Size = New System.Drawing.Size(59, 25)
         Me.Label5.TabIndex = 20
         Me.Label5.Text = "Win"
         '
@@ -2589,9 +2744,10 @@ Partial Class MenuCustomer
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Orbitron", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(72, 392)
+        Me.Label3.Location = New System.Drawing.Point(96, 482)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 21)
+        Me.Label3.Size = New System.Drawing.Size(56, 26)
         Me.Label3.TabIndex = 20
         Me.Label3.Text = "Bet      :"
         '
@@ -2600,9 +2756,10 @@ Partial Class MenuCustomer
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("UnifrakturCook", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(71, 4)
+        Me.Label7.Location = New System.Drawing.Point(95, 5)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(49, 19)
+        Me.Label7.Size = New System.Drawing.Size(65, 23)
         Me.Label7.TabIndex = 24
         Me.Label7.Text = "time"
         '
@@ -2615,9 +2772,10 @@ Partial Class MenuCustomer
         Me.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_cancel.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_cancel.ForeColor = System.Drawing.Color.White
-        Me.btn_cancel.Location = New System.Drawing.Point(495, 334)
+        Me.btn_cancel.Location = New System.Drawing.Point(660, 411)
+        Me.btn_cancel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_cancel.Name = "btn_cancel"
-        Me.btn_cancel.Size = New System.Drawing.Size(77, 77)
+        Me.btn_cancel.Size = New System.Drawing.Size(103, 95)
         Me.btn_cancel.TabIndex = 22
         Me.btn_cancel.UseVisualStyleBackColor = False
         '
@@ -2629,9 +2787,10 @@ Partial Class MenuCustomer
         Me.btn_genap.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_genap.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_genap.ForeColor = System.Drawing.Color.White
-        Me.btn_genap.Location = New System.Drawing.Point(571, 422)
+        Me.btn_genap.Location = New System.Drawing.Point(761, 519)
+        Me.btn_genap.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_genap.Name = "btn_genap"
-        Me.btn_genap.Size = New System.Drawing.Size(118, 42)
+        Me.btn_genap.Size = New System.Drawing.Size(157, 52)
         Me.btn_genap.TabIndex = 0
         Me.btn_genap.UseVisualStyleBackColor = True
         '
@@ -2644,9 +2803,10 @@ Partial Class MenuCustomer
         Me.btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_logout.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_logout.ForeColor = System.Drawing.Color.White
-        Me.btn_logout.Location = New System.Drawing.Point(749, 468)
+        Me.btn_logout.Location = New System.Drawing.Point(999, 576)
+        Me.btn_logout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_logout.Name = "btn_logout"
-        Me.btn_logout.Size = New System.Drawing.Size(70, 25)
+        Me.btn_logout.Size = New System.Drawing.Size(93, 31)
         Me.btn_logout.TabIndex = 22
         Me.btn_logout.UseVisualStyleBackColor = False
         '
@@ -2655,9 +2815,10 @@ Partial Class MenuCustomer
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("UnifrakturCook", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(53, 16)
+        Me.Label6.Location = New System.Drawing.Point(71, 20)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(72, 40)
+        Me.Label6.Size = New System.Drawing.Size(96, 49)
         Me.Label6.TabIndex = 24
         Me.Label6.Text = "60"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2671,9 +2832,10 @@ Partial Class MenuCustomer
         Me.btn_red.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_red.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_red.ForeColor = System.Drawing.Color.White
-        Me.btn_red.Location = New System.Drawing.Point(324, 422)
+        Me.btn_red.Location = New System.Drawing.Point(432, 519)
+        Me.btn_red.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_red.Name = "btn_red"
-        Me.btn_red.Size = New System.Drawing.Size(118, 42)
+        Me.btn_red.Size = New System.Drawing.Size(157, 52)
         Me.btn_red.TabIndex = 22
         Me.btn_red.UseVisualStyleBackColor = False
         '
@@ -2686,9 +2848,10 @@ Partial Class MenuCustomer
         Me.btn_black.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_black.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_black.ForeColor = System.Drawing.Color.White
-        Me.btn_black.Location = New System.Drawing.Point(446, 422)
+        Me.btn_black.Location = New System.Drawing.Point(595, 519)
+        Me.btn_black.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_black.Name = "btn_black"
-        Me.btn_black.Size = New System.Drawing.Size(118, 42)
+        Me.btn_black.Size = New System.Drawing.Size(157, 52)
         Me.btn_black.TabIndex = 22
         Me.btn_black.UseVisualStyleBackColor = False
         '
@@ -2699,9 +2862,10 @@ Partial Class MenuCustomer
         Me.btn_bet_500.FlatAppearance.BorderSize = 0
         Me.btn_bet_500.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_bet_500.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_500.Location = New System.Drawing.Point(701, 350)
+        Me.btn_bet_500.Location = New System.Drawing.Point(935, 431)
+        Me.btn_bet_500.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_bet_500.Name = "btn_bet_500"
-        Me.btn_bet_500.Size = New System.Drawing.Size(52, 52)
+        Me.btn_bet_500.Size = New System.Drawing.Size(69, 64)
         Me.btn_bet_500.TabIndex = 22
         Me.btn_bet_500.UseVisualStyleBackColor = True
         '
@@ -2712,9 +2876,10 @@ Partial Class MenuCustomer
         Me.btn_bet_100.FlatAppearance.BorderSize = 0
         Me.btn_bet_100.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_bet_100.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_100.Location = New System.Drawing.Point(644, 350)
+        Me.btn_bet_100.Location = New System.Drawing.Point(859, 431)
+        Me.btn_bet_100.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_bet_100.Name = "btn_bet_100"
-        Me.btn_bet_100.Size = New System.Drawing.Size(52, 52)
+        Me.btn_bet_100.Size = New System.Drawing.Size(69, 64)
         Me.btn_bet_100.TabIndex = 22
         Me.btn_bet_100.UseVisualStyleBackColor = True
         '
@@ -2725,9 +2890,10 @@ Partial Class MenuCustomer
         Me.btn_bet_5000.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_bet_5000.FlatAppearance.BorderSize = 0
         Me.btn_bet_5000.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bet_5000.Location = New System.Drawing.Point(758, 350)
+        Me.btn_bet_5000.Location = New System.Drawing.Point(1011, 431)
+        Me.btn_bet_5000.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_bet_5000.Name = "btn_bet_5000"
-        Me.btn_bet_5000.Size = New System.Drawing.Size(52, 52)
+        Me.btn_bet_5000.Size = New System.Drawing.Size(69, 64)
         Me.btn_bet_5000.TabIndex = 22
         Me.btn_bet_5000.UseVisualStyleBackColor = False
         '
@@ -2738,9 +2904,10 @@ Partial Class MenuCustomer
         Me.btn_bet_10.FlatAppearance.BorderSize = 0
         Me.btn_bet_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_bet_10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_10.Location = New System.Drawing.Point(587, 350)
+        Me.btn_bet_10.Location = New System.Drawing.Point(783, 431)
+        Me.btn_bet_10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_bet_10.Name = "btn_bet_10"
-        Me.btn_bet_10.Size = New System.Drawing.Size(52, 52)
+        Me.btn_bet_10.Size = New System.Drawing.Size(69, 64)
         Me.btn_bet_10.TabIndex = 22
         Me.btn_bet_10.UseVisualStyleBackColor = True
         '
@@ -2752,9 +2919,10 @@ Partial Class MenuCustomer
         Me.btn_25_36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_25_36.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_25_36.ForeColor = System.Drawing.Color.White
-        Me.btn_25_36.Location = New System.Drawing.Point(604, 14)
+        Me.btn_25_36.Location = New System.Drawing.Point(805, 17)
+        Me.btn_25_36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_25_36.Name = "btn_25_36"
-        Me.btn_25_36.Size = New System.Drawing.Size(162, 34)
+        Me.btn_25_36.Size = New System.Drawing.Size(216, 42)
         Me.btn_25_36.TabIndex = 0
         Me.btn_25_36.UseVisualStyleBackColor = True
         '
@@ -2766,9 +2934,10 @@ Partial Class MenuCustomer
         Me.btn_13_24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_13_24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_13_24.ForeColor = System.Drawing.Color.White
-        Me.btn_13_24.Location = New System.Drawing.Point(399, 14)
+        Me.btn_13_24.Location = New System.Drawing.Point(532, 17)
+        Me.btn_13_24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_13_24.Name = "btn_13_24"
-        Me.btn_13_24.Size = New System.Drawing.Size(162, 34)
+        Me.btn_13_24.Size = New System.Drawing.Size(216, 42)
         Me.btn_13_24.TabIndex = 0
         Me.btn_13_24.UseVisualStyleBackColor = True
         '
@@ -2781,9 +2950,10 @@ Partial Class MenuCustomer
         Me.btn_1_12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_1_12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_1_12.ForeColor = System.Drawing.Color.White
-        Me.btn_1_12.Location = New System.Drawing.Point(196, 14)
+        Me.btn_1_12.Location = New System.Drawing.Point(261, 17)
+        Me.btn_1_12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_1_12.Name = "btn_1_12"
-        Me.btn_1_12.Size = New System.Drawing.Size(162, 34)
+        Me.btn_1_12.Size = New System.Drawing.Size(216, 42)
         Me.btn_1_12.TabIndex = 0
         Me.btn_1_12.UseVisualStyleBackColor = False
         '
@@ -2794,9 +2964,10 @@ Partial Class MenuCustomer
         Me.btn_naga.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_naga.FlatAppearance.BorderSize = 0
         Me.btn_naga.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_naga.Location = New System.Drawing.Point(507, 272)
+        Me.btn_naga.Location = New System.Drawing.Point(676, 335)
+        Me.btn_naga.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_naga.Name = "btn_naga"
-        Me.btn_naga.Size = New System.Drawing.Size(60, 57)
+        Me.btn_naga.Size = New System.Drawing.Size(80, 70)
         Me.btn_naga.TabIndex = 22
         Me.btn_naga.UseVisualStyleBackColor = False
         '
@@ -2807,9 +2978,10 @@ Partial Class MenuCustomer
         Me.btn_kelinci.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_kelinci.FlatAppearance.BorderSize = 0
         Me.btn_kelinci.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_kelinci.Location = New System.Drawing.Point(570, 272)
+        Me.btn_kelinci.Location = New System.Drawing.Point(760, 335)
+        Me.btn_kelinci.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_kelinci.Name = "btn_kelinci"
-        Me.btn_kelinci.Size = New System.Drawing.Size(60, 57)
+        Me.btn_kelinci.Size = New System.Drawing.Size(80, 70)
         Me.btn_kelinci.TabIndex = 22
         Me.btn_kelinci.UseVisualStyleBackColor = False
         '
@@ -2820,9 +2992,10 @@ Partial Class MenuCustomer
         Me.btn_ular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_ular.FlatAppearance.BorderSize = 0
         Me.btn_ular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_ular.Location = New System.Drawing.Point(444, 272)
+        Me.btn_ular.Location = New System.Drawing.Point(592, 335)
+        Me.btn_ular.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_ular.Name = "btn_ular"
-        Me.btn_ular.Size = New System.Drawing.Size(60, 57)
+        Me.btn_ular.Size = New System.Drawing.Size(80, 70)
         Me.btn_ular.TabIndex = 22
         Me.btn_ular.UseVisualStyleBackColor = False
         '
@@ -2833,9 +3006,10 @@ Partial Class MenuCustomer
         Me.btn_kerbau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_kerbau.FlatAppearance.BorderSize = 0
         Me.btn_kerbau.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_kerbau.Location = New System.Drawing.Point(696, 272)
+        Me.btn_kerbau.Location = New System.Drawing.Point(928, 335)
+        Me.btn_kerbau.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_kerbau.Name = "btn_kerbau"
-        Me.btn_kerbau.Size = New System.Drawing.Size(60, 57)
+        Me.btn_kerbau.Size = New System.Drawing.Size(80, 70)
         Me.btn_kerbau.TabIndex = 22
         Me.btn_kerbau.UseVisualStyleBackColor = False
         '
@@ -2846,9 +3020,10 @@ Partial Class MenuCustomer
         Me.btn_macan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_macan.FlatAppearance.BorderSize = 0
         Me.btn_macan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_macan.Location = New System.Drawing.Point(633, 272)
+        Me.btn_macan.Location = New System.Drawing.Point(844, 335)
+        Me.btn_macan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_macan.Name = "btn_macan"
-        Me.btn_macan.Size = New System.Drawing.Size(60, 57)
+        Me.btn_macan.Size = New System.Drawing.Size(80, 70)
         Me.btn_macan.TabIndex = 22
         Me.btn_macan.UseVisualStyleBackColor = False
         '
@@ -2859,9 +3034,10 @@ Partial Class MenuCustomer
         Me.btn_tikus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_tikus.FlatAppearance.BorderSize = 0
         Me.btn_tikus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_tikus.Location = New System.Drawing.Point(758, 272)
+        Me.btn_tikus.Location = New System.Drawing.Point(1011, 335)
+        Me.btn_tikus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_tikus.Name = "btn_tikus"
-        Me.btn_tikus.Size = New System.Drawing.Size(60, 57)
+        Me.btn_tikus.Size = New System.Drawing.Size(80, 70)
         Me.btn_tikus.TabIndex = 22
         Me.btn_tikus.UseVisualStyleBackColor = False
         '
@@ -2873,9 +3049,10 @@ Partial Class MenuCustomer
         Me.btn_babi.FlatAppearance.BorderSize = 0
         Me.btn_babi.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_babi.ForeColor = System.Drawing.Color.Black
-        Me.btn_babi.Location = New System.Drawing.Point(68, 272)
+        Me.btn_babi.Location = New System.Drawing.Point(91, 335)
+        Me.btn_babi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_babi.Name = "btn_babi"
-        Me.btn_babi.Size = New System.Drawing.Size(60, 57)
+        Me.btn_babi.Size = New System.Drawing.Size(80, 70)
         Me.btn_babi.TabIndex = 22
         Me.btn_babi.UseVisualStyleBackColor = False
         '
@@ -2886,9 +3063,10 @@ Partial Class MenuCustomer
         Me.btn_anjing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_anjing.FlatAppearance.BorderSize = 0
         Me.btn_anjing.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_anjing.Location = New System.Drawing.Point(131, 272)
+        Me.btn_anjing.Location = New System.Drawing.Point(175, 335)
+        Me.btn_anjing.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_anjing.Name = "btn_anjing"
-        Me.btn_anjing.Size = New System.Drawing.Size(60, 57)
+        Me.btn_anjing.Size = New System.Drawing.Size(80, 70)
         Me.btn_anjing.TabIndex = 22
         Me.btn_anjing.UseVisualStyleBackColor = False
         '
@@ -2899,9 +3077,10 @@ Partial Class MenuCustomer
         Me.btn_ayam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_ayam.FlatAppearance.BorderSize = 0
         Me.btn_ayam.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_ayam.Location = New System.Drawing.Point(192, 272)
+        Me.btn_ayam.Location = New System.Drawing.Point(256, 335)
+        Me.btn_ayam.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_ayam.Name = "btn_ayam"
-        Me.btn_ayam.Size = New System.Drawing.Size(60, 57)
+        Me.btn_ayam.Size = New System.Drawing.Size(80, 70)
         Me.btn_ayam.TabIndex = 22
         Me.btn_ayam.UseVisualStyleBackColor = False
         '
@@ -2912,9 +3091,10 @@ Partial Class MenuCustomer
         Me.btn_kambing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_kambing.FlatAppearance.BorderSize = 0
         Me.btn_kambing.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_kambing.Location = New System.Drawing.Point(318, 272)
+        Me.btn_kambing.Location = New System.Drawing.Point(424, 335)
+        Me.btn_kambing.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_kambing.Name = "btn_kambing"
-        Me.btn_kambing.Size = New System.Drawing.Size(60, 57)
+        Me.btn_kambing.Size = New System.Drawing.Size(80, 70)
         Me.btn_kambing.TabIndex = 22
         Me.btn_kambing.UseVisualStyleBackColor = False
         '
@@ -2925,9 +3105,10 @@ Partial Class MenuCustomer
         Me.btn_monyet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_monyet.FlatAppearance.BorderSize = 0
         Me.btn_monyet.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_monyet.Location = New System.Drawing.Point(255, 272)
+        Me.btn_monyet.Location = New System.Drawing.Point(340, 335)
+        Me.btn_monyet.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_monyet.Name = "btn_monyet"
-        Me.btn_monyet.Size = New System.Drawing.Size(60, 57)
+        Me.btn_monyet.Size = New System.Drawing.Size(80, 70)
         Me.btn_monyet.TabIndex = 22
         Me.btn_monyet.UseVisualStyleBackColor = False
         '
@@ -2938,9 +3119,10 @@ Partial Class MenuCustomer
         Me.btn_kuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btn_kuda.FlatAppearance.BorderSize = 0
         Me.btn_kuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_kuda.Location = New System.Drawing.Point(381, 272)
+        Me.btn_kuda.Location = New System.Drawing.Point(508, 335)
+        Me.btn_kuda.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_kuda.Name = "btn_kuda"
-        Me.btn_kuda.Size = New System.Drawing.Size(60, 57)
+        Me.btn_kuda.Size = New System.Drawing.Size(80, 70)
         Me.btn_kuda.TabIndex = 22
         Me.btn_kuda.UseVisualStyleBackColor = False
         '
@@ -2952,9 +3134,10 @@ Partial Class MenuCustomer
         Me.btn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_1.ForeColor = System.Drawing.Color.White
-        Me.btn_1.Location = New System.Drawing.Point(65, 59)
+        Me.btn_1.Location = New System.Drawing.Point(87, 73)
+        Me.btn_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_1.Name = "btn_1"
-        Me.btn_1.Size = New System.Drawing.Size(57, 58)
+        Me.btn_1.Size = New System.Drawing.Size(76, 71)
         Me.btn_1.TabIndex = 22
         Me.btn_1.Text = "1"
         Me.btn_1.UseVisualStyleBackColor = True
@@ -2967,9 +3150,10 @@ Partial Class MenuCustomer
         Me.btn_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_7.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_7.ForeColor = System.Drawing.Color.White
-        Me.btn_7.Location = New System.Drawing.Point(447, 59)
+        Me.btn_7.Location = New System.Drawing.Point(596, 73)
+        Me.btn_7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_7.Name = "btn_7"
-        Me.btn_7.Size = New System.Drawing.Size(57, 58)
+        Me.btn_7.Size = New System.Drawing.Size(76, 71)
         Me.btn_7.TabIndex = 22
         Me.btn_7.Text = "7"
         Me.btn_7.UseVisualStyleBackColor = True
@@ -2983,9 +3167,10 @@ Partial Class MenuCustomer
         Me.btn_13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_13.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_13.ForeColor = System.Drawing.Color.White
-        Me.btn_13.Location = New System.Drawing.Point(65, 123)
+        Me.btn_13.Location = New System.Drawing.Point(87, 151)
+        Me.btn_13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_13.Name = "btn_13"
-        Me.btn_13.Size = New System.Drawing.Size(57, 58)
+        Me.btn_13.Size = New System.Drawing.Size(76, 71)
         Me.btn_13.TabIndex = 22
         Me.btn_13.Text = "13"
         Me.btn_13.UseVisualStyleBackColor = True
@@ -2998,9 +3183,10 @@ Partial Class MenuCustomer
         Me.btn_19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_19.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_19.ForeColor = System.Drawing.Color.White
-        Me.btn_19.Location = New System.Drawing.Point(447, 123)
+        Me.btn_19.Location = New System.Drawing.Point(596, 151)
+        Me.btn_19.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_19.Name = "btn_19"
-        Me.btn_19.Size = New System.Drawing.Size(57, 58)
+        Me.btn_19.Size = New System.Drawing.Size(76, 71)
         Me.btn_19.TabIndex = 22
         Me.btn_19.Text = "19"
         Me.btn_19.UseVisualStyleBackColor = True
@@ -3014,9 +3200,10 @@ Partial Class MenuCustomer
         Me.btn_25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_25.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_25.ForeColor = System.Drawing.Color.White
-        Me.btn_25.Location = New System.Drawing.Point(65, 187)
+        Me.btn_25.Location = New System.Drawing.Point(87, 230)
+        Me.btn_25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_25.Name = "btn_25"
-        Me.btn_25.Size = New System.Drawing.Size(57, 58)
+        Me.btn_25.Size = New System.Drawing.Size(76, 71)
         Me.btn_25.TabIndex = 22
         Me.btn_25.Text = "25"
         Me.btn_25.UseVisualStyleBackColor = True
@@ -3030,9 +3217,10 @@ Partial Class MenuCustomer
         Me.btn_31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_31.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_31.ForeColor = System.Drawing.Color.White
-        Me.btn_31.Location = New System.Drawing.Point(447, 187)
+        Me.btn_31.Location = New System.Drawing.Point(596, 230)
+        Me.btn_31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_31.Name = "btn_31"
-        Me.btn_31.Size = New System.Drawing.Size(57, 58)
+        Me.btn_31.Size = New System.Drawing.Size(79, 71)
         Me.btn_31.TabIndex = 22
         Me.btn_31.Text = "31"
         Me.btn_31.UseVisualStyleBackColor = True
@@ -3045,9 +3233,10 @@ Partial Class MenuCustomer
         Me.btn_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_2.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_2.ForeColor = System.Drawing.Color.White
-        Me.btn_2.Location = New System.Drawing.Point(127, 59)
+        Me.btn_2.Location = New System.Drawing.Point(169, 73)
+        Me.btn_2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_2.Name = "btn_2"
-        Me.btn_2.Size = New System.Drawing.Size(57, 58)
+        Me.btn_2.Size = New System.Drawing.Size(76, 71)
         Me.btn_2.TabIndex = 22
         Me.btn_2.Text = "2"
         Me.btn_2.UseVisualStyleBackColor = True
@@ -3061,9 +3250,10 @@ Partial Class MenuCustomer
         Me.btn_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_8.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_8.ForeColor = System.Drawing.Color.White
-        Me.btn_8.Location = New System.Drawing.Point(509, 59)
+        Me.btn_8.Location = New System.Drawing.Point(679, 73)
+        Me.btn_8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_8.Name = "btn_8"
-        Me.btn_8.Size = New System.Drawing.Size(57, 58)
+        Me.btn_8.Size = New System.Drawing.Size(76, 71)
         Me.btn_8.TabIndex = 22
         Me.btn_8.Text = "8"
         Me.btn_8.UseVisualStyleBackColor = False
@@ -3076,9 +3266,10 @@ Partial Class MenuCustomer
         Me.btn_14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_14.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_14.ForeColor = System.Drawing.Color.White
-        Me.btn_14.Location = New System.Drawing.Point(127, 123)
+        Me.btn_14.Location = New System.Drawing.Point(169, 151)
+        Me.btn_14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_14.Name = "btn_14"
-        Me.btn_14.Size = New System.Drawing.Size(57, 58)
+        Me.btn_14.Size = New System.Drawing.Size(76, 71)
         Me.btn_14.TabIndex = 22
         Me.btn_14.Text = "14"
         Me.btn_14.UseVisualStyleBackColor = True
@@ -3091,9 +3282,10 @@ Partial Class MenuCustomer
         Me.btn_20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_20.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_20.ForeColor = System.Drawing.Color.White
-        Me.btn_20.Location = New System.Drawing.Point(509, 123)
+        Me.btn_20.Location = New System.Drawing.Point(679, 151)
+        Me.btn_20.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_20.Name = "btn_20"
-        Me.btn_20.Size = New System.Drawing.Size(57, 58)
+        Me.btn_20.Size = New System.Drawing.Size(76, 71)
         Me.btn_20.TabIndex = 22
         Me.btn_20.Text = "20"
         Me.btn_20.UseVisualStyleBackColor = True
@@ -3106,9 +3298,10 @@ Partial Class MenuCustomer
         Me.btn_26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_26.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_26.ForeColor = System.Drawing.Color.White
-        Me.btn_26.Location = New System.Drawing.Point(127, 187)
+        Me.btn_26.Location = New System.Drawing.Point(169, 230)
+        Me.btn_26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_26.Name = "btn_26"
-        Me.btn_26.Size = New System.Drawing.Size(57, 58)
+        Me.btn_26.Size = New System.Drawing.Size(76, 71)
         Me.btn_26.TabIndex = 22
         Me.btn_26.Text = "26"
         Me.btn_26.UseVisualStyleBackColor = True
@@ -3121,9 +3314,10 @@ Partial Class MenuCustomer
         Me.btn_32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_32.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_32.ForeColor = System.Drawing.Color.White
-        Me.btn_32.Location = New System.Drawing.Point(509, 187)
+        Me.btn_32.Location = New System.Drawing.Point(679, 230)
+        Me.btn_32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_32.Name = "btn_32"
-        Me.btn_32.Size = New System.Drawing.Size(57, 58)
+        Me.btn_32.Size = New System.Drawing.Size(76, 71)
         Me.btn_32.TabIndex = 22
         Me.btn_32.Text = "32"
         Me.btn_32.UseVisualStyleBackColor = True
@@ -3136,9 +3330,10 @@ Partial Class MenuCustomer
         Me.btn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_3.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_3.ForeColor = System.Drawing.Color.White
-        Me.btn_3.Location = New System.Drawing.Point(189, 59)
+        Me.btn_3.Location = New System.Drawing.Point(252, 73)
+        Me.btn_3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_3.Name = "btn_3"
-        Me.btn_3.Size = New System.Drawing.Size(57, 58)
+        Me.btn_3.Size = New System.Drawing.Size(76, 71)
         Me.btn_3.TabIndex = 22
         Me.btn_3.Text = "3"
         Me.btn_3.UseVisualStyleBackColor = True
@@ -3151,9 +3346,10 @@ Partial Class MenuCustomer
         Me.btn_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_9.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_9.ForeColor = System.Drawing.Color.White
-        Me.btn_9.Location = New System.Drawing.Point(571, 59)
+        Me.btn_9.Location = New System.Drawing.Point(761, 73)
+        Me.btn_9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_9.Name = "btn_9"
-        Me.btn_9.Size = New System.Drawing.Size(57, 58)
+        Me.btn_9.Size = New System.Drawing.Size(76, 71)
         Me.btn_9.TabIndex = 22
         Me.btn_9.Text = "9"
         Me.btn_9.UseVisualStyleBackColor = True
@@ -3166,9 +3362,10 @@ Partial Class MenuCustomer
         Me.btn_15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_15.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_15.ForeColor = System.Drawing.Color.White
-        Me.btn_15.Location = New System.Drawing.Point(189, 123)
+        Me.btn_15.Location = New System.Drawing.Point(252, 151)
+        Me.btn_15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_15.Name = "btn_15"
-        Me.btn_15.Size = New System.Drawing.Size(57, 58)
+        Me.btn_15.Size = New System.Drawing.Size(76, 71)
         Me.btn_15.TabIndex = 22
         Me.btn_15.Text = "15"
         Me.btn_15.UseVisualStyleBackColor = True
@@ -3181,9 +3378,10 @@ Partial Class MenuCustomer
         Me.btn_21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_21.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_21.ForeColor = System.Drawing.Color.White
-        Me.btn_21.Location = New System.Drawing.Point(571, 123)
+        Me.btn_21.Location = New System.Drawing.Point(761, 151)
+        Me.btn_21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_21.Name = "btn_21"
-        Me.btn_21.Size = New System.Drawing.Size(57, 58)
+        Me.btn_21.Size = New System.Drawing.Size(76, 71)
         Me.btn_21.TabIndex = 22
         Me.btn_21.Text = "21"
         Me.btn_21.UseVisualStyleBackColor = True
@@ -3196,9 +3394,10 @@ Partial Class MenuCustomer
         Me.btn_27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_27.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_27.ForeColor = System.Drawing.Color.White
-        Me.btn_27.Location = New System.Drawing.Point(189, 187)
+        Me.btn_27.Location = New System.Drawing.Point(252, 230)
+        Me.btn_27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_27.Name = "btn_27"
-        Me.btn_27.Size = New System.Drawing.Size(57, 58)
+        Me.btn_27.Size = New System.Drawing.Size(76, 71)
         Me.btn_27.TabIndex = 22
         Me.btn_27.Text = "27"
         Me.btn_27.UseVisualStyleBackColor = True
@@ -3211,9 +3410,10 @@ Partial Class MenuCustomer
         Me.btn_33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_33.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_33.ForeColor = System.Drawing.Color.White
-        Me.btn_33.Location = New System.Drawing.Point(571, 187)
+        Me.btn_33.Location = New System.Drawing.Point(761, 230)
+        Me.btn_33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_33.Name = "btn_33"
-        Me.btn_33.Size = New System.Drawing.Size(57, 58)
+        Me.btn_33.Size = New System.Drawing.Size(76, 71)
         Me.btn_33.TabIndex = 22
         Me.btn_33.Text = "33"
         Me.btn_33.UseVisualStyleBackColor = True
@@ -3227,9 +3427,10 @@ Partial Class MenuCustomer
         Me.btn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_4.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_4.ForeColor = System.Drawing.Color.White
-        Me.btn_4.Location = New System.Drawing.Point(256, 59)
+        Me.btn_4.Location = New System.Drawing.Point(341, 73)
+        Me.btn_4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_4.Name = "btn_4"
-        Me.btn_4.Size = New System.Drawing.Size(57, 58)
+        Me.btn_4.Size = New System.Drawing.Size(76, 71)
         Me.btn_4.TabIndex = 22
         Me.btn_4.Text = "4"
         Me.btn_4.UseVisualStyleBackColor = False
@@ -3243,9 +3444,10 @@ Partial Class MenuCustomer
         Me.btn_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_10.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_10.ForeColor = System.Drawing.Color.White
-        Me.btn_10.Location = New System.Drawing.Point(638, 59)
+        Me.btn_10.Location = New System.Drawing.Point(851, 73)
+        Me.btn_10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_10.Name = "btn_10"
-        Me.btn_10.Size = New System.Drawing.Size(57, 58)
+        Me.btn_10.Size = New System.Drawing.Size(76, 71)
         Me.btn_10.TabIndex = 22
         Me.btn_10.Text = "10"
         Me.btn_10.UseVisualStyleBackColor = False
@@ -3258,9 +3460,10 @@ Partial Class MenuCustomer
         Me.btn_16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_16.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_16.ForeColor = System.Drawing.Color.White
-        Me.btn_16.Location = New System.Drawing.Point(256, 123)
+        Me.btn_16.Location = New System.Drawing.Point(341, 151)
+        Me.btn_16.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_16.Name = "btn_16"
-        Me.btn_16.Size = New System.Drawing.Size(57, 58)
+        Me.btn_16.Size = New System.Drawing.Size(76, 71)
         Me.btn_16.TabIndex = 22
         Me.btn_16.Text = "16"
         Me.btn_16.UseVisualStyleBackColor = True
@@ -3273,9 +3476,10 @@ Partial Class MenuCustomer
         Me.btn_22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_22.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_22.ForeColor = System.Drawing.Color.White
-        Me.btn_22.Location = New System.Drawing.Point(638, 123)
+        Me.btn_22.Location = New System.Drawing.Point(851, 151)
+        Me.btn_22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_22.Name = "btn_22"
-        Me.btn_22.Size = New System.Drawing.Size(57, 58)
+        Me.btn_22.Size = New System.Drawing.Size(76, 71)
         Me.btn_22.TabIndex = 22
         Me.btn_22.Text = "22"
         Me.btn_22.UseVisualStyleBackColor = True
@@ -3288,9 +3492,10 @@ Partial Class MenuCustomer
         Me.btn_28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_28.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_28.ForeColor = System.Drawing.Color.White
-        Me.btn_28.Location = New System.Drawing.Point(256, 187)
+        Me.btn_28.Location = New System.Drawing.Point(341, 230)
+        Me.btn_28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_28.Name = "btn_28"
-        Me.btn_28.Size = New System.Drawing.Size(57, 58)
+        Me.btn_28.Size = New System.Drawing.Size(76, 71)
         Me.btn_28.TabIndex = 22
         Me.btn_28.Text = "28"
         Me.btn_28.UseVisualStyleBackColor = True
@@ -3303,9 +3508,10 @@ Partial Class MenuCustomer
         Me.btn_34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_34.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_34.ForeColor = System.Drawing.Color.White
-        Me.btn_34.Location = New System.Drawing.Point(638, 187)
+        Me.btn_34.Location = New System.Drawing.Point(851, 230)
+        Me.btn_34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_34.Name = "btn_34"
-        Me.btn_34.Size = New System.Drawing.Size(57, 58)
+        Me.btn_34.Size = New System.Drawing.Size(76, 71)
         Me.btn_34.TabIndex = 22
         Me.btn_34.Text = "34"
         Me.btn_34.UseVisualStyleBackColor = True
@@ -3318,9 +3524,10 @@ Partial Class MenuCustomer
         Me.btn_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_5.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_5.ForeColor = System.Drawing.Color.White
-        Me.btn_5.Location = New System.Drawing.Point(318, 59)
+        Me.btn_5.Location = New System.Drawing.Point(424, 73)
+        Me.btn_5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_5.Name = "btn_5"
-        Me.btn_5.Size = New System.Drawing.Size(57, 58)
+        Me.btn_5.Size = New System.Drawing.Size(76, 71)
         Me.btn_5.TabIndex = 22
         Me.btn_5.Text = "5"
         Me.btn_5.UseVisualStyleBackColor = True
@@ -3333,9 +3540,10 @@ Partial Class MenuCustomer
         Me.btn_11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_11.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_11.ForeColor = System.Drawing.Color.White
-        Me.btn_11.Location = New System.Drawing.Point(700, 59)
+        Me.btn_11.Location = New System.Drawing.Point(933, 73)
+        Me.btn_11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_11.Name = "btn_11"
-        Me.btn_11.Size = New System.Drawing.Size(57, 58)
+        Me.btn_11.Size = New System.Drawing.Size(76, 71)
         Me.btn_11.TabIndex = 22
         Me.btn_11.Text = "11"
         Me.btn_11.UseVisualStyleBackColor = True
@@ -3348,9 +3556,10 @@ Partial Class MenuCustomer
         Me.btn_17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_17.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_17.ForeColor = System.Drawing.Color.White
-        Me.btn_17.Location = New System.Drawing.Point(318, 123)
+        Me.btn_17.Location = New System.Drawing.Point(424, 151)
+        Me.btn_17.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_17.Name = "btn_17"
-        Me.btn_17.Size = New System.Drawing.Size(57, 58)
+        Me.btn_17.Size = New System.Drawing.Size(76, 71)
         Me.btn_17.TabIndex = 22
         Me.btn_17.Text = "17"
         Me.btn_17.UseVisualStyleBackColor = True
@@ -3363,9 +3572,10 @@ Partial Class MenuCustomer
         Me.btn_23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_23.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_23.ForeColor = System.Drawing.Color.White
-        Me.btn_23.Location = New System.Drawing.Point(700, 123)
+        Me.btn_23.Location = New System.Drawing.Point(933, 151)
+        Me.btn_23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_23.Name = "btn_23"
-        Me.btn_23.Size = New System.Drawing.Size(57, 58)
+        Me.btn_23.Size = New System.Drawing.Size(76, 71)
         Me.btn_23.TabIndex = 22
         Me.btn_23.Text = "23"
         Me.btn_23.UseVisualStyleBackColor = True
@@ -3378,9 +3588,10 @@ Partial Class MenuCustomer
         Me.btn_29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_29.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_29.ForeColor = System.Drawing.Color.White
-        Me.btn_29.Location = New System.Drawing.Point(318, 187)
+        Me.btn_29.Location = New System.Drawing.Point(424, 230)
+        Me.btn_29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_29.Name = "btn_29"
-        Me.btn_29.Size = New System.Drawing.Size(57, 58)
+        Me.btn_29.Size = New System.Drawing.Size(76, 71)
         Me.btn_29.TabIndex = 22
         Me.btn_29.Text = "29"
         Me.btn_29.UseVisualStyleBackColor = True
@@ -3393,9 +3604,10 @@ Partial Class MenuCustomer
         Me.btn_35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_35.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_35.ForeColor = System.Drawing.Color.White
-        Me.btn_35.Location = New System.Drawing.Point(700, 187)
+        Me.btn_35.Location = New System.Drawing.Point(933, 230)
+        Me.btn_35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_35.Name = "btn_35"
-        Me.btn_35.Size = New System.Drawing.Size(57, 58)
+        Me.btn_35.Size = New System.Drawing.Size(76, 71)
         Me.btn_35.TabIndex = 22
         Me.btn_35.Text = "35"
         Me.btn_35.UseVisualStyleBackColor = True
@@ -3409,9 +3621,10 @@ Partial Class MenuCustomer
         Me.btn_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_6.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_6.ForeColor = System.Drawing.Color.White
-        Me.btn_6.Location = New System.Drawing.Point(380, 59)
+        Me.btn_6.Location = New System.Drawing.Point(507, 73)
+        Me.btn_6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_6.Name = "btn_6"
-        Me.btn_6.Size = New System.Drawing.Size(57, 58)
+        Me.btn_6.Size = New System.Drawing.Size(76, 71)
         Me.btn_6.TabIndex = 22
         Me.btn_6.Text = "6"
         Me.btn_6.UseVisualStyleBackColor = False
@@ -3425,9 +3638,10 @@ Partial Class MenuCustomer
         Me.btn_12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_12.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_12.ForeColor = System.Drawing.Color.White
-        Me.btn_12.Location = New System.Drawing.Point(762, 59)
+        Me.btn_12.Location = New System.Drawing.Point(1016, 73)
+        Me.btn_12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_12.Name = "btn_12"
-        Me.btn_12.Size = New System.Drawing.Size(57, 58)
+        Me.btn_12.Size = New System.Drawing.Size(76, 71)
         Me.btn_12.TabIndex = 22
         Me.btn_12.Text = "12"
         Me.btn_12.UseVisualStyleBackColor = False
@@ -3440,9 +3654,10 @@ Partial Class MenuCustomer
         Me.btn_18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_18.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_18.ForeColor = System.Drawing.Color.White
-        Me.btn_18.Location = New System.Drawing.Point(380, 123)
+        Me.btn_18.Location = New System.Drawing.Point(507, 151)
+        Me.btn_18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_18.Name = "btn_18"
-        Me.btn_18.Size = New System.Drawing.Size(57, 58)
+        Me.btn_18.Size = New System.Drawing.Size(76, 71)
         Me.btn_18.TabIndex = 22
         Me.btn_18.Text = "18"
         Me.btn_18.UseVisualStyleBackColor = True
@@ -3455,9 +3670,10 @@ Partial Class MenuCustomer
         Me.btn_24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_24.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_24.ForeColor = System.Drawing.Color.White
-        Me.btn_24.Location = New System.Drawing.Point(762, 123)
+        Me.btn_24.Location = New System.Drawing.Point(1016, 151)
+        Me.btn_24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_24.Name = "btn_24"
-        Me.btn_24.Size = New System.Drawing.Size(57, 58)
+        Me.btn_24.Size = New System.Drawing.Size(76, 71)
         Me.btn_24.TabIndex = 22
         Me.btn_24.Text = "24"
         Me.btn_24.UseVisualStyleBackColor = True
@@ -3470,9 +3686,10 @@ Partial Class MenuCustomer
         Me.btn_30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_30.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_30.ForeColor = System.Drawing.Color.White
-        Me.btn_30.Location = New System.Drawing.Point(380, 187)
+        Me.btn_30.Location = New System.Drawing.Point(507, 230)
+        Me.btn_30.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_30.Name = "btn_30"
-        Me.btn_30.Size = New System.Drawing.Size(57, 58)
+        Me.btn_30.Size = New System.Drawing.Size(76, 71)
         Me.btn_30.TabIndex = 22
         Me.btn_30.Text = "30"
         Me.btn_30.UseVisualStyleBackColor = True
@@ -3485,9 +3702,10 @@ Partial Class MenuCustomer
         Me.btn_36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_36.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
         Me.btn_36.ForeColor = System.Drawing.Color.White
-        Me.btn_36.Location = New System.Drawing.Point(762, 187)
+        Me.btn_36.Location = New System.Drawing.Point(1016, 230)
+        Me.btn_36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_36.Name = "btn_36"
-        Me.btn_36.Size = New System.Drawing.Size(57, 58)
+        Me.btn_36.Size = New System.Drawing.Size(76, 71)
         Me.btn_36.TabIndex = 22
         Me.btn_36.Text = "36"
         Me.btn_36.UseVisualStyleBackColor = True
@@ -3497,18 +3715,20 @@ Partial Class MenuCustomer
         Me.Panel56.BackgroundImage = CType(resources.GetObject("Panel56.BackgroundImage"), System.Drawing.Image)
         Me.Panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel56.Controls.Add(Me.Label65)
-        Me.Panel56.Location = New System.Drawing.Point(79, 48)
+        Me.Panel56.Location = New System.Drawing.Point(105, 59)
+        Me.Panel56.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel56.Name = "Panel56"
-        Me.Panel56.Size = New System.Drawing.Size(49, 49)
+        Me.Panel56.Size = New System.Drawing.Size(65, 60)
         Me.Panel56.TabIndex = 51
         '
         'Label65
         '
         Me.Label65.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label65.ForeColor = System.Drawing.Color.Black
-        Me.Label65.Location = New System.Drawing.Point(3, 16)
+        Me.Label65.Location = New System.Drawing.Point(4, 20)
+        Me.Label65.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(42, 18)
+        Me.Label65.Size = New System.Drawing.Size(56, 22)
         Me.Label65.TabIndex = 25
         Me.Label65.Text = "0"
         Me.Label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3519,18 +3739,20 @@ Partial Class MenuCustomer
         Me.Panel55.BackgroundImage = CType(resources.GetObject("Panel55.BackgroundImage"), System.Drawing.Image)
         Me.Panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel55.Controls.Add(Me.Label64)
-        Me.Panel55.Location = New System.Drawing.Point(0, 48)
+        Me.Panel55.Location = New System.Drawing.Point(0, 59)
+        Me.Panel55.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel55.Name = "Panel55"
-        Me.Panel55.Size = New System.Drawing.Size(49, 49)
+        Me.Panel55.Size = New System.Drawing.Size(65, 60)
         Me.Panel55.TabIndex = 50
         '
         'Label64
         '
         Me.Label64.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label64.ForeColor = System.Drawing.Color.Black
-        Me.Label64.Location = New System.Drawing.Point(3, 16)
+        Me.Label64.Location = New System.Drawing.Point(4, 20)
+        Me.Label64.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(42, 18)
+        Me.Label64.Size = New System.Drawing.Size(56, 22)
         Me.Label64.TabIndex = 25
         Me.Label64.Text = "0"
         Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3541,18 +3763,20 @@ Partial Class MenuCustomer
         Me.Panel54.BackgroundImage = CType(resources.GetObject("Panel54.BackgroundImage"), System.Drawing.Image)
         Me.Panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel54.Controls.Add(Me.Label63)
-        Me.Panel54.Location = New System.Drawing.Point(79, 0)
+        Me.Panel54.Location = New System.Drawing.Point(105, 0)
+        Me.Panel54.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(49, 49)
+        Me.Panel54.Size = New System.Drawing.Size(65, 60)
         Me.Panel54.TabIndex = 50
         '
         'Label63
         '
         Me.Label63.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label63.ForeColor = System.Drawing.Color.Black
-        Me.Label63.Location = New System.Drawing.Point(3, 16)
+        Me.Label63.Location = New System.Drawing.Point(4, 20)
+        Me.Label63.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(42, 18)
+        Me.Label63.Size = New System.Drawing.Size(56, 22)
         Me.Label63.TabIndex = 25
         Me.Label63.Text = "0"
         Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3564,17 +3788,19 @@ Partial Class MenuCustomer
         Me.Panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel53.Controls.Add(Me.Label62)
         Me.Panel53.Location = New System.Drawing.Point(0, 0)
+        Me.Panel53.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(49, 49)
+        Me.Panel53.Size = New System.Drawing.Size(65, 60)
         Me.Panel53.TabIndex = 50
         '
         'Label62
         '
         Me.Label62.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label62.ForeColor = System.Drawing.Color.Black
-        Me.Label62.Location = New System.Drawing.Point(3, 16)
+        Me.Label62.Location = New System.Drawing.Point(4, 20)
+        Me.Label62.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(42, 18)
+        Me.Label62.Size = New System.Drawing.Size(56, 22)
         Me.Label62.TabIndex = 25
         Me.Label62.Text = "0"
         Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3588,9 +3814,10 @@ Partial Class MenuCustomer
         Me.btn_grup_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_grup_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_grup_4.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_4.Location = New System.Drawing.Point(69, 55)
+        Me.btn_grup_4.Location = New System.Drawing.Point(92, 68)
+        Me.btn_grup_4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_grup_4.Name = "btn_grup_4"
-        Me.btn_grup_4.Size = New System.Drawing.Size(67, 33)
+        Me.btn_grup_4.Size = New System.Drawing.Size(89, 41)
         Me.btn_grup_4.TabIndex = 0
         Me.btn_grup_4.UseVisualStyleBackColor = True
         '
@@ -3602,9 +3829,10 @@ Partial Class MenuCustomer
         Me.btn_grup_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_grup_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_grup_3.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_3.Location = New System.Drawing.Point(0, 55)
+        Me.btn_grup_3.Location = New System.Drawing.Point(0, 68)
+        Me.btn_grup_3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_grup_3.Name = "btn_grup_3"
-        Me.btn_grup_3.Size = New System.Drawing.Size(63, 33)
+        Me.btn_grup_3.Size = New System.Drawing.Size(84, 41)
         Me.btn_grup_3.TabIndex = 0
         Me.btn_grup_3.UseVisualStyleBackColor = True
         '
@@ -3616,9 +3844,10 @@ Partial Class MenuCustomer
         Me.btn_grup_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_grup_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_grup_2.ForeColor = System.Drawing.Color.White
-        Me.btn_grup_2.Location = New System.Drawing.Point(71, 0)
+        Me.btn_grup_2.Location = New System.Drawing.Point(95, 0)
+        Me.btn_grup_2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_grup_2.Name = "btn_grup_2"
-        Me.btn_grup_2.Size = New System.Drawing.Size(65, 33)
+        Me.btn_grup_2.Size = New System.Drawing.Size(87, 41)
         Me.btn_grup_2.TabIndex = 0
         Me.btn_grup_2.UseVisualStyleBackColor = True
         '
@@ -3631,8 +3860,9 @@ Partial Class MenuCustomer
         Me.btn_grup_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Bold)
         Me.btn_grup_1.ForeColor = System.Drawing.Color.White
         Me.btn_grup_1.Location = New System.Drawing.Point(0, 0)
+        Me.btn_grup_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_grup_1.Name = "btn_grup_1"
-        Me.btn_grup_1.Size = New System.Drawing.Size(65, 33)
+        Me.btn_grup_1.Size = New System.Drawing.Size(87, 41)
         Me.btn_grup_1.TabIndex = 0
         Me.btn_grup_1.UseVisualStyleBackColor = True
         '
@@ -3641,9 +3871,10 @@ Partial Class MenuCustomer
         Me.shio.BackColor = System.Drawing.Color.White
         Me.shio.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.shio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.shio.Location = New System.Drawing.Point(362, 178)
+        Me.shio.Location = New System.Drawing.Point(483, 219)
+        Me.shio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.shio.Name = "shio"
-        Me.shio.Size = New System.Drawing.Size(159, 160)
+        Me.shio.Size = New System.Drawing.Size(212, 197)
         Me.shio.TabIndex = 57
         '
         'angka
@@ -3651,9 +3882,10 @@ Partial Class MenuCustomer
         Me.angka.BackColor = System.Drawing.Color.Transparent
         Me.angka.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.kotak_merah
         Me.angka.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.angka.Location = New System.Drawing.Point(371, 18)
+        Me.angka.Location = New System.Drawing.Point(495, 22)
+        Me.angka.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.angka.Name = "angka"
-        Me.angka.Size = New System.Drawing.Size(140, 152)
+        Me.angka.Size = New System.Drawing.Size(187, 187)
         Me.angka.TabIndex = 57
         '
         'history
@@ -3672,17 +3904,17 @@ Partial Class MenuCustomer
         Me.history.Controls.Add(Me.ListView2)
         Me.history.Controls.Add(Me.ListView1)
         Me.history.Location = New System.Drawing.Point(0, 0)
+        Me.history.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.history.Name = "history"
-        Me.history.Size = New System.Drawing.Size(883, 496)
+        Me.history.Size = New System.Drawing.Size(1177, 610)
         Me.history.TabIndex = 57
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(51, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Label1"
         '
@@ -3691,9 +3923,10 @@ Partial Class MenuCustomer
         Me.Button1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.back
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(99, 79)
+        Me.Button1.Location = New System.Drawing.Point(132, 97)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(92, 31)
+        Me.Button1.Size = New System.Drawing.Size(123, 38)
         Me.Button1.TabIndex = 1
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -3707,12 +3940,13 @@ Partial Class MenuCustomer
         Me.ListView8.HideSelection = False
         Me.ListView8.LabelWrap = False
         Me.ListView8.LargeImageList = Me.ImageList1
-        Me.ListView8.Location = New System.Drawing.Point(727, 125)
+        Me.ListView8.Location = New System.Drawing.Point(969, 154)
+        Me.ListView8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView8.MultiSelect = False
         Me.ListView8.Name = "ListView8"
         Me.ListView8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView8.Scrollable = False
-        Me.ListView8.Size = New System.Drawing.Size(55, 367)
+        Me.ListView8.Size = New System.Drawing.Size(73, 452)
         Me.ListView8.SmallImageList = Me.ImageList1
         Me.ListView8.TabIndex = 0
         Me.ListView8.TileSize = New System.Drawing.Size(94, 94)
@@ -3729,12 +3963,13 @@ Partial Class MenuCustomer
         Me.ListView7.HideSelection = False
         Me.ListView7.LabelWrap = False
         Me.ListView7.LargeImageList = Me.ImageList1
-        Me.ListView7.Location = New System.Drawing.Point(540, 125)
+        Me.ListView7.Location = New System.Drawing.Point(720, 154)
+        Me.ListView7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView7.MultiSelect = False
         Me.ListView7.Name = "ListView7"
         Me.ListView7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView7.Scrollable = False
-        Me.ListView7.Size = New System.Drawing.Size(55, 367)
+        Me.ListView7.Size = New System.Drawing.Size(73, 452)
         Me.ListView7.SmallImageList = Me.ImageList1
         Me.ListView7.TabIndex = 0
         Me.ListView7.TileSize = New System.Drawing.Size(94, 94)
@@ -3751,12 +3986,13 @@ Partial Class MenuCustomer
         Me.ListView6.HideSelection = False
         Me.ListView6.LabelWrap = False
         Me.ListView6.LargeImageList = Me.ImageList1
-        Me.ListView6.Location = New System.Drawing.Point(353, 125)
+        Me.ListView6.Location = New System.Drawing.Point(471, 154)
+        Me.ListView6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView6.MultiSelect = False
         Me.ListView6.Name = "ListView6"
         Me.ListView6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView6.Scrollable = False
-        Me.ListView6.Size = New System.Drawing.Size(55, 367)
+        Me.ListView6.Size = New System.Drawing.Size(73, 452)
         Me.ListView6.SmallImageList = Me.ImageList1
         Me.ListView6.TabIndex = 0
         Me.ListView6.TileSize = New System.Drawing.Size(94, 94)
@@ -3773,12 +4009,13 @@ Partial Class MenuCustomer
         Me.ListView5.HideSelection = False
         Me.ListView5.LabelWrap = False
         Me.ListView5.LargeImageList = Me.ImageList1
-        Me.ListView5.Location = New System.Drawing.Point(168, 125)
+        Me.ListView5.Location = New System.Drawing.Point(224, 154)
+        Me.ListView5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView5.MultiSelect = False
         Me.ListView5.Name = "ListView5"
         Me.ListView5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView5.Scrollable = False
-        Me.ListView5.Size = New System.Drawing.Size(55, 367)
+        Me.ListView5.Size = New System.Drawing.Size(73, 452)
         Me.ListView5.SmallImageList = Me.ImageList1
         Me.ListView5.TabIndex = 0
         Me.ListView5.TileSize = New System.Drawing.Size(94, 94)
@@ -3795,12 +4032,13 @@ Partial Class MenuCustomer
         Me.ListView4.HideSelection = False
         Me.ListView4.LabelWrap = False
         Me.ListView4.LargeImageList = Me.ImageList1
-        Me.ListView4.Location = New System.Drawing.Point(660, 125)
+        Me.ListView4.Location = New System.Drawing.Point(880, 154)
+        Me.ListView4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView4.MultiSelect = False
         Me.ListView4.Name = "ListView4"
         Me.ListView4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView4.Scrollable = False
-        Me.ListView4.Size = New System.Drawing.Size(55, 367)
+        Me.ListView4.Size = New System.Drawing.Size(73, 452)
         Me.ListView4.SmallImageList = Me.ImageList1
         Me.ListView4.TabIndex = 0
         Me.ListView4.TileSize = New System.Drawing.Size(94, 94)
@@ -3817,12 +4055,13 @@ Partial Class MenuCustomer
         Me.ListView3.HideSelection = False
         Me.ListView3.LabelWrap = False
         Me.ListView3.LargeImageList = Me.ImageList1
-        Me.ListView3.Location = New System.Drawing.Point(475, 125)
+        Me.ListView3.Location = New System.Drawing.Point(633, 154)
+        Me.ListView3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView3.MultiSelect = False
         Me.ListView3.Name = "ListView3"
         Me.ListView3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView3.Scrollable = False
-        Me.ListView3.Size = New System.Drawing.Size(55, 367)
+        Me.ListView3.Size = New System.Drawing.Size(73, 452)
         Me.ListView3.SmallImageList = Me.ImageList1
         Me.ListView3.TabIndex = 0
         Me.ListView3.TileSize = New System.Drawing.Size(94, 94)
@@ -3839,12 +4078,13 @@ Partial Class MenuCustomer
         Me.ListView2.HideSelection = False
         Me.ListView2.LabelWrap = False
         Me.ListView2.LargeImageList = Me.ImageList1
-        Me.ListView2.Location = New System.Drawing.Point(290, 125)
+        Me.ListView2.Location = New System.Drawing.Point(387, 154)
+        Me.ListView2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView2.MultiSelect = False
         Me.ListView2.Name = "ListView2"
         Me.ListView2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView2.Scrollable = False
-        Me.ListView2.Size = New System.Drawing.Size(55, 367)
+        Me.ListView2.Size = New System.Drawing.Size(73, 452)
         Me.ListView2.SmallImageList = Me.ImageList1
         Me.ListView2.TabIndex = 0
         Me.ListView2.TileSize = New System.Drawing.Size(94, 94)
@@ -3862,12 +4102,13 @@ Partial Class MenuCustomer
         Me.ListView1.HideSelection = False
         Me.ListView1.LabelWrap = False
         Me.ListView1.LargeImageList = Me.ImageList1
-        Me.ListView1.Location = New System.Drawing.Point(104, 125)
+        Me.ListView1.Location = New System.Drawing.Point(139, 154)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView1.MultiSelect = False
         Me.ListView1.Name = "ListView1"
         Me.ListView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ListView1.Scrollable = False
-        Me.ListView1.Size = New System.Drawing.Size(55, 367)
+        Me.ListView1.Size = New System.Drawing.Size(73, 452)
         Me.ListView1.SmallImageList = Me.ImageList1
         Me.ListView1.TabIndex = 0
         Me.ListView1.TileSize = New System.Drawing.Size(94, 94)
@@ -3884,19 +4125,20 @@ Partial Class MenuCustomer
         Me.hidden.Controls.Add(Me.btn_grup_2)
         Me.hidden.Controls.Add(Me.Panel53)
         Me.hidden.Controls.Add(Me.btn_grup_1)
-        Me.hidden.Location = New System.Drawing.Point(9, 11)
+        Me.hidden.Location = New System.Drawing.Point(12, 14)
+        Me.hidden.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hidden.Name = "hidden"
-        Me.hidden.Size = New System.Drawing.Size(149, 100)
+        Me.hidden.Size = New System.Drawing.Size(199, 123)
         Me.hidden.TabIndex = 67
         '
         'MenuCustomer
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(883, 496)
+        Me.ClientSize = New System.Drawing.Size(1177, 610)
         Me.Controls.Add(Me.Panel66)
         Me.Controls.Add(Me.Panel65)
         Me.Controls.Add(Me.shio)
@@ -3906,6 +4148,7 @@ Partial Class MenuCustomer
         Me.Controls.Add(Me.hidden)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MenuCustomer"
         Me.Text = "Bubble Bee"
         Me.Panel65.ResumeLayout(False)
