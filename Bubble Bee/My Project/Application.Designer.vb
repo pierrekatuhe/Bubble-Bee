@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Bubble_Bee.Login
+            Me.MainForm = Global.Bubble_Bee.MenuCustomer
         End Sub
     End Class
 End Namespace
