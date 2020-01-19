@@ -600,5 +600,77 @@
   <ItemGroup>
     <None Include="Resources\pilih_coin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_bet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rebet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outer_white.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

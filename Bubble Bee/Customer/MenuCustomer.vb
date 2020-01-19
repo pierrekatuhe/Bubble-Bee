@@ -52,7 +52,7 @@ Public Class MenuCustomer
             btn_bet_10.Enabled = False
             btn_bet_100.Enabled = False
             btn_bet_500.Enabled = False
-            btn_bet_5000.Enabled = False
+            btn_bet_1000.Enabled = False
             Panel70.Visible = False
             btn_cancel.Visible = False
             btn_repeat.Visible = False
@@ -194,7 +194,7 @@ Public Class MenuCustomer
         btn_bet_10.Enabled = True
         btn_bet_100.Enabled = True
         btn_bet_500.Enabled = True
-        btn_bet_5000.Enabled = True
+        btn_bet_1000.Enabled = True
         Panel70.Visible = True
         btn_repeat.Visible = True
         btn_logout.Visible = False
@@ -274,7 +274,7 @@ Public Class MenuCustomer
         btn_bet_10.Enabled = False
         btn_bet_100.Enabled = False
         btn_bet_500.Enabled = False
-        btn_bet_5000.Enabled = False
+        btn_bet_1000.Enabled = False
         btn_repeat.Visible = False
         btn_cancel.Visible = False
         txt_bet.Text = 0
@@ -734,7 +734,7 @@ Public Class MenuCustomer
         btn_bet_10.Enabled = False
         btn_bet_100.Enabled = True
         btn_bet_500.Enabled = True
-        btn_bet_5000.Enabled = True
+        btn_bet_1000.Enabled = True
         bet()
         My.Computer.Audio.Play("C:\Users\Public\Music\Sound Effects\pergantian_koin.wav")
         Panel70.Visible = False
@@ -744,7 +744,7 @@ Public Class MenuCustomer
         btn_bet_10.Enabled = True
         btn_bet_100.Enabled = False
         btn_bet_500.Enabled = True
-        btn_bet_5000.Enabled = True
+        btn_bet_1000.Enabled = True
         bet()
         My.Computer.Audio.Play("C:\Users\Public\Music\Sound Effects\pergantian_koin.wav")
         Panel70.Visible = False
@@ -754,17 +754,17 @@ Public Class MenuCustomer
         btn_bet_10.Enabled = True
         btn_bet_100.Enabled = True
         btn_bet_500.Enabled = False
-        btn_bet_5000.Enabled = True
+        btn_bet_1000.Enabled = True
         bet()
         My.Computer.Audio.Play("C:\Users\Public\Music\Sound Effects\pergantian_koin.wav")
         Panel70.Visible = False
     End Sub
 
-    Private Sub btn_bet_5000_Click(sender As Object, e As EventArgs) Handles btn_bet_5000.Click
+    Private Sub btn_bet_5000_Click(sender As Object, e As EventArgs) Handles btn_bet_1000.Click
         btn_bet_10.Enabled = True
         btn_bet_100.Enabled = True
         btn_bet_500.Enabled = True
-        btn_bet_5000.Enabled = False
+        btn_bet_1000.Enabled = False
         bet()
         My.Computer.Audio.Play("C:\Users\Public\Music\Sound Effects\pergantian_koin.wav")
         Panel70.Visible = False
@@ -1463,7 +1463,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1490,7 +1490,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1517,7 +1517,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1545,7 +1545,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1573,7 +1573,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1601,7 +1601,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1629,7 +1629,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1657,7 +1657,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1685,7 +1685,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1713,7 +1713,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1741,7 +1741,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1769,7 +1769,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1797,7 +1797,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1825,7 +1825,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1853,7 +1853,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1881,7 +1881,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1909,7 +1909,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1937,7 +1937,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1965,7 +1965,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -1993,7 +1993,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2021,7 +2021,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2049,7 +2049,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2077,7 +2077,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2105,7 +2105,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2133,7 +2133,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2161,7 +2161,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2189,7 +2189,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2217,7 +2217,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2245,7 +2245,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2273,7 +2273,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2301,7 +2301,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2329,7 +2329,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2357,7 +2357,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2385,7 +2385,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2413,7 +2413,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2441,7 +2441,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2469,7 +2469,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2497,7 +2497,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2525,7 +2525,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2553,7 +2553,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2581,7 +2581,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2609,7 +2609,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2637,7 +2637,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2665,7 +2665,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2693,7 +2693,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2721,7 +2721,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2749,7 +2749,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2777,7 +2777,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2805,7 +2805,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2833,7 +2833,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2861,7 +2861,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2889,7 +2889,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2916,7 +2916,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2943,7 +2943,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2970,7 +2970,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -2997,7 +2997,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -3024,7 +3024,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -3051,7 +3051,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -3078,7 +3078,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -3105,7 +3105,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -3132,7 +3132,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -3159,7 +3159,7 @@ Public Class MenuCustomer
             jumlahBet = 100
         ElseIf btn_bet_500.Enabled = False Then
             jumlahBet = 500
-        ElseIf btn_bet_5000.Enabled = False Then
+        ElseIf btn_bet_1000.Enabled = False Then
             jumlahBet = 5000
         End If
         If txt_credit.Text >= jumlahBet Then
@@ -5305,7 +5305,7 @@ Public Class MenuCustomer
         ElseIf e.KeyCode = 34 Then
             btn_bet_500.PerformClick()
         ElseIf e.KeyCode = 38 Then
-            btn_bet_5000.PerformClick()
+            btn_bet_1000.PerformClick()
         ElseIf e.KeyCode = 96 Then
             If history.Visible = False Then
                 btn_history.PerformClick()
@@ -5396,7 +5396,7 @@ Public Class MenuCustomer
                         btn_bet_10.Enabled = False
                         btn_bet_100.Enabled = False
                         btn_bet_500.Enabled = False
-                        btn_bet_5000.Enabled = False
+                        btn_bet_1000.Enabled = False
                         btn_cancel.Visible = False
                         btn_repeat.Visible = False
                         noBet()
@@ -5650,5 +5650,9 @@ Public Class MenuCustomer
             MsgBox(ex.Message)
         End Try
         conn.Close()
+    End Sub
+
+    Private Sub Panel24_Paint(sender As Object, e As PaintEventArgs) Handles Panel24.Paint
+
     End Sub
 End Class

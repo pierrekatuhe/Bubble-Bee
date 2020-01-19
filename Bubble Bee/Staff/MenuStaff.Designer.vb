@@ -208,6 +208,7 @@ Partial Class MenuStaff
         Me.txt_koin = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.txt_koinUser = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.FormKoin = New System.Windows.Forms.Panel()
+        Me.BunifuThinButton215 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.BunifuThinButton26 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
@@ -357,7 +358,9 @@ Partial Class MenuStaff
         Me.Label59 = New System.Windows.Forms.Label()
         Me.BunifuCustomDataGrid10 = New Bunifu.Framework.UI.BunifuCustomDataGrid()
         Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.BunifuThinButton215 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.btn_timer = New System.Windows.Forms.Button()
+        Me.FormTimer = New System.Windows.Forms.Panel()
+        Me.Label60 = New System.Windows.Forms.Label()
         Me.menu.SuspendLayout()
         Me.atas.SuspendLayout()
         Me.FormRoulette.SuspendLayout()
@@ -386,6 +389,7 @@ Partial Class MenuStaff
         Me.Form_Proses.SuspendLayout()
         Me.FormStaffKoin.SuspendLayout()
         CType(Me.BunifuCustomDataGrid10, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FormTimer.SuspendLayout()
         Me.SuspendLayout()
         '
         'menu
@@ -396,6 +400,7 @@ Partial Class MenuStaff
         Me.menu.Controls.Add(Me.btn_log)
         Me.menu.Controls.Add(Me.btn_setting)
         Me.menu.Controls.Add(Me.btn_report)
+        Me.menu.Controls.Add(Me.btn_timer)
         Me.menu.Controls.Add(Me.btn_koin)
         Me.menu.Controls.Add(Me.btn_listUser)
         Me.menu.Controls.Add(Me.history)
@@ -3035,6 +3040,31 @@ Partial Class MenuStaff
         Me.FormKoin.Size = New System.Drawing.Size(681, 475)
         Me.FormKoin.TabIndex = 3
         '
+        'BunifuThinButton215
+        '
+        Me.BunifuThinButton215.ActiveBorderThickness = 1
+        Me.BunifuThinButton215.ActiveCornerRadius = 20
+        Me.BunifuThinButton215.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton215.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton215.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.BunifuThinButton215.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.BunifuThinButton215.BackgroundImage = CType(resources.GetObject("BunifuThinButton215.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton215.ButtonText = "Refresh"
+        Me.BunifuThinButton215.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton215.Font = New System.Drawing.Font("Century Gothic", 12.0!)
+        Me.BunifuThinButton215.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton215.IdleBorderThickness = 1
+        Me.BunifuThinButton215.IdleCornerRadius = 20
+        Me.BunifuThinButton215.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.BunifuThinButton215.IdleForecolor = System.Drawing.Color.White
+        Me.BunifuThinButton215.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.BunifuThinButton215.Location = New System.Drawing.Point(541, 395)
+        Me.BunifuThinButton215.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuThinButton215.Name = "BunifuThinButton215"
+        Me.BunifuThinButton215.Size = New System.Drawing.Size(117, 45)
+        Me.BunifuThinButton215.TabIndex = 54
+        Me.BunifuThinButton215.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'BunifuThinButton26
         '
         Me.BunifuThinButton26.ActiveBorderThickness = 1
@@ -5558,30 +5588,40 @@ Partial Class MenuStaff
         Me.DataGridViewTextBoxColumn6.HeaderText = "No"
         Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
         '
-        'BunifuThinButton215
+        'btn_timer
         '
-        Me.BunifuThinButton215.ActiveBorderThickness = 1
-        Me.BunifuThinButton215.ActiveCornerRadius = 20
-        Me.BunifuThinButton215.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton215.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton215.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.BunifuThinButton215.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.BunifuThinButton215.BackgroundImage = CType(resources.GetObject("BunifuThinButton215.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton215.ButtonText = "Refresh"
-        Me.BunifuThinButton215.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton215.Font = New System.Drawing.Font("Century Gothic", 12.0!)
-        Me.BunifuThinButton215.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton215.IdleBorderThickness = 1
-        Me.BunifuThinButton215.IdleCornerRadius = 20
-        Me.BunifuThinButton215.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.BunifuThinButton215.IdleForecolor = System.Drawing.Color.White
-        Me.BunifuThinButton215.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.BunifuThinButton215.Location = New System.Drawing.Point(541, 395)
-        Me.BunifuThinButton215.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton215.Name = "BunifuThinButton215"
-        Me.BunifuThinButton215.Size = New System.Drawing.Size(117, 45)
-        Me.BunifuThinButton215.TabIndex = 54
-        Me.BunifuThinButton215.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btn_timer.FlatAppearance.BorderSize = 0
+        Me.btn_timer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_timer.Font = New System.Drawing.Font("Luckiest Guy", 14.25!)
+        Me.btn_timer.ForeColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.btn_timer.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btn_timer.Location = New System.Drawing.Point(-1, 267)
+        Me.btn_timer.Name = "btn_timer"
+        Me.btn_timer.Size = New System.Drawing.Size(200, 40)
+        Me.btn_timer.TabIndex = 17
+        Me.btn_timer.Text = " Koin     "
+        Me.btn_timer.UseVisualStyleBackColor = True
+        '
+        'FormTimer
+        '
+        Me.FormTimer.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.FormTimer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.FormTimer.Controls.Add(Me.Label60)
+        Me.FormTimer.Location = New System.Drawing.Point(200, 23)
+        Me.FormTimer.Name = "FormTimer"
+        Me.FormTimer.Size = New System.Drawing.Size(681, 475)
+        Me.FormTimer.TabIndex = 85
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Font = New System.Drawing.Font("Luckiest Guy", 57.75!)
+        Me.Label60.ForeColor = System.Drawing.Color.White
+        Me.Label60.Location = New System.Drawing.Point(223, 163)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(250, 94)
+        Me.Label60.TabIndex = 0
+        Me.Label60.Text = "TIMER"
         '
         'MenuStaff
         '
@@ -5592,6 +5632,7 @@ Partial Class MenuStaff
         Me.Controls.Add(Me.atas)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.menu)
+        Me.Controls.Add(Me.FormTimer)
         Me.Controls.Add(Me.FormKoin)
         Me.Controls.Add(Me.Form_DetailPeriode)
         Me.Controls.Add(Me.FormTotalPeriode)
@@ -5644,6 +5685,8 @@ Partial Class MenuStaff
         Me.Form_Proses.ResumeLayout(False)
         Me.FormStaffKoin.ResumeLayout(False)
         CType(Me.BunifuCustomDataGrid10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.FormTimer.ResumeLayout(False)
+        Me.FormTimer.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -5963,4 +6006,7 @@ Partial Class MenuStaff
     Friend WithEvents BunifuThinButton214 As Bunifu.Framework.UI.BunifuThinButton2
     Friend WithEvents BunifuDropdown1 As Bunifu.Framework.UI.BunifuDropdown
     Friend WithEvents BunifuThinButton215 As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents btn_timer As Button
+    Friend WithEvents FormTimer As Panel
+    Friend WithEvents Label60 As Label
 End Class

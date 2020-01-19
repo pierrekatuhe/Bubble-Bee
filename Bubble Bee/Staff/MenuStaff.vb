@@ -2333,4 +2333,8 @@ Public Class MenuStaff
             Read("SELECT username AS Username, nama AS Nama, koin AS Koin, hak_akses AS 'Hak Akses', last_login AS 'Last Login', created_by AS 'Created By', status AS Status FROM tb_user where hak_akses = 'Kasir'", BunifuCustomDataGrid4)
         End If
     End Sub
+
+    Private Sub txt_searchKoin_KeyUp(sender As Object, e As KeyEventArgs) Handles txt_searchKoin.KeyUp
+
+    End Sub
 End Class
