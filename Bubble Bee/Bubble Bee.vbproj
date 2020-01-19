@@ -672,5 +672,8 @@
   <ItemGroup>
     <None Include="Resources\outer_white.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koin_bet21.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

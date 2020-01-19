@@ -1043,6 +1043,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property koin_bet2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("koin_bet2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property koin_gold() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("koin_gold", resourceCulture)
