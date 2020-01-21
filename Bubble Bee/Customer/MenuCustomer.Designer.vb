@@ -261,6 +261,27 @@ Partial Class MenuCustomer
         Me.Label4 = New System.Windows.Forms.Label()
         Me.bet_1_2 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.btn_9_10_11_12 = New System.Windows.Forms.Panel()
+        Me.btn_7_8_9_10 = New System.Windows.Forms.Panel()
+        Me.btn_5_6_7_8 = New System.Windows.Forms.Panel()
+        Me.btn_3_4_5_6 = New System.Windows.Forms.Panel()
+        Me.btn_1_2_3_4 = New System.Windows.Forms.Panel()
+        Me.btn_10_12 = New System.Windows.Forms.Panel()
+        Me.btn_9_11 = New System.Windows.Forms.Panel()
+        Me.btn_8_10 = New System.Windows.Forms.Panel()
+        Me.btn_7_9 = New System.Windows.Forms.Panel()
+        Me.btn_6_8 = New System.Windows.Forms.Panel()
+        Me.btn_5_7 = New System.Windows.Forms.Panel()
+        Me.btn_4_6 = New System.Windows.Forms.Panel()
+        Me.btn_3_5 = New System.Windows.Forms.Panel()
+        Me.btn_2_4 = New System.Windows.Forms.Panel()
+        Me.btn_1_3 = New System.Windows.Forms.Panel()
+        Me.btn_11_12 = New System.Windows.Forms.Panel()
+        Me.btn_9_10 = New System.Windows.Forms.Panel()
+        Me.btn_7_8 = New System.Windows.Forms.Panel()
+        Me.btn_5_6 = New System.Windows.Forms.Panel()
+        Me.btn_3_4 = New System.Windows.Forms.Panel()
+        Me.btn_1_2 = New System.Windows.Forms.Panel()
         Me.Panel61 = New System.Windows.Forms.Panel()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.Panel59 = New System.Windows.Forms.Panel()
@@ -965,16 +986,6 @@ Partial Class MenuCustomer
         '
         'hidden
         '
-        Me.hidden.Controls.Add(Me.Bonus10)
-        Me.hidden.Controls.Add(Me.Bonus9)
-        Me.hidden.Controls.Add(Me.Bonus8)
-        Me.hidden.Controls.Add(Me.Bonus7)
-        Me.hidden.Controls.Add(Me.Bonus6)
-        Me.hidden.Controls.Add(Me.Bonus5)
-        Me.hidden.Controls.Add(Me.Bonus4)
-        Me.hidden.Controls.Add(Me.Bonus3)
-        Me.hidden.Controls.Add(Me.Bonus2)
-        Me.hidden.Controls.Add(Me.Bonus1)
         Me.hidden.Controls.Add(Me.Panel56)
         Me.hidden.Controls.Add(Me.btn_grup_4)
         Me.hidden.Controls.Add(Me.Panel55)
@@ -993,7 +1004,7 @@ Partial Class MenuCustomer
         Me.Bonus10.BackColor = System.Drawing.Color.White
         Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus10.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus10.Location = New System.Drawing.Point(669, 235)
         Me.Bonus10.Name = "Bonus10"
         Me.Bonus10.Size = New System.Drawing.Size(100, 100)
         Me.Bonus10.TabIndex = 61
@@ -1003,7 +1014,7 @@ Partial Class MenuCustomer
         Me.Bonus9.BackColor = System.Drawing.Color.White
         Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus9.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus9.Location = New System.Drawing.Point(529, 235)
         Me.Bonus9.Name = "Bonus9"
         Me.Bonus9.Size = New System.Drawing.Size(100, 100)
         Me.Bonus9.TabIndex = 64
@@ -1013,7 +1024,7 @@ Partial Class MenuCustomer
         Me.Bonus8.BackColor = System.Drawing.Color.White
         Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus8.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus8.Location = New System.Drawing.Point(389, 235)
         Me.Bonus8.Name = "Bonus8"
         Me.Bonus8.Size = New System.Drawing.Size(100, 100)
         Me.Bonus8.TabIndex = 63
@@ -1023,7 +1034,7 @@ Partial Class MenuCustomer
         Me.Bonus7.BackColor = System.Drawing.Color.White
         Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus7.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus7.Location = New System.Drawing.Point(249, 235)
         Me.Bonus7.Name = "Bonus7"
         Me.Bonus7.Size = New System.Drawing.Size(100, 100)
         Me.Bonus7.TabIndex = 62
@@ -1033,7 +1044,7 @@ Partial Class MenuCustomer
         Me.Bonus6.BackColor = System.Drawing.Color.White
         Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus6.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus6.Location = New System.Drawing.Point(109, 235)
         Me.Bonus6.Name = "Bonus6"
         Me.Bonus6.Size = New System.Drawing.Size(100, 100)
         Me.Bonus6.TabIndex = 65
@@ -1043,7 +1054,7 @@ Partial Class MenuCustomer
         Me.Bonus5.BackColor = System.Drawing.Color.White
         Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus5.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus5.Location = New System.Drawing.Point(669, 104)
         Me.Bonus5.Name = "Bonus5"
         Me.Bonus5.Size = New System.Drawing.Size(100, 100)
         Me.Bonus5.TabIndex = 60
@@ -1053,7 +1064,7 @@ Partial Class MenuCustomer
         Me.Bonus4.BackColor = System.Drawing.Color.White
         Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus4.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus4.Location = New System.Drawing.Point(529, 104)
         Me.Bonus4.Name = "Bonus4"
         Me.Bonus4.Size = New System.Drawing.Size(100, 100)
         Me.Bonus4.TabIndex = 59
@@ -1063,7 +1074,7 @@ Partial Class MenuCustomer
         Me.Bonus3.BackColor = System.Drawing.Color.White
         Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus3.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus3.Location = New System.Drawing.Point(389, 104)
         Me.Bonus3.Name = "Bonus3"
         Me.Bonus3.Size = New System.Drawing.Size(100, 100)
         Me.Bonus3.TabIndex = 59
@@ -1073,7 +1084,7 @@ Partial Class MenuCustomer
         Me.Bonus2.BackColor = System.Drawing.Color.White
         Me.Bonus2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus2.Location = New System.Drawing.Point(0, 0)
+        Me.Bonus2.Location = New System.Drawing.Point(250, 104)
         Me.Bonus2.Name = "Bonus2"
         Me.Bonus2.Size = New System.Drawing.Size(100, 100)
         Me.Bonus2.TabIndex = 59
@@ -1083,7 +1094,7 @@ Partial Class MenuCustomer
         Me.Bonus1.BackColor = System.Drawing.Color.White
         Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
         Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus1.Location = New System.Drawing.Point(110, 69)
+        Me.Bonus1.Location = New System.Drawing.Point(110, 104)
         Me.Bonus1.Name = "Bonus1"
         Me.Bonus1.Size = New System.Drawing.Size(100, 100)
         Me.Bonus1.TabIndex = 58
@@ -2918,6 +2929,16 @@ Partial Class MenuCustomer
         Me.Panel2.BackColor = System.Drawing.Color.Transparent
         Me.Panel2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.background
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel2.Controls.Add(Me.Bonus10)
+        Me.Panel2.Controls.Add(Me.Bonus9)
+        Me.Panel2.Controls.Add(Me.Bonus8)
+        Me.Panel2.Controls.Add(Me.Bonus7)
+        Me.Panel2.Controls.Add(Me.Bonus6)
+        Me.Panel2.Controls.Add(Me.Bonus5)
+        Me.Panel2.Controls.Add(Me.Bonus4)
+        Me.Panel2.Controls.Add(Me.Bonus3)
+        Me.Panel2.Controls.Add(Me.Bonus2)
+        Me.Panel2.Controls.Add(Me.Bonus1)
         Me.Panel2.Controls.Add(Me.bet_9_10_11_12)
         Me.Panel2.Controls.Add(Me.bet_7_8_9_10)
         Me.Panel2.Controls.Add(Me.bet_5_6_7_8)
@@ -2939,6 +2960,27 @@ Partial Class MenuCustomer
         Me.Panel2.Controls.Add(Me.bet_5_6)
         Me.Panel2.Controls.Add(Me.bet_3_4)
         Me.Panel2.Controls.Add(Me.bet_1_2)
+        Me.Panel2.Controls.Add(Me.btn_9_10_11_12)
+        Me.Panel2.Controls.Add(Me.btn_7_8_9_10)
+        Me.Panel2.Controls.Add(Me.btn_5_6_7_8)
+        Me.Panel2.Controls.Add(Me.btn_3_4_5_6)
+        Me.Panel2.Controls.Add(Me.btn_1_2_3_4)
+        Me.Panel2.Controls.Add(Me.btn_10_12)
+        Me.Panel2.Controls.Add(Me.btn_9_11)
+        Me.Panel2.Controls.Add(Me.btn_8_10)
+        Me.Panel2.Controls.Add(Me.btn_7_9)
+        Me.Panel2.Controls.Add(Me.btn_6_8)
+        Me.Panel2.Controls.Add(Me.btn_5_7)
+        Me.Panel2.Controls.Add(Me.btn_4_6)
+        Me.Panel2.Controls.Add(Me.btn_3_5)
+        Me.Panel2.Controls.Add(Me.btn_2_4)
+        Me.Panel2.Controls.Add(Me.btn_1_3)
+        Me.Panel2.Controls.Add(Me.btn_11_12)
+        Me.Panel2.Controls.Add(Me.btn_9_10)
+        Me.Panel2.Controls.Add(Me.btn_7_8)
+        Me.Panel2.Controls.Add(Me.btn_5_6)
+        Me.Panel2.Controls.Add(Me.btn_3_4)
+        Me.Panel2.Controls.Add(Me.btn_1_2)
         Me.Panel2.Controls.Add(Me.Panel61)
         Me.Panel2.Controls.Add(Me.Panel59)
         Me.Panel2.Controls.Add(Me.Panel73)
@@ -3471,6 +3513,153 @@ Partial Class MenuCustomer
         Me.Label3.TabIndex = 25
         Me.Label3.Text = "0"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btn_9_10_11_12
+        '
+        Me.btn_9_10_11_12.Location = New System.Drawing.Point(635, 223)
+        Me.btn_9_10_11_12.Name = "btn_9_10_11_12"
+        Me.btn_9_10_11_12.Size = New System.Drawing.Size(17, 16)
+        Me.btn_9_10_11_12.TabIndex = 66
+        '
+        'btn_7_8_9_10
+        '
+        Me.btn_7_8_9_10.Location = New System.Drawing.Point(534, 223)
+        Me.btn_7_8_9_10.Name = "btn_7_8_9_10"
+        Me.btn_7_8_9_10.Size = New System.Drawing.Size(17, 16)
+        Me.btn_7_8_9_10.TabIndex = 65
+        '
+        'btn_5_6_7_8
+        '
+        Me.btn_5_6_7_8.Location = New System.Drawing.Point(433, 223)
+        Me.btn_5_6_7_8.Name = "btn_5_6_7_8"
+        Me.btn_5_6_7_8.Size = New System.Drawing.Size(17, 16)
+        Me.btn_5_6_7_8.TabIndex = 64
+        '
+        'btn_3_4_5_6
+        '
+        Me.btn_3_4_5_6.Location = New System.Drawing.Point(332, 223)
+        Me.btn_3_4_5_6.Name = "btn_3_4_5_6"
+        Me.btn_3_4_5_6.Size = New System.Drawing.Size(17, 16)
+        Me.btn_3_4_5_6.TabIndex = 63
+        '
+        'btn_1_2_3_4
+        '
+        Me.btn_1_2_3_4.Location = New System.Drawing.Point(231, 223)
+        Me.btn_1_2_3_4.Name = "btn_1_2_3_4"
+        Me.btn_1_2_3_4.Size = New System.Drawing.Size(17, 16)
+        Me.btn_1_2_3_4.TabIndex = 62
+        '
+        'btn_10_12
+        '
+        Me.btn_10_12.Location = New System.Drawing.Point(635, 239)
+        Me.btn_10_12.Name = "btn_10_12"
+        Me.btn_10_12.Size = New System.Drawing.Size(17, 84)
+        Me.btn_10_12.TabIndex = 71
+        '
+        'btn_9_11
+        '
+        Me.btn_9_11.Location = New System.Drawing.Point(635, 139)
+        Me.btn_9_11.Name = "btn_9_11"
+        Me.btn_9_11.Size = New System.Drawing.Size(17, 84)
+        Me.btn_9_11.TabIndex = 70
+        '
+        'btn_8_10
+        '
+        Me.btn_8_10.Location = New System.Drawing.Point(534, 239)
+        Me.btn_8_10.Name = "btn_8_10"
+        Me.btn_8_10.Size = New System.Drawing.Size(17, 84)
+        Me.btn_8_10.TabIndex = 69
+        '
+        'btn_7_9
+        '
+        Me.btn_7_9.Location = New System.Drawing.Point(534, 139)
+        Me.btn_7_9.Name = "btn_7_9"
+        Me.btn_7_9.Size = New System.Drawing.Size(17, 84)
+        Me.btn_7_9.TabIndex = 68
+        '
+        'btn_6_8
+        '
+        Me.btn_6_8.Location = New System.Drawing.Point(433, 239)
+        Me.btn_6_8.Name = "btn_6_8"
+        Me.btn_6_8.Size = New System.Drawing.Size(17, 84)
+        Me.btn_6_8.TabIndex = 67
+        '
+        'btn_5_7
+        '
+        Me.btn_5_7.Location = New System.Drawing.Point(433, 139)
+        Me.btn_5_7.Name = "btn_5_7"
+        Me.btn_5_7.Size = New System.Drawing.Size(17, 84)
+        Me.btn_5_7.TabIndex = 66
+        '
+        'btn_4_6
+        '
+        Me.btn_4_6.Location = New System.Drawing.Point(332, 239)
+        Me.btn_4_6.Name = "btn_4_6"
+        Me.btn_4_6.Size = New System.Drawing.Size(17, 84)
+        Me.btn_4_6.TabIndex = 65
+        '
+        'btn_3_5
+        '
+        Me.btn_3_5.Location = New System.Drawing.Point(332, 139)
+        Me.btn_3_5.Name = "btn_3_5"
+        Me.btn_3_5.Size = New System.Drawing.Size(17, 84)
+        Me.btn_3_5.TabIndex = 64
+        '
+        'btn_2_4
+        '
+        Me.btn_2_4.Location = New System.Drawing.Point(231, 239)
+        Me.btn_2_4.Name = "btn_2_4"
+        Me.btn_2_4.Size = New System.Drawing.Size(17, 84)
+        Me.btn_2_4.TabIndex = 63
+        '
+        'btn_1_3
+        '
+        Me.btn_1_3.Location = New System.Drawing.Point(231, 139)
+        Me.btn_1_3.Name = "btn_1_3"
+        Me.btn_1_3.Size = New System.Drawing.Size(17, 84)
+        Me.btn_1_3.TabIndex = 62
+        '
+        'btn_11_12
+        '
+        Me.btn_11_12.Location = New System.Drawing.Point(652, 223)
+        Me.btn_11_12.Name = "btn_11_12"
+        Me.btn_11_12.Size = New System.Drawing.Size(84, 16)
+        Me.btn_11_12.TabIndex = 66
+        '
+        'btn_9_10
+        '
+        Me.btn_9_10.Location = New System.Drawing.Point(551, 223)
+        Me.btn_9_10.Name = "btn_9_10"
+        Me.btn_9_10.Size = New System.Drawing.Size(84, 16)
+        Me.btn_9_10.TabIndex = 65
+        '
+        'btn_7_8
+        '
+        Me.btn_7_8.Location = New System.Drawing.Point(450, 223)
+        Me.btn_7_8.Name = "btn_7_8"
+        Me.btn_7_8.Size = New System.Drawing.Size(84, 16)
+        Me.btn_7_8.TabIndex = 64
+        '
+        'btn_5_6
+        '
+        Me.btn_5_6.Location = New System.Drawing.Point(349, 223)
+        Me.btn_5_6.Name = "btn_5_6"
+        Me.btn_5_6.Size = New System.Drawing.Size(84, 16)
+        Me.btn_5_6.TabIndex = 63
+        '
+        'btn_3_4
+        '
+        Me.btn_3_4.Location = New System.Drawing.Point(248, 223)
+        Me.btn_3_4.Name = "btn_3_4"
+        Me.btn_3_4.Size = New System.Drawing.Size(84, 16)
+        Me.btn_3_4.TabIndex = 62
+        '
+        'btn_1_2
+        '
+        Me.btn_1_2.Location = New System.Drawing.Point(147, 223)
+        Me.btn_1_2.Name = "btn_1_2"
+        Me.btn_1_2.Size = New System.Drawing.Size(84, 16)
+        Me.btn_1_2.TabIndex = 61
         '
         'Panel61
         '
@@ -4939,4 +5128,25 @@ Partial Class MenuCustomer
     Friend WithEvents Label75 As Label
     Friend WithEvents bet_7_8 As Panel
     Friend WithEvents Label74 As Label
+    Friend WithEvents btn_9_10_11_12 As Panel
+    Friend WithEvents btn_7_8_9_10 As Panel
+    Friend WithEvents btn_5_6_7_8 As Panel
+    Friend WithEvents btn_3_4_5_6 As Panel
+    Friend WithEvents btn_1_2_3_4 As Panel
+    Friend WithEvents btn_10_12 As Panel
+    Friend WithEvents btn_9_11 As Panel
+    Friend WithEvents btn_8_10 As Panel
+    Friend WithEvents btn_7_9 As Panel
+    Friend WithEvents btn_6_8 As Panel
+    Friend WithEvents btn_5_7 As Panel
+    Friend WithEvents btn_4_6 As Panel
+    Friend WithEvents btn_3_5 As Panel
+    Friend WithEvents btn_2_4 As Panel
+    Friend WithEvents btn_1_3 As Panel
+    Friend WithEvents btn_11_12 As Panel
+    Friend WithEvents btn_9_10 As Panel
+    Friend WithEvents btn_7_8 As Panel
+    Friend WithEvents btn_5_6 As Panel
+    Friend WithEvents btn_3_4 As Panel
+    Friend WithEvents btn_1_2 As Panel
 End Class
