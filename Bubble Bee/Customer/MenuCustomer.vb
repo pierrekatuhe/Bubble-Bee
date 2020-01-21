@@ -44,20 +44,30 @@ Public Class MenuCustomer
     Dim bonus_panel As New List(Of Panel)
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Label6.Text = Val(Label6.Text) - 1
-        If Label6.Text <= 0 Then
-            Label6.Text = 0
-            Timer1.Enabled = False
-            Timer3.Enabled = True
-            btn_bet_10.Enabled = False
-            btn_bet_100.Enabled = False
-            btn_bet_500.Enabled = False
-            btn_bet_1000.Enabled = False
-            Panel70.Visible = False
-            btn_cancel.Visible = False
-            btn_repeat.Visible = False
-            noBet()
-        End If
+        Call Koneksi()
+        Try
+            cmd2 = New OdbcCommand("SELECT * FROM tb_permainan WHERE status = 6", conn)
+            Using rd2 As OdbcDataReader = cmd2.ExecuteReader
+                If rd2.HasRows = True Then
+                    While rd2.Read()
+                        Label6.Text = 0
+                        Timer1.Enabled = False
+                        Timer3.Enabled = True
+                        btn_bet_10.Enabled = False
+                        btn_bet_100.Enabled = False
+                        btn_bet_500.Enabled = False
+                        btn_bet_1000.Enabled = False
+                        Panel70.Visible = False
+                        btn_cancel.Visible = False
+                        btn_repeat.Visible = False
+                        noBet()
+                    End While
+                End If
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+        conn.Close()
     End Sub
 
     Private Sub MenuCustomer_Load(sender As Object, e As EventArgs) Handles MyBase.Load

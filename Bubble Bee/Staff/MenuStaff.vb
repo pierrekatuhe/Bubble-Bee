@@ -40,6 +40,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub MenuStaff_Resize(sender As Object, e As EventArgs) Handles Me.Resize
@@ -65,6 +66,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     'Button Close Form Staff
@@ -106,6 +108,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         Reload()
         conn.Close()
     End Sub
@@ -301,6 +304,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub btn_print_Click(sender As Object, e As EventArgs) Handles btn_print.Click
@@ -372,6 +376,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         ReloadUser()
         conn.Close()
     End Sub
@@ -434,6 +439,7 @@ Public Class MenuStaff
         ReloadKoin()
         txt_koin_user.Enabled = False
         txt_koinUser.Enabled = False
+        FormTimer.Visible = False
         conn.Close()
     End Sub
 
@@ -645,6 +651,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         ReloadReport()
         conn.Close()
     End Sub
@@ -731,6 +738,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         ReloadDetailReport()
         conn.Close()
     End Sub
@@ -817,6 +825,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub btn_totalPeriode_Click(sender As Object, e As EventArgs) Handles btn_totalPeriode.Click
@@ -834,6 +843,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = True
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub btn_detailTotalPeriode_Click(sender As Object, e As EventArgs) Handles btn_detailTotalPeriode.Click
@@ -851,6 +861,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub btn_prosesPeriode_Click(sender As Object, e As EventArgs) Handles btn_prosesPeriode.Click
@@ -935,6 +946,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = True
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub btn_proses_Click(sender As Object, e As EventArgs) Handles btn_proses.Click
@@ -954,7 +966,7 @@ Public Class MenuStaff
         Form_Proses.Visible = True
         Label_date.Text = System.DateTime.Now.ToString("yyyy/MM/dd")
         Label_time.Text = System.DateTime.Now.ToString("HH:mm:ss")
-
+        FormTimer.Visible = False
         ReloadProses()
         conn.Close()
     End Sub
@@ -998,6 +1010,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         ReloadReport()
         conn.Close()
     End Sub
@@ -1027,6 +1040,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         GetSetting()
     End Sub
 
@@ -1108,30 +1122,30 @@ Public Class MenuStaff
             btn_10.Enabled = True
             btn_11.Enabled = True
             btn_12.Enabled = True
-            btn_13.Enabled = True
-            btn_14.Enabled = True
-            btn_15.Enabled = True
-            btn_16.Enabled = True
-            btn_17.Enabled = True
-            btn_18.Enabled = True
-            btn_19.Enabled = True
-            btn_20.Enabled = True
-            btn_21.Enabled = True
-            btn_22.Enabled = True
-            btn_23.Enabled = True
-            btn_24.Enabled = True
-            btn_25.Enabled = True
-            btn_26.Enabled = True
-            btn_27.Enabled = True
-            btn_28.Enabled = True
-            btn_29.Enabled = True
-            btn_30.Enabled = True
-            btn_31.Enabled = True
-            btn_32.Enabled = True
-            btn_33.Enabled = True
-            btn_34.Enabled = True
-            btn_35.Enabled = True
-            btn_36.Enabled = True
+            'btn_13.Enabled = True
+            'btn_14.Enabled = True
+            'btn_15.Enabled = True
+            'btn_16.Enabled = True
+            'btn_17.Enabled = True
+            'btn_18.Enabled = True
+            'btn_19.Enabled = True
+            'btn_20.Enabled = True
+            'btn_21.Enabled = True
+            'btn_22.Enabled = True
+            'btn_23.Enabled = True
+            'btn_24.Enabled = True
+            'btn_25.Enabled = True
+            'btn_26.Enabled = True
+            'btn_27.Enabled = True
+            'btn_28.Enabled = True
+            'btn_29.Enabled = True
+            'btn_30.Enabled = True
+            'btn_31.Enabled = True
+            'btn_32.Enabled = True
+            'btn_33.Enabled = True
+            'btn_34.Enabled = True
+            'btn_35.Enabled = True
+            'btn_36.Enabled = True
             btn_finish.Enabled = True
             btn_bonus.Enabled = True
         End If
@@ -1139,7 +1153,6 @@ Public Class MenuStaff
 
     Private Sub btn_start_Click(sender As Object, e As EventArgs) Handles btn_start.Click
         Try
-            Timer1.Enabled = True
             btn_start.Enabled = False
             btn_lock.Enabled = True
             txt_game.Text = ""
@@ -1164,6 +1177,7 @@ Public Class MenuStaff
             End If
             Creates("INSERT INTO tb_log_activity (activity, username, date) VALUES ('Mulai Permainan','" _
                    & txt_user.Text & "',NOW())")
+            Timer1.Enabled = True
             conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -1236,7 +1250,7 @@ Public Class MenuStaff
                 MsgBox("Pilih angka terlebih dahulu!", MsgBoxStyle.Information)
             Else
                 Ubahs("UPDATE tb_permainan SET status = 2, angka = '" & txt_game.Text _
-                 & "', keterangan = 'Normal', time = NOW() WHERE status = 1")
+                 & "', keterangan = 'Normal', time = NOW() WHERE status = 6")
                 btn_start.Enabled = True
                 btn_finish.Enabled = False
                 Timer1.Enabled = False
@@ -1270,30 +1284,30 @@ Public Class MenuStaff
         btn_10.Enabled = True
         btn_11.Enabled = True
         btn_12.Enabled = True
-        btn_13.Enabled = True
-        btn_14.Enabled = True
-        btn_15.Enabled = True
-        btn_16.Enabled = True
-        btn_17.Enabled = True
-        btn_18.Enabled = True
-        btn_19.Enabled = True
-        btn_20.Enabled = True
-        btn_21.Enabled = True
-        btn_22.Enabled = True
-        btn_23.Enabled = True
-        btn_24.Enabled = True
-        btn_25.Enabled = True
-        btn_26.Enabled = True
-        btn_27.Enabled = True
-        btn_28.Enabled = True
-        btn_29.Enabled = True
-        btn_30.Enabled = True
-        btn_31.Enabled = True
-        btn_32.Enabled = True
-        btn_33.Enabled = True
-        btn_34.Enabled = True
-        btn_35.Enabled = True
-        btn_36.Enabled = True
+        'btn_13.Enabled = True
+        'btn_14.Enabled = True
+        'btn_15.Enabled = True
+        'btn_16.Enabled = True
+        'btn_17.Enabled = True
+        'btn_18.Enabled = True
+        'btn_19.Enabled = True
+        'btn_20.Enabled = True
+        'btn_21.Enabled = True
+        'btn_22.Enabled = True
+        'btn_23.Enabled = True
+        'btn_24.Enabled = True
+        'btn_25.Enabled = True
+        'btn_26.Enabled = True
+        'btn_27.Enabled = True
+        'btn_28.Enabled = True
+        'btn_29.Enabled = True
+        'btn_30.Enabled = True
+        'btn_31.Enabled = True
+        'btn_32.Enabled = True
+        'btn_33.Enabled = True
+        'btn_34.Enabled = True
+        'btn_35.Enabled = True
+        'btn_36.Enabled = True
     End Sub
 
     Private Sub btn_2_Click(sender As Object, e As EventArgs) Handles btn_2.Click
@@ -1521,42 +1535,42 @@ Public Class MenuStaff
         btn_bonus_10.Enabled = True
         btn_bonus_11.Enabled = True
         btn_bonus_12.Enabled = True
-        btn_bonus_13.Enabled = True
-        btn_bonus_14.Enabled = True
-        btn_bonus_15.Enabled = True
-        btn_bonus_16.Enabled = True
-        btn_bonus_17.Enabled = True
-        btn_bonus_18.Enabled = True
-        btn_bonus_19.Enabled = True
-        btn_bonus_20.Enabled = True
-        btn_bonus_21.Enabled = True
-        btn_bonus_22.Enabled = True
-        btn_bonus_23.Enabled = True
-        btn_bonus_24.Enabled = True
-        btn_bonus_25.Enabled = True
-        btn_bonus_26.Enabled = True
-        btn_bonus_27.Enabled = True
-        btn_bonus_28.Enabled = True
-        btn_bonus_29.Enabled = True
-        btn_bonus_30.Enabled = True
-        btn_bonus_31.Enabled = True
-        btn_bonus_32.Enabled = True
-        btn_bonus_33.Enabled = True
-        btn_bonus_34.Enabled = True
-        btn_bonus_35.Enabled = True
-        btn_bonus_36.Enabled = True
-        btn_anjing.Enabled = True
-        btn_ayam.Enabled = True
-        btn_monyet.Enabled = True
-        btn_kambing.Enabled = True
-        btn_kuda.Enabled = True
-        btn_ular.Enabled = True
-        btn_naga.Enabled = True
-        btn_kelinci.Enabled = True
-        btn_macan.Enabled = True
-        btn_kerbau.Enabled = True
-        btn_tikus.Enabled = True
-        btn_babi.Enabled = True
+        'btn_bonus_13.Enabled = True
+        'btn_bonus_14.Enabled = True
+        'btn_bonus_15.Enabled = True
+        'btn_bonus_16.Enabled = True
+        'btn_bonus_17.Enabled = True
+        'btn_bonus_18.Enabled = True
+        'btn_bonus_19.Enabled = True
+        'btn_bonus_20.Enabled = True
+        'btn_bonus_21.Enabled = True
+        'btn_bonus_22.Enabled = True
+        'btn_bonus_23.Enabled = True
+        'btn_bonus_24.Enabled = True
+        'btn_bonus_25.Enabled = True
+        'btn_bonus_26.Enabled = True
+        'btn_bonus_27.Enabled = True
+        'btn_bonus_28.Enabled = True
+        'btn_bonus_29.Enabled = True
+        'btn_bonus_30.Enabled = True
+        'btn_bonus_31.Enabled = True
+        'btn_bonus_32.Enabled = True
+        'btn_bonus_33.Enabled = True
+        'btn_bonus_34.Enabled = True
+        'btn_bonus_35.Enabled = True
+        'btn_bonus_36.Enabled = True
+        'btn_anjing.Enabled = True
+        'btn_ayam.Enabled = True
+        'btn_monyet.Enabled = True
+        'btn_kambing.Enabled = True
+        'btn_kuda.Enabled = True
+        'btn_ular.Enabled = True
+        'btn_naga.Enabled = True
+        'btn_kelinci.Enabled = True
+        'btn_macan.Enabled = True
+        'btn_kerbau.Enabled = True
+        'btn_tikus.Enabled = True
+        'btn_babi.Enabled = True
         btn_input_bonus.Enabled = True
     End Sub
 
@@ -1865,7 +1879,7 @@ Public Class MenuStaff
 
     Private Sub btn_bonus_Click(sender As Object, e As EventArgs) Handles btn_bonus.Click
         Try
-            Ubahs("UPDATE tb_permainan SET status = 2, keterangan = 'Bonus', time = NOW() WHERE status = 1")
+            Ubahs("UPDATE tb_permainan SET status = 2, keterangan = 'Bonus', time = NOW() WHERE status = 6")
             btn_start.Enabled = True
             btn_finish.Enabled = False
             Timer1.Enabled = False
@@ -1912,6 +1926,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         Reload2()
         conn.Close()
     End Sub
@@ -1973,6 +1988,7 @@ Public Class MenuStaff
         Form_Setting.Visible = True
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         ReloadSetting()
         conn.Close()
     End Sub
@@ -2045,6 +2061,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
         ReloadLog()
         conn.Close()
     End Sub
@@ -2294,6 +2311,7 @@ Public Class MenuStaff
         Form_Setting.Visible = False
         FormTotalPeriode.Visible = False
         Form_Proses.Visible = False
+        FormTimer.Visible = False
     End Sub
 
     Private Sub BunifuThinButton28_Click(sender As Object, e As EventArgs) Handles BunifuThinButton28.Click
@@ -2336,5 +2354,53 @@ Public Class MenuStaff
 
     Private Sub txt_searchKoin_KeyUp(sender As Object, e As KeyEventArgs) Handles txt_searchKoin.KeyUp
 
+    End Sub
+
+    Private Sub btn_timer_Click(sender As Object, e As EventArgs) Handles btn_timer.Click
+        FormUser.Visible = False
+        FormStaffKoin.Visible = False
+        FormRoulette.Visible = False
+        FormGantiPassword.Visible = True
+        FormHome.Visible = False
+        FormListUser.Visible = False
+        FormKoin.Visible = False
+        FormReport.Visible = False
+        FormDetailReport.Visible = False
+        Form_DetailPeriode.Visible = False
+        Form_Log.Visible = False
+        Form_Setting.Visible = False
+        FormTotalPeriode.Visible = False
+        Form_Proses.Visible = False
+        FormTimer.Visible = True
+        Timer3.Enabled = True
+        lbl_timer.Text = time_limit
+    End Sub
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+        Call Koneksi()
+        Try
+            cmd = New Odbc.OdbcCommand("SELECT * FROM tb_permainan WHERE status = 1", conn)
+            Using rd As Odbc.OdbcDataReader = cmd.ExecuteReader
+                If rd.HasRows = True Then
+                    While rd.Read()
+                        Timer4.Enabled = True
+                        Timer3.Enabled = False
+                    End While
+                End If
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+        conn.Close()
+    End Sub
+
+    Private Sub Timer4_Tick(sender As Object, e As EventArgs) Handles Timer4.Tick
+        lbl_timer.Text = Val(lbl_timer.Text) - 1
+        If lbl_timer.Text <= 0 Then
+            lbl_timer.Text = 0
+            Timer4.Enabled = False
+            Timer3.Enabled = True
+            Ubahs("UPDATE tb_permainan SET status = 6 WHERE status = 1")
+        End If
     End Sub
 End Class

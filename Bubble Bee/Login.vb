@@ -84,6 +84,8 @@ Public Class Login
                                 MenuStaff.btn_setting.Visible = False
                                 MenuStaff.btn_log.Visible = False
                                 MenuStaff.btn_report.Visible = True
+                                MenuStaff.btn_timer.Visible = False
+                                MenuStaff.FormTimer.Visible = False
                                 If Not MenuStaff.cmb_akses.Items.Contains("Customer") Then
                                     MenuStaff.cmb_akses.AddItem("Customer")
                                 End If
@@ -122,6 +124,8 @@ Public Class Login
                                 MenuStaff.Form_Setting.Visible = False
                                 MenuStaff.FormTotalPeriode.Visible = False
                                 MenuStaff.FormDetailReport.Visible = False
+                                MenuStaff.btn_timer.Visible = True
+                                MenuStaff.FormTimer.Visible = True
                                 MenuStaff.panelbutton.Height = MenuStaff.btnHome.Height
                                 MenuStaff.panelbutton.Top = MenuStaff.btnHome.Top
                                 txt_username.Text = ""
@@ -158,6 +162,8 @@ Public Class Login
                                 MenuStaff.Form_Log.Visible = False
                                 MenuStaff.Form_Setting.Visible = False
                                 MenuStaff.FormTotalPeriode.Visible = False
+                                MenuStaff.btn_timer.Visible = False
+                                MenuStaff.FormTimer.Visible = False
                                 MenuStaff.panelbutton.Height = MenuStaff.btnHome.Height
                                 MenuStaff.panelbutton.Top = MenuStaff.btnHome.Top
                                 txt_username.Text = ""
