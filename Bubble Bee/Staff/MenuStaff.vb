@@ -1154,7 +1154,7 @@ Public Class MenuStaff
     Private Sub btn_start_Click(sender As Object, e As EventArgs) Handles btn_start.Click
         Try
             btn_start.Enabled = False
-            btn_lock.Enabled = True
+            'btn_lock.Enabled = True
             txt_game.Text = ""
             Creates("INSERT INTO tb_permainan (status) VALUES (1)")
             cmd = New Odbc.OdbcCommand("SELECT * FROM tb_permainan WHERE status = 2", conn)

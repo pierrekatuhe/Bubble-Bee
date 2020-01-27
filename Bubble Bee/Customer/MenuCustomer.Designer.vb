@@ -64,16 +64,6 @@ Partial Class MenuCustomer
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.hidden = New System.Windows.Forms.Panel()
-        Me.Bonus10 = New System.Windows.Forms.Panel()
-        Me.Bonus9 = New System.Windows.Forms.Panel()
-        Me.Bonus8 = New System.Windows.Forms.Panel()
-        Me.Bonus7 = New System.Windows.Forms.Panel()
-        Me.Bonus6 = New System.Windows.Forms.Panel()
-        Me.Bonus5 = New System.Windows.Forms.Panel()
-        Me.Bonus4 = New System.Windows.Forms.Panel()
-        Me.Bonus3 = New System.Windows.Forms.Panel()
-        Me.Bonus2 = New System.Windows.Forms.Panel()
-        Me.Bonus1 = New System.Windows.Forms.Panel()
         Me.Panel56 = New System.Windows.Forms.Panel()
         Me.Label65 = New System.Windows.Forms.Label()
         Me.btn_grup_4 = New System.Windows.Forms.Button()
@@ -86,6 +76,16 @@ Partial Class MenuCustomer
         Me.Panel53 = New System.Windows.Forms.Panel()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.btn_grup_1 = New System.Windows.Forms.Button()
+        Me.Bonus10 = New System.Windows.Forms.Panel()
+        Me.Bonus9 = New System.Windows.Forms.Panel()
+        Me.Bonus8 = New System.Windows.Forms.Panel()
+        Me.Bonus7 = New System.Windows.Forms.Panel()
+        Me.Bonus6 = New System.Windows.Forms.Panel()
+        Me.Bonus5 = New System.Windows.Forms.Panel()
+        Me.Bonus4 = New System.Windows.Forms.Panel()
+        Me.Bonus3 = New System.Windows.Forms.Panel()
+        Me.Bonus2 = New System.Windows.Forms.Panel()
+        Me.Bonus1 = New System.Windows.Forms.Panel()
         Me.hidden_new = New System.Windows.Forms.Panel()
         Me.Panel70 = New System.Windows.Forms.Panel()
         Me.Panel64 = New System.Windows.Forms.Panel()
@@ -356,6 +356,7 @@ Partial Class MenuCustomer
         Me.ListView3 = New System.Windows.Forms.ListView()
         Me.ListView2 = New System.Windows.Forms.ListView()
         Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.ListView9 = New System.Windows.Forms.ListView()
         Me.Panel65.SuspendLayout()
         Me.pnl_atas.SuspendLayout()
         Me.Panel66.SuspendLayout()
@@ -999,106 +1000,6 @@ Partial Class MenuCustomer
         Me.hidden.Size = New System.Drawing.Size(149, 100)
         Me.hidden.TabIndex = 67
         '
-        'Bonus10
-        '
-        Me.Bonus10.BackColor = System.Drawing.Color.White
-        Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus10.Location = New System.Drawing.Point(669, 235)
-        Me.Bonus10.Name = "Bonus10"
-        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus10.TabIndex = 61
-        '
-        'Bonus9
-        '
-        Me.Bonus9.BackColor = System.Drawing.Color.White
-        Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus9.Location = New System.Drawing.Point(529, 235)
-        Me.Bonus9.Name = "Bonus9"
-        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus9.TabIndex = 64
-        '
-        'Bonus8
-        '
-        Me.Bonus8.BackColor = System.Drawing.Color.White
-        Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus8.Location = New System.Drawing.Point(389, 235)
-        Me.Bonus8.Name = "Bonus8"
-        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus8.TabIndex = 63
-        '
-        'Bonus7
-        '
-        Me.Bonus7.BackColor = System.Drawing.Color.White
-        Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus7.Location = New System.Drawing.Point(249, 235)
-        Me.Bonus7.Name = "Bonus7"
-        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus7.TabIndex = 62
-        '
-        'Bonus6
-        '
-        Me.Bonus6.BackColor = System.Drawing.Color.White
-        Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus6.Location = New System.Drawing.Point(109, 235)
-        Me.Bonus6.Name = "Bonus6"
-        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus6.TabIndex = 65
-        '
-        'Bonus5
-        '
-        Me.Bonus5.BackColor = System.Drawing.Color.White
-        Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus5.Location = New System.Drawing.Point(669, 104)
-        Me.Bonus5.Name = "Bonus5"
-        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus5.TabIndex = 60
-        '
-        'Bonus4
-        '
-        Me.Bonus4.BackColor = System.Drawing.Color.White
-        Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus4.Location = New System.Drawing.Point(529, 104)
-        Me.Bonus4.Name = "Bonus4"
-        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus4.TabIndex = 59
-        '
-        'Bonus3
-        '
-        Me.Bonus3.BackColor = System.Drawing.Color.White
-        Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus3.Location = New System.Drawing.Point(389, 104)
-        Me.Bonus3.Name = "Bonus3"
-        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus3.TabIndex = 59
-        '
-        'Bonus2
-        '
-        Me.Bonus2.BackColor = System.Drawing.Color.White
-        Me.Bonus2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus2.Location = New System.Drawing.Point(250, 104)
-        Me.Bonus2.Name = "Bonus2"
-        Me.Bonus2.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus2.TabIndex = 59
-        '
-        'Bonus1
-        '
-        Me.Bonus1.BackColor = System.Drawing.Color.White
-        Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus1.Location = New System.Drawing.Point(110, 104)
-        Me.Bonus1.Name = "Bonus1"
-        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus1.TabIndex = 58
-        '
         'Panel56
         '
         Me.Panel56.BackgroundImage = CType(resources.GetObject("Panel56.BackgroundImage"), System.Drawing.Image)
@@ -1242,6 +1143,106 @@ Partial Class MenuCustomer
         Me.btn_grup_1.Size = New System.Drawing.Size(65, 33)
         Me.btn_grup_1.TabIndex = 0
         Me.btn_grup_1.UseVisualStyleBackColor = True
+        '
+        'Bonus10
+        '
+        Me.Bonus10.BackColor = System.Drawing.Color.White
+        Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus10.Location = New System.Drawing.Point(669, 235)
+        Me.Bonus10.Name = "Bonus10"
+        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus10.TabIndex = 61
+        '
+        'Bonus9
+        '
+        Me.Bonus9.BackColor = System.Drawing.Color.White
+        Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus9.Location = New System.Drawing.Point(529, 235)
+        Me.Bonus9.Name = "Bonus9"
+        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus9.TabIndex = 64
+        '
+        'Bonus8
+        '
+        Me.Bonus8.BackColor = System.Drawing.Color.White
+        Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus8.Location = New System.Drawing.Point(389, 235)
+        Me.Bonus8.Name = "Bonus8"
+        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus8.TabIndex = 63
+        '
+        'Bonus7
+        '
+        Me.Bonus7.BackColor = System.Drawing.Color.White
+        Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus7.Location = New System.Drawing.Point(249, 235)
+        Me.Bonus7.Name = "Bonus7"
+        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus7.TabIndex = 62
+        '
+        'Bonus6
+        '
+        Me.Bonus6.BackColor = System.Drawing.Color.White
+        Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus6.Location = New System.Drawing.Point(109, 235)
+        Me.Bonus6.Name = "Bonus6"
+        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus6.TabIndex = 65
+        '
+        'Bonus5
+        '
+        Me.Bonus5.BackColor = System.Drawing.Color.White
+        Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus5.Location = New System.Drawing.Point(669, 104)
+        Me.Bonus5.Name = "Bonus5"
+        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus5.TabIndex = 60
+        '
+        'Bonus4
+        '
+        Me.Bonus4.BackColor = System.Drawing.Color.White
+        Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus4.Location = New System.Drawing.Point(529, 104)
+        Me.Bonus4.Name = "Bonus4"
+        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus4.TabIndex = 59
+        '
+        'Bonus3
+        '
+        Me.Bonus3.BackColor = System.Drawing.Color.White
+        Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus3.Location = New System.Drawing.Point(389, 104)
+        Me.Bonus3.Name = "Bonus3"
+        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus3.TabIndex = 59
+        '
+        'Bonus2
+        '
+        Me.Bonus2.BackColor = System.Drawing.Color.White
+        Me.Bonus2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus2.Location = New System.Drawing.Point(250, 104)
+        Me.Bonus2.Name = "Bonus2"
+        Me.Bonus2.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus2.TabIndex = 59
+        '
+        'Bonus1
+        '
+        Me.Bonus1.BackColor = System.Drawing.Color.White
+        Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus1.Location = New System.Drawing.Point(110, 104)
+        Me.Bonus1.Name = "Bonus1"
+        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus1.TabIndex = 58
         '
         'hidden_new
         '
@@ -2929,6 +2930,7 @@ Partial Class MenuCustomer
         Me.Panel2.BackColor = System.Drawing.Color.Transparent
         Me.Panel2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.background
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel2.Controls.Add(Me.ListView9)
         Me.Panel2.Controls.Add(Me.Bonus10)
         Me.Panel2.Controls.Add(Me.Bonus9)
         Me.Panel2.Controls.Add(Me.Bonus8)
@@ -4693,6 +4695,28 @@ Partial Class MenuCustomer
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Tile
         '
+        'ListView9
+        '
+        Me.ListView9.Alignment = System.Windows.Forms.ListViewAlignment.[Default]
+        Me.ListView9.BackColor = System.Drawing.Color.White
+        Me.ListView9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView9.ForeColor = System.Drawing.Color.Transparent
+        Me.ListView9.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView9.HideSelection = False
+        Me.ListView9.LabelWrap = False
+        Me.ListView9.LargeImageList = Me.ImageList1
+        Me.ListView9.Location = New System.Drawing.Point(19, 18)
+        Me.ListView9.MultiSelect = False
+        Me.ListView9.Name = "ListView9"
+        Me.ListView9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView9.Scrollable = False
+        Me.ListView9.Size = New System.Drawing.Size(841, 80)
+        Me.ListView9.SmallImageList = Me.ImageList1
+        Me.ListView9.TabIndex = 72
+        Me.ListView9.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView9.UseCompatibleStateImageBehavior = False
+        Me.ListView9.View = System.Windows.Forms.View.Tile
+        '
         'MenuCustomer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -5149,4 +5173,5 @@ Partial Class MenuCustomer
     Friend WithEvents btn_5_6 As Panel
     Friend WithEvents btn_3_4 As Panel
     Friend WithEvents btn_1_2 As Panel
+    Friend WithEvents ListView9 As ListView
 End Class

@@ -50,7 +50,7 @@ Public Class MenuCustomer
             Using rd2 As OdbcDataReader = cmd2.ExecuteReader
                 If rd2.HasRows = True Then
                     While rd2.Read()
-                        Label6.Text = 0
+                        'Label6.Text = 0
                         Timer1.Enabled = False
                         Timer3.Enabled = True
                         btn_bet_10.Enabled = False
@@ -71,7 +71,7 @@ Public Class MenuCustomer
     End Sub
 
     Private Sub MenuCustomer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Label6.Text = time_limit
+        'Label6.Text = time_limit
         angka.Visible = False
         shio.Visible = False
         resetBonus()
@@ -184,12 +184,12 @@ Public Class MenuCustomer
                         reset()
                         mulai_permainan()
                         GetBet()
-                        Label6.Text = time_limit
+                        'Label6.Text = time_limit
                         temp_timer = 0
                         Timer5.Enabled = False
                         Timer6.Enabled = False
                         Timer1.Enabled = True
-                        Timer8.Enabled = True
+                        'Timer8.Enabled = True
                         Timer2.Enabled = False
                     End While
                 End If
@@ -350,6 +350,27 @@ Public Class MenuCustomer
         Label67.Text = 0
         Label68.Text = 0
         Label69.Text = 0
+        Label3.Text = 0
+        Label4.Text = 0
+        Label5.Text = 0
+        Label71.Text = 0
+        Label72.Text = 0
+        Label73.Text = 0
+        Label74.Text = 0
+        Label75.Text = 0
+        Label76.Text = 0
+        Label77.Text = 0
+        Label78.Text = 0
+        Label79.Text = 0
+        Label80.Text = 0
+        Label81.Text = 0
+        Label82.Text = 0
+        Label83.Text = 0
+        Label84.Text = 0
+        Label85.Text = 0
+        Label86.Text = 0
+        Label87.Text = 0
+        Label88.Text = 0
         noBet()
     End Sub
 
@@ -417,6 +438,27 @@ Public Class MenuCustomer
         btn_monyet.Enabled = True
         btn_kambing.Enabled = True
         btn_kuda.Enabled = True
+        btn_1_2.Enabled = True
+        btn_3_4.Enabled = True
+        btn_5_6.Enabled = True
+        btn_7_8.Enabled = True
+        btn_9_10.Enabled = True
+        btn_11_12.Enabled = True
+        btn_1_3.Enabled = True
+        btn_2_4.Enabled = True
+        btn_3_5.Enabled = True
+        btn_4_6.Enabled = True
+        btn_5_7.Enabled = True
+        btn_6_8.Enabled = True
+        btn_7_9.Enabled = True
+        btn_8_10.Enabled = True
+        btn_9_11.Enabled = True
+        btn_10_12.Enabled = True
+        btn_1_2_3_4.Enabled = True
+        btn_3_4_5_6.Enabled = True
+        btn_5_6_7_8.Enabled = True
+        btn_7_8_9_10.Enabled = True
+        btn_9_10_11_12.Enabled = True
         Label8.Enabled = True
         Label9.Enabled = True
         Label10.Enabled = True
@@ -479,6 +521,27 @@ Public Class MenuCustomer
         Label67.Enabled = True
         Label68.Enabled = True
         Label69.Enabled = True
+        Label3.Enabled = True
+        Label4.Enabled = True
+        Label5.Enabled = True
+        Label71.Enabled = True
+        Label72.Enabled = True
+        Label73.Enabled = True
+        Label74.Enabled = True
+        Label75.Enabled = True
+        Label76.Enabled = True
+        Label77.Enabled = True
+        Label78.Enabled = True
+        Label79.Enabled = True
+        Label80.Enabled = True
+        Label81.Enabled = True
+        Label82.Enabled = True
+        Label83.Enabled = True
+        Label84.Enabled = True
+        Label85.Enabled = True
+        Label86.Enabled = True
+        Label87.Enabled = True
+        Label88.Enabled = True
         Panel10.Enabled = True
         Panel9.Enabled = True
         Panel3.Enabled = True
@@ -541,6 +604,27 @@ Public Class MenuCustomer
         Panel58.Enabled = True
         Panel62.Enabled = True
         Panel63.Enabled = True
+        bet_1_2.Enabled = True
+        bet_3_4.Enabled = True
+        bet_5_6.Enabled = True
+        bet_7_8.Enabled = True
+        bet_9_10.Enabled = True
+        bet_11_12.Enabled = True
+        bet_1_3.Enabled = True
+        bet_2_4.Enabled = True
+        bet_3_5.Enabled = True
+        bet_4_6.Enabled = True
+        bet_5_7.Enabled = True
+        bet_6_8.Enabled = True
+        bet_7_9.Enabled = True
+        bet_8_10.Enabled = True
+        bet_9_11.Enabled = True
+        bet_10_12.Enabled = True
+        bet_1_2_3_4.Enabled = True
+        bet_3_4_5_6.Enabled = True
+        bet_5_6_7_8.Enabled = True
+        bet_7_8_9_10.Enabled = True
+        bet_9_10_11_12.Enabled = True
     End Sub
 
     Private Sub noBet()
@@ -606,6 +690,27 @@ Public Class MenuCustomer
         btn_monyet.Enabled = False
         btn_kambing.Enabled = False
         btn_kuda.Enabled = False
+        btn_1_2.Enabled = False
+        btn_3_4.Enabled = False
+        btn_5_6.Enabled = False
+        btn_7_8.Enabled = False
+        btn_9_10.Enabled = False
+        btn_11_12.Enabled = False
+        btn_1_3.Enabled = False
+        btn_2_4.Enabled = False
+        btn_3_5.Enabled = False
+        btn_4_6.Enabled = False
+        btn_5_7.Enabled = False
+        btn_6_8.Enabled = False
+        btn_7_9.Enabled = False
+        btn_8_10.Enabled = False
+        btn_9_11.Enabled = False
+        btn_10_12.Enabled = False
+        btn_1_2_3_4.Enabled = False
+        btn_3_4_5_6.Enabled = False
+        btn_5_6_7_8.Enabled = False
+        btn_7_8_9_10.Enabled = False
+        btn_9_10_11_12.Enabled = False
         Label8.Enabled = False
         Label9.Enabled = False
         Label10.Enabled = False
@@ -668,6 +773,27 @@ Public Class MenuCustomer
         Label67.Enabled = False
         Label68.Enabled = False
         Label69.Enabled = False
+        Label3.Enabled = False
+        Label4.Enabled = False
+        Label5.Enabled = False
+        Label71.Enabled = False
+        Label72.Enabled = False
+        Label73.Enabled = False
+        Label74.Enabled = False
+        Label75.Enabled = False
+        Label76.Enabled = False
+        Label77.Enabled = False
+        Label78.Enabled = False
+        Label79.Enabled = False
+        Label80.Enabled = False
+        Label81.Enabled = False
+        Label82.Enabled = False
+        Label83.Enabled = False
+        Label84.Enabled = False
+        Label85.Enabled = False
+        Label86.Enabled = False
+        Label87.Enabled = False
+        Label88.Enabled = False
         Panel10.Enabled = False
         Panel9.Enabled = False
         Panel3.Enabled = False
@@ -730,6 +856,27 @@ Public Class MenuCustomer
         Panel58.Enabled = False
         Panel62.Enabled = False
         Panel63.Enabled = False
+        bet_1_2.Enabled = False
+        bet_3_4.Enabled = False
+        bet_5_6.Enabled = False
+        bet_7_8.Enabled = False
+        bet_9_10.Enabled = False
+        bet_11_12.Enabled = False
+        bet_1_3.Enabled = False
+        bet_2_4.Enabled = False
+        bet_3_5.Enabled = False
+        bet_4_6.Enabled = False
+        bet_5_7.Enabled = False
+        bet_6_8.Enabled = False
+        bet_7_9.Enabled = False
+        bet_8_10.Enabled = False
+        bet_9_11.Enabled = False
+        bet_10_12.Enabled = False
+        bet_1_2_3_4.Enabled = False
+        bet_3_4_5_6.Enabled = False
+        bet_5_6_7_8.Enabled = False
+        bet_7_8_9_10.Enabled = False
+        bet_9_10_11_12.Enabled = False
     End Sub
 
     Private Sub txt_bet_TextChanged(sender As Object, e As EventArgs) Handles txt_bet.TextChanged
@@ -832,6 +979,27 @@ Public Class MenuCustomer
         txt_credit.Text += Val(Label55.Text)
         txt_credit.Text += Val(Label51.Text)
         txt_credit.Text += Val(Label50.Text)
+        txt_credit.Text += Val(Label3.Text)
+        txt_credit.Text += Val(Label4.Text)
+        txt_credit.Text += Val(Label5.Text)
+        txt_credit.Text += Val(Label71.Text)
+        txt_credit.Text += Val(Label72.Text)
+        txt_credit.Text += Val(Label73.Text)
+        txt_credit.Text += Val(Label74.Text)
+        txt_credit.Text += Val(Label75.Text)
+        txt_credit.Text += Val(Label76.Text)
+        txt_credit.Text += Val(Label77.Text)
+        txt_credit.Text += Val(Label78.Text)
+        txt_credit.Text += Val(Label79.Text)
+        txt_credit.Text += Val(Label80.Text)
+        txt_credit.Text += Val(Label81.Text)
+        txt_credit.Text += Val(Label82.Text)
+        txt_credit.Text += Val(Label83.Text)
+        txt_credit.Text += Val(Label84.Text)
+        txt_credit.Text += Val(Label85.Text)
+        txt_credit.Text += Val(Label86.Text)
+        txt_credit.Text += Val(Label87.Text)
+        txt_credit.Text += Val(Label88.Text)
 
         Try
             Deletes("DELETE FROM tb_bet WHERE username = '" & txt_user.Text & "' AND id_permainan = (select x.id FROM (SELECT MAX(id_permainan) AS id FROM tb_bet t WHERE username = '" & txt_user.Text & "') x)")
@@ -1462,6 +1630,216 @@ Public Class MenuCustomer
             Panel63.Visible = True
         Else
             Label69.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label3_TextChanged(sender As Object, e As EventArgs) Handles Label3.TextChanged
+        If Label3.Text <> 0 Then
+            Label3.Visible = True
+            Panel63.Visible = True
+        Else
+            Label3.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label4_TextChanged(sender As Object, e As EventArgs) Handles Label4.TextChanged
+        If Label4.Text <> 0 Then
+            Label4.Visible = True
+            Panel63.Visible = True
+        Else
+            Label4.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label5_TextChanged(sender As Object, e As EventArgs) Handles Label5.TextChanged
+        If Label5.Text <> 0 Then
+            Label5.Visible = True
+            Panel63.Visible = True
+        Else
+            Label5.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label71_TextChanged(sender As Object, e As EventArgs) Handles Label71.TextChanged
+        If Label71.Text <> 0 Then
+            Label71.Visible = True
+            Panel63.Visible = True
+        Else
+            Label71.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label72_TextChanged(sender As Object, e As EventArgs) Handles Label72.TextChanged
+        If Label72.Text <> 0 Then
+            Label72.Visible = True
+            Panel63.Visible = True
+        Else
+            Label72.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label73_TextChanged(sender As Object, e As EventArgs) Handles Label73.TextChanged
+        If Label73.Text <> 0 Then
+            Label73.Visible = True
+            Panel63.Visible = True
+        Else
+            Label73.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label74_TextChanged(sender As Object, e As EventArgs) Handles Label74.TextChanged
+        If Label74.Text <> 0 Then
+            Label74.Visible = True
+            Panel63.Visible = True
+        Else
+            Label74.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label75_TextChanged(sender As Object, e As EventArgs) Handles Label75.TextChanged
+        If Label75.Text <> 0 Then
+            Label75.Visible = True
+            Panel63.Visible = True
+        Else
+            Label75.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label76_TextChanged(sender As Object, e As EventArgs) Handles Label76.TextChanged
+        If Label76.Text <> 0 Then
+            Label76.Visible = True
+            Panel63.Visible = True
+        Else
+            Label76.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label77_TextChanged(sender As Object, e As EventArgs) Handles Label77.TextChanged
+        If Label77.Text <> 0 Then
+            Label77.Visible = True
+            Panel63.Visible = True
+        Else
+            Label77.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label78_TextChanged(sender As Object, e As EventArgs) Handles Label78.TextChanged
+        If Label78.Text <> 0 Then
+            Label78.Visible = True
+            Panel63.Visible = True
+        Else
+            Label78.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label79_TextChanged(sender As Object, e As EventArgs) Handles Label79.TextChanged
+        If Label79.Text <> 0 Then
+            Label79.Visible = True
+            Panel63.Visible = True
+        Else
+            Label79.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label80_TextChanged(sender As Object, e As EventArgs) Handles Label80.TextChanged
+        If Label80.Text <> 0 Then
+            Label80.Visible = True
+            Panel63.Visible = True
+        Else
+            Label80.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label81_TextChanged(sender As Object, e As EventArgs) Handles Label81.TextChanged
+        If Label81.Text <> 0 Then
+            Label81.Visible = True
+            Panel63.Visible = True
+        Else
+            Label81.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label82_TextChanged(sender As Object, e As EventArgs) Handles Label82.TextChanged
+        If Label82.Text <> 0 Then
+            Label82.Visible = True
+            Panel63.Visible = True
+        Else
+            Label82.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label83_TextChanged(sender As Object, e As EventArgs) Handles Label83.TextChanged
+        If Label83.Text <> 0 Then
+            Label83.Visible = True
+            Panel63.Visible = True
+        Else
+            Label83.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label84_TextChanged(sender As Object, e As EventArgs) Handles Label84.TextChanged
+        If Label84.Text <> 0 Then
+            Label84.Visible = True
+            Panel63.Visible = True
+        Else
+            Label84.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label85_TextChanged(sender As Object, e As EventArgs) Handles Label85.TextChanged
+        If Label85.Text <> 0 Then
+            Label85.Visible = True
+            Panel63.Visible = True
+        Else
+            Label85.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label86_TextChanged(sender As Object, e As EventArgs) Handles Label86.TextChanged
+        If Label86.Text <> 0 Then
+            Label86.Visible = True
+            Panel63.Visible = True
+        Else
+            Label86.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label87_TextChanged(sender As Object, e As EventArgs) Handles Label87.TextChanged
+        If Label87.Text <> 0 Then
+            Label87.Visible = True
+            Panel63.Visible = True
+        Else
+            Label87.Visible = False
+            Panel63.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label88_TextChanged(sender As Object, e As EventArgs) Handles Label88.TextChanged
+        If Label88.Text <> 0 Then
+            Label88.Visible = True
+            Panel63.Visible = True
+        Else
+            Label88.Visible = False
             Panel63.Visible = False
         End If
     End Sub
@@ -3189,6 +3567,117 @@ Public Class MenuCustomer
         End If
     End Sub
 
+    Private Sub btn_1_2_Click(sender As Object, e As EventArgs) Handles btn_1_2.Click, bet_1_2.Click, Label3.Click
+        btn_bet_click(Label3, "keterangan", "1-2", maxbet_angka)
+    End Sub
+
+    Private Sub btn_3_4_Click(sender As Object, e As EventArgs) Handles btn_3_4.Click, bet_3_4.Click, Label4.Click
+        btn_bet_click(Label4, "keterangan", "3-4", maxbet_angka)
+    End Sub
+
+    Private Sub btn_5_6_Click(sender As Object, e As EventArgs) Handles btn_5_6.Click, bet_5_6.Click, Label5.Click
+        btn_bet_click(Label5, "keterangan", "5-6", maxbet_angka)
+    End Sub
+
+    Private Sub btn_7_8_Click(sender As Object, e As EventArgs) Handles btn_7_8.Click, bet_7_8.Click, Label74.Click
+        btn_bet_click(Label74, "keterangan", "7-8", maxbet_angka)
+    End Sub
+
+    Private Sub btn_9_10_Click(sender As Object, e As EventArgs) Handles btn_9_10.Click, bet_9_10.Click, Label75.Click
+        btn_bet_click(Label75, "keterangan", "9-10", maxbet_angka)
+    End Sub
+
+    Private Sub btn_11_12_Click(sender As Object, e As EventArgs) Handles btn_11_12.Click, bet_11_12.Click, Label76.Click
+        btn_bet_click(Label76, "keterangan", "11-12", maxbet_angka)
+    End Sub
+
+    Private Sub btn_1_3_Click(sender As Object, e As EventArgs) Handles btn_1_3.Click, bet_1_3.Click, Label71.Click
+        btn_bet_click(Label71, "keterangan", "1-3", maxbet_angka)
+    End Sub
+
+    Private Sub btn_2_4_Click(sender As Object, e As EventArgs) Handles btn_2_4.Click, bet_2_4.Click, Label72.Click
+        btn_bet_click(Label72, "keterangan", "2-4", maxbet_angka)
+    End Sub
+
+    Private Sub btn_3_5_Click(sender As Object, e As EventArgs) Handles btn_3_5.Click, bet_3_5.Click, Label77.Click
+        btn_bet_click(Label77, "keterangan", "3-5", maxbet_angka)
+    End Sub
+
+    Private Sub btn_4_6_Click(sender As Object, e As EventArgs) Handles btn_4_6.Click, bet_4_6.Click, Label81.Click
+        btn_bet_click(Label81, "keterangan", "4-6", maxbet_angka)
+    End Sub
+
+    Private Sub btn_5_7_Click(sender As Object, e As EventArgs) Handles btn_5_7.Click, bet_5_7.Click, Label78.Click
+        btn_bet_click(Label78, "keterangan", "5-7", maxbet_angka)
+    End Sub
+
+    Private Sub btn_6_8_Click(sender As Object, e As EventArgs) Handles btn_6_8.Click, bet_6_8.Click, Label82.Click
+        btn_bet_click(Label82, "keterangan", "6-8", maxbet_angka)
+    End Sub
+
+    Private Sub btn_7_9_Click(sender As Object, e As EventArgs) Handles btn_7_9.Click, bet_7_9.Click, Label79.Click
+        btn_bet_click(Label79, "keterangan", "7-9", maxbet_angka)
+    End Sub
+
+    Private Sub btn_8_10_Click(sender As Object, e As EventArgs) Handles btn_8_10.Click, bet_8_10.Click, Label83.Click
+        btn_bet_click(Label83, "keterangan", "8-10", maxbet_angka)
+    End Sub
+
+    Private Sub btn_9_11_Click(sender As Object, e As EventArgs) Handles btn_9_11.Click, bet_9_11.Click, Label80.Click
+        btn_bet_click(Label80, "keterangan", "9-11", maxbet_angka)
+    End Sub
+
+    Private Sub btn_10_12_Click(sender As Object, e As EventArgs) Handles btn_10_12.Click, bet_10_12.Click, Label84.Click
+        btn_bet_click(Label84, "keterangan", "10-12", maxbet_angka)
+    End Sub
+
+    Private Sub btn_1_2_3_4_Click(sender As Object, e As EventArgs) Handles btn_1_2_3_4.Click, bet_1_2_3_4.Click, Label73.Click
+        btn_bet_click(Label73, "keterangan", "1-2-3-4", maxbet_angka)
+    End Sub
+
+    Private Sub btn_3_4_5_6_Click(sender As Object, e As EventArgs) Handles btn_3_4_5_6.Click, bet_3_4_5_6.Click, Label85.Click
+        btn_bet_click(Label85, "keterangan", "3-4-5-6", maxbet_angka)
+    End Sub
+
+    Private Sub btn_5_6_7_8_Click(sender As Object, e As EventArgs) Handles btn_5_6_7_8.Click, bet_5_6_7_8.Click, Label86.Click
+        btn_bet_click(Label86, "keterangan", "5-6-7-8", maxbet_angka)
+    End Sub
+
+    Private Sub btn_7_8_9_10_Click(sender As Object, e As EventArgs) Handles btn_7_8_9_10.Click, bet_7_8_9_10.Click, Label87.Click
+        btn_bet_click(Label87, "keterangan", "7-8-9-10", maxbet_angka)
+    End Sub
+
+    Private Sub btn_9_10_11_12_Click(sender As Object, e As EventArgs) Handles btn_9_10_11_12.Click, bet_9_10_11_12.Click, Label88.Click
+        btn_bet_click(Label88, "keterangan", "9-10-11-12", maxbet_angka)
+    End Sub
+
+    Private Sub btn_bet_click(tmpLabel As Label, columnDB As String, rowDB As String, maxBet As Integer)
+        If btn_bet_10.Enabled = False Then
+            jumlahBet = 10
+        ElseIf btn_bet_100.Enabled = False Then
+            jumlahBet = 100
+        ElseIf btn_bet_500.Enabled = False Then
+            jumlahBet = 500
+        ElseIf btn_bet_1000.Enabled = False Then
+            jumlahBet = 5000
+        End If
+        If txt_credit.Text >= jumlahBet Then
+            temp = Val(tmpLabel.Text) + jumlahBet
+            If temp > maxBet Then
+                'MsgBox("Max bet melampaui batas")
+            Else
+                tmpLabel.Text += jumlahBet
+                txt_bet.Text += jumlahBet
+                txt_credit.Text -= jumlahBet
+                Creates("INSERT INTO tb_bet (username, id_permainan, '" & columnDB & "', bet) VALUES ('" & txt_user.Text & "',(SELECT id_permainan FROM tb_permainan WHERE status = 1),'" & rowDB & "','" & jumlahBet & "')")
+                conn.Close()
+                My.Computer.Audio.Play("C:\Users\Public\Music\Sound Effects\pasang_koin.wav")
+            End If
+        Else
+            Timer10.Enabled = True
+        End If
+    End Sub
+
     Private Sub btn_repeat_Click(sender As Object, e As EventArgs) Handles btn_repeat.Click
         Call Koneksi()
         cmd2 = New OdbcCommand("SELECT * FROM tb_bet where username = '" & txt_user.Text & "' AND id_permainan = (select max(id_permainan) from tb_bet where username = '" & txt_user.Text & "')", conn)
@@ -3326,6 +3815,48 @@ Public Class MenuCustomer
                             Label68.Text += rd2!bet
                         ElseIf rd2!keterangan = "Kecil" Then
                             Label69.Text += rd2!bet
+                        ElseIf rd2!keterangan = "1-2" Then
+                            Label3.Text += rd2!bet
+                        ElseIf rd2!keterangan = "3-4" Then
+                            Label4.Text += rd2!bet
+                        ElseIf rd2!keterangan = "5-6" Then
+                            Label5.Text += rd2!bet
+                        ElseIf rd2!keterangan = "7-8" Then
+                            Label74.Text += rd2!bet
+                        ElseIf rd2!keterangan = "9-10" Then
+                            Label75.Text += rd2!bet
+                        ElseIf rd2!keterangan = "11-12" Then
+                            Label76.Text += rd2!bet
+                        ElseIf rd2!keterangan = "1-3" Then
+                            Label71.Text += rd2!bet
+                        ElseIf rd2!keterangan = "2-4" Then
+                            Label72.Text += rd2!bet
+                        ElseIf rd2!keterangan = "3-5" Then
+                            Label77.Text += rd2!bet
+                        ElseIf rd2!keterangan = "4-6" Then
+                            Label81.Text += rd2!bet
+                        ElseIf rd2!keterangan = "5-7" Then
+                            Label78.Text += rd2!bet
+                        ElseIf rd2!keterangan = "6-8" Then
+                            Label82.Text += rd2!bet
+                        ElseIf rd2!keterangan = "7-9" Then
+                            Label79.Text += rd2!bet
+                        ElseIf rd2!keterangan = "8-10" Then
+                            Label83.Text += rd2!bet
+                        ElseIf rd2!keterangan = "9-11" Then
+                            Label80.Text += rd2!bet
+                        ElseIf rd2!keterangan = "10-12" Then
+                            Label84.Text += rd2!bet
+                        ElseIf rd2!keterangan = "1-2-3-4" Then
+                            Label73.Text += rd2!bet
+                        ElseIf rd2!keterangan = "3-4-5-6" Then
+                            Label85.Text += rd2!bet
+                        ElseIf rd2!keterangan = "5-6-7-8" Then
+                            Label86.Text += rd2!bet
+                        ElseIf rd2!keterangan = "7-8-9-10" Then
+                            Label87.Text += rd2!bet
+                        ElseIf rd2!keterangan = "9-10-11-12" Then
+                            Label88.Text += rd2!bet
                         End If
                     End If
                     txt_credit.Text -= rd2!bet
@@ -3354,6 +3885,9 @@ Public Class MenuCustomer
                     Dim win_grup1 As Double = 0
                     Dim win_grup2 As Double = 0
                     Dim list_shio As Integer
+                    Dim win_angka2 As Double = 0
+                    Dim win_angka3 As Double = 0
+                    Dim win_angka4 As Double = 0
 
                     If rd2!keterangan = "Bonus" Then
                         win_bonus = Val(Label56.Text) * kali_bonus
@@ -3366,6 +3900,7 @@ Public Class MenuCustomer
                         txt_credit.Text += win_bonus
                         Ubahs("UPDATE tb_user SET koin = '" & txt_credit.Text & "' WHERE username = '" & txt_user.Text & "'")
                         Timer7.Enabled = True
+                        ListView9.Items.Add("", rd2!angka)
                         Label57.Text = 0
                         Label58.Text = 0
                         Label59.Text = 0
@@ -3397,6 +3932,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label62.Text) * kali_grup2
                             win_genap_ganjil = Val(Label67.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label3.Text) * kali_angka
+                            win_angka3 = Val(Label71.Text) * kali_angka
+                            win_angka4 = Val(Label73.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Babi")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_1")
                             list_shio = 48
@@ -3408,6 +3946,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label62.Text) * kali_grup2
                             win_genap_ganjil = Val(Label66.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label3.Text) * kali_angka
+                            win_angka3 = Val(Label72.Text) * kali_angka
+                            win_angka4 = Val(Label73.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Anjing")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_2")
                             list_shio = 37
@@ -3419,6 +3960,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label62.Text) * kali_grup2
                             win_genap_ganjil = Val(Label67.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label4.Text) * kali_angka
+                            win_angka3 = Val(Label71.Text) * kali_angka + Val(Label77.Text) * kali_angka
+                            win_angka4 = Val(Label73.Text) * kali_angka + Val(Label85.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Ayam")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_3")
                             list_shio = 38
@@ -3430,6 +3974,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label63.Text) * kali_grup2
                             win_genap_ganjil = Val(Label66.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label4.Text) * kali_angka
+                            win_angka3 = Val(Label72.Text) * kali_angka + Val(Label81.Text) * kali_angka
+                            win_angka4 = Val(Label73.Text) * kali_angka + Val(Label85.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Monyet")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_4")
                             list_shio = 39
@@ -3441,6 +3988,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label63.Text) * kali_grup2
                             win_genap_ganjil = Val(Label67.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label5.Text) * kali_angka
+                            win_angka3 = Val(Label77.Text) * kali_angka + Val(Label78.Text) * kali_angka
+                            win_angka4 = Val(Label85.Text) * kali_angka + Val(Label86.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Kambing")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_5")
                             list_shio = 40
@@ -3452,6 +4002,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label63.Text) * kali_grup2
                             win_genap_ganjil = Val(Label66.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label5.Text) * kali_angka
+                            win_angka3 = Val(Label81.Text) * kali_angka + Val(Label82.Text) * kali_angka
+                            win_angka4 = Val(Label85.Text) * kali_angka + Val(Label86.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Kuda")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_6")
                             list_shio = 41
@@ -3463,6 +4016,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label64.Text) * kali_grup2
                             win_genap_ganjil = Val(Label67.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label74.Text) * kali_angka
+                            win_angka3 = Val(Label78.Text) * kali_angka + Val(Label79.Text) * kali_angka
+                            win_angka4 = Val(Label86.Text) * kali_angka + Val(Label87.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Ular")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_7")
                             list_shio = 42
@@ -3474,6 +4030,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label64.Text) * kali_grup2
                             win_genap_ganjil = Val(Label66.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label74.Text) * kali_angka
+                            win_angka3 = Val(Label82.Text) * kali_angka + Val(Label83.Text) * kali_angka
+                            win_angka4 = Val(Label86.Text) * kali_angka + Val(Label87.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Naga")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_8")
                             list_shio = 43
@@ -3485,6 +4044,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label64.Text) * kali_grup2
                             win_genap_ganjil = Val(Label67.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label75.Text) * kali_angka
+                            win_angka3 = Val(Label79.Text) * kali_angka + Val(Label80.Text) * kali_angka
+                            win_angka4 = Val(Label87.Text) * kali_angka + Val(Label88.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Kelinci")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_9")
                             list_shio = 44
@@ -3496,6 +4058,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label65.Text) * kali_grup2
                             win_genap_ganjil = Val(Label66.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label75.Text) * kali_angka
+                            win_angka3 = Val(Label83.Text) * kali_angka + Val(Label84.Text) * kali_angka
+                            win_angka4 = Val(Label87.Text) * kali_angka + Val(Label88.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Harimau")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_10")
                             list_shio = 45
@@ -3507,6 +4072,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label65.Text) * kali_grup2
                             win_genap_ganjil = Val(Label67.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label76.Text) * kali_angka
+                            win_angka3 = Val(Label80.Text) * kali_angka
+                            win_angka4 = Val(Label88.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Sapi")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_11")
                             list_shio = 46
@@ -3518,6 +4086,9 @@ Public Class MenuCustomer
                             win_grup2 = Val(Label65.Text) * kali_grup2
                             win_genap_ganjil = Val(Label66.Text) * kali_genap_ganjil
                             win_besar_kecil = Val(Label69.Text) * kali_besar_kecil
+                            win_angka2 = Val(Label76.Text) * kali_angka
+                            win_angka3 = Val(Label84.Text) * kali_angka
+                            win_angka4 = Val(Label88.Text) * kali_angka
                             shio.BackgroundImage = My.Resources.ResourceManager.GetObject("Tikus")
                             angka.BackgroundImage = My.Resources.ResourceManager.GetObject("angka_12")
                             list_shio = 47
@@ -3787,10 +4358,10 @@ Public Class MenuCustomer
                             list_shio = 47
                         End If
 
-                        txt_win.Text = (win_angka + win_binatang + win_warna + win_genap_ganjil + win_besar_kecil + win_grup1 + win_grup2)
+                        txt_win.Text = (win_angka + win_binatang + win_warna + win_genap_ganjil + win_besar_kecil + win_grup1 + win_grup2 + (win_angka2 / 2) + (win_angka3 / 2) + (win_angka4 / 4))
                         txt_credit.Text += Val(txt_win.Text)
 
-                        shio.Visible = True
+                        'shio.Visible = True
                         angka.Visible = True
 
                         If rd2!angka = 0 Then
@@ -3836,6 +4407,8 @@ Public Class MenuCustomer
                         End If
                         listHistory2 += 1
 
+                        ListView9.Items.Add("", rd2!angka)
+
                         Timer3.Enabled = False
                         Timer2.Enabled = True
                         If win_music > 0 Then
@@ -3866,66 +4439,105 @@ Public Class MenuCustomer
                 While rd4.Read()
                     Timer7.Enabled = False
                     Dim win_bonus As Double = 0
+                    Dim win_bonus2 As Double = 0
+                    Dim win_bonus3 As Double = 0
+                    Dim win_bonus4 As Double = 0
                     Dim list_bonus As Integer
                     Dim image_bonus As String = ""
                     If Not rd4.IsDBNull(5) Then
                         If rd4!bonus = "1" Then
                             win_bonus = Val(Label25.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label3.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label71.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label73.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_1"
                         End If
                         If rd4!bonus = "2" Then
                             win_bonus = Val(Label24.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label3.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label72.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label73.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_2"
                         End If
                         If rd4!bonus = "3" Then
                             win_bonus = Val(Label23.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label4.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label71.Text) * kali_bonusAngka + Val(Label77.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label73.Text) * kali_bonusAngka + Val(Label85.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_3"
                         End If
                         If rd4!bonus = "4" Then
                             win_bonus = Val(Label22.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label4.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label72.Text) * kali_bonusAngka + Val(Label81.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label73.Text) * kali_bonusAngka + Val(Label85.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_4"
                         End If
                         If rd4!bonus = "5" Then
                             win_bonus = Val(Label21.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label5.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label77.Text) * kali_bonusAngka + Val(Label78.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label85.Text) * kali_bonusAngka + Val(Label86.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_5"
                         End If
                         If rd4!bonus = "6" Then
                             win_bonus = Val(Label20.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label5.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label81.Text) * kali_bonusAngka + Val(Label82.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label85.Text) * kali_bonusAngka + Val(Label86.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_6"
                         End If
                         If rd4!bonus = "7" Then
                             win_bonus = Val(Label30.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label74.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label78.Text) * kali_bonusAngka + Val(Label79.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label86.Text) * kali_bonusAngka + Val(Label87.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_7"
                         End If
                         If rd4!bonus = "8" Then
                             win_bonus = Val(Label29.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label74.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label82.Text) * kali_bonusAngka + Val(Label83.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label86.Text) * kali_bonusAngka + Val(Label87.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_8"
                         End If
                         If rd4!bonus = "9" Then
                             win_bonus = Val(Label28.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label75.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label79.Text) * kali_bonusAngka + Val(Label80.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label87.Text) * kali_bonusAngka + Val(Label88.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_9"
                         End If
                         If rd4!bonus = "10" Then
                             win_bonus = Val(Label31.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label75.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label83.Text) * kali_bonusAngka + Val(Label84.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label87.Text) * kali_bonusAngka + Val(Label88.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_10"
                         End If
                         If rd4!bonus = "11" Then
                             win_bonus = Val(Label27.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label76.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label80.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label88.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_11"
                         End If
                         If rd4!bonus = "12" Then
                             win_bonus = Val(Label26.Text) * kali_bonusAngka
+                            win_bonus2 = Val(Label76.Text) * kali_bonusAngka
+                            win_bonus3 = Val(Label84.Text) * kali_bonusAngka
+                            win_bonus4 = Val(Label88.Text) * kali_bonusAngka
                             list_bonus = rd4!bonus
                             image_bonus = "angka_12"
                         End If
@@ -4118,8 +4730,8 @@ Public Class MenuCustomer
                         txt_win.Text = 0
                     End If
 
-                    txt_win.Text += win_bonus
-                    txt_credit.Text += win_bonus
+                    txt_win.Text += win_bonus + (win_bonus2 / 2) + (win_bonus3 / 2) + (win_bonus4 / 4)
+                    txt_credit.Text += win_bonus + (win_bonus2 / 2) + (win_bonus3 / 2) + (win_bonus4 / 4)
 
                     ListView1.Items.Add("", 0)
                     If listHistory > 6 Then
@@ -4157,6 +4769,7 @@ Public Class MenuCustomer
                     End If
                     listHistory2 += 1
 
+                    ListView9.Items.Add("", list_bonus)
                     temp += 1
                     shio.Visible = False
                 End While
@@ -5660,9 +6273,5 @@ Public Class MenuCustomer
             MsgBox(ex.Message)
         End Try
         conn.Close()
-    End Sub
-
-    Private Sub Panel24_Paint(sender As Object, e As PaintEventArgs) Handles Panel24.Paint
-
     End Sub
 End Class
