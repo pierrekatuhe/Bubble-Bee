@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="angka_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angka_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="angka_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,14 +136,11 @@
   <data name="btn_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bulat_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bulat_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Harimau" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harimau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,20 +163,23 @@
   <data name="angka_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="btn_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Kelinci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kelinci.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="power" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tab4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bulat_hijau2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulat_hijau2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kambing" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kambing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,11 +202,11 @@
   <data name="tab36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tab25-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="angka_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angka_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sapi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sapi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="koin_bet1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\koin_bet1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,8 +214,8 @@
   <data name="angka_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ganjil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ganjil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rebet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rebet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -225,9 +228,6 @@
   </data>
   <data name="tab12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tab1-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,17 +292,11 @@
   <data name="koin_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\koin_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="angka_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angka_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="angka_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angka_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bolamerah" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bolamerah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="angka_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angka_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="finish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\finish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,14 +310,14 @@
   <data name="Monyet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Monyet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="angka_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angka_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="angka_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angka_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bola3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bola3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="angka_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angka_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,17 +328,23 @@
   <data name="tab3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btn_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tab1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bulat_hitam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bulat_hitam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ayam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ayam1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bulat_bet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulat_bet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bola1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bola1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="koin_gold_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\koin_gold_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,14 +352,14 @@
   <data name="angka_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -376,11 +376,8 @@
   <data name="angka_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kelinci" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kelinci.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="angka_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angka_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pilih_coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pilih_coin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -412,20 +409,23 @@
   <data name="bolahitam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bolahitam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bola2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bola2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rebet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rebet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kecil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kecil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="angka_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angka_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bola3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bola3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bola1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bola1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koin_bet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\koin_bet21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -466,11 +466,11 @@
   <data name="angka_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LOGOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGOUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bulat_bet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bulat_bet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="angka_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -484,23 +484,26 @@
   <data name="angka_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\angka_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LOGOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGOUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="angka_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angka_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bulat_hijau2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bulat_hijau2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bulat_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulat_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="angka_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angka_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ganjil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ganjil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="koin_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\koin_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -508,7 +511,7 @@
   <data name="100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="koin_bet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\koin_bet21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="list_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

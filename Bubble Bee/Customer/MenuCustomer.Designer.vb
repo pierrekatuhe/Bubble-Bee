@@ -37,26 +37,14 @@ Partial Class MenuCustomer
         Me.Timer10 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel65 = New System.Windows.Forms.Panel()
         Me.pnl_atas = New System.Windows.Forms.Panel()
-        Me.btn_close = New System.Windows.Forms.Button()
         Me.txt_password = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.txt_username = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Panel68 = New System.Windows.Forms.Panel()
-        Me.btn_qr = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.btn_login = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Panel69 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Panel66 = New System.Windows.Forms.Panel()
-        Me.BunifuThinButton26 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.Panel67 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.txt_isi_koin = New Bunifu.Framework.UI.BunifuMetroTextbox()
-        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.username_kasir = New System.Windows.Forms.Label()
         Me.username_player = New System.Windows.Forms.Label()
         Me.koin = New System.Windows.Forms.Label()
@@ -64,6 +52,168 @@ Partial Class MenuCustomer
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.hidden = New System.Windows.Forms.Panel()
+        Me.hidden_new = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.ListView9 = New System.Windows.Forms.ListView()
+        Me.Bonus10 = New System.Windows.Forms.Panel()
+        Me.Bonus9 = New System.Windows.Forms.Panel()
+        Me.Bonus8 = New System.Windows.Forms.Panel()
+        Me.Bonus7 = New System.Windows.Forms.Panel()
+        Me.Bonus6 = New System.Windows.Forms.Panel()
+        Me.Bonus5 = New System.Windows.Forms.Panel()
+        Me.Bonus4 = New System.Windows.Forms.Panel()
+        Me.Bonus3 = New System.Windows.Forms.Panel()
+        Me.Bonus2 = New System.Windows.Forms.Panel()
+        Me.Bonus1 = New System.Windows.Forms.Panel()
+        Me.bet_9_10_11_12 = New System.Windows.Forms.Panel()
+        Me.Label88 = New System.Windows.Forms.Label()
+        Me.bet_7_8_9_10 = New System.Windows.Forms.Panel()
+        Me.Label87 = New System.Windows.Forms.Label()
+        Me.bet_5_6_7_8 = New System.Windows.Forms.Panel()
+        Me.Label86 = New System.Windows.Forms.Label()
+        Me.bet_3_4_5_6 = New System.Windows.Forms.Panel()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.bet_1_2_3_4 = New System.Windows.Forms.Panel()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.bet_10_12 = New System.Windows.Forms.Panel()
+        Me.Label84 = New System.Windows.Forms.Label()
+        Me.bet_8_10 = New System.Windows.Forms.Panel()
+        Me.Label83 = New System.Windows.Forms.Label()
+        Me.bet_6_8 = New System.Windows.Forms.Panel()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.bet_4_6 = New System.Windows.Forms.Panel()
+        Me.Label81 = New System.Windows.Forms.Label()
+        Me.bet_2_4 = New System.Windows.Forms.Panel()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.bet_9_11 = New System.Windows.Forms.Panel()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.bet_7_9 = New System.Windows.Forms.Panel()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.bet_5_7 = New System.Windows.Forms.Panel()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.bet_3_5 = New System.Windows.Forms.Panel()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.bet_1_3 = New System.Windows.Forms.Panel()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.bet_11_12 = New System.Windows.Forms.Panel()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.bet_9_10 = New System.Windows.Forms.Panel()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.bet_7_8 = New System.Windows.Forms.Panel()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.bet_5_6 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.bet_3_4 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.bet_1_2 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.btn_9_10_11_12 = New System.Windows.Forms.Panel()
+        Me.btn_7_8_9_10 = New System.Windows.Forms.Panel()
+        Me.btn_5_6_7_8 = New System.Windows.Forms.Panel()
+        Me.btn_3_4_5_6 = New System.Windows.Forms.Panel()
+        Me.btn_1_2_3_4 = New System.Windows.Forms.Panel()
+        Me.btn_10_12 = New System.Windows.Forms.Panel()
+        Me.btn_9_11 = New System.Windows.Forms.Panel()
+        Me.btn_8_10 = New System.Windows.Forms.Panel()
+        Me.btn_7_9 = New System.Windows.Forms.Panel()
+        Me.btn_6_8 = New System.Windows.Forms.Panel()
+        Me.btn_5_7 = New System.Windows.Forms.Panel()
+        Me.btn_4_6 = New System.Windows.Forms.Panel()
+        Me.btn_3_5 = New System.Windows.Forms.Panel()
+        Me.btn_2_4 = New System.Windows.Forms.Panel()
+        Me.btn_1_3 = New System.Windows.Forms.Panel()
+        Me.btn_11_12 = New System.Windows.Forms.Panel()
+        Me.btn_9_10 = New System.Windows.Forms.Panel()
+        Me.btn_7_8 = New System.Windows.Forms.Panel()
+        Me.btn_5_6 = New System.Windows.Forms.Panel()
+        Me.btn_3_4 = New System.Windows.Forms.Panel()
+        Me.btn_1_2 = New System.Windows.Forms.Panel()
+        Me.Panel61 = New System.Windows.Forms.Panel()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Panel59 = New System.Windows.Forms.Panel()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Panel73 = New System.Windows.Forms.Panel()
+        Me.txt_win = New System.Windows.Forms.TextBox()
+        Me.Panel72 = New System.Windows.Forms.Panel()
+        Me.txt_bet = New System.Windows.Forms.TextBox()
+        Me.Panel71 = New System.Windows.Forms.Panel()
+        Me.txt_credit = New System.Windows.Forms.TextBox()
+        Me.btn_bet_50 = New System.Windows.Forms.Button()
+        Me.btn_history = New System.Windows.Forms.Button()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Panel60 = New System.Windows.Forms.Panel()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Panel25 = New System.Windows.Forms.Panel()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Panel24 = New System.Windows.Forms.Panel()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.btn_bonus = New System.Windows.Forms.Button()
+        Me.txt_user = New System.Windows.Forms.TextBox()
+        Me.btn_repeat = New System.Windows.Forms.Button()
+        Me.btn_cancel = New System.Windows.Forms.Button()
+        Me.btn_logout = New System.Windows.Forms.Button()
+        Me.btn_red = New System.Windows.Forms.Button()
+        Me.btn_black = New System.Windows.Forms.Button()
+        Me.btn_bet_500 = New System.Windows.Forms.Button()
+        Me.btn_bet_100 = New System.Windows.Forms.Button()
+        Me.btn_bet_1000 = New System.Windows.Forms.Button()
+        Me.btn_bet_10 = New System.Windows.Forms.Button()
+        Me.btn_1 = New System.Windows.Forms.Button()
+        Me.btn_7 = New System.Windows.Forms.Button()
+        Me.btn_2 = New System.Windows.Forms.Button()
+        Me.btn_8 = New System.Windows.Forms.Button()
+        Me.btn_3 = New System.Windows.Forms.Button()
+        Me.btn_9 = New System.Windows.Forms.Button()
+        Me.btn_4 = New System.Windows.Forms.Button()
+        Me.btn_10 = New System.Windows.Forms.Button()
+        Me.btn_5 = New System.Windows.Forms.Button()
+        Me.btn_11 = New System.Windows.Forms.Button()
+        Me.btn_6 = New System.Windows.Forms.Button()
+        Me.btn_12 = New System.Windows.Forms.Button()
+        Me.BunifuThinButton26 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton24 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.btn_close = New System.Windows.Forms.Button()
+        Me.Panel68 = New System.Windows.Forms.Panel()
+        Me.btn_qr = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.btn_login = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Panel69 = New System.Windows.Forms.Panel()
+        Me.shio = New System.Windows.Forms.Panel()
+        Me.angka = New System.Windows.Forms.Panel()
+        Me.history = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ListView8 = New System.Windows.Forms.ListView()
+        Me.ListView7 = New System.Windows.Forms.ListView()
+        Me.ListView6 = New System.Windows.Forms.ListView()
+        Me.ListView5 = New System.Windows.Forms.ListView()
+        Me.ListView4 = New System.Windows.Forms.ListView()
+        Me.ListView3 = New System.Windows.Forms.ListView()
+        Me.ListView2 = New System.Windows.Forms.ListView()
+        Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Panel56 = New System.Windows.Forms.Panel()
         Me.Label65 = New System.Windows.Forms.Label()
         Me.btn_grup_4 = New System.Windows.Forms.Button()
@@ -76,17 +226,6 @@ Partial Class MenuCustomer
         Me.Panel53 = New System.Windows.Forms.Panel()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.btn_grup_1 = New System.Windows.Forms.Button()
-        Me.Bonus10 = New System.Windows.Forms.Panel()
-        Me.Bonus9 = New System.Windows.Forms.Panel()
-        Me.Bonus8 = New System.Windows.Forms.Panel()
-        Me.Bonus7 = New System.Windows.Forms.Panel()
-        Me.Bonus6 = New System.Windows.Forms.Panel()
-        Me.Bonus5 = New System.Windows.Forms.Panel()
-        Me.Bonus4 = New System.Windows.Forms.Panel()
-        Me.Bonus3 = New System.Windows.Forms.Panel()
-        Me.Bonus2 = New System.Windows.Forms.Panel()
-        Me.Bonus1 = New System.Windows.Forms.Panel()
-        Me.hidden_new = New System.Windows.Forms.Panel()
         Me.Panel70 = New System.Windows.Forms.Panel()
         Me.Panel64 = New System.Windows.Forms.Panel()
         Me.btn_25_36 = New System.Windows.Forms.Button()
@@ -218,155 +357,57 @@ Partial Class MenuCustomer
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Panel35 = New System.Windows.Forms.Panel()
         Me.Label36 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.bet_9_10_11_12 = New System.Windows.Forms.Panel()
-        Me.Label88 = New System.Windows.Forms.Label()
-        Me.bet_7_8_9_10 = New System.Windows.Forms.Panel()
-        Me.Label87 = New System.Windows.Forms.Label()
-        Me.bet_5_6_7_8 = New System.Windows.Forms.Panel()
-        Me.Label86 = New System.Windows.Forms.Label()
-        Me.bet_3_4_5_6 = New System.Windows.Forms.Panel()
-        Me.Label85 = New System.Windows.Forms.Label()
-        Me.bet_1_2_3_4 = New System.Windows.Forms.Panel()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.bet_10_12 = New System.Windows.Forms.Panel()
-        Me.Label84 = New System.Windows.Forms.Label()
-        Me.bet_8_10 = New System.Windows.Forms.Panel()
-        Me.Label83 = New System.Windows.Forms.Label()
-        Me.bet_6_8 = New System.Windows.Forms.Panel()
-        Me.Label82 = New System.Windows.Forms.Label()
-        Me.bet_4_6 = New System.Windows.Forms.Panel()
-        Me.Label81 = New System.Windows.Forms.Label()
-        Me.bet_2_4 = New System.Windows.Forms.Panel()
-        Me.Label72 = New System.Windows.Forms.Label()
-        Me.bet_9_11 = New System.Windows.Forms.Panel()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.bet_7_9 = New System.Windows.Forms.Panel()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.bet_5_7 = New System.Windows.Forms.Panel()
-        Me.Label78 = New System.Windows.Forms.Label()
-        Me.bet_3_5 = New System.Windows.Forms.Panel()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.bet_1_3 = New System.Windows.Forms.Panel()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.bet_11_12 = New System.Windows.Forms.Panel()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.bet_9_10 = New System.Windows.Forms.Panel()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.bet_7_8 = New System.Windows.Forms.Panel()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.bet_5_6 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.bet_3_4 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.bet_1_2 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.btn_9_10_11_12 = New System.Windows.Forms.Panel()
-        Me.btn_7_8_9_10 = New System.Windows.Forms.Panel()
-        Me.btn_5_6_7_8 = New System.Windows.Forms.Panel()
-        Me.btn_3_4_5_6 = New System.Windows.Forms.Panel()
-        Me.btn_1_2_3_4 = New System.Windows.Forms.Panel()
-        Me.btn_10_12 = New System.Windows.Forms.Panel()
-        Me.btn_9_11 = New System.Windows.Forms.Panel()
-        Me.btn_8_10 = New System.Windows.Forms.Panel()
-        Me.btn_7_9 = New System.Windows.Forms.Panel()
-        Me.btn_6_8 = New System.Windows.Forms.Panel()
-        Me.btn_5_7 = New System.Windows.Forms.Panel()
-        Me.btn_4_6 = New System.Windows.Forms.Panel()
-        Me.btn_3_5 = New System.Windows.Forms.Panel()
-        Me.btn_2_4 = New System.Windows.Forms.Panel()
-        Me.btn_1_3 = New System.Windows.Forms.Panel()
-        Me.btn_11_12 = New System.Windows.Forms.Panel()
-        Me.btn_9_10 = New System.Windows.Forms.Panel()
-        Me.btn_7_8 = New System.Windows.Forms.Panel()
-        Me.btn_5_6 = New System.Windows.Forms.Panel()
-        Me.btn_3_4 = New System.Windows.Forms.Panel()
-        Me.btn_1_2 = New System.Windows.Forms.Panel()
-        Me.Panel61 = New System.Windows.Forms.Panel()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Panel59 = New System.Windows.Forms.Panel()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.Panel73 = New System.Windows.Forms.Panel()
-        Me.txt_win = New System.Windows.Forms.TextBox()
-        Me.Panel72 = New System.Windows.Forms.Panel()
-        Me.txt_bet = New System.Windows.Forms.TextBox()
-        Me.Panel71 = New System.Windows.Forms.Panel()
-        Me.txt_credit = New System.Windows.Forms.TextBox()
-        Me.btn_bet_50 = New System.Windows.Forms.Button()
-        Me.btn_history = New System.Windows.Forms.Button()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Panel60 = New System.Windows.Forms.Panel()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Panel25 = New System.Windows.Forms.Panel()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Panel24 = New System.Windows.Forms.Panel()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Panel23 = New System.Windows.Forms.Panel()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Panel21 = New System.Windows.Forms.Panel()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Panel17 = New System.Windows.Forms.Panel()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.btn_bonus = New System.Windows.Forms.Button()
-        Me.txt_user = New System.Windows.Forms.TextBox()
-        Me.btn_repeat = New System.Windows.Forms.Button()
-        Me.btn_cancel = New System.Windows.Forms.Button()
-        Me.btn_logout = New System.Windows.Forms.Button()
-        Me.btn_red = New System.Windows.Forms.Button()
-        Me.btn_black = New System.Windows.Forms.Button()
-        Me.btn_bet_500 = New System.Windows.Forms.Button()
-        Me.btn_bet_100 = New System.Windows.Forms.Button()
-        Me.btn_bet_1000 = New System.Windows.Forms.Button()
-        Me.btn_bet_10 = New System.Windows.Forms.Button()
-        Me.btn_1 = New System.Windows.Forms.Button()
-        Me.btn_7 = New System.Windows.Forms.Button()
-        Me.btn_2 = New System.Windows.Forms.Button()
-        Me.btn_8 = New System.Windows.Forms.Button()
-        Me.btn_3 = New System.Windows.Forms.Button()
-        Me.btn_9 = New System.Windows.Forms.Button()
-        Me.btn_4 = New System.Windows.Forms.Button()
-        Me.btn_10 = New System.Windows.Forms.Button()
-        Me.btn_5 = New System.Windows.Forms.Button()
-        Me.btn_11 = New System.Windows.Forms.Button()
-        Me.btn_6 = New System.Windows.Forms.Button()
-        Me.btn_12 = New System.Windows.Forms.Button()
-        Me.shio = New System.Windows.Forms.Panel()
-        Me.angka = New System.Windows.Forms.Panel()
-        Me.history = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ListView8 = New System.Windows.Forms.ListView()
-        Me.ListView7 = New System.Windows.Forms.ListView()
-        Me.ListView6 = New System.Windows.Forms.ListView()
-        Me.ListView5 = New System.Windows.Forms.ListView()
-        Me.ListView4 = New System.Windows.Forms.ListView()
-        Me.ListView3 = New System.Windows.Forms.ListView()
-        Me.ListView2 = New System.Windows.Forms.ListView()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.ListView9 = New System.Windows.Forms.ListView()
         Me.Panel65.SuspendLayout()
         Me.pnl_atas.SuspendLayout()
         Me.Panel66.SuspendLayout()
         Me.Panel67.SuspendLayout()
         Me.hidden.SuspendLayout()
+        Me.hidden_new.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.bet_9_10_11_12.SuspendLayout()
+        Me.bet_7_8_9_10.SuspendLayout()
+        Me.bet_5_6_7_8.SuspendLayout()
+        Me.bet_3_4_5_6.SuspendLayout()
+        Me.bet_1_2_3_4.SuspendLayout()
+        Me.bet_10_12.SuspendLayout()
+        Me.bet_8_10.SuspendLayout()
+        Me.bet_6_8.SuspendLayout()
+        Me.bet_4_6.SuspendLayout()
+        Me.bet_2_4.SuspendLayout()
+        Me.bet_9_11.SuspendLayout()
+        Me.bet_7_9.SuspendLayout()
+        Me.bet_5_7.SuspendLayout()
+        Me.bet_3_5.SuspendLayout()
+        Me.bet_1_3.SuspendLayout()
+        Me.bet_11_12.SuspendLayout()
+        Me.bet_9_10.SuspendLayout()
+        Me.bet_7_8.SuspendLayout()
+        Me.bet_5_6.SuspendLayout()
+        Me.bet_3_4.SuspendLayout()
+        Me.bet_1_2.SuspendLayout()
+        Me.Panel61.SuspendLayout()
+        Me.Panel59.SuspendLayout()
+        Me.Panel73.SuspendLayout()
+        Me.Panel72.SuspendLayout()
+        Me.Panel71.SuspendLayout()
+        Me.Panel14.SuspendLayout()
+        Me.Panel60.SuspendLayout()
+        Me.Panel25.SuspendLayout()
+        Me.Panel24.SuspendLayout()
+        Me.Panel23.SuspendLayout()
+        Me.Panel22.SuspendLayout()
+        Me.Panel21.SuspendLayout()
+        Me.Panel20.SuspendLayout()
+        Me.Panel19.SuspendLayout()
+        Me.Panel18.SuspendLayout()
+        Me.Panel17.SuspendLayout()
+        Me.Panel16.SuspendLayout()
+        Me.Panel15.SuspendLayout()
+        Me.history.SuspendLayout()
         Me.Panel56.SuspendLayout()
         Me.Panel55.SuspendLayout()
         Me.Panel54.SuspendLayout()
         Me.Panel53.SuspendLayout()
-        Me.hidden_new.SuspendLayout()
         Me.Panel52.SuspendLayout()
         Me.Panel51.SuspendLayout()
         Me.Panel50.SuspendLayout()
@@ -410,47 +451,6 @@ Partial Class MenuCustomer
         Me.Panel33.SuspendLayout()
         Me.Panel34.SuspendLayout()
         Me.Panel35.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.bet_9_10_11_12.SuspendLayout()
-        Me.bet_7_8_9_10.SuspendLayout()
-        Me.bet_5_6_7_8.SuspendLayout()
-        Me.bet_3_4_5_6.SuspendLayout()
-        Me.bet_1_2_3_4.SuspendLayout()
-        Me.bet_10_12.SuspendLayout()
-        Me.bet_8_10.SuspendLayout()
-        Me.bet_6_8.SuspendLayout()
-        Me.bet_4_6.SuspendLayout()
-        Me.bet_2_4.SuspendLayout()
-        Me.bet_9_11.SuspendLayout()
-        Me.bet_7_9.SuspendLayout()
-        Me.bet_5_7.SuspendLayout()
-        Me.bet_3_5.SuspendLayout()
-        Me.bet_1_3.SuspendLayout()
-        Me.bet_11_12.SuspendLayout()
-        Me.bet_9_10.SuspendLayout()
-        Me.bet_7_8.SuspendLayout()
-        Me.bet_5_6.SuspendLayout()
-        Me.bet_3_4.SuspendLayout()
-        Me.bet_1_2.SuspendLayout()
-        Me.Panel61.SuspendLayout()
-        Me.Panel59.SuspendLayout()
-        Me.Panel73.SuspendLayout()
-        Me.Panel72.SuspendLayout()
-        Me.Panel71.SuspendLayout()
-        Me.Panel14.SuspendLayout()
-        Me.Panel60.SuspendLayout()
-        Me.Panel25.SuspendLayout()
-        Me.Panel24.SuspendLayout()
-        Me.Panel23.SuspendLayout()
-        Me.Panel22.SuspendLayout()
-        Me.Panel21.SuspendLayout()
-        Me.Panel20.SuspendLayout()
-        Me.Panel19.SuspendLayout()
-        Me.Panel18.SuspendLayout()
-        Me.Panel17.SuspendLayout()
-        Me.Panel16.SuspendLayout()
-        Me.Panel15.SuspendLayout()
-        Me.history.SuspendLayout()
         Me.SuspendLayout()
         '
         'Timer1
@@ -576,19 +576,6 @@ Partial Class MenuCustomer
         Me.pnl_atas.Size = New System.Drawing.Size(312, 29)
         Me.pnl_atas.TabIndex = 17
         '
-        'btn_close
-        '
-        Me.btn_close.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
-        Me.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_close.FlatAppearance.BorderSize = 0
-        Me.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_close.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btn_close.Location = New System.Drawing.Point(283, 2)
-        Me.btn_close.Name = "btn_close"
-        Me.btn_close.Size = New System.Drawing.Size(27, 23)
-        Me.btn_close.TabIndex = 5
-        Me.btn_close.UseVisualStyleBackColor = True
-        '
         'txt_password
         '
         Me.txt_password.BorderColorFocused = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
@@ -630,75 +617,6 @@ Partial Class MenuCustomer
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(200, 100)
         Me.FlowLayoutPanel1.TabIndex = 15
         '
-        'Panel68
-        '
-        Me.Panel68.BackgroundImage = CType(resources.GetObject("Panel68.BackgroundImage"), System.Drawing.Image)
-        Me.Panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel68.Location = New System.Drawing.Point(32, 152)
-        Me.Panel68.Name = "Panel68"
-        Me.Panel68.Size = New System.Drawing.Size(248, 45)
-        Me.Panel68.TabIndex = 14
-        Me.Panel68.Visible = False
-        '
-        'btn_qr
-        '
-        Me.btn_qr.ActiveBorderThickness = 1
-        Me.btn_qr.ActiveCornerRadius = 20
-        Me.btn_qr.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_qr.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_qr.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_qr.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_qr.BackgroundImage = CType(resources.GetObject("btn_qr.BackgroundImage"), System.Drawing.Image)
-        Me.btn_qr.ButtonText = "QR Login"
-        Me.btn_qr.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_qr.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_qr.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btn_qr.IdleBorderThickness = 1
-        Me.btn_qr.IdleCornerRadius = 20
-        Me.btn_qr.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_qr.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_qr.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_qr.Location = New System.Drawing.Point(164, 334)
-        Me.btn_qr.Margin = New System.Windows.Forms.Padding(5)
-        Me.btn_qr.Name = "btn_qr"
-        Me.btn_qr.Size = New System.Drawing.Size(117, 46)
-        Me.btn_qr.TabIndex = 3
-        Me.btn_qr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btn_login
-        '
-        Me.btn_login.ActiveBorderThickness = 1
-        Me.btn_login.ActiveCornerRadius = 20
-        Me.btn_login.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_login.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_login.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.btn_login.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_login.BackgroundImage = CType(resources.GetObject("btn_login.BackgroundImage"), System.Drawing.Image)
-        Me.btn_login.ButtonText = "Login"
-        Me.btn_login.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_login.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_login.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btn_login.IdleBorderThickness = 1
-        Me.btn_login.IdleCornerRadius = 20
-        Me.btn_login.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_login.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
-        Me.btn_login.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btn_login.Location = New System.Drawing.Point(32, 334)
-        Me.btn_login.Margin = New System.Windows.Forms.Padding(5)
-        Me.btn_login.Name = "btn_login"
-        Me.btn_login.Size = New System.Drawing.Size(117, 46)
-        Me.btn_login.TabIndex = 2
-        Me.btn_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel69
-        '
-        Me.Panel69.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.logo3
-        Me.Panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel69.Location = New System.Drawing.Point(46, 24)
-        Me.Panel69.Name = "Panel69"
-        Me.Panel69.Size = New System.Drawing.Size(216, 141)
-        Me.Panel69.TabIndex = 11
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -739,6 +657,1855 @@ Partial Class MenuCustomer
         Me.Panel66.Name = "Panel66"
         Me.Panel66.Size = New System.Drawing.Size(312, 284)
         Me.Panel66.TabIndex = 59
+        '
+        'Panel67
+        '
+        Me.Panel67.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel67.Controls.Add(Me.Button2)
+        Me.Panel67.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel67.Location = New System.Drawing.Point(0, 0)
+        Me.Panel67.Name = "Panel67"
+        Me.Panel67.Size = New System.Drawing.Size(312, 29)
+        Me.Panel67.TabIndex = 18
+        '
+        'txt_isi_koin
+        '
+        Me.txt_isi_koin.BorderColorFocused = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.txt_isi_koin.BorderColorIdle = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.txt_isi_koin.BorderColorMouseHover = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.txt_isi_koin.BorderThickness = 2
+        Me.txt_isi_koin.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_isi_koin.Font = New System.Drawing.Font("Century Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_isi_koin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.txt_isi_koin.isPassword = False
+        Me.txt_isi_koin.Location = New System.Drawing.Point(33, 107)
+        Me.txt_isi_koin.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_isi_koin.Name = "txt_isi_koin"
+        Me.txt_isi_koin.Size = New System.Drawing.Size(248, 46)
+        Me.txt_isi_koin.TabIndex = 0
+        Me.txt_isi_koin.Text = "0"
+        Me.txt_isi_koin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'username_kasir
+        '
+        Me.username_kasir.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username_kasir.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.username_kasir.Location = New System.Drawing.Point(199, 39)
+        Me.username_kasir.Name = "username_kasir"
+        Me.username_kasir.Size = New System.Drawing.Size(86, 29)
+        Me.username_kasir.TabIndex = 1
+        '
+        'username_player
+        '
+        Me.username_player.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username_player.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.username_player.Location = New System.Drawing.Point(30, 36)
+        Me.username_player.Name = "username_player"
+        Me.username_player.Size = New System.Drawing.Size(98, 44)
+        Me.username_player.TabIndex = 14
+        '
+        'koin
+        '
+        Me.koin.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.koin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.koin.Location = New System.Drawing.Point(199, 72)
+        Me.koin.Name = "koin"
+        Me.koin.Size = New System.Drawing.Size(80, 30)
+        Me.koin.TabIndex = 2
+        '
+        'Timer11
+        '
+        Me.Timer11.Interval = 1000
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("UnifrakturCook", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
+        Me.Label7.Location = New System.Drawing.Point(0, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(49, 19)
+        Me.Label7.TabIndex = 24
+        Me.Label7.Text = "time"
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("UnifrakturCook", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(53, 16)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(72, 40)
+        Me.Label6.TabIndex = 24
+        Me.Label6.Text = "60"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'hidden
+        '
+        Me.hidden.Controls.Add(Me.Panel56)
+        Me.hidden.Controls.Add(Me.btn_grup_4)
+        Me.hidden.Controls.Add(Me.Panel55)
+        Me.hidden.Controls.Add(Me.btn_grup_3)
+        Me.hidden.Controls.Add(Me.Panel54)
+        Me.hidden.Controls.Add(Me.btn_grup_2)
+        Me.hidden.Controls.Add(Me.Panel53)
+        Me.hidden.Controls.Add(Me.btn_grup_1)
+        Me.hidden.Location = New System.Drawing.Point(0, 0)
+        Me.hidden.Name = "hidden"
+        Me.hidden.Size = New System.Drawing.Size(149, 100)
+        Me.hidden.TabIndex = 67
+        '
+        'hidden_new
+        '
+        Me.hidden_new.Controls.Add(Me.Panel70)
+        Me.hidden_new.Controls.Add(Me.Panel64)
+        Me.hidden_new.Controls.Add(Me.Label7)
+        Me.hidden_new.Controls.Add(Me.Label6)
+        Me.hidden_new.Controls.Add(Me.btn_25_36)
+        Me.hidden_new.Controls.Add(Me.btn_13_24)
+        Me.hidden_new.Controls.Add(Me.btn_1_12)
+        Me.hidden_new.Controls.Add(Me.Panel52)
+        Me.hidden_new.Controls.Add(Me.Panel51)
+        Me.hidden_new.Controls.Add(Me.Panel50)
+        Me.hidden_new.Controls.Add(Me.btn_ganjil)
+        Me.hidden_new.Controls.Add(Me.btn_genap)
+        Me.hidden_new.Controls.Add(Me.btn_besar)
+        Me.hidden_new.Controls.Add(Me.btn_kecil)
+        Me.hidden_new.Controls.Add(Me.Panel58)
+        Me.hidden_new.Controls.Add(Me.Panel57)
+        Me.hidden_new.Controls.Add(Me.Panel62)
+        Me.hidden_new.Controls.Add(Me.Panel63)
+        Me.hidden_new.Controls.Add(Me.btn_tikus)
+        Me.hidden_new.Controls.Add(Me.btn_kerbau)
+        Me.hidden_new.Controls.Add(Me.btn_macan)
+        Me.hidden_new.Controls.Add(Me.btn_kelinci)
+        Me.hidden_new.Controls.Add(Me.btn_naga)
+        Me.hidden_new.Controls.Add(Me.btn_ular)
+        Me.hidden_new.Controls.Add(Me.btn_kuda)
+        Me.hidden_new.Controls.Add(Me.btn_kambing)
+        Me.hidden_new.Controls.Add(Me.btn_monyet)
+        Me.hidden_new.Controls.Add(Me.btn_ayam)
+        Me.hidden_new.Controls.Add(Me.btn_anjing)
+        Me.hidden_new.Controls.Add(Me.btn_babi)
+        Me.hidden_new.Controls.Add(Me.Panel12)
+        Me.hidden_new.Controls.Add(Me.Panel9)
+        Me.hidden_new.Controls.Add(Me.Panel11)
+        Me.hidden_new.Controls.Add(Me.Panel10)
+        Me.hidden_new.Controls.Add(Me.Panel6)
+        Me.hidden_new.Controls.Add(Me.Panel7)
+        Me.hidden_new.Controls.Add(Me.Panel5)
+        Me.hidden_new.Controls.Add(Me.Panel4)
+        Me.hidden_new.Controls.Add(Me.Panel8)
+        Me.hidden_new.Controls.Add(Me.Panel3)
+        Me.hidden_new.Controls.Add(Me.Panel1)
+        Me.hidden_new.Controls.Add(Me.Panel13)
+        Me.hidden_new.Controls.Add(Me.btn_36)
+        Me.hidden_new.Controls.Add(Me.btn_35)
+        Me.hidden_new.Controls.Add(Me.btn_34)
+        Me.hidden_new.Controls.Add(Me.btn_33)
+        Me.hidden_new.Controls.Add(Me.btn_32)
+        Me.hidden_new.Controls.Add(Me.btn_31)
+        Me.hidden_new.Controls.Add(Me.btn_30)
+        Me.hidden_new.Controls.Add(Me.btn_29)
+        Me.hidden_new.Controls.Add(Me.btn_28)
+        Me.hidden_new.Controls.Add(Me.btn_27)
+        Me.hidden_new.Controls.Add(Me.btn_26)
+        Me.hidden_new.Controls.Add(Me.btn_25)
+        Me.hidden_new.Controls.Add(Me.btn_24)
+        Me.hidden_new.Controls.Add(Me.btn_23)
+        Me.hidden_new.Controls.Add(Me.btn_22)
+        Me.hidden_new.Controls.Add(Me.btn_21)
+        Me.hidden_new.Controls.Add(Me.btn_20)
+        Me.hidden_new.Controls.Add(Me.btn_19)
+        Me.hidden_new.Controls.Add(Me.btn_18)
+        Me.hidden_new.Controls.Add(Me.btn_17)
+        Me.hidden_new.Controls.Add(Me.btn_16)
+        Me.hidden_new.Controls.Add(Me.btn_15)
+        Me.hidden_new.Controls.Add(Me.btn_14)
+        Me.hidden_new.Controls.Add(Me.btn_13)
+        Me.hidden_new.Controls.Add(Me.Panel46)
+        Me.hidden_new.Controls.Add(Me.Panel47)
+        Me.hidden_new.Controls.Add(Me.Panel48)
+        Me.hidden_new.Controls.Add(Me.Panel49)
+        Me.hidden_new.Controls.Add(Me.Panel42)
+        Me.hidden_new.Controls.Add(Me.Panel43)
+        Me.hidden_new.Controls.Add(Me.Panel44)
+        Me.hidden_new.Controls.Add(Me.Panel45)
+        Me.hidden_new.Controls.Add(Me.Panel41)
+        Me.hidden_new.Controls.Add(Me.Panel40)
+        Me.hidden_new.Controls.Add(Me.Panel39)
+        Me.hidden_new.Controls.Add(Me.Panel38)
+        Me.hidden_new.Controls.Add(Me.Panel37)
+        Me.hidden_new.Controls.Add(Me.Panel36)
+        Me.hidden_new.Controls.Add(Me.Panel30)
+        Me.hidden_new.Controls.Add(Me.Panel29)
+        Me.hidden_new.Controls.Add(Me.Panel28)
+        Me.hidden_new.Controls.Add(Me.Panel27)
+        Me.hidden_new.Controls.Add(Me.Panel26)
+        Me.hidden_new.Controls.Add(Me.Panel31)
+        Me.hidden_new.Controls.Add(Me.Panel32)
+        Me.hidden_new.Controls.Add(Me.Panel33)
+        Me.hidden_new.Controls.Add(Me.Panel34)
+        Me.hidden_new.Controls.Add(Me.Panel35)
+        Me.hidden_new.Location = New System.Drawing.Point(0, 0)
+        Me.hidden_new.Name = "hidden_new"
+        Me.hidden_new.Size = New System.Drawing.Size(191, 97)
+        Me.hidden_new.TabIndex = 67
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Panel2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.background
+        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel2.Controls.Add(Me.ListView9)
+        Me.Panel2.Controls.Add(Me.Bonus10)
+        Me.Panel2.Controls.Add(Me.Bonus9)
+        Me.Panel2.Controls.Add(Me.Bonus8)
+        Me.Panel2.Controls.Add(Me.Bonus7)
+        Me.Panel2.Controls.Add(Me.Bonus6)
+        Me.Panel2.Controls.Add(Me.Bonus5)
+        Me.Panel2.Controls.Add(Me.Bonus4)
+        Me.Panel2.Controls.Add(Me.Bonus3)
+        Me.Panel2.Controls.Add(Me.Bonus2)
+        Me.Panel2.Controls.Add(Me.Bonus1)
+        Me.Panel2.Controls.Add(Me.bet_9_10_11_12)
+        Me.Panel2.Controls.Add(Me.bet_7_8_9_10)
+        Me.Panel2.Controls.Add(Me.bet_5_6_7_8)
+        Me.Panel2.Controls.Add(Me.bet_3_4_5_6)
+        Me.Panel2.Controls.Add(Me.bet_1_2_3_4)
+        Me.Panel2.Controls.Add(Me.bet_10_12)
+        Me.Panel2.Controls.Add(Me.bet_8_10)
+        Me.Panel2.Controls.Add(Me.bet_6_8)
+        Me.Panel2.Controls.Add(Me.bet_4_6)
+        Me.Panel2.Controls.Add(Me.bet_2_4)
+        Me.Panel2.Controls.Add(Me.bet_9_11)
+        Me.Panel2.Controls.Add(Me.bet_7_9)
+        Me.Panel2.Controls.Add(Me.bet_5_7)
+        Me.Panel2.Controls.Add(Me.bet_3_5)
+        Me.Panel2.Controls.Add(Me.bet_1_3)
+        Me.Panel2.Controls.Add(Me.bet_11_12)
+        Me.Panel2.Controls.Add(Me.bet_9_10)
+        Me.Panel2.Controls.Add(Me.bet_7_8)
+        Me.Panel2.Controls.Add(Me.bet_5_6)
+        Me.Panel2.Controls.Add(Me.bet_3_4)
+        Me.Panel2.Controls.Add(Me.bet_1_2)
+        Me.Panel2.Controls.Add(Me.btn_9_10_11_12)
+        Me.Panel2.Controls.Add(Me.btn_7_8_9_10)
+        Me.Panel2.Controls.Add(Me.btn_5_6_7_8)
+        Me.Panel2.Controls.Add(Me.btn_3_4_5_6)
+        Me.Panel2.Controls.Add(Me.btn_1_2_3_4)
+        Me.Panel2.Controls.Add(Me.btn_10_12)
+        Me.Panel2.Controls.Add(Me.btn_9_11)
+        Me.Panel2.Controls.Add(Me.btn_8_10)
+        Me.Panel2.Controls.Add(Me.btn_7_9)
+        Me.Panel2.Controls.Add(Me.btn_6_8)
+        Me.Panel2.Controls.Add(Me.btn_5_7)
+        Me.Panel2.Controls.Add(Me.btn_4_6)
+        Me.Panel2.Controls.Add(Me.btn_3_5)
+        Me.Panel2.Controls.Add(Me.btn_2_4)
+        Me.Panel2.Controls.Add(Me.btn_1_3)
+        Me.Panel2.Controls.Add(Me.btn_11_12)
+        Me.Panel2.Controls.Add(Me.btn_9_10)
+        Me.Panel2.Controls.Add(Me.btn_7_8)
+        Me.Panel2.Controls.Add(Me.btn_5_6)
+        Me.Panel2.Controls.Add(Me.btn_3_4)
+        Me.Panel2.Controls.Add(Me.btn_1_2)
+        Me.Panel2.Controls.Add(Me.Panel61)
+        Me.Panel2.Controls.Add(Me.Panel59)
+        Me.Panel2.Controls.Add(Me.Panel73)
+        Me.Panel2.Controls.Add(Me.Panel72)
+        Me.Panel2.Controls.Add(Me.Panel71)
+        Me.Panel2.Controls.Add(Me.btn_bet_50)
+        Me.Panel2.Controls.Add(Me.btn_history)
+        Me.Panel2.Controls.Add(Me.Panel14)
+        Me.Panel2.Controls.Add(Me.Panel60)
+        Me.Panel2.Controls.Add(Me.Panel25)
+        Me.Panel2.Controls.Add(Me.Panel24)
+        Me.Panel2.Controls.Add(Me.Panel23)
+        Me.Panel2.Controls.Add(Me.Panel22)
+        Me.Panel2.Controls.Add(Me.Panel21)
+        Me.Panel2.Controls.Add(Me.Panel20)
+        Me.Panel2.Controls.Add(Me.Panel19)
+        Me.Panel2.Controls.Add(Me.Panel18)
+        Me.Panel2.Controls.Add(Me.Panel17)
+        Me.Panel2.Controls.Add(Me.Panel16)
+        Me.Panel2.Controls.Add(Me.Panel15)
+        Me.Panel2.Controls.Add(Me.btn_bonus)
+        Me.Panel2.Controls.Add(Me.txt_user)
+        Me.Panel2.Controls.Add(Me.btn_repeat)
+        Me.Panel2.Controls.Add(Me.btn_cancel)
+        Me.Panel2.Controls.Add(Me.btn_logout)
+        Me.Panel2.Controls.Add(Me.btn_red)
+        Me.Panel2.Controls.Add(Me.btn_black)
+        Me.Panel2.Controls.Add(Me.btn_bet_500)
+        Me.Panel2.Controls.Add(Me.btn_bet_100)
+        Me.Panel2.Controls.Add(Me.btn_bet_1000)
+        Me.Panel2.Controls.Add(Me.btn_bet_10)
+        Me.Panel2.Controls.Add(Me.btn_1)
+        Me.Panel2.Controls.Add(Me.btn_7)
+        Me.Panel2.Controls.Add(Me.btn_2)
+        Me.Panel2.Controls.Add(Me.btn_8)
+        Me.Panel2.Controls.Add(Me.btn_3)
+        Me.Panel2.Controls.Add(Me.btn_9)
+        Me.Panel2.Controls.Add(Me.btn_4)
+        Me.Panel2.Controls.Add(Me.btn_10)
+        Me.Panel2.Controls.Add(Me.btn_5)
+        Me.Panel2.Controls.Add(Me.btn_11)
+        Me.Panel2.Controls.Add(Me.btn_6)
+        Me.Panel2.Controls.Add(Me.btn_12)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(883, 496)
+        Me.Panel2.TabIndex = 36
+        '
+        'ListView9
+        '
+        Me.ListView9.Alignment = System.Windows.Forms.ListViewAlignment.[Default]
+        Me.ListView9.BackColor = System.Drawing.Color.White
+        Me.ListView9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.list_view
+        Me.ListView9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView9.ForeColor = System.Drawing.Color.Transparent
+        Me.ListView9.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView9.HideSelection = False
+        Me.ListView9.LabelWrap = False
+        Me.ListView9.LargeImageList = Me.ImageList1
+        Me.ListView9.Location = New System.Drawing.Point(14, 16)
+        Me.ListView9.MultiSelect = False
+        Me.ListView9.Name = "ListView9"
+        Me.ListView9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView9.Scrollable = False
+        Me.ListView9.Size = New System.Drawing.Size(855, 88)
+        Me.ListView9.SmallImageList = Me.ImageList1
+        Me.ListView9.TabIndex = 72
+        Me.ListView9.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView9.UseCompatibleStateImageBehavior = False
+        Me.ListView9.View = System.Windows.Forms.View.Tile
+        '
+        'Bonus10
+        '
+        Me.Bonus10.BackColor = System.Drawing.Color.White
+        Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus10.Location = New System.Drawing.Point(669, 235)
+        Me.Bonus10.Name = "Bonus10"
+        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus10.TabIndex = 61
+        '
+        'Bonus9
+        '
+        Me.Bonus9.BackColor = System.Drawing.Color.White
+        Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus9.Location = New System.Drawing.Point(529, 235)
+        Me.Bonus9.Name = "Bonus9"
+        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus9.TabIndex = 64
+        '
+        'Bonus8
+        '
+        Me.Bonus8.BackColor = System.Drawing.Color.White
+        Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus8.Location = New System.Drawing.Point(389, 235)
+        Me.Bonus8.Name = "Bonus8"
+        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus8.TabIndex = 63
+        '
+        'Bonus7
+        '
+        Me.Bonus7.BackColor = System.Drawing.Color.White
+        Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus7.Location = New System.Drawing.Point(249, 235)
+        Me.Bonus7.Name = "Bonus7"
+        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus7.TabIndex = 62
+        '
+        'Bonus6
+        '
+        Me.Bonus6.BackColor = System.Drawing.Color.White
+        Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus6.Location = New System.Drawing.Point(109, 235)
+        Me.Bonus6.Name = "Bonus6"
+        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus6.TabIndex = 65
+        '
+        'Bonus5
+        '
+        Me.Bonus5.BackColor = System.Drawing.Color.White
+        Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus5.Location = New System.Drawing.Point(669, 106)
+        Me.Bonus5.Name = "Bonus5"
+        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus5.TabIndex = 60
+        '
+        'Bonus4
+        '
+        Me.Bonus4.BackColor = System.Drawing.Color.White
+        Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus4.Location = New System.Drawing.Point(529, 106)
+        Me.Bonus4.Name = "Bonus4"
+        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus4.TabIndex = 59
+        '
+        'Bonus3
+        '
+        Me.Bonus3.BackColor = System.Drawing.Color.White
+        Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus3.Location = New System.Drawing.Point(389, 106)
+        Me.Bonus3.Name = "Bonus3"
+        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus3.TabIndex = 59
+        '
+        'Bonus2
+        '
+        Me.Bonus2.BackColor = System.Drawing.Color.White
+        Me.Bonus2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus2.Location = New System.Drawing.Point(250, 106)
+        Me.Bonus2.Name = "Bonus2"
+        Me.Bonus2.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus2.TabIndex = 59
+        '
+        'Bonus1
+        '
+        Me.Bonus1.BackColor = System.Drawing.Color.White
+        Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bonus1.Location = New System.Drawing.Point(110, 106)
+        Me.Bonus1.Name = "Bonus1"
+        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
+        Me.Bonus1.TabIndex = 58
+        '
+        'bet_9_10_11_12
+        '
+        Me.bet_9_10_11_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_9_10_11_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_9_10_11_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_9_10_11_12.Controls.Add(Me.Label88)
+        Me.bet_9_10_11_12.Location = New System.Drawing.Point(610, 198)
+        Me.bet_9_10_11_12.Name = "bet_9_10_11_12"
+        Me.bet_9_10_11_12.Size = New System.Drawing.Size(68, 68)
+        Me.bet_9_10_11_12.TabIndex = 40
+        '
+        'Label88
+        '
+        Me.Label88.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label88.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.ForeColor = System.Drawing.Color.Black
+        Me.Label88.Location = New System.Drawing.Point(4, 26)
+        Me.Label88.Name = "Label88"
+        Me.Label88.Size = New System.Drawing.Size(61, 18)
+        Me.Label88.TabIndex = 25
+        Me.Label88.Text = "0"
+        Me.Label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_7_8_9_10
+        '
+        Me.bet_7_8_9_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_7_8_9_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_7_8_9_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_7_8_9_10.Controls.Add(Me.Label87)
+        Me.bet_7_8_9_10.Location = New System.Drawing.Point(509, 198)
+        Me.bet_7_8_9_10.Name = "bet_7_8_9_10"
+        Me.bet_7_8_9_10.Size = New System.Drawing.Size(68, 68)
+        Me.bet_7_8_9_10.TabIndex = 39
+        '
+        'Label87
+        '
+        Me.Label87.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label87.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.ForeColor = System.Drawing.Color.Black
+        Me.Label87.Location = New System.Drawing.Point(4, 26)
+        Me.Label87.Name = "Label87"
+        Me.Label87.Size = New System.Drawing.Size(61, 18)
+        Me.Label87.TabIndex = 25
+        Me.Label87.Text = "0"
+        Me.Label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_5_6_7_8
+        '
+        Me.bet_5_6_7_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_5_6_7_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_5_6_7_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_5_6_7_8.Controls.Add(Me.Label86)
+        Me.bet_5_6_7_8.Location = New System.Drawing.Point(408, 198)
+        Me.bet_5_6_7_8.Name = "bet_5_6_7_8"
+        Me.bet_5_6_7_8.Size = New System.Drawing.Size(68, 68)
+        Me.bet_5_6_7_8.TabIndex = 38
+        '
+        'Label86
+        '
+        Me.Label86.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label86.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.ForeColor = System.Drawing.Color.Black
+        Me.Label86.Location = New System.Drawing.Point(4, 26)
+        Me.Label86.Name = "Label86"
+        Me.Label86.Size = New System.Drawing.Size(61, 18)
+        Me.Label86.TabIndex = 25
+        Me.Label86.Text = "0"
+        Me.Label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_3_4_5_6
+        '
+        Me.bet_3_4_5_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_3_4_5_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_3_4_5_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_3_4_5_6.Controls.Add(Me.Label85)
+        Me.bet_3_4_5_6.Location = New System.Drawing.Point(307, 198)
+        Me.bet_3_4_5_6.Name = "bet_3_4_5_6"
+        Me.bet_3_4_5_6.Size = New System.Drawing.Size(68, 68)
+        Me.bet_3_4_5_6.TabIndex = 37
+        '
+        'Label85
+        '
+        Me.Label85.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label85.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.ForeColor = System.Drawing.Color.Black
+        Me.Label85.Location = New System.Drawing.Point(4, 26)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(61, 18)
+        Me.Label85.TabIndex = 25
+        Me.Label85.Text = "0"
+        Me.Label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_1_2_3_4
+        '
+        Me.bet_1_2_3_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_1_2_3_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_1_2_3_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_1_2_3_4.Controls.Add(Me.Label73)
+        Me.bet_1_2_3_4.Location = New System.Drawing.Point(206, 198)
+        Me.bet_1_2_3_4.Name = "bet_1_2_3_4"
+        Me.bet_1_2_3_4.Size = New System.Drawing.Size(68, 68)
+        Me.bet_1_2_3_4.TabIndex = 36
+        '
+        'Label73
+        '
+        Me.Label73.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label73.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.ForeColor = System.Drawing.Color.Black
+        Me.Label73.Location = New System.Drawing.Point(4, 26)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(61, 18)
+        Me.Label73.TabIndex = 25
+        Me.Label73.Text = "0"
+        Me.Label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_10_12
+        '
+        Me.bet_10_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_10_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_10_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_10_12.Controls.Add(Me.Label84)
+        Me.bet_10_12.Location = New System.Drawing.Point(609, 249)
+        Me.bet_10_12.Name = "bet_10_12"
+        Me.bet_10_12.Size = New System.Drawing.Size(68, 68)
+        Me.bet_10_12.TabIndex = 40
+        '
+        'Label84
+        '
+        Me.Label84.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label84.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.ForeColor = System.Drawing.Color.Black
+        Me.Label84.Location = New System.Drawing.Point(4, 26)
+        Me.Label84.Name = "Label84"
+        Me.Label84.Size = New System.Drawing.Size(61, 18)
+        Me.Label84.TabIndex = 25
+        Me.Label84.Text = "0"
+        Me.Label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_8_10
+        '
+        Me.bet_8_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_8_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_8_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_8_10.Controls.Add(Me.Label83)
+        Me.bet_8_10.Location = New System.Drawing.Point(508, 249)
+        Me.bet_8_10.Name = "bet_8_10"
+        Me.bet_8_10.Size = New System.Drawing.Size(68, 68)
+        Me.bet_8_10.TabIndex = 39
+        '
+        'Label83
+        '
+        Me.Label83.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label83.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.ForeColor = System.Drawing.Color.Black
+        Me.Label83.Location = New System.Drawing.Point(4, 26)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(61, 18)
+        Me.Label83.TabIndex = 25
+        Me.Label83.Text = "0"
+        Me.Label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_6_8
+        '
+        Me.bet_6_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_6_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_6_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_6_8.Controls.Add(Me.Label82)
+        Me.bet_6_8.Location = New System.Drawing.Point(407, 249)
+        Me.bet_6_8.Name = "bet_6_8"
+        Me.bet_6_8.Size = New System.Drawing.Size(68, 68)
+        Me.bet_6_8.TabIndex = 38
+        '
+        'Label82
+        '
+        Me.Label82.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label82.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.ForeColor = System.Drawing.Color.Black
+        Me.Label82.Location = New System.Drawing.Point(4, 26)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(61, 18)
+        Me.Label82.TabIndex = 25
+        Me.Label82.Text = "0"
+        Me.Label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_4_6
+        '
+        Me.bet_4_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_4_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_4_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_4_6.Controls.Add(Me.Label81)
+        Me.bet_4_6.Location = New System.Drawing.Point(306, 249)
+        Me.bet_4_6.Name = "bet_4_6"
+        Me.bet_4_6.Size = New System.Drawing.Size(68, 68)
+        Me.bet_4_6.TabIndex = 37
+        '
+        'Label81
+        '
+        Me.Label81.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label81.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.ForeColor = System.Drawing.Color.Black
+        Me.Label81.Location = New System.Drawing.Point(4, 26)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(61, 18)
+        Me.Label81.TabIndex = 25
+        Me.Label81.Text = "0"
+        Me.Label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_2_4
+        '
+        Me.bet_2_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_2_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_2_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_2_4.Controls.Add(Me.Label72)
+        Me.bet_2_4.Location = New System.Drawing.Point(205, 249)
+        Me.bet_2_4.Name = "bet_2_4"
+        Me.bet_2_4.Size = New System.Drawing.Size(68, 68)
+        Me.bet_2_4.TabIndex = 36
+        '
+        'Label72
+        '
+        Me.Label72.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label72.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.ForeColor = System.Drawing.Color.Black
+        Me.Label72.Location = New System.Drawing.Point(4, 26)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(61, 18)
+        Me.Label72.TabIndex = 25
+        Me.Label72.Text = "0"
+        Me.Label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_9_11
+        '
+        Me.bet_9_11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_9_11.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_9_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_9_11.Controls.Add(Me.Label80)
+        Me.bet_9_11.Location = New System.Drawing.Point(609, 146)
+        Me.bet_9_11.Name = "bet_9_11"
+        Me.bet_9_11.Size = New System.Drawing.Size(68, 68)
+        Me.bet_9_11.TabIndex = 36
+        '
+        'Label80
+        '
+        Me.Label80.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label80.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.ForeColor = System.Drawing.Color.Black
+        Me.Label80.Location = New System.Drawing.Point(4, 26)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(61, 18)
+        Me.Label80.TabIndex = 25
+        Me.Label80.Text = "0"
+        Me.Label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_7_9
+        '
+        Me.bet_7_9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_7_9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_7_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_7_9.Controls.Add(Me.Label79)
+        Me.bet_7_9.Location = New System.Drawing.Point(508, 146)
+        Me.bet_7_9.Name = "bet_7_9"
+        Me.bet_7_9.Size = New System.Drawing.Size(68, 68)
+        Me.bet_7_9.TabIndex = 36
+        '
+        'Label79
+        '
+        Me.Label79.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label79.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.ForeColor = System.Drawing.Color.Black
+        Me.Label79.Location = New System.Drawing.Point(4, 26)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(61, 18)
+        Me.Label79.TabIndex = 25
+        Me.Label79.Text = "0"
+        Me.Label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_5_7
+        '
+        Me.bet_5_7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_5_7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_5_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_5_7.Controls.Add(Me.Label78)
+        Me.bet_5_7.Location = New System.Drawing.Point(407, 146)
+        Me.bet_5_7.Name = "bet_5_7"
+        Me.bet_5_7.Size = New System.Drawing.Size(68, 68)
+        Me.bet_5_7.TabIndex = 36
+        '
+        'Label78
+        '
+        Me.Label78.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label78.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.ForeColor = System.Drawing.Color.Black
+        Me.Label78.Location = New System.Drawing.Point(4, 26)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(61, 18)
+        Me.Label78.TabIndex = 25
+        Me.Label78.Text = "0"
+        Me.Label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_3_5
+        '
+        Me.bet_3_5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_3_5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_3_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_3_5.Controls.Add(Me.Label77)
+        Me.bet_3_5.Location = New System.Drawing.Point(306, 146)
+        Me.bet_3_5.Name = "bet_3_5"
+        Me.bet_3_5.Size = New System.Drawing.Size(68, 68)
+        Me.bet_3_5.TabIndex = 36
+        '
+        'Label77
+        '
+        Me.Label77.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label77.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.ForeColor = System.Drawing.Color.Black
+        Me.Label77.Location = New System.Drawing.Point(4, 26)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(61, 18)
+        Me.Label77.TabIndex = 25
+        Me.Label77.Text = "0"
+        Me.Label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_1_3
+        '
+        Me.bet_1_3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_1_3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_1_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_1_3.Controls.Add(Me.Label71)
+        Me.bet_1_3.Location = New System.Drawing.Point(205, 146)
+        Me.bet_1_3.Name = "bet_1_3"
+        Me.bet_1_3.Size = New System.Drawing.Size(68, 68)
+        Me.bet_1_3.TabIndex = 35
+        '
+        'Label71
+        '
+        Me.Label71.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label71.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.ForeColor = System.Drawing.Color.Black
+        Me.Label71.Location = New System.Drawing.Point(4, 26)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(61, 18)
+        Me.Label71.TabIndex = 25
+        Me.Label71.Text = "0"
+        Me.Label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_11_12
+        '
+        Me.bet_11_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_11_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_11_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_11_12.Controls.Add(Me.Label76)
+        Me.bet_11_12.Location = New System.Drawing.Point(659, 198)
+        Me.bet_11_12.Name = "bet_11_12"
+        Me.bet_11_12.Size = New System.Drawing.Size(68, 68)
+        Me.bet_11_12.TabIndex = 36
+        '
+        'Label76
+        '
+        Me.Label76.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label76.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.ForeColor = System.Drawing.Color.Black
+        Me.Label76.Location = New System.Drawing.Point(4, 26)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(61, 18)
+        Me.Label76.TabIndex = 25
+        Me.Label76.Text = "0"
+        Me.Label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_9_10
+        '
+        Me.bet_9_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_9_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_9_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_9_10.Controls.Add(Me.Label75)
+        Me.bet_9_10.Location = New System.Drawing.Point(558, 198)
+        Me.bet_9_10.Name = "bet_9_10"
+        Me.bet_9_10.Size = New System.Drawing.Size(68, 68)
+        Me.bet_9_10.TabIndex = 36
+        '
+        'Label75
+        '
+        Me.Label75.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label75.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.ForeColor = System.Drawing.Color.Black
+        Me.Label75.Location = New System.Drawing.Point(4, 26)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(61, 18)
+        Me.Label75.TabIndex = 25
+        Me.Label75.Text = "0"
+        Me.Label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_7_8
+        '
+        Me.bet_7_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_7_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_7_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_7_8.Controls.Add(Me.Label74)
+        Me.bet_7_8.Location = New System.Drawing.Point(457, 198)
+        Me.bet_7_8.Name = "bet_7_8"
+        Me.bet_7_8.Size = New System.Drawing.Size(68, 68)
+        Me.bet_7_8.TabIndex = 36
+        '
+        'Label74
+        '
+        Me.Label74.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label74.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.ForeColor = System.Drawing.Color.Black
+        Me.Label74.Location = New System.Drawing.Point(4, 26)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(61, 18)
+        Me.Label74.TabIndex = 25
+        Me.Label74.Text = "0"
+        Me.Label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_5_6
+        '
+        Me.bet_5_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_5_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_5_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_5_6.Controls.Add(Me.Label5)
+        Me.bet_5_6.Location = New System.Drawing.Point(356, 198)
+        Me.bet_5_6.Name = "bet_5_6"
+        Me.bet_5_6.Size = New System.Drawing.Size(68, 68)
+        Me.bet_5_6.TabIndex = 35
+        '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(4, 26)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(61, 18)
+        Me.Label5.TabIndex = 25
+        Me.Label5.Text = "0"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_3_4
+        '
+        Me.bet_3_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_3_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_3_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_3_4.Controls.Add(Me.Label4)
+        Me.bet_3_4.Location = New System.Drawing.Point(255, 198)
+        Me.bet_3_4.Name = "bet_3_4"
+        Me.bet_3_4.Size = New System.Drawing.Size(68, 68)
+        Me.bet_3_4.TabIndex = 35
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(4, 26)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(61, 18)
+        Me.Label4.TabIndex = 25
+        Me.Label4.Text = "0"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'bet_1_2
+        '
+        Me.bet_1_2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.bet_1_2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
+        Me.bet_1_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.bet_1_2.Controls.Add(Me.Label3)
+        Me.bet_1_2.Location = New System.Drawing.Point(154, 198)
+        Me.bet_1_2.Name = "bet_1_2"
+        Me.bet_1_2.Size = New System.Drawing.Size(68, 68)
+        Me.bet_1_2.TabIndex = 34
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(4, 26)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(61, 18)
+        Me.Label3.TabIndex = 25
+        Me.Label3.Text = "0"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btn_9_10_11_12
+        '
+        Me.btn_9_10_11_12.Location = New System.Drawing.Point(635, 223)
+        Me.btn_9_10_11_12.Name = "btn_9_10_11_12"
+        Me.btn_9_10_11_12.Size = New System.Drawing.Size(17, 16)
+        Me.btn_9_10_11_12.TabIndex = 66
+        '
+        'btn_7_8_9_10
+        '
+        Me.btn_7_8_9_10.Location = New System.Drawing.Point(534, 223)
+        Me.btn_7_8_9_10.Name = "btn_7_8_9_10"
+        Me.btn_7_8_9_10.Size = New System.Drawing.Size(17, 16)
+        Me.btn_7_8_9_10.TabIndex = 65
+        '
+        'btn_5_6_7_8
+        '
+        Me.btn_5_6_7_8.Location = New System.Drawing.Point(433, 223)
+        Me.btn_5_6_7_8.Name = "btn_5_6_7_8"
+        Me.btn_5_6_7_8.Size = New System.Drawing.Size(17, 16)
+        Me.btn_5_6_7_8.TabIndex = 64
+        '
+        'btn_3_4_5_6
+        '
+        Me.btn_3_4_5_6.Location = New System.Drawing.Point(332, 223)
+        Me.btn_3_4_5_6.Name = "btn_3_4_5_6"
+        Me.btn_3_4_5_6.Size = New System.Drawing.Size(17, 16)
+        Me.btn_3_4_5_6.TabIndex = 63
+        '
+        'btn_1_2_3_4
+        '
+        Me.btn_1_2_3_4.Location = New System.Drawing.Point(231, 223)
+        Me.btn_1_2_3_4.Name = "btn_1_2_3_4"
+        Me.btn_1_2_3_4.Size = New System.Drawing.Size(17, 16)
+        Me.btn_1_2_3_4.TabIndex = 62
+        '
+        'btn_10_12
+        '
+        Me.btn_10_12.Location = New System.Drawing.Point(635, 239)
+        Me.btn_10_12.Name = "btn_10_12"
+        Me.btn_10_12.Size = New System.Drawing.Size(17, 84)
+        Me.btn_10_12.TabIndex = 71
+        '
+        'btn_9_11
+        '
+        Me.btn_9_11.Location = New System.Drawing.Point(635, 139)
+        Me.btn_9_11.Name = "btn_9_11"
+        Me.btn_9_11.Size = New System.Drawing.Size(17, 84)
+        Me.btn_9_11.TabIndex = 70
+        '
+        'btn_8_10
+        '
+        Me.btn_8_10.Location = New System.Drawing.Point(534, 239)
+        Me.btn_8_10.Name = "btn_8_10"
+        Me.btn_8_10.Size = New System.Drawing.Size(17, 84)
+        Me.btn_8_10.TabIndex = 69
+        '
+        'btn_7_9
+        '
+        Me.btn_7_9.Location = New System.Drawing.Point(534, 139)
+        Me.btn_7_9.Name = "btn_7_9"
+        Me.btn_7_9.Size = New System.Drawing.Size(17, 84)
+        Me.btn_7_9.TabIndex = 68
+        '
+        'btn_6_8
+        '
+        Me.btn_6_8.Location = New System.Drawing.Point(433, 239)
+        Me.btn_6_8.Name = "btn_6_8"
+        Me.btn_6_8.Size = New System.Drawing.Size(17, 84)
+        Me.btn_6_8.TabIndex = 67
+        '
+        'btn_5_7
+        '
+        Me.btn_5_7.Location = New System.Drawing.Point(433, 139)
+        Me.btn_5_7.Name = "btn_5_7"
+        Me.btn_5_7.Size = New System.Drawing.Size(17, 84)
+        Me.btn_5_7.TabIndex = 66
+        '
+        'btn_4_6
+        '
+        Me.btn_4_6.Location = New System.Drawing.Point(332, 239)
+        Me.btn_4_6.Name = "btn_4_6"
+        Me.btn_4_6.Size = New System.Drawing.Size(17, 84)
+        Me.btn_4_6.TabIndex = 65
+        '
+        'btn_3_5
+        '
+        Me.btn_3_5.Location = New System.Drawing.Point(332, 139)
+        Me.btn_3_5.Name = "btn_3_5"
+        Me.btn_3_5.Size = New System.Drawing.Size(17, 84)
+        Me.btn_3_5.TabIndex = 64
+        '
+        'btn_2_4
+        '
+        Me.btn_2_4.Location = New System.Drawing.Point(231, 239)
+        Me.btn_2_4.Name = "btn_2_4"
+        Me.btn_2_4.Size = New System.Drawing.Size(17, 84)
+        Me.btn_2_4.TabIndex = 63
+        '
+        'btn_1_3
+        '
+        Me.btn_1_3.Location = New System.Drawing.Point(231, 139)
+        Me.btn_1_3.Name = "btn_1_3"
+        Me.btn_1_3.Size = New System.Drawing.Size(17, 84)
+        Me.btn_1_3.TabIndex = 62
+        '
+        'btn_11_12
+        '
+        Me.btn_11_12.Location = New System.Drawing.Point(652, 223)
+        Me.btn_11_12.Name = "btn_11_12"
+        Me.btn_11_12.Size = New System.Drawing.Size(84, 16)
+        Me.btn_11_12.TabIndex = 66
+        '
+        'btn_9_10
+        '
+        Me.btn_9_10.Location = New System.Drawing.Point(551, 223)
+        Me.btn_9_10.Name = "btn_9_10"
+        Me.btn_9_10.Size = New System.Drawing.Size(84, 16)
+        Me.btn_9_10.TabIndex = 65
+        '
+        'btn_7_8
+        '
+        Me.btn_7_8.Location = New System.Drawing.Point(450, 223)
+        Me.btn_7_8.Name = "btn_7_8"
+        Me.btn_7_8.Size = New System.Drawing.Size(84, 16)
+        Me.btn_7_8.TabIndex = 64
+        '
+        'btn_5_6
+        '
+        Me.btn_5_6.Location = New System.Drawing.Point(349, 223)
+        Me.btn_5_6.Name = "btn_5_6"
+        Me.btn_5_6.Size = New System.Drawing.Size(84, 16)
+        Me.btn_5_6.TabIndex = 63
+        '
+        'btn_3_4
+        '
+        Me.btn_3_4.Location = New System.Drawing.Point(248, 223)
+        Me.btn_3_4.Name = "btn_3_4"
+        Me.btn_3_4.Size = New System.Drawing.Size(84, 16)
+        Me.btn_3_4.TabIndex = 62
+        '
+        'btn_1_2
+        '
+        Me.btn_1_2.Location = New System.Drawing.Point(147, 223)
+        Me.btn_1_2.Name = "btn_1_2"
+        Me.btn_1_2.Size = New System.Drawing.Size(84, 16)
+        Me.btn_1_2.TabIndex = 61
+        '
+        'Panel61
+        '
+        Me.Panel61.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel61.BackgroundImage = CType(resources.GetObject("Panel61.BackgroundImage"), System.Drawing.Image)
+        Me.Panel61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel61.Controls.Add(Me.Label57)
+        Me.Panel61.Location = New System.Drawing.Point(27, 139)
+        Me.Panel61.Name = "Panel61"
+        Me.Panel61.Size = New System.Drawing.Size(84, 84)
+        Me.Panel61.TabIndex = 52
+        '
+        'Label57
+        '
+        Me.Label57.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label57.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.ForeColor = System.Drawing.Color.Black
+        Me.Label57.Location = New System.Drawing.Point(11, 33)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(61, 18)
+        Me.Label57.TabIndex = 25
+        Me.Label57.Text = "0"
+        Me.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label57.Visible = False
+        '
+        'Panel59
+        '
+        Me.Panel59.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel59.BackgroundImage = CType(resources.GetObject("Panel59.BackgroundImage"), System.Drawing.Image)
+        Me.Panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel59.Controls.Add(Me.Label58)
+        Me.Panel59.Location = New System.Drawing.Point(27, 239)
+        Me.Panel59.Name = "Panel59"
+        Me.Panel59.Size = New System.Drawing.Size(84, 84)
+        Me.Panel59.TabIndex = 52
+        '
+        'Label58
+        '
+        Me.Label58.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label58.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.ForeColor = System.Drawing.Color.Black
+        Me.Label58.Location = New System.Drawing.Point(11, 33)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(61, 18)
+        Me.Label58.TabIndex = 25
+        Me.Label58.Text = "0"
+        Me.Label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label58.Visible = False
+        '
+        'Panel73
+        '
+        Me.Panel73.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.outer_white
+        Me.Panel73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel73.Controls.Add(Me.txt_win)
+        Me.Panel73.Location = New System.Drawing.Point(686, 426)
+        Me.Panel73.Name = "Panel73"
+        Me.Panel73.Size = New System.Drawing.Size(176, 52)
+        Me.Panel73.TabIndex = 60
+        '
+        'txt_win
+        '
+        Me.txt_win.BackColor = System.Drawing.Color.Black
+        Me.txt_win.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_win.Enabled = False
+        Me.txt_win.Font = New System.Drawing.Font("Orbitron", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_win.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(62, Byte), Integer))
+        Me.txt_win.Location = New System.Drawing.Point(6, 7)
+        Me.txt_win.Name = "txt_win"
+        Me.txt_win.ReadOnly = True
+        Me.txt_win.Size = New System.Drawing.Size(165, 43)
+        Me.txt_win.TabIndex = 21
+        Me.txt_win.Text = "0"
+        Me.txt_win.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Panel72
+        '
+        Me.Panel72.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.outer_white
+        Me.Panel72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel72.Controls.Add(Me.txt_bet)
+        Me.Panel72.Location = New System.Drawing.Point(419, 426)
+        Me.Panel72.Name = "Panel72"
+        Me.Panel72.Size = New System.Drawing.Size(176, 52)
+        Me.Panel72.TabIndex = 59
+        '
+        'txt_bet
+        '
+        Me.txt_bet.BackColor = System.Drawing.Color.Black
+        Me.txt_bet.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_bet.Enabled = False
+        Me.txt_bet.Font = New System.Drawing.Font("Orbitron", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_bet.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(62, Byte), Integer))
+        Me.txt_bet.Location = New System.Drawing.Point(6, 7)
+        Me.txt_bet.Name = "txt_bet"
+        Me.txt_bet.ReadOnly = True
+        Me.txt_bet.Size = New System.Drawing.Size(165, 43)
+        Me.txt_bet.TabIndex = 21
+        Me.txt_bet.Text = "0"
+        Me.txt_bet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Panel71
+        '
+        Me.Panel71.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.outer_white
+        Me.Panel71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel71.Controls.Add(Me.txt_credit)
+        Me.Panel71.Location = New System.Drawing.Point(144, 426)
+        Me.Panel71.Name = "Panel71"
+        Me.Panel71.Size = New System.Drawing.Size(176, 52)
+        Me.Panel71.TabIndex = 58
+        '
+        'txt_credit
+        '
+        Me.txt_credit.BackColor = System.Drawing.Color.Black
+        Me.txt_credit.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_credit.Enabled = False
+        Me.txt_credit.Font = New System.Drawing.Font("Orbitron", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_credit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(62, Byte), Integer))
+        Me.txt_credit.Location = New System.Drawing.Point(6, 7)
+        Me.txt_credit.Name = "txt_credit"
+        Me.txt_credit.ReadOnly = True
+        Me.txt_credit.Size = New System.Drawing.Size(165, 43)
+        Me.txt_credit.TabIndex = 21
+        Me.txt_credit.Text = "0"
+        Me.txt_credit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'btn_bet_50
+        '
+        Me.btn_bet_50.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._50
+        Me.btn_bet_50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_bet_50.FlatAppearance.BorderSize = 0
+        Me.btn_bet_50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_bet_50.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_bet_50.Location = New System.Drawing.Point(338, 346)
+        Me.btn_bet_50.Name = "btn_bet_50"
+        Me.btn_bet_50.Size = New System.Drawing.Size(60, 60)
+        Me.btn_bet_50.TabIndex = 57
+        Me.btn_bet_50.UseVisualStyleBackColor = True
+        '
+        'btn_history
+        '
+        Me.btn_history.BackColor = System.Drawing.Color.Transparent
+        Me.btn_history.BackgroundImage = CType(resources.GetObject("btn_history.BackgroundImage"), System.Drawing.Image)
+        Me.btn_history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_history.FlatAppearance.BorderSize = 0
+        Me.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_history.Font = New System.Drawing.Font("Luckiest Guy", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_history.ForeColor = System.Drawing.Color.White
+        Me.btn_history.Location = New System.Drawing.Point(126, 353)
+        Me.btn_history.Name = "btn_history"
+        Me.btn_history.Size = New System.Drawing.Size(112, 49)
+        Me.btn_history.TabIndex = 56
+        Me.btn_history.Text = "HISTORY"
+        Me.btn_history.UseVisualStyleBackColor = False
+        '
+        'Panel14
+        '
+        Me.Panel14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel14.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet1
+        Me.Panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel14.Controls.Add(Me.Label25)
+        Me.Panel14.Location = New System.Drawing.Point(147, 139)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(84, 84)
+        Me.Panel14.TabIndex = 33
+        '
+        'Label25
+        '
+        Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label25.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.ForeColor = System.Drawing.Color.Black
+        Me.Label25.Location = New System.Drawing.Point(11, 33)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(61, 18)
+        Me.Label25.TabIndex = 25
+        Me.Label25.Text = "0"
+        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel60
+        '
+        Me.Panel60.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel60.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet1
+        Me.Panel60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel60.Controls.Add(Me.Label56)
+        Me.Panel60.Location = New System.Drawing.Point(773, 188)
+        Me.Panel60.Name = "Panel60"
+        Me.Panel60.Size = New System.Drawing.Size(84, 84)
+        Me.Panel60.TabIndex = 52
+        '
+        'Label56
+        '
+        Me.Label56.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label56.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.ForeColor = System.Drawing.Color.Black
+        Me.Label56.Location = New System.Drawing.Point(11, 33)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(61, 18)
+        Me.Label56.TabIndex = 25
+        Me.Label56.Text = "0"
+        Me.Label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label56.Visible = False
+        '
+        'Panel25
+        '
+        Me.Panel25.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel25.BackgroundImage = CType(resources.GetObject("Panel25.BackgroundImage"), System.Drawing.Image)
+        Me.Panel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel25.Controls.Add(Me.Label26)
+        Me.Panel25.Location = New System.Drawing.Point(652, 239)
+        Me.Panel25.Name = "Panel25"
+        Me.Panel25.Size = New System.Drawing.Size(84, 84)
+        Me.Panel25.TabIndex = 36
+        '
+        'Label26
+        '
+        Me.Label26.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.Black
+        Me.Label26.Location = New System.Drawing.Point(11, 33)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(61, 18)
+        Me.Label26.TabIndex = 25
+        Me.Label26.Text = "0"
+        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label26.Visible = False
+        '
+        'Panel24
+        '
+        Me.Panel24.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel24.BackgroundImage = CType(resources.GetObject("Panel24.BackgroundImage"), System.Drawing.Image)
+        Me.Panel24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel24.Controls.Add(Me.Label27)
+        Me.Panel24.Location = New System.Drawing.Point(652, 139)
+        Me.Panel24.Name = "Panel24"
+        Me.Panel24.Size = New System.Drawing.Size(84, 84)
+        Me.Panel24.TabIndex = 35
+        '
+        'Label27
+        '
+        Me.Label27.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.Color.Black
+        Me.Label27.Location = New System.Drawing.Point(11, 33)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(61, 18)
+        Me.Label27.TabIndex = 25
+        Me.Label27.Text = "0"
+        Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label27.Visible = False
+        '
+        'Panel23
+        '
+        Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel23.BackgroundImage = CType(resources.GetObject("Panel23.BackgroundImage"), System.Drawing.Image)
+        Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel23.Controls.Add(Me.Label31)
+        Me.Panel23.Location = New System.Drawing.Point(551, 239)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(84, 84)
+        Me.Panel23.TabIndex = 35
+        '
+        'Label31
+        '
+        Me.Label31.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label31.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.Black
+        Me.Label31.Location = New System.Drawing.Point(11, 33)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(61, 18)
+        Me.Label31.TabIndex = 25
+        Me.Label31.Text = "0"
+        Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label31.Visible = False
+        '
+        'Panel22
+        '
+        Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel22.BackgroundImage = CType(resources.GetObject("Panel22.BackgroundImage"), System.Drawing.Image)
+        Me.Panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel22.Controls.Add(Me.Label28)
+        Me.Panel22.Location = New System.Drawing.Point(551, 139)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(84, 84)
+        Me.Panel22.TabIndex = 35
+        '
+        'Label28
+        '
+        Me.Label28.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.Black
+        Me.Label28.Location = New System.Drawing.Point(11, 33)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(61, 18)
+        Me.Label28.TabIndex = 25
+        Me.Label28.Text = "0"
+        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label28.Visible = False
+        '
+        'Panel21
+        '
+        Me.Panel21.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel21.BackgroundImage = CType(resources.GetObject("Panel21.BackgroundImage"), System.Drawing.Image)
+        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel21.Controls.Add(Me.Label29)
+        Me.Panel21.Location = New System.Drawing.Point(450, 239)
+        Me.Panel21.Name = "Panel21"
+        Me.Panel21.Size = New System.Drawing.Size(84, 84)
+        Me.Panel21.TabIndex = 35
+        '
+        'Label29
+        '
+        Me.Label29.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label29.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.ForeColor = System.Drawing.Color.Black
+        Me.Label29.Location = New System.Drawing.Point(11, 33)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(61, 18)
+        Me.Label29.TabIndex = 25
+        Me.Label29.Text = "0"
+        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label29.Visible = False
+        '
+        'Panel20
+        '
+        Me.Panel20.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel20.BackgroundImage = CType(resources.GetObject("Panel20.BackgroundImage"), System.Drawing.Image)
+        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel20.Controls.Add(Me.Label30)
+        Me.Panel20.Location = New System.Drawing.Point(450, 139)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(84, 84)
+        Me.Panel20.TabIndex = 35
+        '
+        'Label30
+        '
+        Me.Label30.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label30.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.Black
+        Me.Label30.Location = New System.Drawing.Point(11, 33)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(61, 18)
+        Me.Label30.TabIndex = 25
+        Me.Label30.Text = "0"
+        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label30.Visible = False
+        '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel19.BackgroundImage = CType(resources.GetObject("Panel19.BackgroundImage"), System.Drawing.Image)
+        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel19.Controls.Add(Me.Label21)
+        Me.Panel19.Location = New System.Drawing.Point(349, 139)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(84, 84)
+        Me.Panel19.TabIndex = 35
+        '
+        'Label21
+        '
+        Me.Label21.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label21.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Black
+        Me.Label21.Location = New System.Drawing.Point(11, 33)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(61, 18)
+        Me.Label21.TabIndex = 25
+        Me.Label21.Text = "0"
+        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label21.Visible = False
+        '
+        'Panel18
+        '
+        Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel18.BackgroundImage = CType(resources.GetObject("Panel18.BackgroundImage"), System.Drawing.Image)
+        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel18.Controls.Add(Me.Label22)
+        Me.Panel18.Location = New System.Drawing.Point(248, 239)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(84, 84)
+        Me.Panel18.TabIndex = 35
+        '
+        'Label22
+        '
+        Me.Label22.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Black
+        Me.Label22.Location = New System.Drawing.Point(11, 33)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(61, 18)
+        Me.Label22.TabIndex = 25
+        Me.Label22.Text = "0"
+        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label22.Visible = False
+        '
+        'Panel17
+        '
+        Me.Panel17.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel17.BackgroundImage = CType(resources.GetObject("Panel17.BackgroundImage"), System.Drawing.Image)
+        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel17.Controls.Add(Me.Label23)
+        Me.Panel17.Location = New System.Drawing.Point(248, 139)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(84, 84)
+        Me.Panel17.TabIndex = 35
+        '
+        'Label23
+        '
+        Me.Label23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.Black
+        Me.Label23.Location = New System.Drawing.Point(11, 33)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(61, 18)
+        Me.Label23.TabIndex = 25
+        Me.Label23.Text = "0"
+        Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label23.Visible = False
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel16.BackgroundImage = CType(resources.GetObject("Panel16.BackgroundImage"), System.Drawing.Image)
+        Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel16.Controls.Add(Me.Label20)
+        Me.Panel16.Location = New System.Drawing.Point(349, 239)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(84, 84)
+        Me.Panel16.TabIndex = 34
+        '
+        'Label20
+        '
+        Me.Label20.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label20.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Black
+        Me.Label20.Location = New System.Drawing.Point(11, 33)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(61, 18)
+        Me.Label20.TabIndex = 25
+        Me.Label20.Text = "0"
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label20.Visible = False
+        '
+        'Panel15
+        '
+        Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.Panel15.BackgroundImage = CType(resources.GetObject("Panel15.BackgroundImage"), System.Drawing.Image)
+        Me.Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel15.Controls.Add(Me.Label24)
+        Me.Panel15.Location = New System.Drawing.Point(147, 239)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(84, 84)
+        Me.Panel15.TabIndex = 34
+        '
+        'Label24
+        '
+        Me.Label24.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
+        Me.Label24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Black
+        Me.Label24.Location = New System.Drawing.Point(11, 33)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(61, 18)
+        Me.Label24.TabIndex = 25
+        Me.Label24.Text = "0"
+        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label24.Visible = False
+        '
+        'btn_bonus
+        '
+        Me.btn_bonus.BackColor = System.Drawing.Color.Transparent
+        Me.btn_bonus.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.jp1
+        Me.btn_bonus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_bonus.FlatAppearance.BorderSize = 0
+        Me.btn_bonus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_bonus.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_bonus.ForeColor = System.Drawing.Color.White
+        Me.btn_bonus.Location = New System.Drawing.Point(775, 146)
+        Me.btn_bonus.Name = "btn_bonus"
+        Me.btn_bonus.Size = New System.Drawing.Size(80, 170)
+        Me.btn_bonus.TabIndex = 22
+        Me.btn_bonus.UseVisualStyleBackColor = False
+        '
+        'txt_user
+        '
+        Me.txt_user.Location = New System.Drawing.Point(3, 3)
+        Me.txt_user.Name = "txt_user"
+        Me.txt_user.Size = New System.Drawing.Size(20, 20)
+        Me.txt_user.TabIndex = 26
+        Me.txt_user.Visible = False
+        '
+        'btn_repeat
+        '
+        Me.btn_repeat.BackColor = System.Drawing.Color.Transparent
+        Me.btn_repeat.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.rebet
+        Me.btn_repeat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_repeat.FlatAppearance.BorderSize = 0
+        Me.btn_repeat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_repeat.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_repeat.ForeColor = System.Drawing.Color.White
+        Me.btn_repeat.Location = New System.Drawing.Point(19, 336)
+        Me.btn_repeat.Name = "btn_repeat"
+        Me.btn_repeat.Size = New System.Drawing.Size(92, 66)
+        Me.btn_repeat.TabIndex = 22
+        Me.btn_repeat.UseVisualStyleBackColor = False
+        '
+        'btn_cancel
+        '
+        Me.btn_cancel.BackColor = System.Drawing.Color.Transparent
+        Me.btn_cancel.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.clear
+        Me.btn_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_cancel.FlatAppearance.BorderSize = 0
+        Me.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_cancel.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_cancel.ForeColor = System.Drawing.Color.White
+        Me.btn_cancel.Location = New System.Drawing.Point(768, 336)
+        Me.btn_cancel.Name = "btn_cancel"
+        Me.btn_cancel.Size = New System.Drawing.Size(92, 66)
+        Me.btn_cancel.TabIndex = 22
+        Me.btn_cancel.UseVisualStyleBackColor = False
+        '
+        'btn_logout
+        '
+        Me.btn_logout.BackColor = System.Drawing.Color.Transparent
+        Me.btn_logout.BackgroundImage = CType(resources.GetObject("btn_logout.BackgroundImage"), System.Drawing.Image)
+        Me.btn_logout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_logout.FlatAppearance.BorderSize = 0
+        Me.btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_logout.Font = New System.Drawing.Font("Luckiest Guy", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_logout.ForeColor = System.Drawing.Color.White
+        Me.btn_logout.Location = New System.Drawing.Point(645, 353)
+        Me.btn_logout.Name = "btn_logout"
+        Me.btn_logout.Size = New System.Drawing.Size(112, 49)
+        Me.btn_logout.TabIndex = 22
+        Me.btn_logout.Text = "LOGOUT"
+        Me.btn_logout.UseVisualStyleBackColor = False
+        '
+        'btn_red
+        '
+        Me.btn_red.BackColor = System.Drawing.Color.Transparent
+        Me.btn_red.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Red
+        Me.btn_red.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_red.FlatAppearance.BorderSize = 0
+        Me.btn_red.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_red.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_red.ForeColor = System.Drawing.Color.White
+        Me.btn_red.Location = New System.Drawing.Point(36, 145)
+        Me.btn_red.Name = "btn_red"
+        Me.btn_red.Size = New System.Drawing.Size(69, 69)
+        Me.btn_red.TabIndex = 22
+        Me.btn_red.UseVisualStyleBackColor = False
+        '
+        'btn_black
+        '
+        Me.btn_black.BackColor = System.Drawing.Color.Transparent
+        Me.btn_black.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Black
+        Me.btn_black.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_black.FlatAppearance.BorderSize = 0
+        Me.btn_black.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_black.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_black.ForeColor = System.Drawing.Color.White
+        Me.btn_black.Location = New System.Drawing.Point(36, 246)
+        Me.btn_black.Name = "btn_black"
+        Me.btn_black.Size = New System.Drawing.Size(69, 69)
+        Me.btn_black.TabIndex = 22
+        Me.btn_black.UseVisualStyleBackColor = False
+        '
+        'btn_bet_500
+        '
+        Me.btn_bet_500.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._500
+        Me.btn_bet_500.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_bet_500.FlatAppearance.BorderSize = 0
+        Me.btn_bet_500.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_bet_500.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_bet_500.Location = New System.Drawing.Point(486, 346)
+        Me.btn_bet_500.Name = "btn_bet_500"
+        Me.btn_bet_500.Size = New System.Drawing.Size(60, 60)
+        Me.btn_bet_500.TabIndex = 22
+        Me.btn_bet_500.UseVisualStyleBackColor = True
+        '
+        'btn_bet_100
+        '
+        Me.btn_bet_100.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._100
+        Me.btn_bet_100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_bet_100.FlatAppearance.BorderSize = 0
+        Me.btn_bet_100.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_bet_100.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_bet_100.Location = New System.Drawing.Point(412, 346)
+        Me.btn_bet_100.Name = "btn_bet_100"
+        Me.btn_bet_100.Size = New System.Drawing.Size(60, 60)
+        Me.btn_bet_100.TabIndex = 22
+        Me.btn_bet_100.UseVisualStyleBackColor = True
+        '
+        'btn_bet_1000
+        '
+        Me.btn_bet_1000.BackColor = System.Drawing.Color.Transparent
+        Me.btn_bet_1000.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._1000
+        Me.btn_bet_1000.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_bet_1000.FlatAppearance.BorderSize = 0
+        Me.btn_bet_1000.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_bet_1000.Location = New System.Drawing.Point(560, 346)
+        Me.btn_bet_1000.Name = "btn_bet_1000"
+        Me.btn_bet_1000.Size = New System.Drawing.Size(60, 60)
+        Me.btn_bet_1000.TabIndex = 22
+        Me.btn_bet_1000.UseVisualStyleBackColor = False
+        '
+        'btn_bet_10
+        '
+        Me.btn_bet_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._10
+        Me.btn_bet_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_bet_10.FlatAppearance.BorderSize = 0
+        Me.btn_bet_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_bet_10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_bet_10.Location = New System.Drawing.Point(264, 346)
+        Me.btn_bet_10.Name = "btn_bet_10"
+        Me.btn_bet_10.Size = New System.Drawing.Size(60, 60)
+        Me.btn_bet_10.TabIndex = 22
+        Me.btn_bet_10.UseVisualStyleBackColor = True
+        '
+        'btn_1
+        '
+        Me.btn_1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_1
+        Me.btn_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_1.FlatAppearance.BorderSize = 0
+        Me.btn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_1.ForeColor = System.Drawing.Color.White
+        Me.btn_1.Location = New System.Drawing.Point(147, 139)
+        Me.btn_1.Name = "btn_1"
+        Me.btn_1.Size = New System.Drawing.Size(84, 84)
+        Me.btn_1.TabIndex = 22
+        Me.btn_1.UseVisualStyleBackColor = False
+        '
+        'btn_7
+        '
+        Me.btn_7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_7
+        Me.btn_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_7.FlatAppearance.BorderSize = 0
+        Me.btn_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_7.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_7.ForeColor = System.Drawing.Color.White
+        Me.btn_7.Location = New System.Drawing.Point(450, 139)
+        Me.btn_7.Name = "btn_7"
+        Me.btn_7.Size = New System.Drawing.Size(84, 84)
+        Me.btn_7.TabIndex = 22
+        Me.btn_7.UseVisualStyleBackColor = False
+        '
+        'btn_2
+        '
+        Me.btn_2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_2
+        Me.btn_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_2.FlatAppearance.BorderSize = 0
+        Me.btn_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_2.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_2.ForeColor = System.Drawing.Color.White
+        Me.btn_2.Location = New System.Drawing.Point(147, 239)
+        Me.btn_2.Name = "btn_2"
+        Me.btn_2.Size = New System.Drawing.Size(84, 84)
+        Me.btn_2.TabIndex = 22
+        Me.btn_2.UseVisualStyleBackColor = False
+        '
+        'btn_8
+        '
+        Me.btn_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_8
+        Me.btn_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_8.FlatAppearance.BorderSize = 0
+        Me.btn_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_8.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_8.ForeColor = System.Drawing.Color.White
+        Me.btn_8.Location = New System.Drawing.Point(450, 239)
+        Me.btn_8.Name = "btn_8"
+        Me.btn_8.Size = New System.Drawing.Size(84, 84)
+        Me.btn_8.TabIndex = 22
+        Me.btn_8.UseVisualStyleBackColor = False
+        '
+        'btn_3
+        '
+        Me.btn_3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_3
+        Me.btn_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_3.FlatAppearance.BorderSize = 0
+        Me.btn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_3.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_3.ForeColor = System.Drawing.Color.White
+        Me.btn_3.Location = New System.Drawing.Point(248, 139)
+        Me.btn_3.Name = "btn_3"
+        Me.btn_3.Size = New System.Drawing.Size(84, 84)
+        Me.btn_3.TabIndex = 22
+        Me.btn_3.UseVisualStyleBackColor = False
+        '
+        'btn_9
+        '
+        Me.btn_9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_9
+        Me.btn_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_9.FlatAppearance.BorderSize = 0
+        Me.btn_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_9.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_9.ForeColor = System.Drawing.Color.White
+        Me.btn_9.Location = New System.Drawing.Point(551, 139)
+        Me.btn_9.Name = "btn_9"
+        Me.btn_9.Size = New System.Drawing.Size(84, 84)
+        Me.btn_9.TabIndex = 22
+        Me.btn_9.UseVisualStyleBackColor = False
+        '
+        'btn_4
+        '
+        Me.btn_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_4
+        Me.btn_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_4.FlatAppearance.BorderSize = 0
+        Me.btn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_4.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_4.ForeColor = System.Drawing.Color.White
+        Me.btn_4.Location = New System.Drawing.Point(248, 239)
+        Me.btn_4.Name = "btn_4"
+        Me.btn_4.Size = New System.Drawing.Size(84, 84)
+        Me.btn_4.TabIndex = 22
+        Me.btn_4.UseVisualStyleBackColor = False
+        '
+        'btn_10
+        '
+        Me.btn_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_10
+        Me.btn_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_10.FlatAppearance.BorderSize = 0
+        Me.btn_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_10.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_10.ForeColor = System.Drawing.Color.White
+        Me.btn_10.Location = New System.Drawing.Point(551, 239)
+        Me.btn_10.Name = "btn_10"
+        Me.btn_10.Size = New System.Drawing.Size(84, 84)
+        Me.btn_10.TabIndex = 22
+        Me.btn_10.UseVisualStyleBackColor = False
+        '
+        'btn_5
+        '
+        Me.btn_5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_5
+        Me.btn_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_5.FlatAppearance.BorderSize = 0
+        Me.btn_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_5.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_5.ForeColor = System.Drawing.Color.White
+        Me.btn_5.Location = New System.Drawing.Point(349, 139)
+        Me.btn_5.Name = "btn_5"
+        Me.btn_5.Size = New System.Drawing.Size(84, 84)
+        Me.btn_5.TabIndex = 22
+        Me.btn_5.UseVisualStyleBackColor = False
+        '
+        'btn_11
+        '
+        Me.btn_11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_11.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_11
+        Me.btn_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_11.FlatAppearance.BorderSize = 0
+        Me.btn_11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_11.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_11.ForeColor = System.Drawing.Color.White
+        Me.btn_11.Location = New System.Drawing.Point(652, 139)
+        Me.btn_11.Name = "btn_11"
+        Me.btn_11.Size = New System.Drawing.Size(84, 84)
+        Me.btn_11.TabIndex = 22
+        Me.btn_11.UseVisualStyleBackColor = False
+        '
+        'btn_6
+        '
+        Me.btn_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_6
+        Me.btn_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_6.FlatAppearance.BorderSize = 0
+        Me.btn_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_6.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_6.ForeColor = System.Drawing.Color.White
+        Me.btn_6.Location = New System.Drawing.Point(349, 239)
+        Me.btn_6.Name = "btn_6"
+        Me.btn_6.Size = New System.Drawing.Size(84, 84)
+        Me.btn_6.TabIndex = 22
+        Me.btn_6.UseVisualStyleBackColor = False
+        '
+        'btn_12
+        '
+        Me.btn_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
+        Me.btn_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_12
+        Me.btn_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_12.FlatAppearance.BorderSize = 0
+        Me.btn_12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_12.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.btn_12.ForeColor = System.Drawing.Color.White
+        Me.btn_12.Location = New System.Drawing.Point(652, 239)
+        Me.btn_12.Name = "btn_12"
+        Me.btn_12.Size = New System.Drawing.Size(84, 84)
+        Me.btn_12.TabIndex = 22
+        Me.btn_12.UseVisualStyleBackColor = False
         '
         'BunifuThinButton26
         '
@@ -840,16 +2607,6 @@ Partial Class MenuCustomer
         Me.BunifuThinButton23.TabIndex = 19
         Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel67
-        '
-        Me.Panel67.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel67.Controls.Add(Me.Button2)
-        Me.Panel67.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel67.Location = New System.Drawing.Point(0, 0)
-        Me.Panel67.Name = "Panel67"
-        Me.Panel67.Size = New System.Drawing.Size(312, 29)
-        Me.Panel67.TabIndex = 18
-        '
         'Button2
         '
         Me.Button2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
@@ -862,24 +2619,6 @@ Partial Class MenuCustomer
         Me.Button2.Size = New System.Drawing.Size(27, 23)
         Me.Button2.TabIndex = 5
         Me.Button2.UseVisualStyleBackColor = True
-        '
-        'txt_isi_koin
-        '
-        Me.txt_isi_koin.BorderColorFocused = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.txt_isi_koin.BorderColorIdle = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.txt_isi_koin.BorderColorMouseHover = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.txt_isi_koin.BorderThickness = 2
-        Me.txt_isi_koin.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txt_isi_koin.Font = New System.Drawing.Font("Century Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_isi_koin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txt_isi_koin.isPassword = False
-        Me.txt_isi_koin.Location = New System.Drawing.Point(33, 107)
-        Me.txt_isi_koin.Margin = New System.Windows.Forms.Padding(4)
-        Me.txt_isi_koin.Name = "txt_isi_koin"
-        Me.txt_isi_koin.Size = New System.Drawing.Size(248, 46)
-        Me.txt_isi_koin.TabIndex = 0
-        Me.txt_isi_koin.Text = "0"
-        Me.txt_isi_koin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'BunifuThinButton21
         '
@@ -931,74 +2670,325 @@ Partial Class MenuCustomer
         Me.BunifuThinButton22.TabIndex = 2
         Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'username_kasir
+        'btn_close
         '
-        Me.username_kasir.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.username_kasir.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.username_kasir.Location = New System.Drawing.Point(199, 39)
-        Me.username_kasir.Name = "username_kasir"
-        Me.username_kasir.Size = New System.Drawing.Size(86, 29)
-        Me.username_kasir.TabIndex = 1
+        Me.btn_close.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btnClose
+        Me.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_close.FlatAppearance.BorderSize = 0
+        Me.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_close.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btn_close.Location = New System.Drawing.Point(283, 2)
+        Me.btn_close.Name = "btn_close"
+        Me.btn_close.Size = New System.Drawing.Size(27, 23)
+        Me.btn_close.TabIndex = 5
+        Me.btn_close.UseVisualStyleBackColor = True
         '
-        'username_player
+        'Panel68
         '
-        Me.username_player.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.username_player.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.username_player.Location = New System.Drawing.Point(30, 36)
-        Me.username_player.Name = "username_player"
-        Me.username_player.Size = New System.Drawing.Size(98, 44)
-        Me.username_player.TabIndex = 14
+        Me.Panel68.BackgroundImage = CType(resources.GetObject("Panel68.BackgroundImage"), System.Drawing.Image)
+        Me.Panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel68.Location = New System.Drawing.Point(32, 152)
+        Me.Panel68.Name = "Panel68"
+        Me.Panel68.Size = New System.Drawing.Size(248, 45)
+        Me.Panel68.TabIndex = 14
+        Me.Panel68.Visible = False
         '
-        'koin
+        'btn_qr
         '
-        Me.koin.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.koin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.koin.Location = New System.Drawing.Point(199, 72)
-        Me.koin.Name = "koin"
-        Me.koin.Size = New System.Drawing.Size(80, 30)
-        Me.koin.TabIndex = 2
+        Me.btn_qr.ActiveBorderThickness = 1
+        Me.btn_qr.ActiveCornerRadius = 20
+        Me.btn_qr.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_qr.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_qr.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_qr.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_qr.BackgroundImage = CType(resources.GetObject("btn_qr.BackgroundImage"), System.Drawing.Image)
+        Me.btn_qr.ButtonText = "QR Login"
+        Me.btn_qr.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_qr.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_qr.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btn_qr.IdleBorderThickness = 1
+        Me.btn_qr.IdleCornerRadius = 20
+        Me.btn_qr.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_qr.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_qr.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_qr.Location = New System.Drawing.Point(164, 334)
+        Me.btn_qr.Margin = New System.Windows.Forms.Padding(5)
+        Me.btn_qr.Name = "btn_qr"
+        Me.btn_qr.Size = New System.Drawing.Size(117, 46)
+        Me.btn_qr.TabIndex = 3
+        Me.btn_qr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Timer11
+        'btn_login
         '
-        Me.Timer11.Interval = 1000
+        Me.btn_login.ActiveBorderThickness = 1
+        Me.btn_login.ActiveCornerRadius = 20
+        Me.btn_login.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_login.ActiveForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_login.ActiveLineColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.btn_login.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_login.BackgroundImage = CType(resources.GetObject("btn_login.BackgroundImage"), System.Drawing.Image)
+        Me.btn_login.ButtonText = "Login"
+        Me.btn_login.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_login.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_login.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btn_login.IdleBorderThickness = 1
+        Me.btn_login.IdleCornerRadius = 20
+        Me.btn_login.IdleFillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_login.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.btn_login.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn_login.Location = New System.Drawing.Point(32, 334)
+        Me.btn_login.Margin = New System.Windows.Forms.Padding(5)
+        Me.btn_login.Name = "btn_login"
+        Me.btn_login.Size = New System.Drawing.Size(117, 46)
+        Me.btn_login.TabIndex = 2
+        Me.btn_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label7
+        'Panel69
         '
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("UnifrakturCook", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(0, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(49, 19)
-        Me.Label7.TabIndex = 24
-        Me.Label7.Text = "time"
+        Me.Panel69.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.logo3
+        Me.Panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel69.Location = New System.Drawing.Point(46, 24)
+        Me.Panel69.Name = "Panel69"
+        Me.Panel69.Size = New System.Drawing.Size(216, 141)
+        Me.Panel69.TabIndex = 11
         '
-        'Label6
+        'shio
         '
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("UnifrakturCook", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(53, 16)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(72, 40)
-        Me.Label6.TabIndex = 24
-        Me.Label6.Text = "60"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.shio.BackColor = System.Drawing.Color.White
+        Me.shio.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
+        Me.shio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.shio.Location = New System.Drawing.Point(362, 178)
+        Me.shio.Name = "shio"
+        Me.shio.Size = New System.Drawing.Size(159, 160)
+        Me.shio.TabIndex = 57
         '
-        'hidden
+        'angka
         '
-        Me.hidden.Controls.Add(Me.Panel56)
-        Me.hidden.Controls.Add(Me.btn_grup_4)
-        Me.hidden.Controls.Add(Me.Panel55)
-        Me.hidden.Controls.Add(Me.btn_grup_3)
-        Me.hidden.Controls.Add(Me.Panel54)
-        Me.hidden.Controls.Add(Me.btn_grup_2)
-        Me.hidden.Controls.Add(Me.Panel53)
-        Me.hidden.Controls.Add(Me.btn_grup_1)
-        Me.hidden.Location = New System.Drawing.Point(0, 0)
-        Me.hidden.Name = "hidden"
-        Me.hidden.Size = New System.Drawing.Size(149, 100)
-        Me.hidden.TabIndex = 67
+        Me.angka.BackColor = System.Drawing.Color.Transparent
+        Me.angka.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.kotak_merah
+        Me.angka.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.angka.Location = New System.Drawing.Point(371, 18)
+        Me.angka.Name = "angka"
+        Me.angka.Size = New System.Drawing.Size(140, 152)
+        Me.angka.TabIndex = 57
+        '
+        'history
+        '
+        Me.history.BackColor = System.Drawing.Color.Transparent
+        Me.history.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.history_bg
+        Me.history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.history.Controls.Add(Me.Label1)
+        Me.history.Controls.Add(Me.Button1)
+        Me.history.Controls.Add(Me.ListView8)
+        Me.history.Controls.Add(Me.ListView7)
+        Me.history.Controls.Add(Me.ListView6)
+        Me.history.Controls.Add(Me.ListView5)
+        Me.history.Controls.Add(Me.ListView4)
+        Me.history.Controls.Add(Me.ListView3)
+        Me.history.Controls.Add(Me.ListView2)
+        Me.history.Controls.Add(Me.ListView1)
+        Me.history.Location = New System.Drawing.Point(0, 0)
+        Me.history.Name = "history"
+        Me.history.Size = New System.Drawing.Size(883, 496)
+        Me.history.TabIndex = 57
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Label1"
+        '
+        'Button1
+        '
+        Me.Button1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.back
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(99, 79)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(92, 31)
+        Me.Button1.TabIndex = 1
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'ListView8
+        '
+        Me.ListView8.BackColor = System.Drawing.Color.White
+        Me.ListView8.BackgroundImage = CType(resources.GetObject("ListView8.BackgroundImage"), System.Drawing.Image)
+        Me.ListView8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView8.ForeColor = System.Drawing.Color.White
+        Me.ListView8.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView8.HideSelection = False
+        Me.ListView8.LabelWrap = False
+        Me.ListView8.LargeImageList = Me.ImageList1
+        Me.ListView8.Location = New System.Drawing.Point(727, 125)
+        Me.ListView8.MultiSelect = False
+        Me.ListView8.Name = "ListView8"
+        Me.ListView8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView8.Scrollable = False
+        Me.ListView8.Size = New System.Drawing.Size(55, 367)
+        Me.ListView8.SmallImageList = Me.ImageList1
+        Me.ListView8.TabIndex = 0
+        Me.ListView8.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView8.UseCompatibleStateImageBehavior = False
+        Me.ListView8.View = System.Windows.Forms.View.Tile
+        '
+        'ListView7
+        '
+        Me.ListView7.BackColor = System.Drawing.Color.White
+        Me.ListView7.BackgroundImage = CType(resources.GetObject("ListView7.BackgroundImage"), System.Drawing.Image)
+        Me.ListView7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView7.ForeColor = System.Drawing.Color.White
+        Me.ListView7.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView7.HideSelection = False
+        Me.ListView7.LabelWrap = False
+        Me.ListView7.LargeImageList = Me.ImageList1
+        Me.ListView7.Location = New System.Drawing.Point(540, 125)
+        Me.ListView7.MultiSelect = False
+        Me.ListView7.Name = "ListView7"
+        Me.ListView7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView7.Scrollable = False
+        Me.ListView7.Size = New System.Drawing.Size(55, 367)
+        Me.ListView7.SmallImageList = Me.ImageList1
+        Me.ListView7.TabIndex = 0
+        Me.ListView7.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView7.UseCompatibleStateImageBehavior = False
+        Me.ListView7.View = System.Windows.Forms.View.Tile
+        '
+        'ListView6
+        '
+        Me.ListView6.BackColor = System.Drawing.Color.White
+        Me.ListView6.BackgroundImage = CType(resources.GetObject("ListView6.BackgroundImage"), System.Drawing.Image)
+        Me.ListView6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView6.ForeColor = System.Drawing.Color.White
+        Me.ListView6.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView6.HideSelection = False
+        Me.ListView6.LabelWrap = False
+        Me.ListView6.LargeImageList = Me.ImageList1
+        Me.ListView6.Location = New System.Drawing.Point(353, 125)
+        Me.ListView6.MultiSelect = False
+        Me.ListView6.Name = "ListView6"
+        Me.ListView6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView6.Scrollable = False
+        Me.ListView6.Size = New System.Drawing.Size(55, 367)
+        Me.ListView6.SmallImageList = Me.ImageList1
+        Me.ListView6.TabIndex = 0
+        Me.ListView6.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView6.UseCompatibleStateImageBehavior = False
+        Me.ListView6.View = System.Windows.Forms.View.Tile
+        '
+        'ListView5
+        '
+        Me.ListView5.BackColor = System.Drawing.Color.White
+        Me.ListView5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.history_shio
+        Me.ListView5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView5.ForeColor = System.Drawing.Color.White
+        Me.ListView5.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView5.HideSelection = False
+        Me.ListView5.LabelWrap = False
+        Me.ListView5.LargeImageList = Me.ImageList1
+        Me.ListView5.Location = New System.Drawing.Point(168, 125)
+        Me.ListView5.MultiSelect = False
+        Me.ListView5.Name = "ListView5"
+        Me.ListView5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView5.Scrollable = False
+        Me.ListView5.Size = New System.Drawing.Size(55, 367)
+        Me.ListView5.SmallImageList = Me.ImageList1
+        Me.ListView5.TabIndex = 0
+        Me.ListView5.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView5.UseCompatibleStateImageBehavior = False
+        Me.ListView5.View = System.Windows.Forms.View.Tile
+        '
+        'ListView4
+        '
+        Me.ListView4.BackColor = System.Drawing.Color.White
+        Me.ListView4.BackgroundImage = CType(resources.GetObject("ListView4.BackgroundImage"), System.Drawing.Image)
+        Me.ListView4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView4.ForeColor = System.Drawing.Color.White
+        Me.ListView4.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView4.HideSelection = False
+        Me.ListView4.LabelWrap = False
+        Me.ListView4.LargeImageList = Me.ImageList1
+        Me.ListView4.Location = New System.Drawing.Point(660, 125)
+        Me.ListView4.MultiSelect = False
+        Me.ListView4.Name = "ListView4"
+        Me.ListView4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView4.Scrollable = False
+        Me.ListView4.Size = New System.Drawing.Size(55, 367)
+        Me.ListView4.SmallImageList = Me.ImageList1
+        Me.ListView4.TabIndex = 0
+        Me.ListView4.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView4.UseCompatibleStateImageBehavior = False
+        Me.ListView4.View = System.Windows.Forms.View.Tile
+        '
+        'ListView3
+        '
+        Me.ListView3.BackColor = System.Drawing.Color.White
+        Me.ListView3.BackgroundImage = CType(resources.GetObject("ListView3.BackgroundImage"), System.Drawing.Image)
+        Me.ListView3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView3.ForeColor = System.Drawing.Color.White
+        Me.ListView3.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView3.HideSelection = False
+        Me.ListView3.LabelWrap = False
+        Me.ListView3.LargeImageList = Me.ImageList1
+        Me.ListView3.Location = New System.Drawing.Point(475, 125)
+        Me.ListView3.MultiSelect = False
+        Me.ListView3.Name = "ListView3"
+        Me.ListView3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView3.Scrollable = False
+        Me.ListView3.Size = New System.Drawing.Size(55, 367)
+        Me.ListView3.SmallImageList = Me.ImageList1
+        Me.ListView3.TabIndex = 0
+        Me.ListView3.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView3.UseCompatibleStateImageBehavior = False
+        Me.ListView3.View = System.Windows.Forms.View.Tile
+        '
+        'ListView2
+        '
+        Me.ListView2.BackColor = System.Drawing.Color.White
+        Me.ListView2.BackgroundImage = CType(resources.GetObject("ListView2.BackgroundImage"), System.Drawing.Image)
+        Me.ListView2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView2.ForeColor = System.Drawing.Color.White
+        Me.ListView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView2.HideSelection = False
+        Me.ListView2.LabelWrap = False
+        Me.ListView2.LargeImageList = Me.ImageList1
+        Me.ListView2.Location = New System.Drawing.Point(290, 125)
+        Me.ListView2.MultiSelect = False
+        Me.ListView2.Name = "ListView2"
+        Me.ListView2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView2.Scrollable = False
+        Me.ListView2.Size = New System.Drawing.Size(55, 367)
+        Me.ListView2.SmallImageList = Me.ImageList1
+        Me.ListView2.TabIndex = 0
+        Me.ListView2.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView2.UseCompatibleStateImageBehavior = False
+        Me.ListView2.View = System.Windows.Forms.View.Tile
+        '
+        'ListView1
+        '
+        Me.ListView1.Alignment = System.Windows.Forms.ListViewAlignment.[Default]
+        Me.ListView1.BackColor = System.Drawing.Color.White
+        Me.ListView1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.history_angka
+        Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView1.ForeColor = System.Drawing.Color.Transparent
+        Me.ListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.ListView1.HideSelection = False
+        Me.ListView1.LabelWrap = False
+        Me.ListView1.LargeImageList = Me.ImageList1
+        Me.ListView1.Location = New System.Drawing.Point(104, 125)
+        Me.ListView1.MultiSelect = False
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ListView1.Scrollable = False
+        Me.ListView1.Size = New System.Drawing.Size(55, 367)
+        Me.ListView1.SmallImageList = Me.ImageList1
+        Me.ListView1.TabIndex = 0
+        Me.ListView1.TileSize = New System.Drawing.Size(94, 94)
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.Tile
         '
         'Panel56
         '
@@ -1143,203 +3133,6 @@ Partial Class MenuCustomer
         Me.btn_grup_1.Size = New System.Drawing.Size(65, 33)
         Me.btn_grup_1.TabIndex = 0
         Me.btn_grup_1.UseVisualStyleBackColor = True
-        '
-        'Bonus10
-        '
-        Me.Bonus10.BackColor = System.Drawing.Color.White
-        Me.Bonus10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus10.Location = New System.Drawing.Point(669, 235)
-        Me.Bonus10.Name = "Bonus10"
-        Me.Bonus10.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus10.TabIndex = 61
-        '
-        'Bonus9
-        '
-        Me.Bonus9.BackColor = System.Drawing.Color.White
-        Me.Bonus9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus9.Location = New System.Drawing.Point(529, 235)
-        Me.Bonus9.Name = "Bonus9"
-        Me.Bonus9.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus9.TabIndex = 64
-        '
-        'Bonus8
-        '
-        Me.Bonus8.BackColor = System.Drawing.Color.White
-        Me.Bonus8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus8.Location = New System.Drawing.Point(389, 235)
-        Me.Bonus8.Name = "Bonus8"
-        Me.Bonus8.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus8.TabIndex = 63
-        '
-        'Bonus7
-        '
-        Me.Bonus7.BackColor = System.Drawing.Color.White
-        Me.Bonus7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus7.Location = New System.Drawing.Point(249, 235)
-        Me.Bonus7.Name = "Bonus7"
-        Me.Bonus7.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus7.TabIndex = 62
-        '
-        'Bonus6
-        '
-        Me.Bonus6.BackColor = System.Drawing.Color.White
-        Me.Bonus6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus6.Location = New System.Drawing.Point(109, 235)
-        Me.Bonus6.Name = "Bonus6"
-        Me.Bonus6.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus6.TabIndex = 65
-        '
-        'Bonus5
-        '
-        Me.Bonus5.BackColor = System.Drawing.Color.White
-        Me.Bonus5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus5.Location = New System.Drawing.Point(669, 104)
-        Me.Bonus5.Name = "Bonus5"
-        Me.Bonus5.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus5.TabIndex = 60
-        '
-        'Bonus4
-        '
-        Me.Bonus4.BackColor = System.Drawing.Color.White
-        Me.Bonus4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus4.Location = New System.Drawing.Point(529, 104)
-        Me.Bonus4.Name = "Bonus4"
-        Me.Bonus4.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus4.TabIndex = 59
-        '
-        'Bonus3
-        '
-        Me.Bonus3.BackColor = System.Drawing.Color.White
-        Me.Bonus3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus3.Location = New System.Drawing.Point(389, 104)
-        Me.Bonus3.Name = "Bonus3"
-        Me.Bonus3.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus3.TabIndex = 59
-        '
-        'Bonus2
-        '
-        Me.Bonus2.BackColor = System.Drawing.Color.White
-        Me.Bonus2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus2.Location = New System.Drawing.Point(250, 104)
-        Me.Bonus2.Name = "Bonus2"
-        Me.Bonus2.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus2.TabIndex = 59
-        '
-        'Bonus1
-        '
-        Me.Bonus1.BackColor = System.Drawing.Color.White
-        Me.Bonus1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.Bonus1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bonus1.Location = New System.Drawing.Point(110, 104)
-        Me.Bonus1.Name = "Bonus1"
-        Me.Bonus1.Size = New System.Drawing.Size(100, 100)
-        Me.Bonus1.TabIndex = 58
-        '
-        'hidden_new
-        '
-        Me.hidden_new.Controls.Add(Me.Panel70)
-        Me.hidden_new.Controls.Add(Me.Panel64)
-        Me.hidden_new.Controls.Add(Me.Label7)
-        Me.hidden_new.Controls.Add(Me.Label6)
-        Me.hidden_new.Controls.Add(Me.btn_25_36)
-        Me.hidden_new.Controls.Add(Me.btn_13_24)
-        Me.hidden_new.Controls.Add(Me.btn_1_12)
-        Me.hidden_new.Controls.Add(Me.Panel52)
-        Me.hidden_new.Controls.Add(Me.Panel51)
-        Me.hidden_new.Controls.Add(Me.Panel50)
-        Me.hidden_new.Controls.Add(Me.btn_ganjil)
-        Me.hidden_new.Controls.Add(Me.btn_genap)
-        Me.hidden_new.Controls.Add(Me.btn_besar)
-        Me.hidden_new.Controls.Add(Me.btn_kecil)
-        Me.hidden_new.Controls.Add(Me.Panel58)
-        Me.hidden_new.Controls.Add(Me.Panel57)
-        Me.hidden_new.Controls.Add(Me.Panel62)
-        Me.hidden_new.Controls.Add(Me.Panel63)
-        Me.hidden_new.Controls.Add(Me.btn_tikus)
-        Me.hidden_new.Controls.Add(Me.btn_kerbau)
-        Me.hidden_new.Controls.Add(Me.btn_macan)
-        Me.hidden_new.Controls.Add(Me.btn_kelinci)
-        Me.hidden_new.Controls.Add(Me.btn_naga)
-        Me.hidden_new.Controls.Add(Me.btn_ular)
-        Me.hidden_new.Controls.Add(Me.btn_kuda)
-        Me.hidden_new.Controls.Add(Me.btn_kambing)
-        Me.hidden_new.Controls.Add(Me.btn_monyet)
-        Me.hidden_new.Controls.Add(Me.btn_ayam)
-        Me.hidden_new.Controls.Add(Me.btn_anjing)
-        Me.hidden_new.Controls.Add(Me.btn_babi)
-        Me.hidden_new.Controls.Add(Me.Panel12)
-        Me.hidden_new.Controls.Add(Me.Panel9)
-        Me.hidden_new.Controls.Add(Me.Panel11)
-        Me.hidden_new.Controls.Add(Me.Panel10)
-        Me.hidden_new.Controls.Add(Me.Panel6)
-        Me.hidden_new.Controls.Add(Me.Panel7)
-        Me.hidden_new.Controls.Add(Me.Panel5)
-        Me.hidden_new.Controls.Add(Me.Panel4)
-        Me.hidden_new.Controls.Add(Me.Panel8)
-        Me.hidden_new.Controls.Add(Me.Panel3)
-        Me.hidden_new.Controls.Add(Me.Panel1)
-        Me.hidden_new.Controls.Add(Me.Panel13)
-        Me.hidden_new.Controls.Add(Me.btn_36)
-        Me.hidden_new.Controls.Add(Me.btn_35)
-        Me.hidden_new.Controls.Add(Me.btn_34)
-        Me.hidden_new.Controls.Add(Me.btn_33)
-        Me.hidden_new.Controls.Add(Me.btn_32)
-        Me.hidden_new.Controls.Add(Me.btn_31)
-        Me.hidden_new.Controls.Add(Me.btn_30)
-        Me.hidden_new.Controls.Add(Me.btn_29)
-        Me.hidden_new.Controls.Add(Me.btn_28)
-        Me.hidden_new.Controls.Add(Me.btn_27)
-        Me.hidden_new.Controls.Add(Me.btn_26)
-        Me.hidden_new.Controls.Add(Me.btn_25)
-        Me.hidden_new.Controls.Add(Me.btn_24)
-        Me.hidden_new.Controls.Add(Me.btn_23)
-        Me.hidden_new.Controls.Add(Me.btn_22)
-        Me.hidden_new.Controls.Add(Me.btn_21)
-        Me.hidden_new.Controls.Add(Me.btn_20)
-        Me.hidden_new.Controls.Add(Me.btn_19)
-        Me.hidden_new.Controls.Add(Me.btn_18)
-        Me.hidden_new.Controls.Add(Me.btn_17)
-        Me.hidden_new.Controls.Add(Me.btn_16)
-        Me.hidden_new.Controls.Add(Me.btn_15)
-        Me.hidden_new.Controls.Add(Me.btn_14)
-        Me.hidden_new.Controls.Add(Me.btn_13)
-        Me.hidden_new.Controls.Add(Me.Panel46)
-        Me.hidden_new.Controls.Add(Me.Panel47)
-        Me.hidden_new.Controls.Add(Me.Panel48)
-        Me.hidden_new.Controls.Add(Me.Panel49)
-        Me.hidden_new.Controls.Add(Me.Panel42)
-        Me.hidden_new.Controls.Add(Me.Panel43)
-        Me.hidden_new.Controls.Add(Me.Panel44)
-        Me.hidden_new.Controls.Add(Me.Panel45)
-        Me.hidden_new.Controls.Add(Me.Panel41)
-        Me.hidden_new.Controls.Add(Me.Panel40)
-        Me.hidden_new.Controls.Add(Me.Panel39)
-        Me.hidden_new.Controls.Add(Me.Panel38)
-        Me.hidden_new.Controls.Add(Me.Panel37)
-        Me.hidden_new.Controls.Add(Me.Panel36)
-        Me.hidden_new.Controls.Add(Me.Panel30)
-        Me.hidden_new.Controls.Add(Me.Panel29)
-        Me.hidden_new.Controls.Add(Me.Panel28)
-        Me.hidden_new.Controls.Add(Me.Panel27)
-        Me.hidden_new.Controls.Add(Me.Panel26)
-        Me.hidden_new.Controls.Add(Me.Panel31)
-        Me.hidden_new.Controls.Add(Me.Panel32)
-        Me.hidden_new.Controls.Add(Me.Panel33)
-        Me.hidden_new.Controls.Add(Me.Panel34)
-        Me.hidden_new.Controls.Add(Me.Panel35)
-        Me.hidden_new.Location = New System.Drawing.Point(0, 0)
-        Me.hidden_new.Name = "hidden_new"
-        Me.hidden_new.Size = New System.Drawing.Size(191, 97)
-        Me.hidden_new.TabIndex = 67
         '
         'Panel70
         '
@@ -2925,1798 +4718,6 @@ Partial Class MenuCustomer
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.Label36.Visible = False
         '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.Transparent
-        Me.Panel2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.background
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.Controls.Add(Me.ListView9)
-        Me.Panel2.Controls.Add(Me.Bonus10)
-        Me.Panel2.Controls.Add(Me.Bonus9)
-        Me.Panel2.Controls.Add(Me.Bonus8)
-        Me.Panel2.Controls.Add(Me.Bonus7)
-        Me.Panel2.Controls.Add(Me.Bonus6)
-        Me.Panel2.Controls.Add(Me.Bonus5)
-        Me.Panel2.Controls.Add(Me.Bonus4)
-        Me.Panel2.Controls.Add(Me.Bonus3)
-        Me.Panel2.Controls.Add(Me.Bonus2)
-        Me.Panel2.Controls.Add(Me.Bonus1)
-        Me.Panel2.Controls.Add(Me.bet_9_10_11_12)
-        Me.Panel2.Controls.Add(Me.bet_7_8_9_10)
-        Me.Panel2.Controls.Add(Me.bet_5_6_7_8)
-        Me.Panel2.Controls.Add(Me.bet_3_4_5_6)
-        Me.Panel2.Controls.Add(Me.bet_1_2_3_4)
-        Me.Panel2.Controls.Add(Me.bet_10_12)
-        Me.Panel2.Controls.Add(Me.bet_8_10)
-        Me.Panel2.Controls.Add(Me.bet_6_8)
-        Me.Panel2.Controls.Add(Me.bet_4_6)
-        Me.Panel2.Controls.Add(Me.bet_2_4)
-        Me.Panel2.Controls.Add(Me.bet_9_11)
-        Me.Panel2.Controls.Add(Me.bet_7_9)
-        Me.Panel2.Controls.Add(Me.bet_5_7)
-        Me.Panel2.Controls.Add(Me.bet_3_5)
-        Me.Panel2.Controls.Add(Me.bet_1_3)
-        Me.Panel2.Controls.Add(Me.bet_11_12)
-        Me.Panel2.Controls.Add(Me.bet_9_10)
-        Me.Panel2.Controls.Add(Me.bet_7_8)
-        Me.Panel2.Controls.Add(Me.bet_5_6)
-        Me.Panel2.Controls.Add(Me.bet_3_4)
-        Me.Panel2.Controls.Add(Me.bet_1_2)
-        Me.Panel2.Controls.Add(Me.btn_9_10_11_12)
-        Me.Panel2.Controls.Add(Me.btn_7_8_9_10)
-        Me.Panel2.Controls.Add(Me.btn_5_6_7_8)
-        Me.Panel2.Controls.Add(Me.btn_3_4_5_6)
-        Me.Panel2.Controls.Add(Me.btn_1_2_3_4)
-        Me.Panel2.Controls.Add(Me.btn_10_12)
-        Me.Panel2.Controls.Add(Me.btn_9_11)
-        Me.Panel2.Controls.Add(Me.btn_8_10)
-        Me.Panel2.Controls.Add(Me.btn_7_9)
-        Me.Panel2.Controls.Add(Me.btn_6_8)
-        Me.Panel2.Controls.Add(Me.btn_5_7)
-        Me.Panel2.Controls.Add(Me.btn_4_6)
-        Me.Panel2.Controls.Add(Me.btn_3_5)
-        Me.Panel2.Controls.Add(Me.btn_2_4)
-        Me.Panel2.Controls.Add(Me.btn_1_3)
-        Me.Panel2.Controls.Add(Me.btn_11_12)
-        Me.Panel2.Controls.Add(Me.btn_9_10)
-        Me.Panel2.Controls.Add(Me.btn_7_8)
-        Me.Panel2.Controls.Add(Me.btn_5_6)
-        Me.Panel2.Controls.Add(Me.btn_3_4)
-        Me.Panel2.Controls.Add(Me.btn_1_2)
-        Me.Panel2.Controls.Add(Me.Panel61)
-        Me.Panel2.Controls.Add(Me.Panel59)
-        Me.Panel2.Controls.Add(Me.Panel73)
-        Me.Panel2.Controls.Add(Me.Panel72)
-        Me.Panel2.Controls.Add(Me.Panel71)
-        Me.Panel2.Controls.Add(Me.btn_bet_50)
-        Me.Panel2.Controls.Add(Me.btn_history)
-        Me.Panel2.Controls.Add(Me.Panel14)
-        Me.Panel2.Controls.Add(Me.Panel60)
-        Me.Panel2.Controls.Add(Me.Panel25)
-        Me.Panel2.Controls.Add(Me.Panel24)
-        Me.Panel2.Controls.Add(Me.Panel23)
-        Me.Panel2.Controls.Add(Me.Panel22)
-        Me.Panel2.Controls.Add(Me.Panel21)
-        Me.Panel2.Controls.Add(Me.Panel20)
-        Me.Panel2.Controls.Add(Me.Panel19)
-        Me.Panel2.Controls.Add(Me.Panel18)
-        Me.Panel2.Controls.Add(Me.Panel17)
-        Me.Panel2.Controls.Add(Me.Panel16)
-        Me.Panel2.Controls.Add(Me.Panel15)
-        Me.Panel2.Controls.Add(Me.btn_bonus)
-        Me.Panel2.Controls.Add(Me.txt_user)
-        Me.Panel2.Controls.Add(Me.btn_repeat)
-        Me.Panel2.Controls.Add(Me.btn_cancel)
-        Me.Panel2.Controls.Add(Me.btn_logout)
-        Me.Panel2.Controls.Add(Me.btn_red)
-        Me.Panel2.Controls.Add(Me.btn_black)
-        Me.Panel2.Controls.Add(Me.btn_bet_500)
-        Me.Panel2.Controls.Add(Me.btn_bet_100)
-        Me.Panel2.Controls.Add(Me.btn_bet_1000)
-        Me.Panel2.Controls.Add(Me.btn_bet_10)
-        Me.Panel2.Controls.Add(Me.btn_1)
-        Me.Panel2.Controls.Add(Me.btn_7)
-        Me.Panel2.Controls.Add(Me.btn_2)
-        Me.Panel2.Controls.Add(Me.btn_8)
-        Me.Panel2.Controls.Add(Me.btn_3)
-        Me.Panel2.Controls.Add(Me.btn_9)
-        Me.Panel2.Controls.Add(Me.btn_4)
-        Me.Panel2.Controls.Add(Me.btn_10)
-        Me.Panel2.Controls.Add(Me.btn_5)
-        Me.Panel2.Controls.Add(Me.btn_11)
-        Me.Panel2.Controls.Add(Me.btn_6)
-        Me.Panel2.Controls.Add(Me.btn_12)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(883, 496)
-        Me.Panel2.TabIndex = 36
-        '
-        'bet_9_10_11_12
-        '
-        Me.bet_9_10_11_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_9_10_11_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_9_10_11_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_9_10_11_12.Controls.Add(Me.Label88)
-        Me.bet_9_10_11_12.Location = New System.Drawing.Point(610, 198)
-        Me.bet_9_10_11_12.Name = "bet_9_10_11_12"
-        Me.bet_9_10_11_12.Size = New System.Drawing.Size(68, 68)
-        Me.bet_9_10_11_12.TabIndex = 40
-        '
-        'Label88
-        '
-        Me.Label88.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label88.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.ForeColor = System.Drawing.Color.Black
-        Me.Label88.Location = New System.Drawing.Point(4, 26)
-        Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(61, 18)
-        Me.Label88.TabIndex = 25
-        Me.Label88.Text = "0"
-        Me.Label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_7_8_9_10
-        '
-        Me.bet_7_8_9_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_7_8_9_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_7_8_9_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_7_8_9_10.Controls.Add(Me.Label87)
-        Me.bet_7_8_9_10.Location = New System.Drawing.Point(509, 198)
-        Me.bet_7_8_9_10.Name = "bet_7_8_9_10"
-        Me.bet_7_8_9_10.Size = New System.Drawing.Size(68, 68)
-        Me.bet_7_8_9_10.TabIndex = 39
-        '
-        'Label87
-        '
-        Me.Label87.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label87.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.ForeColor = System.Drawing.Color.Black
-        Me.Label87.Location = New System.Drawing.Point(4, 26)
-        Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(61, 18)
-        Me.Label87.TabIndex = 25
-        Me.Label87.Text = "0"
-        Me.Label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_5_6_7_8
-        '
-        Me.bet_5_6_7_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_5_6_7_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_5_6_7_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_5_6_7_8.Controls.Add(Me.Label86)
-        Me.bet_5_6_7_8.Location = New System.Drawing.Point(408, 198)
-        Me.bet_5_6_7_8.Name = "bet_5_6_7_8"
-        Me.bet_5_6_7_8.Size = New System.Drawing.Size(68, 68)
-        Me.bet_5_6_7_8.TabIndex = 38
-        '
-        'Label86
-        '
-        Me.Label86.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label86.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.ForeColor = System.Drawing.Color.Black
-        Me.Label86.Location = New System.Drawing.Point(4, 26)
-        Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(61, 18)
-        Me.Label86.TabIndex = 25
-        Me.Label86.Text = "0"
-        Me.Label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_3_4_5_6
-        '
-        Me.bet_3_4_5_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_3_4_5_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_3_4_5_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_3_4_5_6.Controls.Add(Me.Label85)
-        Me.bet_3_4_5_6.Location = New System.Drawing.Point(307, 198)
-        Me.bet_3_4_5_6.Name = "bet_3_4_5_6"
-        Me.bet_3_4_5_6.Size = New System.Drawing.Size(68, 68)
-        Me.bet_3_4_5_6.TabIndex = 37
-        '
-        'Label85
-        '
-        Me.Label85.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label85.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.ForeColor = System.Drawing.Color.Black
-        Me.Label85.Location = New System.Drawing.Point(4, 26)
-        Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(61, 18)
-        Me.Label85.TabIndex = 25
-        Me.Label85.Text = "0"
-        Me.Label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_1_2_3_4
-        '
-        Me.bet_1_2_3_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_1_2_3_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_1_2_3_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_1_2_3_4.Controls.Add(Me.Label73)
-        Me.bet_1_2_3_4.Location = New System.Drawing.Point(206, 198)
-        Me.bet_1_2_3_4.Name = "bet_1_2_3_4"
-        Me.bet_1_2_3_4.Size = New System.Drawing.Size(68, 68)
-        Me.bet_1_2_3_4.TabIndex = 36
-        '
-        'Label73
-        '
-        Me.Label73.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label73.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.ForeColor = System.Drawing.Color.Black
-        Me.Label73.Location = New System.Drawing.Point(4, 26)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(61, 18)
-        Me.Label73.TabIndex = 25
-        Me.Label73.Text = "0"
-        Me.Label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_10_12
-        '
-        Me.bet_10_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_10_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_10_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_10_12.Controls.Add(Me.Label84)
-        Me.bet_10_12.Location = New System.Drawing.Point(609, 249)
-        Me.bet_10_12.Name = "bet_10_12"
-        Me.bet_10_12.Size = New System.Drawing.Size(68, 68)
-        Me.bet_10_12.TabIndex = 40
-        '
-        'Label84
-        '
-        Me.Label84.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label84.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.ForeColor = System.Drawing.Color.Black
-        Me.Label84.Location = New System.Drawing.Point(4, 26)
-        Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(61, 18)
-        Me.Label84.TabIndex = 25
-        Me.Label84.Text = "0"
-        Me.Label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_8_10
-        '
-        Me.bet_8_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_8_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_8_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_8_10.Controls.Add(Me.Label83)
-        Me.bet_8_10.Location = New System.Drawing.Point(508, 249)
-        Me.bet_8_10.Name = "bet_8_10"
-        Me.bet_8_10.Size = New System.Drawing.Size(68, 68)
-        Me.bet_8_10.TabIndex = 39
-        '
-        'Label83
-        '
-        Me.Label83.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label83.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.ForeColor = System.Drawing.Color.Black
-        Me.Label83.Location = New System.Drawing.Point(4, 26)
-        Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(61, 18)
-        Me.Label83.TabIndex = 25
-        Me.Label83.Text = "0"
-        Me.Label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_6_8
-        '
-        Me.bet_6_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_6_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_6_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_6_8.Controls.Add(Me.Label82)
-        Me.bet_6_8.Location = New System.Drawing.Point(407, 249)
-        Me.bet_6_8.Name = "bet_6_8"
-        Me.bet_6_8.Size = New System.Drawing.Size(68, 68)
-        Me.bet_6_8.TabIndex = 38
-        '
-        'Label82
-        '
-        Me.Label82.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label82.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.ForeColor = System.Drawing.Color.Black
-        Me.Label82.Location = New System.Drawing.Point(4, 26)
-        Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(61, 18)
-        Me.Label82.TabIndex = 25
-        Me.Label82.Text = "0"
-        Me.Label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_4_6
-        '
-        Me.bet_4_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_4_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_4_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_4_6.Controls.Add(Me.Label81)
-        Me.bet_4_6.Location = New System.Drawing.Point(306, 249)
-        Me.bet_4_6.Name = "bet_4_6"
-        Me.bet_4_6.Size = New System.Drawing.Size(68, 68)
-        Me.bet_4_6.TabIndex = 37
-        '
-        'Label81
-        '
-        Me.Label81.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label81.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.ForeColor = System.Drawing.Color.Black
-        Me.Label81.Location = New System.Drawing.Point(4, 26)
-        Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(61, 18)
-        Me.Label81.TabIndex = 25
-        Me.Label81.Text = "0"
-        Me.Label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_2_4
-        '
-        Me.bet_2_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_2_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_2_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_2_4.Controls.Add(Me.Label72)
-        Me.bet_2_4.Location = New System.Drawing.Point(205, 249)
-        Me.bet_2_4.Name = "bet_2_4"
-        Me.bet_2_4.Size = New System.Drawing.Size(68, 68)
-        Me.bet_2_4.TabIndex = 36
-        '
-        'Label72
-        '
-        Me.Label72.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label72.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.ForeColor = System.Drawing.Color.Black
-        Me.Label72.Location = New System.Drawing.Point(4, 26)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(61, 18)
-        Me.Label72.TabIndex = 25
-        Me.Label72.Text = "0"
-        Me.Label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_9_11
-        '
-        Me.bet_9_11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_9_11.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_9_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_9_11.Controls.Add(Me.Label80)
-        Me.bet_9_11.Location = New System.Drawing.Point(609, 146)
-        Me.bet_9_11.Name = "bet_9_11"
-        Me.bet_9_11.Size = New System.Drawing.Size(68, 68)
-        Me.bet_9_11.TabIndex = 36
-        '
-        'Label80
-        '
-        Me.Label80.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label80.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.ForeColor = System.Drawing.Color.Black
-        Me.Label80.Location = New System.Drawing.Point(4, 26)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(61, 18)
-        Me.Label80.TabIndex = 25
-        Me.Label80.Text = "0"
-        Me.Label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_7_9
-        '
-        Me.bet_7_9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_7_9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_7_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_7_9.Controls.Add(Me.Label79)
-        Me.bet_7_9.Location = New System.Drawing.Point(508, 146)
-        Me.bet_7_9.Name = "bet_7_9"
-        Me.bet_7_9.Size = New System.Drawing.Size(68, 68)
-        Me.bet_7_9.TabIndex = 36
-        '
-        'Label79
-        '
-        Me.Label79.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label79.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.ForeColor = System.Drawing.Color.Black
-        Me.Label79.Location = New System.Drawing.Point(4, 26)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(61, 18)
-        Me.Label79.TabIndex = 25
-        Me.Label79.Text = "0"
-        Me.Label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_5_7
-        '
-        Me.bet_5_7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_5_7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_5_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_5_7.Controls.Add(Me.Label78)
-        Me.bet_5_7.Location = New System.Drawing.Point(407, 146)
-        Me.bet_5_7.Name = "bet_5_7"
-        Me.bet_5_7.Size = New System.Drawing.Size(68, 68)
-        Me.bet_5_7.TabIndex = 36
-        '
-        'Label78
-        '
-        Me.Label78.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label78.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.ForeColor = System.Drawing.Color.Black
-        Me.Label78.Location = New System.Drawing.Point(4, 26)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(61, 18)
-        Me.Label78.TabIndex = 25
-        Me.Label78.Text = "0"
-        Me.Label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_3_5
-        '
-        Me.bet_3_5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_3_5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_3_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_3_5.Controls.Add(Me.Label77)
-        Me.bet_3_5.Location = New System.Drawing.Point(306, 146)
-        Me.bet_3_5.Name = "bet_3_5"
-        Me.bet_3_5.Size = New System.Drawing.Size(68, 68)
-        Me.bet_3_5.TabIndex = 36
-        '
-        'Label77
-        '
-        Me.Label77.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label77.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.ForeColor = System.Drawing.Color.Black
-        Me.Label77.Location = New System.Drawing.Point(4, 26)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(61, 18)
-        Me.Label77.TabIndex = 25
-        Me.Label77.Text = "0"
-        Me.Label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_1_3
-        '
-        Me.bet_1_3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_1_3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_1_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_1_3.Controls.Add(Me.Label71)
-        Me.bet_1_3.Location = New System.Drawing.Point(205, 146)
-        Me.bet_1_3.Name = "bet_1_3"
-        Me.bet_1_3.Size = New System.Drawing.Size(68, 68)
-        Me.bet_1_3.TabIndex = 35
-        '
-        'Label71
-        '
-        Me.Label71.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label71.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.ForeColor = System.Drawing.Color.Black
-        Me.Label71.Location = New System.Drawing.Point(4, 26)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(61, 18)
-        Me.Label71.TabIndex = 25
-        Me.Label71.Text = "0"
-        Me.Label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_11_12
-        '
-        Me.bet_11_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_11_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_11_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_11_12.Controls.Add(Me.Label76)
-        Me.bet_11_12.Location = New System.Drawing.Point(659, 198)
-        Me.bet_11_12.Name = "bet_11_12"
-        Me.bet_11_12.Size = New System.Drawing.Size(68, 68)
-        Me.bet_11_12.TabIndex = 36
-        '
-        'Label76
-        '
-        Me.Label76.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label76.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.ForeColor = System.Drawing.Color.Black
-        Me.Label76.Location = New System.Drawing.Point(4, 26)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(61, 18)
-        Me.Label76.TabIndex = 25
-        Me.Label76.Text = "0"
-        Me.Label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_9_10
-        '
-        Me.bet_9_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_9_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_9_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_9_10.Controls.Add(Me.Label75)
-        Me.bet_9_10.Location = New System.Drawing.Point(558, 198)
-        Me.bet_9_10.Name = "bet_9_10"
-        Me.bet_9_10.Size = New System.Drawing.Size(68, 68)
-        Me.bet_9_10.TabIndex = 36
-        '
-        'Label75
-        '
-        Me.Label75.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label75.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.ForeColor = System.Drawing.Color.Black
-        Me.Label75.Location = New System.Drawing.Point(4, 26)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(61, 18)
-        Me.Label75.TabIndex = 25
-        Me.Label75.Text = "0"
-        Me.Label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_7_8
-        '
-        Me.bet_7_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_7_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_7_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_7_8.Controls.Add(Me.Label74)
-        Me.bet_7_8.Location = New System.Drawing.Point(457, 198)
-        Me.bet_7_8.Name = "bet_7_8"
-        Me.bet_7_8.Size = New System.Drawing.Size(68, 68)
-        Me.bet_7_8.TabIndex = 36
-        '
-        'Label74
-        '
-        Me.Label74.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label74.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.ForeColor = System.Drawing.Color.Black
-        Me.Label74.Location = New System.Drawing.Point(4, 26)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(61, 18)
-        Me.Label74.TabIndex = 25
-        Me.Label74.Text = "0"
-        Me.Label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_5_6
-        '
-        Me.bet_5_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_5_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_5_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_5_6.Controls.Add(Me.Label5)
-        Me.bet_5_6.Location = New System.Drawing.Point(356, 198)
-        Me.bet_5_6.Name = "bet_5_6"
-        Me.bet_5_6.Size = New System.Drawing.Size(68, 68)
-        Me.bet_5_6.TabIndex = 35
-        '
-        'Label5
-        '
-        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(4, 26)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 18)
-        Me.Label5.TabIndex = 25
-        Me.Label5.Text = "0"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_3_4
-        '
-        Me.bet_3_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_3_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_3_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_3_4.Controls.Add(Me.Label4)
-        Me.bet_3_4.Location = New System.Drawing.Point(255, 198)
-        Me.bet_3_4.Name = "bet_3_4"
-        Me.bet_3_4.Size = New System.Drawing.Size(68, 68)
-        Me.bet_3_4.TabIndex = 35
-        '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(4, 26)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 18)
-        Me.Label4.TabIndex = 25
-        Me.Label4.Text = "0"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'bet_1_2
-        '
-        Me.bet_1_2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.bet_1_2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet2
-        Me.bet_1_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.bet_1_2.Controls.Add(Me.Label3)
-        Me.bet_1_2.Location = New System.Drawing.Point(154, 198)
-        Me.bet_1_2.Name = "bet_1_2"
-        Me.bet_1_2.Size = New System.Drawing.Size(68, 68)
-        Me.bet_1_2.TabIndex = 34
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(4, 26)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(61, 18)
-        Me.Label3.TabIndex = 25
-        Me.Label3.Text = "0"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btn_9_10_11_12
-        '
-        Me.btn_9_10_11_12.Location = New System.Drawing.Point(635, 223)
-        Me.btn_9_10_11_12.Name = "btn_9_10_11_12"
-        Me.btn_9_10_11_12.Size = New System.Drawing.Size(17, 16)
-        Me.btn_9_10_11_12.TabIndex = 66
-        '
-        'btn_7_8_9_10
-        '
-        Me.btn_7_8_9_10.Location = New System.Drawing.Point(534, 223)
-        Me.btn_7_8_9_10.Name = "btn_7_8_9_10"
-        Me.btn_7_8_9_10.Size = New System.Drawing.Size(17, 16)
-        Me.btn_7_8_9_10.TabIndex = 65
-        '
-        'btn_5_6_7_8
-        '
-        Me.btn_5_6_7_8.Location = New System.Drawing.Point(433, 223)
-        Me.btn_5_6_7_8.Name = "btn_5_6_7_8"
-        Me.btn_5_6_7_8.Size = New System.Drawing.Size(17, 16)
-        Me.btn_5_6_7_8.TabIndex = 64
-        '
-        'btn_3_4_5_6
-        '
-        Me.btn_3_4_5_6.Location = New System.Drawing.Point(332, 223)
-        Me.btn_3_4_5_6.Name = "btn_3_4_5_6"
-        Me.btn_3_4_5_6.Size = New System.Drawing.Size(17, 16)
-        Me.btn_3_4_5_6.TabIndex = 63
-        '
-        'btn_1_2_3_4
-        '
-        Me.btn_1_2_3_4.Location = New System.Drawing.Point(231, 223)
-        Me.btn_1_2_3_4.Name = "btn_1_2_3_4"
-        Me.btn_1_2_3_4.Size = New System.Drawing.Size(17, 16)
-        Me.btn_1_2_3_4.TabIndex = 62
-        '
-        'btn_10_12
-        '
-        Me.btn_10_12.Location = New System.Drawing.Point(635, 239)
-        Me.btn_10_12.Name = "btn_10_12"
-        Me.btn_10_12.Size = New System.Drawing.Size(17, 84)
-        Me.btn_10_12.TabIndex = 71
-        '
-        'btn_9_11
-        '
-        Me.btn_9_11.Location = New System.Drawing.Point(635, 139)
-        Me.btn_9_11.Name = "btn_9_11"
-        Me.btn_9_11.Size = New System.Drawing.Size(17, 84)
-        Me.btn_9_11.TabIndex = 70
-        '
-        'btn_8_10
-        '
-        Me.btn_8_10.Location = New System.Drawing.Point(534, 239)
-        Me.btn_8_10.Name = "btn_8_10"
-        Me.btn_8_10.Size = New System.Drawing.Size(17, 84)
-        Me.btn_8_10.TabIndex = 69
-        '
-        'btn_7_9
-        '
-        Me.btn_7_9.Location = New System.Drawing.Point(534, 139)
-        Me.btn_7_9.Name = "btn_7_9"
-        Me.btn_7_9.Size = New System.Drawing.Size(17, 84)
-        Me.btn_7_9.TabIndex = 68
-        '
-        'btn_6_8
-        '
-        Me.btn_6_8.Location = New System.Drawing.Point(433, 239)
-        Me.btn_6_8.Name = "btn_6_8"
-        Me.btn_6_8.Size = New System.Drawing.Size(17, 84)
-        Me.btn_6_8.TabIndex = 67
-        '
-        'btn_5_7
-        '
-        Me.btn_5_7.Location = New System.Drawing.Point(433, 139)
-        Me.btn_5_7.Name = "btn_5_7"
-        Me.btn_5_7.Size = New System.Drawing.Size(17, 84)
-        Me.btn_5_7.TabIndex = 66
-        '
-        'btn_4_6
-        '
-        Me.btn_4_6.Location = New System.Drawing.Point(332, 239)
-        Me.btn_4_6.Name = "btn_4_6"
-        Me.btn_4_6.Size = New System.Drawing.Size(17, 84)
-        Me.btn_4_6.TabIndex = 65
-        '
-        'btn_3_5
-        '
-        Me.btn_3_5.Location = New System.Drawing.Point(332, 139)
-        Me.btn_3_5.Name = "btn_3_5"
-        Me.btn_3_5.Size = New System.Drawing.Size(17, 84)
-        Me.btn_3_5.TabIndex = 64
-        '
-        'btn_2_4
-        '
-        Me.btn_2_4.Location = New System.Drawing.Point(231, 239)
-        Me.btn_2_4.Name = "btn_2_4"
-        Me.btn_2_4.Size = New System.Drawing.Size(17, 84)
-        Me.btn_2_4.TabIndex = 63
-        '
-        'btn_1_3
-        '
-        Me.btn_1_3.Location = New System.Drawing.Point(231, 139)
-        Me.btn_1_3.Name = "btn_1_3"
-        Me.btn_1_3.Size = New System.Drawing.Size(17, 84)
-        Me.btn_1_3.TabIndex = 62
-        '
-        'btn_11_12
-        '
-        Me.btn_11_12.Location = New System.Drawing.Point(652, 223)
-        Me.btn_11_12.Name = "btn_11_12"
-        Me.btn_11_12.Size = New System.Drawing.Size(84, 16)
-        Me.btn_11_12.TabIndex = 66
-        '
-        'btn_9_10
-        '
-        Me.btn_9_10.Location = New System.Drawing.Point(551, 223)
-        Me.btn_9_10.Name = "btn_9_10"
-        Me.btn_9_10.Size = New System.Drawing.Size(84, 16)
-        Me.btn_9_10.TabIndex = 65
-        '
-        'btn_7_8
-        '
-        Me.btn_7_8.Location = New System.Drawing.Point(450, 223)
-        Me.btn_7_8.Name = "btn_7_8"
-        Me.btn_7_8.Size = New System.Drawing.Size(84, 16)
-        Me.btn_7_8.TabIndex = 64
-        '
-        'btn_5_6
-        '
-        Me.btn_5_6.Location = New System.Drawing.Point(349, 223)
-        Me.btn_5_6.Name = "btn_5_6"
-        Me.btn_5_6.Size = New System.Drawing.Size(84, 16)
-        Me.btn_5_6.TabIndex = 63
-        '
-        'btn_3_4
-        '
-        Me.btn_3_4.Location = New System.Drawing.Point(248, 223)
-        Me.btn_3_4.Name = "btn_3_4"
-        Me.btn_3_4.Size = New System.Drawing.Size(84, 16)
-        Me.btn_3_4.TabIndex = 62
-        '
-        'btn_1_2
-        '
-        Me.btn_1_2.Location = New System.Drawing.Point(147, 223)
-        Me.btn_1_2.Name = "btn_1_2"
-        Me.btn_1_2.Size = New System.Drawing.Size(84, 16)
-        Me.btn_1_2.TabIndex = 61
-        '
-        'Panel61
-        '
-        Me.Panel61.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel61.BackgroundImage = CType(resources.GetObject("Panel61.BackgroundImage"), System.Drawing.Image)
-        Me.Panel61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel61.Controls.Add(Me.Label57)
-        Me.Panel61.Location = New System.Drawing.Point(27, 139)
-        Me.Panel61.Name = "Panel61"
-        Me.Panel61.Size = New System.Drawing.Size(84, 84)
-        Me.Panel61.TabIndex = 52
-        '
-        'Label57
-        '
-        Me.Label57.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label57.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.ForeColor = System.Drawing.Color.Black
-        Me.Label57.Location = New System.Drawing.Point(11, 33)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(61, 18)
-        Me.Label57.TabIndex = 25
-        Me.Label57.Text = "0"
-        Me.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label57.Visible = False
-        '
-        'Panel59
-        '
-        Me.Panel59.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel59.BackgroundImage = CType(resources.GetObject("Panel59.BackgroundImage"), System.Drawing.Image)
-        Me.Panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel59.Controls.Add(Me.Label58)
-        Me.Panel59.Location = New System.Drawing.Point(27, 239)
-        Me.Panel59.Name = "Panel59"
-        Me.Panel59.Size = New System.Drawing.Size(84, 84)
-        Me.Panel59.TabIndex = 52
-        '
-        'Label58
-        '
-        Me.Label58.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label58.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.ForeColor = System.Drawing.Color.Black
-        Me.Label58.Location = New System.Drawing.Point(11, 33)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(61, 18)
-        Me.Label58.TabIndex = 25
-        Me.Label58.Text = "0"
-        Me.Label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label58.Visible = False
-        '
-        'Panel73
-        '
-        Me.Panel73.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.outer_white
-        Me.Panel73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel73.Controls.Add(Me.txt_win)
-        Me.Panel73.Location = New System.Drawing.Point(686, 426)
-        Me.Panel73.Name = "Panel73"
-        Me.Panel73.Size = New System.Drawing.Size(176, 52)
-        Me.Panel73.TabIndex = 60
-        '
-        'txt_win
-        '
-        Me.txt_win.BackColor = System.Drawing.Color.Black
-        Me.txt_win.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_win.Enabled = False
-        Me.txt_win.Font = New System.Drawing.Font("Orbitron", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_win.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(62, Byte), Integer))
-        Me.txt_win.Location = New System.Drawing.Point(6, 7)
-        Me.txt_win.Name = "txt_win"
-        Me.txt_win.ReadOnly = True
-        Me.txt_win.Size = New System.Drawing.Size(165, 43)
-        Me.txt_win.TabIndex = 21
-        Me.txt_win.Text = "0"
-        Me.txt_win.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Panel72
-        '
-        Me.Panel72.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.outer_white
-        Me.Panel72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel72.Controls.Add(Me.txt_bet)
-        Me.Panel72.Location = New System.Drawing.Point(419, 426)
-        Me.Panel72.Name = "Panel72"
-        Me.Panel72.Size = New System.Drawing.Size(176, 52)
-        Me.Panel72.TabIndex = 59
-        '
-        'txt_bet
-        '
-        Me.txt_bet.BackColor = System.Drawing.Color.Black
-        Me.txt_bet.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_bet.Enabled = False
-        Me.txt_bet.Font = New System.Drawing.Font("Orbitron", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_bet.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(62, Byte), Integer))
-        Me.txt_bet.Location = New System.Drawing.Point(6, 7)
-        Me.txt_bet.Name = "txt_bet"
-        Me.txt_bet.ReadOnly = True
-        Me.txt_bet.Size = New System.Drawing.Size(165, 43)
-        Me.txt_bet.TabIndex = 21
-        Me.txt_bet.Text = "0"
-        Me.txt_bet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Panel71
-        '
-        Me.Panel71.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.outer_white
-        Me.Panel71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel71.Controls.Add(Me.txt_credit)
-        Me.Panel71.Location = New System.Drawing.Point(144, 426)
-        Me.Panel71.Name = "Panel71"
-        Me.Panel71.Size = New System.Drawing.Size(176, 52)
-        Me.Panel71.TabIndex = 58
-        '
-        'txt_credit
-        '
-        Me.txt_credit.BackColor = System.Drawing.Color.Black
-        Me.txt_credit.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_credit.Enabled = False
-        Me.txt_credit.Font = New System.Drawing.Font("Orbitron", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_credit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(62, Byte), Integer))
-        Me.txt_credit.Location = New System.Drawing.Point(6, 7)
-        Me.txt_credit.Name = "txt_credit"
-        Me.txt_credit.ReadOnly = True
-        Me.txt_credit.Size = New System.Drawing.Size(165, 43)
-        Me.txt_credit.TabIndex = 21
-        Me.txt_credit.Text = "0"
-        Me.txt_credit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'btn_bet_50
-        '
-        Me.btn_bet_50.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._50
-        Me.btn_bet_50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_bet_50.FlatAppearance.BorderSize = 0
-        Me.btn_bet_50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bet_50.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_50.Location = New System.Drawing.Point(338, 346)
-        Me.btn_bet_50.Name = "btn_bet_50"
-        Me.btn_bet_50.Size = New System.Drawing.Size(60, 60)
-        Me.btn_bet_50.TabIndex = 57
-        Me.btn_bet_50.UseVisualStyleBackColor = True
-        '
-        'btn_history
-        '
-        Me.btn_history.BackColor = System.Drawing.Color.Transparent
-        Me.btn_history.BackgroundImage = CType(resources.GetObject("btn_history.BackgroundImage"), System.Drawing.Image)
-        Me.btn_history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_history.FlatAppearance.BorderSize = 0
-        Me.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_history.Font = New System.Drawing.Font("Luckiest Guy", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_history.ForeColor = System.Drawing.Color.White
-        Me.btn_history.Location = New System.Drawing.Point(126, 353)
-        Me.btn_history.Name = "btn_history"
-        Me.btn_history.Size = New System.Drawing.Size(112, 49)
-        Me.btn_history.TabIndex = 56
-        Me.btn_history.Text = "HISTORY"
-        Me.btn_history.UseVisualStyleBackColor = False
-        '
-        'Panel14
-        '
-        Me.Panel14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel14.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet1
-        Me.Panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel14.Controls.Add(Me.Label25)
-        Me.Panel14.Location = New System.Drawing.Point(147, 139)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(84, 84)
-        Me.Panel14.TabIndex = 33
-        '
-        'Label25
-        '
-        Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label25.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.ForeColor = System.Drawing.Color.Black
-        Me.Label25.Location = New System.Drawing.Point(11, 33)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(61, 18)
-        Me.Label25.TabIndex = 25
-        Me.Label25.Text = "0"
-        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel60
-        '
-        Me.Panel60.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel60.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.koin_bet1
-        Me.Panel60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel60.Controls.Add(Me.Label56)
-        Me.Panel60.Location = New System.Drawing.Point(773, 188)
-        Me.Panel60.Name = "Panel60"
-        Me.Panel60.Size = New System.Drawing.Size(84, 84)
-        Me.Panel60.TabIndex = 52
-        '
-        'Label56
-        '
-        Me.Label56.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label56.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.ForeColor = System.Drawing.Color.Black
-        Me.Label56.Location = New System.Drawing.Point(11, 33)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(61, 18)
-        Me.Label56.TabIndex = 25
-        Me.Label56.Text = "0"
-        Me.Label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label56.Visible = False
-        '
-        'Panel25
-        '
-        Me.Panel25.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel25.BackgroundImage = CType(resources.GetObject("Panel25.BackgroundImage"), System.Drawing.Image)
-        Me.Panel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel25.Controls.Add(Me.Label26)
-        Me.Panel25.Location = New System.Drawing.Point(652, 239)
-        Me.Panel25.Name = "Panel25"
-        Me.Panel25.Size = New System.Drawing.Size(84, 84)
-        Me.Panel25.TabIndex = 36
-        '
-        'Label26
-        '
-        Me.Label26.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.ForeColor = System.Drawing.Color.Black
-        Me.Label26.Location = New System.Drawing.Point(11, 33)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(61, 18)
-        Me.Label26.TabIndex = 25
-        Me.Label26.Text = "0"
-        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label26.Visible = False
-        '
-        'Panel24
-        '
-        Me.Panel24.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel24.BackgroundImage = CType(resources.GetObject("Panel24.BackgroundImage"), System.Drawing.Image)
-        Me.Panel24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel24.Controls.Add(Me.Label27)
-        Me.Panel24.Location = New System.Drawing.Point(652, 139)
-        Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(84, 84)
-        Me.Panel24.TabIndex = 35
-        '
-        'Label27
-        '
-        Me.Label27.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.Color.Black
-        Me.Label27.Location = New System.Drawing.Point(11, 33)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(61, 18)
-        Me.Label27.TabIndex = 25
-        Me.Label27.Text = "0"
-        Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label27.Visible = False
-        '
-        'Panel23
-        '
-        Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel23.BackgroundImage = CType(resources.GetObject("Panel23.BackgroundImage"), System.Drawing.Image)
-        Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel23.Controls.Add(Me.Label31)
-        Me.Panel23.Location = New System.Drawing.Point(551, 239)
-        Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(84, 84)
-        Me.Panel23.TabIndex = 35
-        '
-        'Label31
-        '
-        Me.Label31.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label31.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.Color.Black
-        Me.Label31.Location = New System.Drawing.Point(11, 33)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(61, 18)
-        Me.Label31.TabIndex = 25
-        Me.Label31.Text = "0"
-        Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label31.Visible = False
-        '
-        'Panel22
-        '
-        Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel22.BackgroundImage = CType(resources.GetObject("Panel22.BackgroundImage"), System.Drawing.Image)
-        Me.Panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel22.Controls.Add(Me.Label28)
-        Me.Panel22.Location = New System.Drawing.Point(551, 139)
-        Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(84, 84)
-        Me.Panel22.TabIndex = 35
-        '
-        'Label28
-        '
-        Me.Label28.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.Black
-        Me.Label28.Location = New System.Drawing.Point(11, 33)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(61, 18)
-        Me.Label28.TabIndex = 25
-        Me.Label28.Text = "0"
-        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label28.Visible = False
-        '
-        'Panel21
-        '
-        Me.Panel21.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel21.BackgroundImage = CType(resources.GetObject("Panel21.BackgroundImage"), System.Drawing.Image)
-        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel21.Controls.Add(Me.Label29)
-        Me.Panel21.Location = New System.Drawing.Point(450, 239)
-        Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(84, 84)
-        Me.Panel21.TabIndex = 35
-        '
-        'Label29
-        '
-        Me.Label29.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label29.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.ForeColor = System.Drawing.Color.Black
-        Me.Label29.Location = New System.Drawing.Point(11, 33)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(61, 18)
-        Me.Label29.TabIndex = 25
-        Me.Label29.Text = "0"
-        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label29.Visible = False
-        '
-        'Panel20
-        '
-        Me.Panel20.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel20.BackgroundImage = CType(resources.GetObject("Panel20.BackgroundImage"), System.Drawing.Image)
-        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel20.Controls.Add(Me.Label30)
-        Me.Panel20.Location = New System.Drawing.Point(450, 139)
-        Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(84, 84)
-        Me.Panel20.TabIndex = 35
-        '
-        'Label30
-        '
-        Me.Label30.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label30.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.ForeColor = System.Drawing.Color.Black
-        Me.Label30.Location = New System.Drawing.Point(11, 33)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(61, 18)
-        Me.Label30.TabIndex = 25
-        Me.Label30.Text = "0"
-        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label30.Visible = False
-        '
-        'Panel19
-        '
-        Me.Panel19.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel19.BackgroundImage = CType(resources.GetObject("Panel19.BackgroundImage"), System.Drawing.Image)
-        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel19.Controls.Add(Me.Label21)
-        Me.Panel19.Location = New System.Drawing.Point(349, 139)
-        Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(84, 84)
-        Me.Panel19.TabIndex = 35
-        '
-        'Label21
-        '
-        Me.Label21.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label21.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.Black
-        Me.Label21.Location = New System.Drawing.Point(11, 33)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(61, 18)
-        Me.Label21.TabIndex = 25
-        Me.Label21.Text = "0"
-        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label21.Visible = False
-        '
-        'Panel18
-        '
-        Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel18.BackgroundImage = CType(resources.GetObject("Panel18.BackgroundImage"), System.Drawing.Image)
-        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel18.Controls.Add(Me.Label22)
-        Me.Panel18.Location = New System.Drawing.Point(248, 239)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(84, 84)
-        Me.Panel18.TabIndex = 35
-        '
-        'Label22
-        '
-        Me.Label22.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(11, 33)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(61, 18)
-        Me.Label22.TabIndex = 25
-        Me.Label22.Text = "0"
-        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label22.Visible = False
-        '
-        'Panel17
-        '
-        Me.Panel17.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel17.BackgroundImage = CType(resources.GetObject("Panel17.BackgroundImage"), System.Drawing.Image)
-        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel17.Controls.Add(Me.Label23)
-        Me.Panel17.Location = New System.Drawing.Point(248, 139)
-        Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(84, 84)
-        Me.Panel17.TabIndex = 35
-        '
-        'Label23
-        '
-        Me.Label23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.ForeColor = System.Drawing.Color.Black
-        Me.Label23.Location = New System.Drawing.Point(11, 33)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(61, 18)
-        Me.Label23.TabIndex = 25
-        Me.Label23.Text = "0"
-        Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label23.Visible = False
-        '
-        'Panel16
-        '
-        Me.Panel16.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel16.BackgroundImage = CType(resources.GetObject("Panel16.BackgroundImage"), System.Drawing.Image)
-        Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel16.Controls.Add(Me.Label20)
-        Me.Panel16.Location = New System.Drawing.Point(349, 239)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(84, 84)
-        Me.Panel16.TabIndex = 34
-        '
-        'Label20
-        '
-        Me.Label20.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label20.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(11, 33)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(61, 18)
-        Me.Label20.TabIndex = 25
-        Me.Label20.Text = "0"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label20.Visible = False
-        '
-        'Panel15
-        '
-        Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.Panel15.BackgroundImage = CType(resources.GetObject("Panel15.BackgroundImage"), System.Drawing.Image)
-        Me.Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel15.Controls.Add(Me.Label24)
-        Me.Panel15.Location = New System.Drawing.Point(147, 239)
-        Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(84, 84)
-        Me.Panel15.TabIndex = 34
-        '
-        'Label24
-        '
-        Me.Label24.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(134, Byte), Integer))
-        Me.Label24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(11, 33)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(61, 18)
-        Me.Label24.TabIndex = 25
-        Me.Label24.Text = "0"
-        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label24.Visible = False
-        '
-        'btn_bonus
-        '
-        Me.btn_bonus.BackColor = System.Drawing.Color.Transparent
-        Me.btn_bonus.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.jp1
-        Me.btn_bonus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_bonus.FlatAppearance.BorderSize = 0
-        Me.btn_bonus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bonus.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bonus.ForeColor = System.Drawing.Color.White
-        Me.btn_bonus.Location = New System.Drawing.Point(775, 146)
-        Me.btn_bonus.Name = "btn_bonus"
-        Me.btn_bonus.Size = New System.Drawing.Size(80, 170)
-        Me.btn_bonus.TabIndex = 22
-        Me.btn_bonus.UseVisualStyleBackColor = False
-        '
-        'txt_user
-        '
-        Me.txt_user.Location = New System.Drawing.Point(3, 3)
-        Me.txt_user.Name = "txt_user"
-        Me.txt_user.Size = New System.Drawing.Size(20, 20)
-        Me.txt_user.TabIndex = 26
-        Me.txt_user.Visible = False
-        '
-        'btn_repeat
-        '
-        Me.btn_repeat.BackColor = System.Drawing.Color.Transparent
-        Me.btn_repeat.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.rebet
-        Me.btn_repeat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_repeat.FlatAppearance.BorderSize = 0
-        Me.btn_repeat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_repeat.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_repeat.ForeColor = System.Drawing.Color.White
-        Me.btn_repeat.Location = New System.Drawing.Point(19, 336)
-        Me.btn_repeat.Name = "btn_repeat"
-        Me.btn_repeat.Size = New System.Drawing.Size(92, 66)
-        Me.btn_repeat.TabIndex = 22
-        Me.btn_repeat.UseVisualStyleBackColor = False
-        '
-        'btn_cancel
-        '
-        Me.btn_cancel.BackColor = System.Drawing.Color.Transparent
-        Me.btn_cancel.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.clear
-        Me.btn_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_cancel.FlatAppearance.BorderSize = 0
-        Me.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_cancel.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_cancel.ForeColor = System.Drawing.Color.White
-        Me.btn_cancel.Location = New System.Drawing.Point(768, 336)
-        Me.btn_cancel.Name = "btn_cancel"
-        Me.btn_cancel.Size = New System.Drawing.Size(92, 66)
-        Me.btn_cancel.TabIndex = 22
-        Me.btn_cancel.UseVisualStyleBackColor = False
-        '
-        'btn_logout
-        '
-        Me.btn_logout.BackColor = System.Drawing.Color.Transparent
-        Me.btn_logout.BackgroundImage = CType(resources.GetObject("btn_logout.BackgroundImage"), System.Drawing.Image)
-        Me.btn_logout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_logout.FlatAppearance.BorderSize = 0
-        Me.btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_logout.Font = New System.Drawing.Font("Luckiest Guy", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_logout.ForeColor = System.Drawing.Color.White
-        Me.btn_logout.Location = New System.Drawing.Point(645, 353)
-        Me.btn_logout.Name = "btn_logout"
-        Me.btn_logout.Size = New System.Drawing.Size(112, 49)
-        Me.btn_logout.TabIndex = 22
-        Me.btn_logout.Text = "LOGOUT"
-        Me.btn_logout.UseVisualStyleBackColor = False
-        '
-        'btn_red
-        '
-        Me.btn_red.BackColor = System.Drawing.Color.Transparent
-        Me.btn_red.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Red
-        Me.btn_red.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_red.FlatAppearance.BorderSize = 0
-        Me.btn_red.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_red.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_red.ForeColor = System.Drawing.Color.White
-        Me.btn_red.Location = New System.Drawing.Point(36, 145)
-        Me.btn_red.Name = "btn_red"
-        Me.btn_red.Size = New System.Drawing.Size(69, 69)
-        Me.btn_red.TabIndex = 22
-        Me.btn_red.UseVisualStyleBackColor = False
-        '
-        'btn_black
-        '
-        Me.btn_black.BackColor = System.Drawing.Color.Transparent
-        Me.btn_black.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Black
-        Me.btn_black.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_black.FlatAppearance.BorderSize = 0
-        Me.btn_black.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_black.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_black.ForeColor = System.Drawing.Color.White
-        Me.btn_black.Location = New System.Drawing.Point(36, 246)
-        Me.btn_black.Name = "btn_black"
-        Me.btn_black.Size = New System.Drawing.Size(69, 69)
-        Me.btn_black.TabIndex = 22
-        Me.btn_black.UseVisualStyleBackColor = False
-        '
-        'btn_bet_500
-        '
-        Me.btn_bet_500.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._500
-        Me.btn_bet_500.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_bet_500.FlatAppearance.BorderSize = 0
-        Me.btn_bet_500.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bet_500.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_500.Location = New System.Drawing.Point(486, 346)
-        Me.btn_bet_500.Name = "btn_bet_500"
-        Me.btn_bet_500.Size = New System.Drawing.Size(60, 60)
-        Me.btn_bet_500.TabIndex = 22
-        Me.btn_bet_500.UseVisualStyleBackColor = True
-        '
-        'btn_bet_100
-        '
-        Me.btn_bet_100.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._100
-        Me.btn_bet_100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_bet_100.FlatAppearance.BorderSize = 0
-        Me.btn_bet_100.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bet_100.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_100.Location = New System.Drawing.Point(412, 346)
-        Me.btn_bet_100.Name = "btn_bet_100"
-        Me.btn_bet_100.Size = New System.Drawing.Size(60, 60)
-        Me.btn_bet_100.TabIndex = 22
-        Me.btn_bet_100.UseVisualStyleBackColor = True
-        '
-        'btn_bet_1000
-        '
-        Me.btn_bet_1000.BackColor = System.Drawing.Color.Transparent
-        Me.btn_bet_1000.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._1000
-        Me.btn_bet_1000.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_bet_1000.FlatAppearance.BorderSize = 0
-        Me.btn_bet_1000.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bet_1000.Location = New System.Drawing.Point(560, 346)
-        Me.btn_bet_1000.Name = "btn_bet_1000"
-        Me.btn_bet_1000.Size = New System.Drawing.Size(60, 60)
-        Me.btn_bet_1000.TabIndex = 22
-        Me.btn_bet_1000.UseVisualStyleBackColor = False
-        '
-        'btn_bet_10
-        '
-        Me.btn_bet_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources._10
-        Me.btn_bet_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_bet_10.FlatAppearance.BorderSize = 0
-        Me.btn_bet_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_bet_10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_bet_10.Location = New System.Drawing.Point(264, 346)
-        Me.btn_bet_10.Name = "btn_bet_10"
-        Me.btn_bet_10.Size = New System.Drawing.Size(60, 60)
-        Me.btn_bet_10.TabIndex = 22
-        Me.btn_bet_10.UseVisualStyleBackColor = True
-        '
-        'btn_1
-        '
-        Me.btn_1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_1
-        Me.btn_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_1.FlatAppearance.BorderSize = 0
-        Me.btn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_1.ForeColor = System.Drawing.Color.White
-        Me.btn_1.Location = New System.Drawing.Point(147, 139)
-        Me.btn_1.Name = "btn_1"
-        Me.btn_1.Size = New System.Drawing.Size(84, 84)
-        Me.btn_1.TabIndex = 22
-        Me.btn_1.UseVisualStyleBackColor = False
-        '
-        'btn_7
-        '
-        Me.btn_7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_7.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_7
-        Me.btn_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_7.FlatAppearance.BorderSize = 0
-        Me.btn_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_7.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_7.ForeColor = System.Drawing.Color.White
-        Me.btn_7.Location = New System.Drawing.Point(450, 139)
-        Me.btn_7.Name = "btn_7"
-        Me.btn_7.Size = New System.Drawing.Size(84, 84)
-        Me.btn_7.TabIndex = 22
-        Me.btn_7.UseVisualStyleBackColor = False
-        '
-        'btn_2
-        '
-        Me.btn_2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_2.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_2
-        Me.btn_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_2.FlatAppearance.BorderSize = 0
-        Me.btn_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_2.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_2.ForeColor = System.Drawing.Color.White
-        Me.btn_2.Location = New System.Drawing.Point(147, 239)
-        Me.btn_2.Name = "btn_2"
-        Me.btn_2.Size = New System.Drawing.Size(84, 84)
-        Me.btn_2.TabIndex = 22
-        Me.btn_2.UseVisualStyleBackColor = False
-        '
-        'btn_8
-        '
-        Me.btn_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_8.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_8
-        Me.btn_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_8.FlatAppearance.BorderSize = 0
-        Me.btn_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_8.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_8.ForeColor = System.Drawing.Color.White
-        Me.btn_8.Location = New System.Drawing.Point(450, 239)
-        Me.btn_8.Name = "btn_8"
-        Me.btn_8.Size = New System.Drawing.Size(84, 84)
-        Me.btn_8.TabIndex = 22
-        Me.btn_8.UseVisualStyleBackColor = False
-        '
-        'btn_3
-        '
-        Me.btn_3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_3.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_3
-        Me.btn_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_3.FlatAppearance.BorderSize = 0
-        Me.btn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_3.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_3.ForeColor = System.Drawing.Color.White
-        Me.btn_3.Location = New System.Drawing.Point(248, 139)
-        Me.btn_3.Name = "btn_3"
-        Me.btn_3.Size = New System.Drawing.Size(84, 84)
-        Me.btn_3.TabIndex = 22
-        Me.btn_3.UseVisualStyleBackColor = False
-        '
-        'btn_9
-        '
-        Me.btn_9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_9.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_9
-        Me.btn_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_9.FlatAppearance.BorderSize = 0
-        Me.btn_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_9.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_9.ForeColor = System.Drawing.Color.White
-        Me.btn_9.Location = New System.Drawing.Point(551, 139)
-        Me.btn_9.Name = "btn_9"
-        Me.btn_9.Size = New System.Drawing.Size(84, 84)
-        Me.btn_9.TabIndex = 22
-        Me.btn_9.UseVisualStyleBackColor = False
-        '
-        'btn_4
-        '
-        Me.btn_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_4.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_4
-        Me.btn_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_4.FlatAppearance.BorderSize = 0
-        Me.btn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_4.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_4.ForeColor = System.Drawing.Color.White
-        Me.btn_4.Location = New System.Drawing.Point(248, 239)
-        Me.btn_4.Name = "btn_4"
-        Me.btn_4.Size = New System.Drawing.Size(84, 84)
-        Me.btn_4.TabIndex = 22
-        Me.btn_4.UseVisualStyleBackColor = False
-        '
-        'btn_10
-        '
-        Me.btn_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_10.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_10
-        Me.btn_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_10.FlatAppearance.BorderSize = 0
-        Me.btn_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_10.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_10.ForeColor = System.Drawing.Color.White
-        Me.btn_10.Location = New System.Drawing.Point(551, 239)
-        Me.btn_10.Name = "btn_10"
-        Me.btn_10.Size = New System.Drawing.Size(84, 84)
-        Me.btn_10.TabIndex = 22
-        Me.btn_10.UseVisualStyleBackColor = False
-        '
-        'btn_5
-        '
-        Me.btn_5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_5
-        Me.btn_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_5.FlatAppearance.BorderSize = 0
-        Me.btn_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_5.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_5.ForeColor = System.Drawing.Color.White
-        Me.btn_5.Location = New System.Drawing.Point(349, 139)
-        Me.btn_5.Name = "btn_5"
-        Me.btn_5.Size = New System.Drawing.Size(84, 84)
-        Me.btn_5.TabIndex = 22
-        Me.btn_5.UseVisualStyleBackColor = False
-        '
-        'btn_11
-        '
-        Me.btn_11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_11.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_11
-        Me.btn_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_11.FlatAppearance.BorderSize = 0
-        Me.btn_11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_11.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_11.ForeColor = System.Drawing.Color.White
-        Me.btn_11.Location = New System.Drawing.Point(652, 139)
-        Me.btn_11.Name = "btn_11"
-        Me.btn_11.Size = New System.Drawing.Size(84, 84)
-        Me.btn_11.TabIndex = 22
-        Me.btn_11.UseVisualStyleBackColor = False
-        '
-        'btn_6
-        '
-        Me.btn_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_6.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_6
-        Me.btn_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_6.FlatAppearance.BorderSize = 0
-        Me.btn_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_6.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_6.ForeColor = System.Drawing.Color.White
-        Me.btn_6.Location = New System.Drawing.Point(349, 239)
-        Me.btn_6.Name = "btn_6"
-        Me.btn_6.Size = New System.Drawing.Size(84, 84)
-        Me.btn_6.TabIndex = 22
-        Me.btn_6.UseVisualStyleBackColor = False
-        '
-        'btn_12
-        '
-        Me.btn_12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(10, Byte), Integer))
-        Me.btn_12.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.btn_12
-        Me.btn_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_12.FlatAppearance.BorderSize = 0
-        Me.btn_12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_12.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold)
-        Me.btn_12.ForeColor = System.Drawing.Color.White
-        Me.btn_12.Location = New System.Drawing.Point(652, 239)
-        Me.btn_12.Name = "btn_12"
-        Me.btn_12.Size = New System.Drawing.Size(84, 84)
-        Me.btn_12.TabIndex = 22
-        Me.btn_12.UseVisualStyleBackColor = False
-        '
-        'shio
-        '
-        Me.shio.BackColor = System.Drawing.Color.White
-        Me.shio.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.Babi
-        Me.shio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.shio.Location = New System.Drawing.Point(362, 178)
-        Me.shio.Name = "shio"
-        Me.shio.Size = New System.Drawing.Size(159, 160)
-        Me.shio.TabIndex = 57
-        '
-        'angka
-        '
-        Me.angka.BackColor = System.Drawing.Color.Transparent
-        Me.angka.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.kotak_merah
-        Me.angka.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.angka.Location = New System.Drawing.Point(371, 18)
-        Me.angka.Name = "angka"
-        Me.angka.Size = New System.Drawing.Size(140, 152)
-        Me.angka.TabIndex = 57
-        '
-        'history
-        '
-        Me.history.BackColor = System.Drawing.Color.Transparent
-        Me.history.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.history_bg
-        Me.history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.history.Controls.Add(Me.Label1)
-        Me.history.Controls.Add(Me.Button1)
-        Me.history.Controls.Add(Me.ListView8)
-        Me.history.Controls.Add(Me.ListView7)
-        Me.history.Controls.Add(Me.ListView6)
-        Me.history.Controls.Add(Me.ListView5)
-        Me.history.Controls.Add(Me.ListView4)
-        Me.history.Controls.Add(Me.ListView3)
-        Me.history.Controls.Add(Me.ListView2)
-        Me.history.Controls.Add(Me.ListView1)
-        Me.history.Location = New System.Drawing.Point(0, 0)
-        Me.history.Name = "history"
-        Me.history.Size = New System.Drawing.Size(883, 496)
-        Me.history.TabIndex = 57
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Label1"
-        '
-        'Button1
-        '
-        Me.Button1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.back
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(99, 79)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(92, 31)
-        Me.Button1.TabIndex = 1
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'ListView8
-        '
-        Me.ListView8.BackColor = System.Drawing.Color.White
-        Me.ListView8.BackgroundImage = CType(resources.GetObject("ListView8.BackgroundImage"), System.Drawing.Image)
-        Me.ListView8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView8.ForeColor = System.Drawing.Color.White
-        Me.ListView8.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView8.HideSelection = False
-        Me.ListView8.LabelWrap = False
-        Me.ListView8.LargeImageList = Me.ImageList1
-        Me.ListView8.Location = New System.Drawing.Point(727, 125)
-        Me.ListView8.MultiSelect = False
-        Me.ListView8.Name = "ListView8"
-        Me.ListView8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView8.Scrollable = False
-        Me.ListView8.Size = New System.Drawing.Size(55, 367)
-        Me.ListView8.SmallImageList = Me.ImageList1
-        Me.ListView8.TabIndex = 0
-        Me.ListView8.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView8.UseCompatibleStateImageBehavior = False
-        Me.ListView8.View = System.Windows.Forms.View.Tile
-        '
-        'ListView7
-        '
-        Me.ListView7.BackColor = System.Drawing.Color.White
-        Me.ListView7.BackgroundImage = CType(resources.GetObject("ListView7.BackgroundImage"), System.Drawing.Image)
-        Me.ListView7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView7.ForeColor = System.Drawing.Color.White
-        Me.ListView7.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView7.HideSelection = False
-        Me.ListView7.LabelWrap = False
-        Me.ListView7.LargeImageList = Me.ImageList1
-        Me.ListView7.Location = New System.Drawing.Point(540, 125)
-        Me.ListView7.MultiSelect = False
-        Me.ListView7.Name = "ListView7"
-        Me.ListView7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView7.Scrollable = False
-        Me.ListView7.Size = New System.Drawing.Size(55, 367)
-        Me.ListView7.SmallImageList = Me.ImageList1
-        Me.ListView7.TabIndex = 0
-        Me.ListView7.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView7.UseCompatibleStateImageBehavior = False
-        Me.ListView7.View = System.Windows.Forms.View.Tile
-        '
-        'ListView6
-        '
-        Me.ListView6.BackColor = System.Drawing.Color.White
-        Me.ListView6.BackgroundImage = CType(resources.GetObject("ListView6.BackgroundImage"), System.Drawing.Image)
-        Me.ListView6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView6.ForeColor = System.Drawing.Color.White
-        Me.ListView6.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView6.HideSelection = False
-        Me.ListView6.LabelWrap = False
-        Me.ListView6.LargeImageList = Me.ImageList1
-        Me.ListView6.Location = New System.Drawing.Point(353, 125)
-        Me.ListView6.MultiSelect = False
-        Me.ListView6.Name = "ListView6"
-        Me.ListView6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView6.Scrollable = False
-        Me.ListView6.Size = New System.Drawing.Size(55, 367)
-        Me.ListView6.SmallImageList = Me.ImageList1
-        Me.ListView6.TabIndex = 0
-        Me.ListView6.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView6.UseCompatibleStateImageBehavior = False
-        Me.ListView6.View = System.Windows.Forms.View.Tile
-        '
-        'ListView5
-        '
-        Me.ListView5.BackColor = System.Drawing.Color.White
-        Me.ListView5.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.history_shio
-        Me.ListView5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView5.ForeColor = System.Drawing.Color.White
-        Me.ListView5.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView5.HideSelection = False
-        Me.ListView5.LabelWrap = False
-        Me.ListView5.LargeImageList = Me.ImageList1
-        Me.ListView5.Location = New System.Drawing.Point(168, 125)
-        Me.ListView5.MultiSelect = False
-        Me.ListView5.Name = "ListView5"
-        Me.ListView5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView5.Scrollable = False
-        Me.ListView5.Size = New System.Drawing.Size(55, 367)
-        Me.ListView5.SmallImageList = Me.ImageList1
-        Me.ListView5.TabIndex = 0
-        Me.ListView5.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView5.UseCompatibleStateImageBehavior = False
-        Me.ListView5.View = System.Windows.Forms.View.Tile
-        '
-        'ListView4
-        '
-        Me.ListView4.BackColor = System.Drawing.Color.White
-        Me.ListView4.BackgroundImage = CType(resources.GetObject("ListView4.BackgroundImage"), System.Drawing.Image)
-        Me.ListView4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView4.ForeColor = System.Drawing.Color.White
-        Me.ListView4.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView4.HideSelection = False
-        Me.ListView4.LabelWrap = False
-        Me.ListView4.LargeImageList = Me.ImageList1
-        Me.ListView4.Location = New System.Drawing.Point(660, 125)
-        Me.ListView4.MultiSelect = False
-        Me.ListView4.Name = "ListView4"
-        Me.ListView4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView4.Scrollable = False
-        Me.ListView4.Size = New System.Drawing.Size(55, 367)
-        Me.ListView4.SmallImageList = Me.ImageList1
-        Me.ListView4.TabIndex = 0
-        Me.ListView4.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView4.UseCompatibleStateImageBehavior = False
-        Me.ListView4.View = System.Windows.Forms.View.Tile
-        '
-        'ListView3
-        '
-        Me.ListView3.BackColor = System.Drawing.Color.White
-        Me.ListView3.BackgroundImage = CType(resources.GetObject("ListView3.BackgroundImage"), System.Drawing.Image)
-        Me.ListView3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView3.ForeColor = System.Drawing.Color.White
-        Me.ListView3.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView3.HideSelection = False
-        Me.ListView3.LabelWrap = False
-        Me.ListView3.LargeImageList = Me.ImageList1
-        Me.ListView3.Location = New System.Drawing.Point(475, 125)
-        Me.ListView3.MultiSelect = False
-        Me.ListView3.Name = "ListView3"
-        Me.ListView3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView3.Scrollable = False
-        Me.ListView3.Size = New System.Drawing.Size(55, 367)
-        Me.ListView3.SmallImageList = Me.ImageList1
-        Me.ListView3.TabIndex = 0
-        Me.ListView3.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView3.UseCompatibleStateImageBehavior = False
-        Me.ListView3.View = System.Windows.Forms.View.Tile
-        '
-        'ListView2
-        '
-        Me.ListView2.BackColor = System.Drawing.Color.White
-        Me.ListView2.BackgroundImage = CType(resources.GetObject("ListView2.BackgroundImage"), System.Drawing.Image)
-        Me.ListView2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView2.ForeColor = System.Drawing.Color.White
-        Me.ListView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView2.HideSelection = False
-        Me.ListView2.LabelWrap = False
-        Me.ListView2.LargeImageList = Me.ImageList1
-        Me.ListView2.Location = New System.Drawing.Point(290, 125)
-        Me.ListView2.MultiSelect = False
-        Me.ListView2.Name = "ListView2"
-        Me.ListView2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView2.Scrollable = False
-        Me.ListView2.Size = New System.Drawing.Size(55, 367)
-        Me.ListView2.SmallImageList = Me.ImageList1
-        Me.ListView2.TabIndex = 0
-        Me.ListView2.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView2.UseCompatibleStateImageBehavior = False
-        Me.ListView2.View = System.Windows.Forms.View.Tile
-        '
-        'ListView1
-        '
-        Me.ListView1.Alignment = System.Windows.Forms.ListViewAlignment.[Default]
-        Me.ListView1.BackColor = System.Drawing.Color.White
-        Me.ListView1.BackgroundImage = Global.Bubble_Bee.My.Resources.Resources.history_angka
-        Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView1.ForeColor = System.Drawing.Color.Transparent
-        Me.ListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView1.HideSelection = False
-        Me.ListView1.LabelWrap = False
-        Me.ListView1.LargeImageList = Me.ImageList1
-        Me.ListView1.Location = New System.Drawing.Point(104, 125)
-        Me.ListView1.MultiSelect = False
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView1.Scrollable = False
-        Me.ListView1.Size = New System.Drawing.Size(55, 367)
-        Me.ListView1.SmallImageList = Me.ImageList1
-        Me.ListView1.TabIndex = 0
-        Me.ListView1.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        Me.ListView1.View = System.Windows.Forms.View.Tile
-        '
-        'ListView9
-        '
-        Me.ListView9.Alignment = System.Windows.Forms.ListViewAlignment.[Default]
-        Me.ListView9.BackColor = System.Drawing.Color.White
-        Me.ListView9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ListView9.ForeColor = System.Drawing.Color.Transparent
-        Me.ListView9.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.ListView9.HideSelection = False
-        Me.ListView9.LabelWrap = False
-        Me.ListView9.LargeImageList = Me.ImageList1
-        Me.ListView9.Location = New System.Drawing.Point(19, 18)
-        Me.ListView9.MultiSelect = False
-        Me.ListView9.Name = "ListView9"
-        Me.ListView9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView9.Scrollable = False
-        Me.ListView9.Size = New System.Drawing.Size(841, 80)
-        Me.ListView9.SmallImageList = Me.ImageList1
-        Me.ListView9.TabIndex = 72
-        Me.ListView9.TileSize = New System.Drawing.Size(94, 94)
-        Me.ListView9.UseCompatibleStateImageBehavior = False
-        Me.ListView9.View = System.Windows.Forms.View.Tile
-        '
         'MenuCustomer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -4743,55 +4744,8 @@ Partial Class MenuCustomer
         Me.Panel66.ResumeLayout(False)
         Me.Panel67.ResumeLayout(False)
         Me.hidden.ResumeLayout(False)
-        Me.Panel56.ResumeLayout(False)
-        Me.Panel55.ResumeLayout(False)
-        Me.Panel54.ResumeLayout(False)
-        Me.Panel53.ResumeLayout(False)
         Me.hidden_new.ResumeLayout(False)
         Me.hidden_new.PerformLayout()
-        Me.Panel52.ResumeLayout(False)
-        Me.Panel51.ResumeLayout(False)
-        Me.Panel50.ResumeLayout(False)
-        Me.Panel58.ResumeLayout(False)
-        Me.Panel57.ResumeLayout(False)
-        Me.Panel62.ResumeLayout(False)
-        Me.Panel63.ResumeLayout(False)
-        Me.Panel12.ResumeLayout(False)
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel11.ResumeLayout(False)
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel13.ResumeLayout(False)
-        Me.Panel46.ResumeLayout(False)
-        Me.Panel47.ResumeLayout(False)
-        Me.Panel48.ResumeLayout(False)
-        Me.Panel49.ResumeLayout(False)
-        Me.Panel42.ResumeLayout(False)
-        Me.Panel43.ResumeLayout(False)
-        Me.Panel44.ResumeLayout(False)
-        Me.Panel45.ResumeLayout(False)
-        Me.Panel41.ResumeLayout(False)
-        Me.Panel40.ResumeLayout(False)
-        Me.Panel39.ResumeLayout(False)
-        Me.Panel38.ResumeLayout(False)
-        Me.Panel37.ResumeLayout(False)
-        Me.Panel36.ResumeLayout(False)
-        Me.Panel30.ResumeLayout(False)
-        Me.Panel29.ResumeLayout(False)
-        Me.Panel28.ResumeLayout(False)
-        Me.Panel27.ResumeLayout(False)
-        Me.Panel26.ResumeLayout(False)
-        Me.Panel31.ResumeLayout(False)
-        Me.Panel32.ResumeLayout(False)
-        Me.Panel33.ResumeLayout(False)
-        Me.Panel34.ResumeLayout(False)
-        Me.Panel35.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.bet_9_10_11_12.ResumeLayout(False)
@@ -4838,6 +4792,53 @@ Partial Class MenuCustomer
         Me.Panel15.ResumeLayout(False)
         Me.history.ResumeLayout(False)
         Me.history.PerformLayout()
+        Me.Panel56.ResumeLayout(False)
+        Me.Panel55.ResumeLayout(False)
+        Me.Panel54.ResumeLayout(False)
+        Me.Panel53.ResumeLayout(False)
+        Me.Panel52.ResumeLayout(False)
+        Me.Panel51.ResumeLayout(False)
+        Me.Panel50.ResumeLayout(False)
+        Me.Panel58.ResumeLayout(False)
+        Me.Panel57.ResumeLayout(False)
+        Me.Panel62.ResumeLayout(False)
+        Me.Panel63.ResumeLayout(False)
+        Me.Panel12.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel11.ResumeLayout(False)
+        Me.Panel10.ResumeLayout(False)
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel13.ResumeLayout(False)
+        Me.Panel46.ResumeLayout(False)
+        Me.Panel47.ResumeLayout(False)
+        Me.Panel48.ResumeLayout(False)
+        Me.Panel49.ResumeLayout(False)
+        Me.Panel42.ResumeLayout(False)
+        Me.Panel43.ResumeLayout(False)
+        Me.Panel44.ResumeLayout(False)
+        Me.Panel45.ResumeLayout(False)
+        Me.Panel41.ResumeLayout(False)
+        Me.Panel40.ResumeLayout(False)
+        Me.Panel39.ResumeLayout(False)
+        Me.Panel38.ResumeLayout(False)
+        Me.Panel37.ResumeLayout(False)
+        Me.Panel36.ResumeLayout(False)
+        Me.Panel30.ResumeLayout(False)
+        Me.Panel29.ResumeLayout(False)
+        Me.Panel28.ResumeLayout(False)
+        Me.Panel27.ResumeLayout(False)
+        Me.Panel26.ResumeLayout(False)
+        Me.Panel31.ResumeLayout(False)
+        Me.Panel32.ResumeLayout(False)
+        Me.Panel33.ResumeLayout(False)
+        Me.Panel34.ResumeLayout(False)
+        Me.Panel35.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
