@@ -22,6 +22,31 @@ Bubble Bee
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources._10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources._100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources._1000">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources._50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources._500">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.angka_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -227,6 +252,11 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Besar">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -277,6 +307,66 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.btn_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.btnClose">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -313,6 +403,11 @@ Bubble Bee
 </summary>
 </member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.clear">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -367,6 +462,11 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.jp1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Kambing">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -407,6 +507,16 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.koin_bet1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.koin_bet2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.koin_gold">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -433,6 +543,11 @@ Bubble Bee
 </summary>
 </member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Kuda">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.list_view">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -472,6 +587,11 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.outer_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.pilih_coin">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -492,12 +612,22 @@ Bubble Bee
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bubble_Bee.My.Resources.Resources.rebet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Red">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Bubble_Bee.My.Resources.Resources.Repeat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bubble_Bee.My.Resources.Resources.rounded_black">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
